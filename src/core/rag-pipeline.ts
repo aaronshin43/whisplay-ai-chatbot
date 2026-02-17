@@ -42,8 +42,8 @@ export const indexKnowledgeBase = async () => {
   // but RecursiveCharacterTextSplitter is robust for general text/md.
   // We use a large chunk size to capture full context of a procedure.
   const splitter = new RecursiveCharacterTextSplitter({
-    chunkSize: 1000,
-    chunkOverlap: 200,
+    chunkSize: 700,
+    chunkOverlap: 150,
     separators: ["\n## ", "\n### ", "\n#### ", "\n", " ", ""], // Prioritize headers
   });
 

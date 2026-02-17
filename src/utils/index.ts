@@ -4,6 +4,7 @@ import { FunctionCall } from "../type";
 import moment from "moment";
 import { exec } from "child_process";
 import { existsSync, readFileSync, writeFileSync } from "fs";
+// @ts-ignore
 import mp3Duration from "mp3-duration";
 
 // 输入 [[{"function":{"arguments":"","name":"setVolume"},"id":"call_wdpwgmiszun2ej6radzriaq0","index":0,"type":"function"}],[{"function":{"arguments":" {\""},"index":0}],[{"function":{"arguments":"volume"},"index":0}],[{"function":{"arguments":"\":"},"index":0}],[{"function":{"arguments":" "},"index":0}],[{"function":{"arguments":"2"},"index":0}],[{"function":{"arguments":"1"},"index":0}],[{"function":{"arguments":"}"},"index":0}]]
