@@ -25,7 +25,7 @@ import { cameraDir, recordingsDir } from "../utils/dir";
 import { getLatestDisplayImg, setLatestCapturedImg } from "../utils/image";
 import dotEnv from "dotenv";
 import { getSystemPromptWithKnowledge } from "./Knowledge";
-import { getSystemPromptFromOasis } from "./OasisAdapter";
+import { matchOasisProtocol, OasisResult } from "./OasisAdapter";
 import { enableRAG } from "../cloud-api/knowledge";
 
 // OASIS by default; set ENABLE_OASIS_MATCHER=false to use generic RAG when ENABLE_RAG=true
@@ -44,6 +44,8 @@ class ChatFlow {
   thinkingSentences: string[] = [];
   answerId: number = 0;
   enableCamera: boolean = false;
+  currentOasisProtocolId: string = "";
+  currentOasisResult: OasisResult | null = null;
 
   constructor(options: { enableCamera?: boolean } = {}) {
     console.log(`[${getCurrentTimeTag()}] ChatBot started.`);
@@ -222,33 +224,61 @@ class ChatFlow {
         this.partialThinking = "";
         this.thinkingSentences = [];
 
-        let systemPromptPromise = Promise.resolve("");
         if (useOasis) {
-           systemPromptPromise = getSystemPromptFromOasis(this.asrText);
-        } else if (enableRAG) {
-           systemPromptPromise = getSystemPromptWithKnowledge(this.asrText);
-        }
+          matchOasisProtocol(this.asrText).then((oasisResult) => {
+            if (currentAnswerId !== this.answerId) return;
 
-        systemPromptPromise
-          .then((res: string) => {
-            const knowledgePrompt = res;
-            if (res) {
-              console.log("Retrieved knowledge for RAG:\n", res);
+            const isFollowUp = !oasisResult.isTriage
+              && this.currentOasisProtocolId === oasisResult.protocolId;
+
+            this.currentOasisProtocolId = oasisResult.protocolId;
+            this.currentOasisResult = oasisResult;
+
+            console.log(`[OASIS] Protocol: ${oasisResult.protocolId} (${oasisResult.score.toFixed(3)}) | Triage: ${oasisResult.isTriage} | FollowUp: ${isFollowUp}`);
+
+            if (!oasisResult.isTriage && !isFollowUp) {
+              // First question with matched protocol: deliver protocol text directly (no LLM)
+              console.log("[OASIS] Direct protocol delivery (no LLM)");
+              const words = oasisResult.protocolText.split(" ");
+              let i = 0;
+              const streamChunk = () => {
+                if (currentAnswerId !== this.answerId || i >= words.length) {
+                  if (currentAnswerId === this.answerId) endPartial();
+                  return;
+                }
+                const chunk = words.slice(i, i + 4).join(" ") + " ";
+                partial(chunk);
+                i += 4;
+                setTimeout(streamChunk, 150);
+              };
+              streamChunk();
+            } else {
+              // TRIAGE or follow-up: use LLM
+              console.log(`[OASIS] LLM mode (${oasisResult.isTriage ? "triage" : "follow-up"})`);
+              const prompt: { role: "system" | "user"; content: string }[] = [
+                { role: "system", content: oasisResult.systemPrompt },
+                { role: "user", content: this.asrText },
+              ];
+              chatWithLLMStream(
+                prompt,
+                (text) => currentAnswerId === this.answerId && partial(text),
+                () => currentAnswerId === this.answerId && endPartial(),
+                (partialThinking) =>
+                  currentAnswerId === this.answerId &&
+                  this.partialThinkingCallback(partialThinking),
+              );
             }
-            const prompt: {
-              role: "system" | "user";
-              content: string;
-            }[] = compact([
-              knowledgePrompt
-                ? {
-                    role: "system",
-                    content: knowledgePrompt,
-                  }
-                : null,
-              {
-                role: "user",
-                content: this.asrText,
-              },
+          });
+        } else {
+          let systemPromptPromise = enableRAG
+            ? getSystemPromptWithKnowledge(this.asrText)
+            : Promise.resolve("");
+
+          systemPromptPromise.then((res: string) => {
+            if (currentAnswerId !== this.answerId) return;
+            const prompt: { role: "system" | "user"; content: string }[] = compact([
+              res ? { role: "system", content: res } : null,
+              { role: "user", content: this.asrText },
             ]);
             chatWithLLMStream(
               prompt,
@@ -259,17 +289,14 @@ class ChatFlow {
                 this.partialThinkingCallback(partialThinking),
               (functionName: string, result?: string) => {
                 if (result) {
-                  display({
-                    text: `[${functionName}]${result}`,
-                  });
+                  display({ text: `[${functionName}]${result}` });
                 } else {
-                  display({
-                    text: `Invoking [${functionName}]...`,
-                  });
+                  display({ text: `Invoking [${functionName}]...` });
                 }
               },
             );
           });
+        }
         getPlayEndPromise().then(() => {
           if (this.currentFlowName === "answer") {
             const img = getLatestDisplayImg();

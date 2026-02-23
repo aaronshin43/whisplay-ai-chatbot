@@ -14,16 +14,6 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@ffprobe-installer/darwin-arm64@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.npmmirror.com/@ffprobe-installer/darwin-arm64/-/darwin-arm64-5.0.1.tgz#a020a623955d55aa8daf45cb668c3044876b553b"
-  integrity sha512-vwNCNjokH8hfkbl6m95zICHwkSzhEvDC3GVBcUp5HX8+4wsX10SP3B+bGur7XUzTIZ4cQpgJmEIAx6TUwRepMg==
-
-"@ffprobe-installer/darwin-x64@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.npmmirror.com/@ffprobe-installer/darwin-x64/-/darwin-x64-5.1.0.tgz#f52316ac0bbe6f4ac70fdaea8db259ba4a055b00"
-  integrity sha512-J+YGscZMpQclFg31O4cfVRGmDpkVsQ2fZujoUdMAAYcP0NtqpC49Hs3SWJpBdsGB4VeqOt5TTm1vSZQzs1NkhA==
-
 "@ffprobe-installer/ffprobe@^2.1.1":
   version "2.1.2"
   resolved "https://registry.npmmirror.com/@ffprobe-installer/ffprobe/-/ffprobe-2.1.2.tgz"
@@ -38,34 +28,9 @@
     "@ffprobe-installer/win32-ia32" "5.1.0"
     "@ffprobe-installer/win32-x64" "5.1.0"
 
-"@ffprobe-installer/linux-arm64@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.npmmirror.com/@ffprobe-installer/linux-arm64/-/linux-arm64-5.2.0.tgz"
-  integrity sha512-X1VvWtlLs6ScP73biVLuHD5ohKJKsMTa0vafCESOen4mOoNeLAYbxOVxDWAdFz9cpZgRiloFj5QD6nDj8E28yQ==
-
-"@ffprobe-installer/linux-arm@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.npmmirror.com/@ffprobe-installer/linux-arm/-/linux-arm-5.2.0.tgz#0120863c181303a1610b1e6956c6a5492d6c45a6"
-  integrity sha512-PF5HqEhCY7WTWHtLDYbA/+rLS+rhslWvyBlAG1Fk8VzVlnRdl93o6hy7DE2kJgxWQbFaR3ZktPQGEzfkrmQHvQ==
-
-"@ffprobe-installer/linux-ia32@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.npmmirror.com/@ffprobe-installer/linux-ia32/-/linux-ia32-5.2.0.tgz#d42a892003811b5e1f2c958d330b841ef6ff3233"
-  integrity sha512-TFVK5sasXyXhbIG7LtPRDmtkrkOsInwKcL43iEvEw+D9vCS2rc//mn9/0Q+BR0UoJEiMK4+ApYr/3LLVUBPOCQ==
-
-"@ffprobe-installer/linux-x64@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.npmmirror.com/@ffprobe-installer/linux-x64/-/linux-x64-5.2.0.tgz#5dd8dbd51d130b5997bf49cb874e1f92e97f02e7"
-  integrity sha512-D3UeqTLYPNs7pBWPLUYGehPdRVqU8eACox4OZy3pZUZatxye2YKlvBwEfaLdL1v2Z4FOAlLUhms0kY8m8kqSRA==
-
-"@ffprobe-installer/win32-ia32@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.npmmirror.com/@ffprobe-installer/win32-ia32/-/win32-ia32-5.1.0.tgz#43b1462b9d89570fe3723c20b66bab684516751a"
-  integrity sha512-5O3vOoNRxmut0/Nu9vSazTdSHasrr+zPT2B3Hm7kjmO3QVFcIfVImS6ReQnZeSy8JPJOqXts5kX5x/3KOX54XQ==
-
 "@ffprobe-installer/win32-x64@5.1.0":
   version "5.1.0"
-  resolved "https://registry.npmmirror.com/@ffprobe-installer/win32-x64/-/win32-x64-5.1.0.tgz#87841123e8b903cc327f1e5b9aa69e5d2fbe6d7b"
+  resolved "https://registry.npmmirror.com/@ffprobe-installer/win32-x64/-/win32-x64-5.1.0.tgz"
   integrity sha512-jMGYeAgkrdn4e2vvYt/qakgHRE3CPju4bn5TmdPfoAm1BlX1mY9cyMd8gf5vSzI8gH8Zq5WQAyAkmekX/8TSTg==
 
 "@google-cloud/text-to-speech@^6.3.1":
@@ -129,39 +94,9 @@
   resolved "https://registry.npmmirror.com/@js-sdsl/ordered-map/-/ordered-map-4.4.2.tgz"
   integrity sha512-iUKgm52T8HOE/makSxjqoWhe95ZJA1/G1sYsGev2JDKUSS14KAgg1LHb+Ba+IPow0xflbnSkOsZcO08C7w1gYw==
 
-"@lancedb/lancedb-darwin-arm64@0.26.2":
-  version "0.26.2"
-  resolved "https://registry.npmmirror.com/@lancedb/lancedb-darwin-arm64/-/lancedb-darwin-arm64-0.26.2.tgz#4294fdffe3450b0fc6acafea72ded5d3f3f49ce4"
-  integrity sha512-LAZ/v261eTlv44KoEm+AdqGnohS9IbVVVJkH9+8JTqwhe/k4j4Af8X9cD18tsaJAAtrGxxOCyIJ3wZTiBqrkCw==
-
-"@lancedb/lancedb-linux-arm64-gnu@0.26.2":
-  version "0.26.2"
-  resolved "https://registry.npmmirror.com/@lancedb/lancedb-linux-arm64-gnu/-/lancedb-linux-arm64-gnu-0.26.2.tgz"
-  integrity sha512-guHKm+zvuQB22dgyn6/sYZJvD6IL9lC24cl6ZuzVX/jYgag/gNLHT86HongrcBjgdjI6+YIGmdfD6b/iAKxn3Q==
-
-"@lancedb/lancedb-linux-arm64-musl@0.26.2":
-  version "0.26.2"
-  resolved "https://registry.npmmirror.com/@lancedb/lancedb-linux-arm64-musl/-/lancedb-linux-arm64-musl-0.26.2.tgz"
-  integrity sha512-pR6Hs/0iphItrJYYLf/yrqCC+scPcHpCGl6rHqcU2GHxo5RFpzlMzqW1DiXScGiBRuCcD9HIMec+kBsOgXv4GQ==
-
-"@lancedb/lancedb-linux-x64-gnu@0.26.2":
-  version "0.26.2"
-  resolved "https://registry.npmmirror.com/@lancedb/lancedb-linux-x64-gnu/-/lancedb-linux-x64-gnu-0.26.2.tgz#d1fc850a44ef5a2f5ab29974187a10de908cfa55"
-  integrity sha512-u4UUSPwd2YecgGqWjh9W0MHKgsVwB2Ch2ROpF8AY+IA7kpGsbB18R1/t7v2B0q7pahRy20dgsaku5LH1zuzMRQ==
-
-"@lancedb/lancedb-linux-x64-musl@0.26.2":
-  version "0.26.2"
-  resolved "https://registry.npmmirror.com/@lancedb/lancedb-linux-x64-musl/-/lancedb-linux-x64-musl-0.26.2.tgz#ff4e2101892e7935d33d42b2006bbc8609991e8c"
-  integrity sha512-XIS4qkVfGlzmsUPqAG2iKt8ykuz28GfemGC0ijXwu04kC1pYiCFzTpB3UIZjm5oM7OTync1aQ3mGTj1oCciSPA==
-
-"@lancedb/lancedb-win32-arm64-msvc@0.26.2":
-  version "0.26.2"
-  resolved "https://registry.npmmirror.com/@lancedb/lancedb-win32-arm64-msvc/-/lancedb-win32-arm64-msvc-0.26.2.tgz#2d0cd64d3b5136411397d3e2d2f7daa7a9dbee24"
-  integrity sha512-//tZDPitm2PxNvalHP+m+Pf6VvFAeQgcht1+HJnutjH4gp6xYW6ynQlWWFDBmz9WRkUT+mXu2O4FUIhbdNaJSQ==
-
 "@lancedb/lancedb-win32-x64-msvc@0.26.2":
   version "0.26.2"
-  resolved "https://registry.npmmirror.com/@lancedb/lancedb-win32-x64-msvc/-/lancedb-win32-x64-msvc-0.26.2.tgz#f8e35f79f39cc7b1dcbcf67d90ddafaa3d00cc5e"
+  resolved "https://registry.npmmirror.com/@lancedb/lancedb-win32-x64-msvc/-/lancedb-win32-x64-msvc-0.26.2.tgz"
   integrity sha512-GH3pfyzicgPGTb84xMXgujlWDaAnBTmUyjooYiCE2tC24BaehX4hgFhXivamzAEsF5U2eVsA/J60Ppif+skAbA==
 
 "@lancedb/lancedb@^0.26.2":
@@ -243,7 +178,7 @@
     openai "^6.18.0"
     zod "^3.25.76 || ^4"
 
-"@langchain/textsplitters@1.0.1", "@langchain/textsplitters@^1.0.1":
+"@langchain/textsplitters@^1.0.1", "@langchain/textsplitters@1.0.1":
   version "1.0.1"
   resolved "https://registry.npmmirror.com/@langchain/textsplitters/-/textsplitters-1.0.1.tgz"
   integrity sha512-rheJlB01iVtrOUzttscutRgLybPH9qR79EyzBEbf1u97ljWyuxQfCwIWK+SjoQTM9O8M7GGLLRBSYE26Jmcoww==
@@ -429,17 +364,17 @@ acorn@^8.11.0, acorn@^8.4.1:
   resolved "https://registry.npmmirror.com/acorn/-/acorn-8.14.1.tgz"
   integrity sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==
 
+agent-base@^7.1.2:
+  version "7.1.4"
+  resolved "https://registry.npmmirror.com/agent-base/-/agent-base-7.1.4.tgz"
+  integrity sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==
+
 agent-base@6:
   version "6.0.2"
   resolved "https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz"
   integrity sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
   dependencies:
     debug "4"
-
-agent-base@^7.1.2:
-  version "7.1.4"
-  resolved "https://registry.npmmirror.com/agent-base/-/agent-base-7.1.4.tgz"
-  integrity sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==
 
 ansi-regex@^5.0.1:
   version "5.0.1"
@@ -755,17 +690,17 @@ data-uri-to-buffer@^4.0.0:
   resolved "https://registry.npmmirror.com/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz"
   integrity sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==
 
-debug@4:
-  version "4.4.0"
-  resolved "https://registry.npmjs.org/debug/-/debug-4.4.0.tgz"
-  integrity sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==
-  dependencies:
-    ms "^2.1.3"
-
 debug@^4.3.4:
   version "4.4.3"
   resolved "https://registry.npmmirror.com/debug/-/debug-4.4.3.tgz"
   integrity sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==
+  dependencies:
+    ms "^2.1.3"
+
+debug@4:
+  version "4.4.0"
+  resolved "https://registry.npmjs.org/debug/-/debug-4.4.0.tgz"
+  integrity sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==
   dependencies:
     ms "^2.1.3"
 
@@ -834,7 +769,7 @@ duplexify@^4.1.3:
     readable-stream "^3.1.1"
     stream-shift "^1.0.2"
 
-ecdsa-sig-formatter@1.0.11, ecdsa-sig-formatter@^1.0.11:
+ecdsa-sig-formatter@^1.0.11, ecdsa-sig-formatter@1.0.11:
   version "1.0.11"
   resolved "https://registry.npmmirror.com/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz"
   integrity sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==
@@ -1967,13 +1902,6 @@ string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
     emoji-regex "^8.0.0"
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^6.0.1"
-
-string_decoder@^1.1.1:
-  version "1.3.0"
-  resolved "https://registry.npmmirror.com/string_decoder/-/string_decoder-1.3.0.tgz"
-  integrity sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==
-  dependencies:
-    safe-buffer "~5.2.0"
 
 strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"

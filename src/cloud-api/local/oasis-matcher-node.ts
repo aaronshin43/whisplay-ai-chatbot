@@ -15,7 +15,7 @@ interface Protocol {
 const PROTOCOLS: Protocol[] = [
     {
         "id": "BLEEDING",
-        "text": "Apply firm continuous pressure with cloth or hand. Do not remove cloth even if soaked through — add more on top. Keep pressure constant for at least 10 minutes without checking. Elevate the limb above heart level if possible.",
+        "text": "Apply firm continuous pressure with cloth or hand. Keep pressure constant for at least 10 minutes without checking. If cloth soaks through, add more on top — do not remove it. Elevate the limb above heart level if possible.",
         "scenarios": [
             "there is so much blood coming out",
             "blood wont stop",
@@ -24,11 +24,13 @@ const PROTOCOLS: Protocol[] = [
             "wound is bleeding a lot",
             "blood everywhere i dont know what to do",
             "she cut her hand it wont stop bleeding",
+            "red stuff coming out of the cut",
+            "deep wound bleeding heavily",
         ],
     },
     {
         "id": "TOURNIQUET",
-        "text": "Apply tourniquet 2-3 inches above the wound, not on a joint. Tighten until bleeding stops completely. Write the time of application on the skin. Do not remove or loosen once applied.",
+        "text": "Apply tourniquet 2-3 inches above the wound, not on a joint. Tighten until bleeding stops completely. Write the time of application on the skin. Once applied, do not remove or loosen it.",
         "scenarios": [
             "limb is spurting blood cant stop it",
             "artery bleeding pressure isnt working",
@@ -39,7 +41,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "SNAKEBITE",
-        "text": "Do not suck out venom. Do not cut or squeeze the bite. Immobilize the limb and keep it below heart level. Remove rings or tight clothing near the bite. Keep the person still and calm.",
+        "text": "Immobilize the bitten limb and keep it below heart level. Remove rings or tight clothing near the bite. Keep the person still and calm. Do NOT suck out venom. Do NOT cut or squeeze the bite.",
         "scenarios": [
             "snake bit him on the ankle",
             "bitten by a snake what do i do",
@@ -51,7 +53,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "ANAPHYLAXIS",
-        "text": "Use epinephrine (EpiPen) immediately — inject into outer thigh, hold for 10 seconds. If no EpiPen, lay the person flat with legs elevated unless breathing is difficult, then sit them up. Do not give anything by mouth. A second dose may be needed in 5-15 minutes.",
+        "text": "Inject epinephrine (EpiPen) into outer thigh immediately, hold for 10 seconds. If no EpiPen, lay the person flat with legs elevated. If breathing is difficult, sit them up instead. Do not give anything by mouth. A second dose may be needed in 5-15 minutes.",
         "scenarios": [
             "she cant breathe after eating peanuts",
             "his face is swelling after bee sting",
@@ -64,7 +66,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "CHOKING_ADULT",
-        "text": "If the person can cough, let them cough. If they cannot breathe or cough: give 5 firm back blows between shoulder blades, then 5 abdominal thrusts (Heimlich). Alternate until object is expelled or person loses consciousness.",
+        "text": "Give 5 firm back blows between the shoulder blades. Then give 5 abdominal thrusts (Heimlich maneuver). Alternate back blows and abdominal thrusts until the object comes out. If the person can still cough forcefully, let them keep coughing. Do not stick your fingers in their mouth.",
         "scenarios": [
             "she was eating and now shes grabbing her throat",
             "something stuck in his throat cant breathe",
@@ -73,11 +75,15 @@ const PROTOCOLS: Protocol[] = [
             "food stuck in throat",
             "i did the heimlich but it didnt come out",
             "adult choking on food",
+            "turning blue cant breathe",
+            "face is going blue",
+            "lips turning purple not breathing",
+            "changing color cant get air",
         ],
     },
     {
         "id": "CHOKING_INFANT",
-        "text": "Never do abdominal thrusts on infants under 1 year. Give 5 back blows face-down on your forearm, then 5 chest thrusts face-up. Do not do blind finger sweeps in the mouth.",
+        "text": "Place the baby face-down on your forearm. Give 5 back blows between the shoulder blades, then flip face-up and give 5 chest thrusts. Do not do abdominal thrusts on infants. Do not do blind finger sweeps in the mouth.",
         "scenarios": [
             "baby is choking she is only 8 months",
             "infant choking what do i do",
@@ -89,7 +95,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "CPR",
-        "text": "Place heel of hand on center of chest. Push down 2 inches at 100-120 times per minute. After 30 compressions, give 2 rescue breaths. Continue until breathing resumes or help arrives.",
+        "text": "Start CPR now. Place heel of hand on center of chest. Push hard and fast — 2 inches deep, 100-120 pushes per minute. After 30 pushes, give 2 rescue breaths. Keep going until the person breathes or help arrives.",
         "scenarios": [
             "he collapsed and is not breathing",
             "i dont know how to do cpr walk me through it",
@@ -102,7 +108,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "HYPOTHERMIA_SEVERE",
-        "text": "If shivering has STOPPED, this is severe hypothermia — life-threatening. Do not rub or massage the skin. Do not apply direct heat to limbs. Warm the core only: chest, neck, armpits, groin. Move gently — sudden movement can trigger cardiac arrest.",
+        "text": "This is severe hypothermia — life-threatening. Warm the core gently: place warm covers on chest, neck, armpits, and groin. Move the person very gently — sudden movement can trigger cardiac arrest. Do not rub or massage the skin. Do not apply direct heat to arms or legs.",
         "scenarios": [
             "he stopped shivering after being out in the cold",
             "we were lost overnight and he is not shivering anymore",
@@ -110,22 +116,28 @@ const PROTOCOLS: Protocol[] = [
             "found someone in the snow not moving",
             "severe hypothermia what do i do",
             "he was shaking and now he stopped",
+            "not shivering anymore is that bad",
+            "was shaking now stopped and quiet",
+            "stopped trembling in the cold",
         ],
     },
     {
         "id": "HYPOTHERMIA_PREVENTION",
-        "text": "Remove wet clothing immediately — wet fabric loses heat 25x faster than dry. Insulate from the ground first before worrying about wind. Eat and drink if possible — body needs fuel to generate heat.",
+        "text": "Remove wet clothing immediately — wet fabric loses heat 25 times faster than dry. Insulate from the ground first before worrying about wind. Eat and drink if possible — the body needs fuel to generate heat.",
         "scenarios": [
             "he fell in the river and is soaking wet and cold",
             "she is wet and shivering",
             "soaked from rain and getting cold",
             "wet clothes in cold weather what do i do",
             "how to treat someone who is cold and wet",
+            "he is in cold water and shivering badly",
+            "shes shivering uncontrollably after getting wet",
+            "soaking wet and shaking from the cold",
         ],
     },
     {
         "id": "SPINAL_INJURY",
-        "text": "Do not move the person unless there is immediate life threat. Stabilize the head and neck in the position found. If movement is absolutely necessary, keep head, neck, and spine aligned as one unit.",
+        "text": "Keep the person completely still. Stabilize the head and neck in the position found. Do not move them unless there is an immediate life threat. If you must move them, keep head, neck, and spine aligned as one unit.",
         "scenarios": [
             "she fell off the roof and cant feel her legs",
             "he cant move his neck should i move him",
@@ -137,7 +149,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "SEIZURE",
-        "text": "Do not put anything in the mouth. Do not restrain the person. Clear the area of hard objects. Turn them on their side after convulsions stop. Time the seizure — if over 5 minutes, treat as emergency.",
+        "text": "Clear hard objects away from the person. Let the seizure happen — do not restrain them and do not put anything in their mouth. After convulsions stop, turn them on their side. Time the seizure — if over 5 minutes, this is an emergency.",
         "scenarios": [
             "he is having a seizure",
             "she is convulsing what do i do",
@@ -149,7 +161,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "DIABETIC_EMERGENCY",
-        "text": "If conscious and able to swallow: give sugar (juice, candy, glucose gel) immediately. If unconscious: do not give anything by mouth. If unsure: giving sugar to a high blood sugar patient is less dangerous than withholding it from a low blood sugar patient.",
+        "text": "If the person is conscious and can swallow, give sugar immediately: juice, candy, or glucose gel. If unconscious, do not give anything by mouth — place them on their side. When in doubt, give sugar — it is safer than withholding it.",
         "scenarios": [
             "diabetic acting really weird and sweating",
             "he is diabetic and confused",
@@ -157,11 +169,14 @@ const PROTOCOLS: Protocol[] = [
             "diabetic emergency low blood sugar",
             "insulin reaction what do i do",
             "diabetic person unconscious",
+            "low blood sugar emergency what do i do",
+            "he is having a blood sugar crash",
+            "hypoglycemia symptoms hes shaking and sweating",
         ],
     },
     {
         "id": "DROWNING",
-        "text": "Start CPR immediately — do not waste time trying to drain water from the lungs. Assume possible spinal injury if the person dove in or fell from height. Keep them warm after rescue — drowning victims lose heat rapidly.",
+        "text": "Start CPR immediately. Do not waste time trying to drain water from the lungs. If the person dove in or fell from height, assume possible spinal injury. Keep them warm after rescue — drowning victims lose heat rapidly.",
         "scenarios": [
             "we pulled him out of the water not breathing",
             "she was underwater how long does it matter",
@@ -173,7 +188,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "BURN",
-        "text": "Do not apply butter, oil, toothpaste, or ice. Cool with running water for 20 minutes. Do not pop blisters. Cover loosely with clean non-stick material.",
+        "text": "Cool the burn with running water for 20 minutes. Cover loosely with clean non-stick material. Do not pop blisters. Do not apply butter, oil, toothpaste, or ice.",
         "scenarios": [
             "spilled boiling water on my arm",
             "she touched the stove and burned her hand",
@@ -186,7 +201,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "HEAD_INJURY",
-        "text": "Do not let the person fall asleep for at least 2 hours after a significant head impact. Watch for: unequal pupils, repeated vomiting, worsening headache, confusion, one-sided weakness. Any of these signs require emergency care immediately.",
+        "text": "Keep the person awake for at least 2 hours after the head impact. Watch for these danger signs: unequal pupils, repeated vomiting, worsening headache, confusion, or one-sided weakness. If any of these appear, this is an emergency.",
         "scenarios": [
             "she hit her head and went to sleep is that okay",
             "he fell and hit his head hard",
@@ -194,11 +209,13 @@ const PROTOCOLS: Protocol[] = [
             "concussion what do i watch for",
             "head injury can she sleep",
             "hit head on concrete now confused",
+            "bumped head hard should i worry",
+            "fell and hit head now dizzy",
         ],
     },
     {
         "id": "CHEST_PAIN",
-        "text": "Give one adult aspirin (325mg) to chew — not swallow whole — if conscious and not allergic. Keep the person still and calm. Loosen tight clothing. Do not give food or water.",
+        "text": "Give one adult aspirin (325mg) to chew, not swallow whole, if the person is conscious and not allergic. Keep them still and calm. Loosen tight clothing. Do not give food or water.",
         "scenarios": [
             "he is clutching his chest in pain",
             "she has pain in her left arm and chest",
@@ -210,7 +227,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "FROSTBITE",
-        "text": "Do not rub or massage frostbitten tissue. Do not apply direct heat. Do not rewarm if there is risk of refreezing. Protect from further cold and seek warmth gradually.",
+        "text": "Protect the frostbitten area from further cold. Seek warmth gradually. Do not rub or massage the frozen tissue. Do not apply direct heat. Do not rewarm if there is any risk of refreezing.",
         "scenarios": [
             "fingers are white and hard from cold",
             "cant feel my toes they look white",
@@ -221,7 +238,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "HEAT_STROKE",
-        "text": "Heat stroke: skin is HOT and DRY, person is confused — life-threatening, cool immediately: ice to neck, armpits, groin, wet clothing, fanning. Heat exhaustion: skin is cool and sweaty — move to shade, give water, rest.",
+        "text": "Cool the person immediately — apply ice to neck, armpits, and groin. Use wet clothing and fanning. This is life-threatening if the skin is hot and dry and the person is confused. If the skin is cool and sweaty, move to shade, give water, and rest.",
         "scenarios": [
             "his skin is hot and dry and not making sense",
             "she has been in the sun all day now confused",
@@ -233,7 +250,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "EYE_CHEMICAL",
-        "text": "Flush immediately with large amounts of clean water for at least 15-20 minutes. Do not rub the eye. Remove contact lenses if possible. Flush from inner corner outward.",
+        "text": "Flush the eye immediately with large amounts of clean water for at least 15-20 minutes. Flush from inner corner outward. Remove contact lenses if possible. Do not rub the eye.",
         "scenarios": [
             "chemical got in her eyes",
             "bleach splashed in my eye",
@@ -244,7 +261,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "FRACTURE",
-        "text": "Do not attempt to straighten the limb. Immobilize in the position found using splint and padding. Use sticks, rolled clothing, or any rigid material. Secure above and below the injury. Check circulation below the injury.",
+        "text": "Immobilize the limb in the position found — use sticks, rolled clothing, or any rigid material as a splint. Secure above and below the injury. Check circulation below the injury. Do not attempt to straighten the limb.",
         "scenarios": [
             "his leg is bent the wrong way",
             "i think her arm is broken",
@@ -252,11 +269,14 @@ const PROTOCOLS: Protocol[] = [
             "fracture what do i do no hospital",
             "how do i make a splint",
             "broken leg in the wilderness",
+            "he fell and hurt his arm",
+            "she fell and her arm looks wrong",
+            "friend fell arm might be broken",
         ],
     },
     {
         "id": "EMBEDDED_OBJECT",
-        "text": "Do not remove an embedded object from a wound — it is acting as a plug. Stabilize it in place with padding around it. Removing it can cause rapid uncontrolled blood loss.",
+        "text": "Leave the object in place — it is acting as a plug and slowing the bleeding. Stabilize it with padding around it. Do not pull it out — removing it can cause rapid uncontrolled blood loss.",
         "scenarios": [
             "knife is still in his stomach",
             "glass embedded in the wound should i remove it",
@@ -266,7 +286,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "POISONING",
-        "text": "Do not induce vomiting for corrosive substances (bleach, acid, drain cleaner) or petroleum products (gasoline, kerosene). If unknown substance: do not induce vomiting. Keep airway clear. If unconscious, place on side.",
+        "text": "Keep the airway clear. If unconscious, place the person on their side. Do not induce vomiting — especially for bleach, acid, drain cleaner, gasoline, or any unknown substance. Try to identify what was swallowed.",
         "scenarios": [
             "my kid drank something under the sink",
             "he swallowed bleach",
@@ -278,18 +298,22 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "PLANT_INGESTION",
-        "text": "Do not induce vomiting unless instructed. Do not give milk or water unless instructed. Try to identify or describe the plant. If lips or throat are swelling, treat as anaphylaxis.",
+        "text": "NEVER eat unknown or unidentified plants, mushrooms, or berries. If already eaten, do not induce vomiting. Try to identify or photograph the plant. If lips or throat are swelling, treat as a severe allergic reaction.",
         "scenarios": [
             "we ate some berries on the trail and now sick",
             "child ate unknown berries",
             "ate mushrooms from the forest feel sick",
             "toxic plant eaten what do i do",
             "poisonous plant ingestion",
+            "can i eat this mushroom",
+            "is this berry safe to eat",
+            "found berries are they safe",
+            "mushroom looks edible should i eat it",
         ],
     },
     {
         "id": "DEHYDRATION_WATER",
-        "text": "Do not drink untreated water from streams, lakes, or puddles. Boil for at least 1 minute (3 minutes at high altitude). If no fire: use iodine tablets, bleach 2 drops per liter wait 30 minutes, or a filter. Do not drink urine.",
+        "text": "Boil water for at least 1 minute (3 minutes at high altitude) before drinking. If you cannot boil, use iodine tablets, 2 drops of bleach per liter and wait 30 minutes, or a filter. Do not drink untreated water from streams, lakes, or puddles. Do not drink urine.",
         "scenarios": [
             "is this stream water safe to drink",
             "we have no clean water how do we purify",
@@ -301,7 +325,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "LOST_WILDERNESS",
-        "text": "Stay in place unless you have confirmed direction and distance to safety. Moving increases exposure and makes rescue harder. Signal with fire, reflective material, or whistle — three signals is the universal distress sign.",
+        "text": "Stay where you are. Moving increases exposure and makes rescue harder. Signal for help: use fire, reflective material, or a whistle. Three signals is the universal distress sign. Only move if you have confirmed direction and distance to safety.",
         "scenarios": [
             "we are lost in the woods",
             "dont know where we are no signal",
@@ -313,7 +337,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "LIGHTNING",
-        "text": "Do not shelter under isolated trees, in open fields, near water, or in caves with water. Crouch low on balls of feet with feet together — do not lie flat. Spread out at least 50 feet if in a group. A vehicle with metal roof is safe.",
+        "text": "Crouch low on the balls of your feet with feet together. If in a group, spread out at least 50 feet apart. A vehicle with a metal roof is safe shelter. Do not shelter under isolated trees. Do not lie flat on the ground.",
         "scenarios": [
             "lightning storm coming where do i hide",
             "struck by lightning what do i do",
@@ -324,7 +348,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "BEAR_ATTACK",
-        "text": "Black bear: fight back aggressively, target nose and eyes. Brown or grizzly bear: play dead face-down, protect back of neck, spread legs. Do not run from any bear — it triggers chase instinct.",
+        "text": "Black bear: fight back aggressively — target the nose and eyes. Brown or grizzly bear: play dead face-down, protect the back of your neck, spread your legs wide. Do not run from any bear — running triggers their chase instinct.",
         "scenarios": [
             "bear is attacking us",
             "grizzly bear charging",
@@ -335,18 +359,21 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "WILDFIRE",
-        "text": "Move to already-burned areas when possible. If no escape: lie face-down in a ditch, cover with soil or non-synthetic clothing. Cover mouth and nose. Breathe through cloth close to the ground.",
+        "text": "Move to an area that has already burned — it is the safest ground. If you cannot escape, lie face-down in a ditch or depression. Cover yourself with soil or non-synthetic clothing. Cover your mouth and nose. Breathe through cloth close to the ground.",
         "scenarios": [
             "wildfire is surrounding us",
             "fire spreading cant escape",
             "trapped by wildfire",
             "smoke everywhere fire coming",
             "how to survive being trapped in a wildfire",
+            "forest fire coming this way what do we do",
+            "fire fire everything is on fire",
+            "the trees are burning around us help",
         ],
     },
     {
         "id": "AVALANCHE",
-        "text": "Before snow settles: punch arm toward surface. As snow settles: create air pocket in front of face immediately. Spit to find which way is down, dig the opposite direction. Stay calm — panic burns oxygen.",
+        "text": "Punch one arm toward the surface before the snow settles. Create an air pocket in front of your face immediately. Spit to find which way is down, then dig the opposite direction. Stay calm — panic burns oxygen faster.",
         "scenarios": [
             "caught in an avalanche",
             "buried in snow after avalanche",
@@ -357,7 +384,7 @@ const PROTOCOLS: Protocol[] = [
     },
     {
         "id": "NOSEBLEED",
-        "text": "Do not tilt the head back — blood flows into the throat. Lean slightly forward. Pinch the soft part of the nose (not the bridge) for 10-15 minutes without releasing.",
+        "text": "Lean slightly forward. Pinch the soft part of the nose (not the bridge) firmly for 10-15 minutes without releasing. Do not tilt the head back — blood will flow into the throat.",
         "scenarios": [
             "nose is bleeding wont stop",
             "nosebleed how do i stop it",
@@ -400,7 +427,7 @@ export async function initializeMatcher() {
 }
 
 // 3. MATCHING LOGIC
-const THRESHOLD = 0.45;
+const THRESHOLD = 0.47;
 
 export interface OasisMatchResult {
     match: boolean;
