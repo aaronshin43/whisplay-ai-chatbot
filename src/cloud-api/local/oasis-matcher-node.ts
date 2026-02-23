@@ -1,9 +1,13 @@
 
 import { pipeline, env } from "@xenova/transformers";
+import fs from "fs";
+import path from "path";
 
 // Configure local cache if needed, but default is fine
 env.allowLocalModels = false; 
 env.useBrowserCache = false;
+
+const CACHE_FILE = path.resolve(__dirname, "oasis-index-cache.json");
 
 // 1. PROTOCOL DATABASE (Identical to Python version)
 interface Protocol {
@@ -381,6 +385,15 @@ export async function initializeMatcher() {
     console.log("[OASIS-NODE] Loading model: all-MiniLM-L6-v2...");
     extractor = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
     
+    if (fs.existsSync(CACHE_FILE)) {
+        console.log("[OASIS-NODE] Loading index from cache...");
+        const cacheData = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf-8'));
+        indexMatrix = cacheData.indexMatrix;
+        indexMap = cacheData.indexMap;
+        console.log(`[OASIS-NODE] Ready. Index size: ${indexMatrix.length} (from cache)`);
+        return;
+    }
+
     console.log("[OASIS-NODE] Building index...");
     const scenarios: string[] = [];
     PROTOCOLS.forEach((p, pIdx) => {
@@ -396,11 +409,14 @@ export async function initializeMatcher() {
         const output = await extractor(scenarios[i], { pooling: 'mean', normalize: true });
         indexMatrix.push(Array.from(output.data));
     }
-    console.log(`[OASIS-NODE] Ready. Index size: ${indexMatrix.length}`);
+    
+    // Save to cache
+    fs.writeFileSync(CACHE_FILE, JSON.stringify({ indexMatrix, indexMap }), 'utf-8');
+    console.log(`[OASIS-NODE] Ready. Index size: ${indexMatrix.length} (saved to cache)`);
 }
 
 // 3. MATCHING LOGIC
-const THRESHOLD = 0.45;
+const THRESHOLD = 0.65;
 
 export interface OasisMatchResult {
     match: boolean;

@@ -34,6 +34,9 @@ const ollamaEnableTools = process.env.OLLAMA_ENABLE_TOOLS === "true";
 const ollamaPredictNum = process.env.OLLAMA_PREDICT_NUM
   ? parseInt(process.env.OLLAMA_PREDICT_NUM)
   : undefined;
+const ollamaTemperature = process.env.OLLAMA_TEMPERATURE
+  ? parseFloat(process.env.OLLAMA_TEMPERATURE)
+  : 0.7;
 const enableThinking = process.env.ENABLE_THINKING === "true";
 
 const llmServer = process.env.LLM_SERVER || "";
@@ -49,27 +52,26 @@ const messages: OllamaMessage[] = [
   },
 ];
 
+// Resolves when the model is fully loaded into memory and ready for inference.
+export let ollamaReadyPromise: Promise<void>;
+
 const keepAliveOllama = () => {
-  axios
-    .post(`${ollamaEndpoint}/api/chat`, {
+  // Use /api/generate with num_predict:0 to load model weights into memory
+  // WITHOUT running any inference or polluting the KV cache.
+  // /api/chat with num_predict:1 was generating a "Hi" token (from the default
+  // cheerful-girl system prompt) which contaminated the KV cache and leaked
+  // into subsequent OASIS streaming responses as the first token.
+  ollamaReadyPromise = axios
+    .post(`${ollamaEndpoint}/api/generate`, {
       model: ollamaModel,
-      messages: [
-        {
-          role: "system",
-          content: systemPrompt,
-        },
-      ],
+      prompt: "",
       options: {
-        temperature: 0.7,
-        num_predict: 1,
+        num_predict: 0,
       },
-      think: false,
-      stream: false,
-      tools: ollamaEnableTools ? llmTools : undefined,
       keep_alive: -1,
     })
-    .then((response) => {
-      console.log("Ollama keep-alive response:", response.data);
+    .then(() => {
+      console.log(`[Ollama] Model loaded: ${ollamaModel}`);
     })
     .catch((err) => {
       console.error("Error initializing Ollama model:", err.message);
@@ -100,7 +102,18 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
     resetChatHistory();
   }
   updateLastMessageTime();
-  messages.push(...(inputMessages as OllamaMessage[]));
+
+  // If inputMessages contains a system message, replace the stored default system
+  // prompt instead of appending — otherwise two conflicting system prompts are sent.
+  const incomingSystemMsg = (inputMessages as OllamaMessage[]).find(m => m.role === "system");
+  const nonSystemInputMessages = (inputMessages as OllamaMessage[]).filter(m => m.role !== "system");
+  if (incomingSystemMsg) {
+    messages[0] = incomingSystemMsg;
+    messages.push(...nonSystemInputMessages);
+  } else {
+    messages.push(...(inputMessages as OllamaMessage[]));
+  }
+
   let endResolve: () => void = () => {};
   const promise = new Promise<void>((resolve) => {
     endResolve = resolve;
@@ -118,23 +131,35 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
   let buffer = "";
 
   try {
+    const payload = {
+      model: ollamaModel,
+      messages: messages.map((msg) => ({
+        role: msg.role,
+        content: msg.content,
+      })),
+      think: enableThinking,
+      stream: true,
+      options: {
+        temperature: ollamaTemperature,
+        num_predict: ollamaPredictNum,
+      },
+      tools: ollamaEnableTools ? llmTools : undefined,
+      keep_alive: -1,
+    };
+
+    if (process.env.DEBUG_OLLAMA_PAYLOAD === "true") {
+      console.log("\n--- [DEBUG] Ollama curl payload ---");
+      console.log(
+        `curl -X POST ${ollamaEndpoint}/api/chat \\\n` +
+        `  -H "Content-Type: application/json" \\\n` +
+        `  -d '${JSON.stringify(payload, null, 2)}'`
+      );
+      console.log("-----------------------------------\n");
+    }
+
     const response = await axios.post(
       `${ollamaEndpoint}/api/chat`,
-      {
-        model: ollamaModel,
-        messages: messages.map((msg) => ({
-          role: msg.role,
-          content: msg.content,
-        })),
-        think: enableThinking,
-        stream: true,
-        options: {
-          temperature: 0.7,
-          num_predict: ollamaPredictNum,
-        },
-        tools: ollamaEnableTools ? llmTools : undefined,
-        keep_alive: -1,
-      },
+      payload,
       {
         headers: {
           "Content-Type": "application/json",
