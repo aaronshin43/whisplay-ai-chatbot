@@ -25,7 +25,12 @@ import { cameraDir, recordingsDir } from "../utils/dir";
 import { getLatestDisplayImg, setLatestCapturedImg } from "../utils/image";
 import dotEnv from "dotenv";
 import { getSystemPromptWithKnowledge } from "./Knowledge";
+import { getSystemPromptFromOasis } from "./OasisAdapter";
 import { enableRAG } from "../cloud-api/knowledge";
+
+// Use OASIS instead of generic RAG if enabled
+const useOasis = process.env.ENABLE_OASIS_MATCHER === "true" || true; // Default to true for now as per request
+
 
 dotEnv.config();
 
@@ -217,8 +222,15 @@ class ChatFlow {
         } = this.streamResponser;
         this.partialThinking = "";
         this.thinkingSentences = [];
-        [() => Promise.resolve().then(() => ""), getSystemPromptWithKnowledge]
-          [enableRAG ? 1 : 0](this.asrText)
+
+        let systemPromptPromise = Promise.resolve("");
+        if (useOasis) {
+           systemPromptPromise = getSystemPromptFromOasis(this.asrText);
+        } else if (enableRAG) {
+           systemPromptPromise = getSystemPromptWithKnowledge(this.asrText);
+        }
+
+        systemPromptPromise
           .then((res: string) => {
             let knowledgePrompt = res;
             if (res) {

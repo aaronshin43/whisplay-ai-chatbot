@@ -115,6 +115,8 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
   let partialThinking = "";
   const functionCallsPackages: OllamaFunctionCall[][] = [];
 
+  let buffer = "";
+
   try {
     const response = await axios.post(
       `${ollamaEndpoint}/api/chat`,
@@ -141,41 +143,52 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
       },
     );
 
-    response.data.on("data", (chunk: Buffer) => {
-      const data = chunk.toString();
-      const dataLines = data.split("\n");
-      const filteredLines = dataLines.filter((line) => line.trim() !== "");
+    const processLine = async (line: string) => {
+      if (line.trim() === "") return;
+      try {
+        const parsedData = JSON.parse(line);
 
-      for (const line of filteredLines) {
-        try {
-          const parsedData = JSON.parse(line);
-
-          // Handle content from Ollama
-          if (parsedData.message?.content) {
-            const content = parsedData.message.content;
-            partialCallback(content);
-            partialAnswer += content;
-          }
-
-          // Handle thinking from Ollama
-          if (parsedData.message?.thinking) {
-            const thinking = parsedData.message.thinking;
-            partialThinkingCallback?.(thinking);
-            partialThinking += thinking;
-          }
-
-          // Handle tool calls from Ollama
-          if (parsedData.message?.tool_calls) {
-            // tool_calls format: [[{"function":{"index":0,"name":"setVolume","arguments":{"percent":50}}}]]
-            functionCallsPackages.push(parsedData.message.tool_calls);
-          }
-        } catch (error) {
-          console.error("Error parsing data:", error, line);
+        // Handle content from Ollama
+        if (parsedData.message?.content) {
+          const content = parsedData.message.content;
+          partialCallback(content);
+          partialAnswer += content;
         }
+
+        // Handle thinking from Ollama
+        if (parsedData.message?.thinking) {
+          const thinking = parsedData.message.thinking;
+          partialThinkingCallback?.(thinking);
+          partialThinking += thinking;
+        }
+
+        // Handle tool calls from Ollama
+        if (parsedData.message?.tool_calls) {
+          // tool_calls format: [[{"function":{"index":0,"name":"setVolume","arguments":{"percent":50}}}]]
+          functionCallsPackages.push(parsedData.message.tool_calls);
+        }
+      } catch (error) {
+        console.error("Error parsing data:", error, line);
+      }
+    };
+
+    response.data.on("data", async (chunk: Buffer) => {
+      buffer += chunk.toString();
+      const lines = buffer.split("\n");
+      // Keep the last part in buffer as it might be incomplete
+      buffer = lines.pop() || "";
+
+      for (const line of lines) {
+         await processLine(line);
       }
     });
 
     response.data.on("end", async () => {
+      // Process remaining buffer
+      if (buffer.trim() !== "") {
+        await processLine(buffer);
+      }
+      
       console.log("Stream ended");
       const functionCalls = functionCallsPackages.flat().map((call, index) => ({
         id: `call_${Date.now()}_${Math.random()}_${index}`,

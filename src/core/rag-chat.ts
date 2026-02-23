@@ -11,6 +11,8 @@ dotenv.config();
 
 const OLLAMA_ENDPOINT = process.env.OLLAMA_ENDPOINT || "http://localhost:11434";
 const EMBEDDING_MODEL_NAME = "mxbai-embed-large"; 
+const CHAT_MODEL_NAME = process.env.OLLAMA_MODEL || "qwen3:1.7b";
+const REWRITE_MODEL_NAME = "qwen2.5:0.5b"; 
 
 // Define a specialized System Prompt for First Aid
 const FIRST_AID_SYSTEM_PROMPT = `You are O.A.S.I.S., an emergency first-aid assistant. You are operating offline in a potential crisis situation.
@@ -28,27 +30,42 @@ Context:
 `;
 
 /**
- * Force unload a specific model from Ollama memory
+ * Rewrites the user query into a concise medical search query using LLM.
+ * @param originalQuery The user's spoken input.
+ * @returns A concise search query string.
  */
-const unloadModel = async (modelName: string) => {
+const rewriteQuery = async (originalQuery: string): Promise<string> => {
   try {
-    console.log(`[Ollama] Unloading model: ${modelName}...`);
-    // Sending an empty request with keep_alive=0 unloads the model immediately
-    await axios.post(`${OLLAMA_ENDPOINT}/api/chat`, {
-      model: modelName,
-      keep_alive: 0
+    const rewritePrompt = `Convert this spoken text into a concise medical search query. Output ONLY the keywords. Do not explain. Text: "${originalQuery}"`;
+
+    const response = await axios.post(`${OLLAMA_ENDPOINT}/api/chat`, {
+      model: REWRITE_MODEL_NAME,
+      messages: [{ role: "user", content: rewritePrompt }],
+      stream: false,
+      options: {
+        num_predict: 20, // Slightly increased limit
+        temperature: 0,   // Deterministic output
+      },
     });
-    console.log(`[Ollama] User unloaded model: ${modelName}`);
+
+    let rewritten = response.data?.message?.content?.trim() || originalQuery;
+    
+    // Remove "Search query:" or thinking blocks if any model adds them
+    rewritten = rewritten.replace(/<think>[\s\S]*?<\/think>/gi, ""); // Remove think blocks
+    rewritten = rewritten.replace(/^search query: /i, "").replace(/^query: /i, "").replace(/"/g, "").trim(); 
+    
+    return rewritten || originalQuery;
   } catch (error) {
-    // It's okay if it fails (maybe model wasn't loaded), but we log it.
-    // console.warn(`[Ollama] Failed to unload model ${modelName}:`, error);
+    console.warn(`[QueryRewrite] Failed to rewrite using ${REWRITE_MODEL_NAME}, falling back to original query.`);
+    // console.error(error);
+    return originalQuery; 
   }
 };
 
 /**
  * Enhanced Chat Function with RAG
- * 1. Retrieves relevant context from LanceDB based on the user's latest message.
- * 2. Unloads embedding model to free up RAM/CPU.
+ * 1. Rewrites user query for better search accuracy.
+ * 2. Retrieves relevant context from LanceDB based on the rewritten query.
  * 3. Injects the context into the System Prompt.
  * 4. Calls the original LLM function.
  */
@@ -61,12 +78,16 @@ export const chatWithRAGStream = async (
   // 1. Identify the user query (last message)
   const userQuery = messages[messages.length - 1].content;
   
-  console.log(`[RAG] Searching context for: "${userQuery}"`);
+  // 2. Rewrite Query (Experimental)
+  console.log(`[RAG] Original Query: "${userQuery}"`);
+  const searchKey = await rewriteQuery(userQuery);
+  console.log(`[RAG] Rewritten Query: "${searchKey}"`);
   
-  // 2. Retrieve Context
+  
+  // 3. Retrieve Context
   let context = "";
   try {
-    context = await getRelevantContext(userQuery, 1); // Reduced from 3 to 1 for optimization
+    context = await getRelevantContext(searchKey, 3); // Reduced from 3 to 1 for optimization
     if (context) {
       console.log(`[RAG] Found context length: ${context.length}`);
     } else {
@@ -75,9 +96,6 @@ export const chatWithRAGStream = async (
   } catch (err) {
     console.error(`[RAG] Error retrieving context:`, err);
   }
-
-  // 3. OPTIMIZATION: Unload Embedding Model
-  // await unloadModel(EMBEDDING_MODEL_NAME);
 
   // 4. Construct System Message with Context
   const systemMessageContent = FIRST_AID_SYSTEM_PROMPT.replace("{context}", context || "No specific context available.");
