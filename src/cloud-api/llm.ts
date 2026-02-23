@@ -18,6 +18,7 @@ dotenv.config();
 let chatWithLLMStream: ChatWithLLMStreamFunction = noop as any;
 let resetChatHistory: ResetChatHistoryFunction = noop as any;
 let summaryTextWithLLM: SummaryTextWithLLMFunction = async (text, _) => text;
+let warmupSystemPrompt: (systemContent: string) => Promise<void> = async () => {};
 
 export const llmServer: LLMServer = (
   process.env.LLM_SERVER || LLMServer.volcengine
@@ -34,7 +35,7 @@ switch (llmServer) {
     ({ chatWithLLMStream, resetChatHistory, summaryTextWithLLM } = openaiLLM);
     break;
   case LLMServer.ollama:
-    ({ chatWithLLMStream, resetChatHistory, summaryTextWithLLM } = ollamaLLM);
+    ({ chatWithLLMStream, resetChatHistory, summaryTextWithLLM, warmupSystemPrompt } = ollamaLLM);
     break;
   case LLMServer.gemini:
     ({ chatWithLLMStream, resetChatHistory, summaryTextWithLLM } = geminiLLM);
@@ -52,4 +53,4 @@ switch (llmServer) {
     break;
 }
 
-export { chatWithLLMStream, resetChatHistory, summaryTextWithLLM };
+export { chatWithLLMStream, resetChatHistory, summaryTextWithLLM, warmupSystemPrompt };

@@ -98,17 +98,27 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
   partialThinkingCallback?: (partialThinking: string) => void,
   invokeFunctionCallback?: (functionName: string, result?: string) => void,
 ): Promise<void> => {
-  if (shouldResetChatHistory()) {
-    // OASIS/RAG: input already has a full system prompt — use it only (no default character prompt)
-    const hasOwnSystem = inputMessages.length > 0 && inputMessages[0].role === "system";
-    if (hasOwnSystem) {
-      messages.length = 0;
-      messages.push(...(inputMessages as OllamaMessage[]));
+  const hasOwnSystem = inputMessages.length > 0 && inputMessages[0].role === "system";
+  const sameSystemAsBefore = hasOwnSystem
+    && messages.length > 0
+    && messages[0].role === "system"
+    && messages[0].content === inputMessages[0].content;
+
+  if (hasOwnSystem) {
+    if (sameSystemAsBefore && !shouldResetChatHistory()) {
+      // Same system prompt, continuing conversation → KV cache friendly (only append user)
+      const nonSystemMessages = inputMessages.filter(m => m.role !== "system");
+      messages.push(...(nonSystemMessages as OllamaMessage[]));
     } else {
-      resetChatHistory();
+      // New system prompt or session reset → fresh start
+      messages.length = 0;
       messages.push(...(inputMessages as OllamaMessage[]));
     }
   } else {
+    if (shouldResetChatHistory()) {
+      messages.length = 0;
+      messages.push({ role: "system", content: systemPrompt } as OllamaMessage);
+    }
     messages.push(...(inputMessages as OllamaMessage[]));
   }
   updateLastMessageTime();
@@ -326,4 +336,23 @@ const summaryTextWithLLM: SummaryTextWithLLMFunction = async (
   }
 }
 
-export default { chatWithLLMStream, resetChatHistory, summaryTextWithLLM };
+const warmupSystemPrompt = async (systemContent: string): Promise<void> => {
+  try {
+    await axios.post(
+      `${ollamaEndpoint}/api/chat`,
+      {
+        model: ollamaModel,
+        messages: [{ role: "system", content: systemContent }],
+        options: { num_predict: 0 },
+        think: false,
+        stream: false,
+        keep_alive: -1,
+      },
+    );
+    console.log("[LLM] KV cache warmup done.");
+  } catch (err: any) {
+    console.error("[LLM] KV cache warmup failed:", err.message);
+  }
+};
+
+export default { chatWithLLMStream, resetChatHistory, summaryTextWithLLM, warmupSystemPrompt };
