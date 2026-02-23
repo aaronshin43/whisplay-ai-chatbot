@@ -28,8 +28,8 @@ import { getSystemPromptWithKnowledge } from "./Knowledge";
 import { getSystemPromptFromOasis } from "./OasisAdapter";
 import { enableRAG } from "../cloud-api/knowledge";
 
-// Use OASIS instead of generic RAG if enabled
-const useOasis = process.env.ENABLE_OASIS_MATCHER === "true" || true; // Default to true for now as per request
+// OASIS by default; set ENABLE_OASIS_MATCHER=false to use generic RAG when ENABLE_RAG=true
+const useOasis = process.env.ENABLE_OASIS_MATCHER !== "false";
 
 
 dotEnv.config();
@@ -44,7 +44,6 @@ class ChatFlow {
   thinkingSentences: string[] = [];
   answerId: number = 0;
   enableCamera: boolean = false;
-  knowledgePrompts: string[] = [];
 
   constructor(options: { enableCamera?: boolean } = {}) {
     console.log(`[${getCurrentTimeTag()}] ChatBot started.`);
@@ -232,18 +231,9 @@ class ChatFlow {
 
         systemPromptPromise
           .then((res: string) => {
-            let knowledgePrompt = res;
+            const knowledgePrompt = res;
             if (res) {
               console.log("Retrieved knowledge for RAG:\n", res);
-            }
-            if (this.knowledgePrompts.includes(res)) {
-              console.log(
-                "[RAG] Knowledge prompt already used in this session, skipping to avoid repetition.",
-              );
-              knowledgePrompt = "";
-            }
-            if (knowledgePrompt) {
-              this.knowledgePrompts.push(knowledgePrompt);
             }
             const prompt: {
               role: "system" | "user";

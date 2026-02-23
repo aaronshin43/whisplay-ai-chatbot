@@ -49,6 +49,8 @@ const messages: OllamaMessage[] = [
   },
 ];
 
+// Minimal prompt for keep-alive only (model load). Real requests use OASIS or config systemPrompt.
+const keepAliveSystemPrompt = "You are a helpful assistant.";
 const keepAliveOllama = () => {
   axios
     .post(`${ollamaEndpoint}/api/chat`, {
@@ -56,7 +58,7 @@ const keepAliveOllama = () => {
       messages: [
         {
           role: "system",
-          content: systemPrompt,
+          content: keepAliveSystemPrompt,
         },
       ],
       options: {
@@ -97,10 +99,19 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
   invokeFunctionCallback?: (functionName: string, result?: string) => void,
 ): Promise<void> => {
   if (shouldResetChatHistory()) {
-    resetChatHistory();
+    // OASIS/RAG: input already has a full system prompt — use it only (no default character prompt)
+    const hasOwnSystem = inputMessages.length > 0 && inputMessages[0].role === "system";
+    if (hasOwnSystem) {
+      messages.length = 0;
+      messages.push(...(inputMessages as OllamaMessage[]));
+    } else {
+      resetChatHistory();
+      messages.push(...(inputMessages as OllamaMessage[]));
+    }
+  } else {
+    messages.push(...(inputMessages as OllamaMessage[]));
   }
   updateLastMessageTime();
-  messages.push(...(inputMessages as OllamaMessage[]));
   let endResolve: () => void = () => {};
   const promise = new Promise<void>((resolve) => {
     endResolve = resolve;
