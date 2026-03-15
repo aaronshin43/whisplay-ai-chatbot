@@ -5,15 +5,14 @@
  *
  * Priority chain:
  *   1. RAG service (Python Flask, port 5001)  — full Hybrid RAG context
- *   2. Local protocol matcher (oasis-matcher-node.ts) — hardcoded 30 protocols
- *   3. Empty string — ChatFlow uses its own default system prompt
+ *   2. Safe fallback — instructs the LLM to direct the user to emergency services
+ *      without providing any unverified medical content
  *
  * ChatFlow.ts is NOT modified; it calls getSystemPromptFromOasis(query)
  * and receives a ready-to-use system prompt string.
  */
 
 import { ragRetrieve } from "../cloud-api/local/oasis-rag-client";
-import { matchProtocolLocal } from "../cloud-api/local/oasis-matcher-node";
 
 // ── System prompt template ───────────────────────────────────────────────────
 
@@ -37,18 +36,17 @@ REFERENCE:
 {context}`;
 
 /**
- * Fallback system prompt used when RAG has no context but the local
- * protocol matcher found a match.
- * {protocol} is replaced with the matched protocol text.
+ * Safe fallback prompt used when the RAG service is unavailable.
+ * Does NOT include any hardcoded medical content — only directs to emergency services.
+ * This avoids the risk of providing unverified first-aid advice.
  */
-const FALLBACK_SYSTEM_PROMPT = `You are O.A.S.I.S., an emergency first-aid assistant.
-Respond with short, direct commands only.
-No markdown, no bullet points, no numbering, no symbols.
-Speak in simple sentences. One instruction at a time.
-Do not explain. Do not reassure. Just tell them what to do.
-
-ACTIVE PROTOCOL:
-{protocol}`;
+const SAFE_FALLBACK_PROMPT = `You are OASIS, an offline first-aid assistant.
+The medical knowledge base is currently unavailable.
+Tell the user clearly and calmly:
+1. Call emergency services immediately (local emergency number).
+2. Stay on the line with the dispatcher — they will guide you.
+3. Do not leave the person alone.
+Do not provide any specific medical instructions without the knowledge base.`;
 
 // ── Spinal injury detection ──────────────────────────────────────────────────
 
@@ -77,11 +75,12 @@ function injectSpinalWarning(context: string, query: string): string {
 /**
  * Build and return the system prompt for a given user query.
  *
- * Attempts RAG retrieval first; falls back to local protocol matcher on
- * any RAG failure (service down, timeout, empty context).
+ * Attempts RAG retrieval first. If the RAG service is down or returns
+ * empty context, returns a safe fallback prompt that directs to emergency
+ * services — without any hardcoded medical content.
  *
  * @param query  The user's raw utterance from ASR.
- * @returns      System prompt string, or empty string if all sources fail.
+ * @returns      System prompt string (never empty).
  */
 export const getSystemPromptFromOasis = async (query: string): Promise<string> => {
 
@@ -95,32 +94,13 @@ export const getSystemPromptFromOasis = async (query: string): Promise<string> =
             return RAG_SYSTEM_PROMPT_TEMPLATE.replace("{context}", enriched);
         }
 
-        console.log("[OasisAdapter] RAG returned empty context — falling back");
+        console.warn("[OasisAdapter] RAG returned empty context — using safe fallback");
     } catch (err) {
         // ragRetrieve should never throw, but guard defensively
-        console.warn("[OasisAdapter] RAG unexpected error — falling back:", err);
+        console.warn("[OasisAdapter] RAG unexpected error — using safe fallback:", err);
     }
 
-    // ── Stage 2: Local protocol matcher fallback ─────────────────────────────
-    try {
-        const result = await matchProtocolLocal(query);
-
-        if (result.match) {
-            console.log(
-                `[OasisAdapter] Fallback: protocol=${result.protocol_id}  score=${result.score.toFixed(3)}`,
-            );
-            return FALLBACK_SYSTEM_PROMPT.replace("{protocol}", result.text);
-        }
-
-        // Triage: no strong protocol match — return triage prompt
-        console.log("[OasisAdapter] Fallback: triage (no protocol match)");
-        return FALLBACK_SYSTEM_PROMPT.replace("{protocol}", result.text);
-
-    } catch (err) {
-        console.error("[OasisAdapter] Protocol matcher failed:", err);
-    }
-
-    // ── Stage 3: All sources failed ──────────────────────────────────────────
-    console.error("[OasisAdapter] All retrieval sources failed. Returning empty prompt.");
-    return "";
+    // ── Stage 2: Safe fallback (RAG unavailable) ─────────────────────────────
+    console.warn("[OasisAdapter] RAG unavailable. Directing user to emergency services.");
+    return SAFE_FALLBACK_PROMPT;
 };
