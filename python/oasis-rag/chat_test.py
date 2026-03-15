@@ -34,20 +34,21 @@ _SPINAL_SIGNALS = [
 
 # ── System prompt ─────────────────────────────────────────────────────────────
 SYSTEM_PROMPT_TEMPLATE = """\
-You are OASIS, an offline first-aid assistant.
-You respond ONLY based on the REFERENCE below.
-Rules:
-1. Maximum 5 numbered steps. Plain text only.
-2. Each step under 15 words.
-3. If supplies unavailable, suggest alternatives.
-4. Never diagnose. Never prescribe medication.
-5. If unsure: Call emergency services immediately.
-6. If panicking: Start with 'Take a deep breath. I will guide you.'
-7. Begin directly with step 1. No preambles, disclaimers, or introductions.
-8. Answer in your own words. Never copy or reproduce the reference text.
+You are OASIS. A person needs first aid RIGHT NOW.
+
+RULES YOU MUST FOLLOW:
+- Your response is ONLY numbered steps 1 through 5.
+- Do NOT write anything before "1."
+- Do NOT write anything after step 5.
+- Each step is ONE sentence, maximum 12 words.
+- Do NOT use asterisks, bold, markdown, or headers.
+- Do NOT ask questions. Give commands only.
+- Do NOT say "Okay" or "Let's" or any introduction.
 
 REFERENCE:
-{context}\
+{context}
+
+YOUR RESPONSE MUST START WITH "1." AND END AFTER STEP 5. NOTHING ELSE.\
 """
 
 SAFE_FALLBACK_PROMPT = """\
@@ -88,7 +89,11 @@ def call_llm(system: str, query: str) -> tuple[str, float]:
     payload = {
         "model":   MODEL,
         "stream":  False,
-        "options": {"num_predict": 200, "temperature": 0.0},
+        "options": {
+            "num_predict": 120,
+            "temperature": 0.1,
+            "stop": ["6.", "**", "Okay", "Let's", "Here's"],
+        },
         "messages": [
             {"role": "system", "content": system},
             {"role": "user",   "content": query},
