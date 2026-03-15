@@ -4,12 +4,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5089577794075012,
-      "source_rank1": "who_bec_module4_shock.md",
+      "score": 0.6082856422976444,
+      "source_rank1": "who_bec_skills_bleeding.md",
       "sources_all": [
-        "who_bec_module4_shock.md",
-        "redcross_special.md",
-        "redcross_bone_joint.md"
+        "who_bec_skills_bleeding.md",
+        "who_bec_skills_wound.md",
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -21,11 +21,11 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5777875583512443,
-      "source_rank1": "who_bec_skills.md",
+      "score": 0.5992241682150424,
+      "source_rank1": "who_bec_skills_bleeding.md",
       "sources_all": [
-        "who_bec_skills.md",
-        "who_bec_module2_trauma.md",
+        "who_bec_skills_bleeding.md",
+        "who_bec_skills_wound.md",
         "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
@@ -38,12 +38,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5154808044433593,
-      "source_rank1": "who_bec_skills.md",
+      "score": 0.6125686235916921,
+      "source_rank1": "who_bec_skills_bleeding.md",
       "sources_all": [
-        "who_bec_skills.md",
-        "redcross_wounds.md",
-        "redcross_bites_stings.md"
+        "who_bec_skills_bleeding.md",
+        "who_bec_skills_wound.md",
+        "who_bec_module1_abcde.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -55,12 +55,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.6043587361063276,
-      "source_rank1": "who_bec_skills.md",
+      "score": 0.6015931928479994,
+      "source_rank1": "who_bec_skills_bleeding.md",
       "sources_all": [
-        "who_bec_skills.md",
-        "who_bec_skills.md",
-        "redcross_wounds.md"
+        "who_bec_skills_bleeding.md",
+        "who_bec_skills_bleeding.md",
+        "who_bec_skills_bleeding.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -72,12 +72,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5852033662796021,
-      "source_rank1": "who_bec_module2_trauma.md",
+      "score": 0.598897676532333,
+      "source_rank1": "who_bec_skills_bleeding.md",
       "sources_all": [
+        "who_bec_skills_bleeding.md",
         "who_bec_module2_trauma.md",
-        "who_bec_module1_abcde.md",
-        "who_bec_module2_trauma.md"
+        "who_bec_module1_abcde.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -89,11 +89,11 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5770056330362955,
+      "score": 0.5665317374539662,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_module3_breathing.md",
+        "who_bec_quick_cards.md",
         "who_bec_module3_breathing.md"
       ],
       "missing_keywords": [],
@@ -106,7 +106,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5736976953262978,
+      "score": 0.5666671680367511,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
@@ -123,12 +123,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5721556397194558,
+      "score": 0.565125112429909,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_module1_abcde.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_skills_airway.md",
+        "who_bec_module1_abcde.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -140,7 +140,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5761291356796914,
+      "score": 0.5690986083901447,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
@@ -157,12 +157,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5683682533020669,
+      "score": 0.5613377260125202,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
         "who_bec_module1_abcde.md",
-        "who_bec_skills.md"
+        "who_bec_module3_breathing.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -174,12 +174,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5230342626571655,
-      "source_rank1": "who_bec_module3_breathing.md",
+      "score": 0.6318385354259558,
+      "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
-        "who_bec_module3_breathing.md",
         "who_bec_module1_abcde.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_module1_abcde.md",
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -191,7 +191,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.6425186013353282,
+      "score": 0.6379209001859029,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
@@ -212,7 +212,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_module1_abcde.md",
+        "who_bec_skills_airway.md",
         "who_bec_module1_abcde.md"
       ],
       "missing_keywords": [],
@@ -225,12 +225,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5346633911132812,
-      "source_rank1": "who_bec_skills.md",
+      "score": 0.5246069312095641,
+      "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
-        "who_bec_skills.md",
         "who_bec_module1_abcde.md",
-        "who_bec_module1_abcde.md"
+        "who_bec_module1_abcde.md",
+        "who_bec_module3_breathing.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -259,7 +259,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.6306997849391057,
+      "score": 0.6261413803807012,
       "source_rank1": "redcross_bites_stings.md",
       "sources_all": [
         "redcross_bites_stings.md",
@@ -293,12 +293,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5095805168151856,
-      "source_rank1": "who_bec_module3_breathing.md",
+      "score": 0.5942410460224858,
+      "source_rank1": "redcross_bites_stings.md",
       "sources_all": [
-        "who_bec_module3_breathing.md",
-        "who_bec_module3_breathing.md",
-        "who_bec_quick_cards.md"
+        "redcross_bites_stings.md",
+        "who_bec_module1_abcde.md",
+        "redcross_bites_stings.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -327,7 +327,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.6168462486977273,
+      "score": 0.6098157214081806,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
@@ -344,7 +344,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5753533988113863,
+      "score": 0.5791973460288274,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
@@ -383,7 +383,7 @@
       "sources_all": [
         "redcross_bone_joint.md",
         "redcross_bone_joint.md",
-        "who_bec_skills.md"
+        "who_bec_skills_immobilization.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -395,7 +395,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5979567170143127,
+      "score": 0.6023045431012692,
       "source_rank1": "who_bec_module2_trauma.md",
       "sources_all": [
         "who_bec_module2_trauma.md",
@@ -412,12 +412,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.6058002471923828,
+      "score": 0.5992169138590494,
       "source_rank1": "who_bec_module2_trauma.md",
       "sources_all": [
         "who_bec_module2_trauma.md",
         "who_bec_module2_trauma.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -429,12 +429,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5115824818611144,
-      "source_rank1": "redcross_special.md",
+      "score": 0.5784830770994487,
+      "source_rank1": "who_bec_module2_trauma.md",
       "sources_all": [
-        "redcross_special.md",
-        "redcross_special.md",
-        "redcross_special.md"
+        "who_bec_module2_trauma.md",
+        "who_bec_module2_trauma.md",
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -451,7 +451,7 @@
       "sources_all": [
         "redcross_burns.md",
         "redcross_bone_joint.md",
-        "redcross_burns.md"
+        "who_bec_skills_burns.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -463,12 +463,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5750663042068481,
+      "score": 0.6341572132977572,
       "source_rank1": "redcross_bone_joint.md",
       "sources_all": [
         "redcross_bone_joint.md",
         "redcross_burns.md",
-        "redcross_bone_joint.md"
+        "who_bec_skills_burns.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -485,7 +485,7 @@
       "sources_all": [
         "redcross_bone_joint.md",
         "redcross_burns.md",
-        "who_bec_skills.md"
+        "who_bec_skills_burns.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -497,11 +497,11 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.6398451899660045,
-      "source_rank1": "who_bec_module3_breathing.md",
+      "score": 0.5813971996307373,
+      "source_rank1": "who_bec_quick_cards.md",
       "sources_all": [
+        "who_bec_quick_cards.md",
         "who_bec_module3_breathing.md",
-        "who_bec_module2_trauma.md",
         "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
@@ -514,12 +514,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5893053431664743,
-      "source_rank1": "who_bec_module3_breathing.md",
+      "score": 0.5818286610321259,
+      "source_rank1": "who_bec_module2_trauma.md",
       "sources_all": [
-        "who_bec_module3_breathing.md",
         "who_bec_module2_trauma.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_module3_breathing.md",
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -531,12 +531,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5691278778711955,
+      "score": 0.5586539822888662,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
         "who_bec_quick_cards.md",
-        "who_bec_skills.md"
+        "who_bec_skills_airway.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -548,7 +548,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.6016232967376709,
+      "score": 0.6059711228246274,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
@@ -565,7 +565,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5658011595408121,
+      "score": 0.5671344928741455,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
@@ -582,12 +582,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5811250766118368,
+      "score": 0.5847482650176339,
       "source_rank1": "who_bec_module2_trauma.md",
       "sources_all": [
         "who_bec_module2_trauma.md",
         "who_bec_module1_abcde.md",
-        "who_bec_module5_mental_status.md"
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -599,12 +599,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5871540307998657,
+      "score": 0.5915018568868222,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
         "who_bec_module2_trauma.md",
-        "who_bec_module1_abcde.md"
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -616,7 +616,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5573254448611561,
+      "score": 0.559154713153839,
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
@@ -633,12 +633,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5263127088546753,
-      "source_rank1": "who_bec_skills.md",
+      "score": 0.5884619634492056,
+      "source_rank1": "who_bec_skills_snakebite.md",
       "sources_all": [
-        "who_bec_skills.md",
-        "redcross_bites_stings.md",
-        "who_bec_module1_abcde.md"
+        "who_bec_skills_snakebite.md",
+        "who_bec_skills_snakebite.md",
+        "who_bec_module5_mental_status.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -650,7 +650,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5749118428230285,
+      "score": 0.6110005171068253,
       "source_rank1": "redcross_cold_emergencies.md",
       "sources_all": [
         "redcross_cold_emergencies.md",
@@ -667,11 +667,11 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5476986179480682,
-      "source_rank1": "redcross_lightning.md",
+      "score": 0.6276802097048078,
+      "source_rank1": "redcross_altitude.md",
       "sources_all": [
-        "redcross_lightning.md",
         "redcross_altitude.md",
+        "redcross_lightning.md",
         "redcross_altitude.md"
       ],
       "missing_keywords": [],
@@ -684,7 +684,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.562615790701749,
+      "score": 0.5632423571177891,
       "source_rank1": "redcross_heat_emergencies.md",
       "sources_all": [
         "redcross_heat_emergencies.md",
@@ -718,7 +718,7 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5630913123299804,
+      "score": 0.5992847823327587,
       "source_rank1": "redcross_cold_emergencies.md",
       "sources_all": [
         "redcross_cold_emergencies.md",
@@ -735,11 +735,11 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.564364744868933,
+      "score": 0.5623683099313215,
       "source_rank1": "redcross_submersion.md",
       "sources_all": [
         "redcross_submersion.md",
-        "redcross_submersion.md",
+        "who_bec_quick_cards.md",
         "who_bec_module1_abcde.md"
       ],
       "missing_keywords": [],

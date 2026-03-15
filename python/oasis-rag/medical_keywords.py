@@ -39,6 +39,7 @@ _TAXONOMY: dict[str, list[str]] = {
         "junctional hemorrhage", "wound gauze", "combat gauze",
         "elevation", "pressure point", "femoral artery", "brachial artery",
         "carotid artery", "subclavian artery", "aorta",
+        "hemorrhage control", "haemorrhage control",   # protocol language
         # ── Colloquial user language ──────────────────────────────────────
         "blood",                                        # "there is blood everywhere"
         "wont stop", "won't stop", "cant stop", "can't stop",  # bleeding that won't stop
@@ -69,9 +70,13 @@ _TAXONOMY: dict[str, list[str]] = {
         "rescue breathing", "mouth-to-mouth", "ventilation",
         "pneumothorax", "tension pneumothorax", "hemothorax",
         "flail chest", "rib fracture", "chest injury", "open chest wound",
-        "sucking chest wound", "occlusive dressing", "needle decompression",
+        "sucking chest wound", "sucking wound", "occlusive dressing", "needle decompression",
         "cyanosis", "hypoxia", "oxygen saturation", "SpO2",
         "asthma", "asthma attack", "bronchospasm", "anaphylaxis",
+        # ── Penetrating chest trauma ───────────────────────────────────────
+        "knife", "stab", "stabbing", "stabbed", "impaled", "impalement",
+        "penetrating", "object in chest", "chest wound",
+        "pull out", "remove object", "pull the knife", "knife in chest",
     ],
 
     # ── 4. Circulation / Cardiac ──────────────────────────────────────────
@@ -241,6 +246,14 @@ _TAXONOMY: dict[str, list[str]] = {
         "hypovolaemic", "hypovolemic", "blood volume",
     ],
 
+    # ── 13-A. Wound Infection / Antibiotics ──────────────────────────────
+    "wound_infection": [
+        "antibiotic", "antibiotics", "infection", "infected", "infect",
+        "wound infection", "infected wound", "sepsis", "cellulitis",
+        "pus", "purulent", "abscess", "necrosis", "gangrene",
+        "tetanus", "debridement",
+    ],
+
     # ── 13. WHO BEC / IFRC Protocol Terms ────────────────────────────────
     "who_bec_protocol": [
         "basic emergency care", "BEC", "WHO BEC",
@@ -291,6 +304,9 @@ _COLLOQUIAL_TERMS: frozenset[str] = frozenset({
     "lightning", "struck by lightning", "lightning hit",
     # poisoning_tox colloquial
     "snake bit", "bit by snake", "bitten by snake", "bitten",
+    # respiratory / penetrating trauma colloquial
+    "pull out", "remove object", "pull the knife", "knife in chest",
+    "object in chest",
 })
 
 # ─────────────────────────────────────────────────────────────────────────────

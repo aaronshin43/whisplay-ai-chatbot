@@ -36,6 +36,16 @@ const ollamaPredictNum = process.env.OLLAMA_PREDICT_NUM
   : undefined;
 const enableThinking = process.env.ENABLE_THINKING === "true";
 
+// OASIS mode: constrained generation options matching chat_test.py
+const isOasisMode = process.env.ENABLE_OASIS_MATCHER === "true" || true;
+const oasisOptions = isOasisMode
+  ? {
+      num_predict: 120,
+      temperature: 0.1,
+      stop: ["6.", "**", "Okay", "Let's", "Here's"],
+    }
+  : undefined;
+
 const llmServer = process.env.LLM_SERVER || "";
 
 const chatHistoryFileName = `ollama_chat_history_${moment().format(
@@ -128,7 +138,7 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
         })),
         think: enableThinking,
         stream: true,
-        options: {
+        options: oasisOptions ?? {
           temperature: 0.7,
           num_predict: ollamaPredictNum,
         },

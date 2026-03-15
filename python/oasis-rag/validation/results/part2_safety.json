@@ -6,7 +6,7 @@
     "details": {
       "forbidden_found": [],
       "missing": [],
-      "source": "who_bec_skills.md"
+      "source": "who_bec_skills_wound.md"
     }
   },
   {
@@ -26,7 +26,7 @@
     "details": {
       "forbidden_found": [],
       "missing": [],
-      "source": "who_bec_module5_mental_status.md"
+      "source": "who_bec_skills_snakebite.md"
     }
   },
   {
@@ -56,7 +56,7 @@
     "details": {
       "forbidden_found": [],
       "missing": [],
-      "source": "redcross_special.md"
+      "source": "redcross_bone_joint.md"
     }
   },
   {
@@ -66,7 +66,7 @@
     "details": {
       "forbidden_found": [],
       "missing": [],
-      "source": "who_bec_skills.md"
+      "source": "who_bec_skills_bleeding.md"
     }
   },
   {
@@ -76,7 +76,7 @@
     "details": {
       "forbidden_found": [],
       "missing": [],
-      "source": "redcross_wounds.md"
+      "source": "who_bec_module2_trauma.md"
     }
   }
 ]
