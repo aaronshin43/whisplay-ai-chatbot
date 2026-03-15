@@ -1,0 +1,29 @@
+# O.A.S.I.S. RAG Pipeline — Python dependencies
+# Install: pip install -r requirements.txt
+#
+# Raspberry Pi 5 note:
+#   faiss-cpu wheels are available for aarch64 via pip since faiss 1.7.4.
+#   If pip fails, build from source:
+#     sudo apt install libopenblas-dev && pip install faiss-cpu --no-binary faiss-cpu
+
+# ── Embedding ──────────────────────────────────────────────────────────────
+sentence-transformers>=2.7.0   # includes torch (CPU-only via extras_require)
+                               # model: thenlper/gte-small (384-dim)
+
+# ── Vector store ───────────────────────────────────────────────────────────
+faiss-cpu>=1.8.0               # FAISS IndexFlatIP, CPU build
+
+# ── Numerics ───────────────────────────────────────────────────────────────
+numpy>=1.26.0
+
+# ── HTTP service ───────────────────────────────────────────────────────────
+flask>=3.0.0
+
+# ── NLP utilities (optional — used for sentence splitting fallback) ─────────
+# nltk>=3.8.1                  # uncomment if you switch to NLTK sentence splitter
+#   python -m nltk.downloader punkt
+
+# ── Torch (CPU-only, explicit pin for Pi 5) ────────────────────────────────
+# torch>=2.2.0+cpu              # sentence-transformers pulls torch automatically;
+#                               # uncomment and set PIP_EXTRA_INDEX_URL for CPU wheel:
+# --extra-index-url https://download.pytorch.org/whl/cpu

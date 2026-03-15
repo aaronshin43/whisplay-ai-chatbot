@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(pip install:*)",
+      "Bash(sleep:*)",
+      "Bash(curl:*)",
+      "Bash(kill:*)",
+      "Bash(cat:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}

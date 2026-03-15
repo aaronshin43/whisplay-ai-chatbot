@@ -27,6 +27,11 @@ sudo raspi-config nonint do_spi 0
 echo "Installing Python dependencies..."
 cd python
 pip install -r requirements.txt --break-system-packages
+
+# install O.A.S.I.S. RAG pipeline dependencies
+echo "Installing O.A.S.I.S. RAG dependencies..."
+pip install -r oasis-rag/requirements.txt --break-system-packages
+
 # download fonts and emojis
 wget -O NotoSansSC-Bold.ttf https://cdn.pisugar.com/EchoView/NotoSansSC-Bold.ttf
 wget -O emoji_svg.zip https://cdn.pisugar.com/EchoView/emoji_svg.zip

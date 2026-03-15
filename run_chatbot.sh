@@ -81,6 +81,38 @@ if [ "$serve_ollama" = true ]; then
   OLLAMA_HOST=0.0.0.0:11434 ollama serve &
 fi
 
+# ── O.A.S.I.S. RAG Service ───────────────────────────────────────────────────
+echo "Starting O.A.S.I.S. RAG service..."
+OASIS_RAG_LOG="$working_dir/oasis-rag.log"
+OASIS_RAG_SERVICE_URL_VAL=$(get_env_value "OASIS_RAG_SERVICE_URL")
+OASIS_RAG_SERVICE_URL_VAL="${OASIS_RAG_SERVICE_URL_VAL:-http://localhost:5001}"
+RAG_HEALTH_URL="${OASIS_RAG_SERVICE_URL_VAL}/health"
+
+python3 "$working_dir/python/oasis-rag/service.py" \
+  >> "$OASIS_RAG_LOG" 2>&1 &
+RAG_PID=$!
+echo "RAG service started (PID=$RAG_PID). Log: $OASIS_RAG_LOG"
+
+# Wait up to 30 s for the service to become healthy (3 s intervals × 10 tries)
+rag_ready=false
+for i in $(seq 1 10); do
+  sleep 3
+  health=$(curl -sf --max-time 2 "$RAG_HEALTH_URL" 2>/dev/null)
+  if echo "$health" | grep -q '"status":"ok"'; then
+    rag_ready=true
+    echo "RAG service ready (${i}x3s elapsed)."
+    break
+  fi
+  echo "Waiting for RAG service... ($((i * 3))s / 30s)"
+done
+
+if [ "$rag_ready" = false ]; then
+  echo "WARNING: RAG service did not become ready within 30s."
+  echo "  Chatbot will start with fallback protocol matching."
+  echo "  Check $OASIS_RAG_LOG for details."
+fi
+# ─────────────────────────────────────────────────────────────────────────────
+
 # if file use_npm exists and is true, use npm
 if [ -f "use_npm" ]; then
   use_npm=true
@@ -98,6 +130,11 @@ fi
 
 # After the service ends, perform cleanup
 echo "Cleaning up after service..."
+
+if [ -n "$RAG_PID" ] && kill -0 "$RAG_PID" 2>/dev/null; then
+  echo "Stopping RAG service (PID=$RAG_PID)..."
+  kill "$RAG_PID"
+fi
 
 if [ "$serve_ollama" = true ]; then
   echo "Stopping Ollama server..."

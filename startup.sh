@@ -44,13 +44,51 @@ NODE_FOLDER=$(dirname $NODE_BIN)
 echo "Found Node at: $NODE_FOLDER"
 echo "----------------------------------------"
 
-# Create the service file
-echo "Creating systemd service file..."
+# ── Find Python3 binary ───────────────────────────────────────────────────────
+PYTHON3_BIN=$(which python3)
+if [ -z "$PYTHON3_BIN" ]; then
+  echo "Warning: python3 not found. RAG service will not start automatically."
+  PYTHON3_BIN=/usr/bin/python3
+fi
+echo "Found python3 at: $PYTHON3_BIN"
+
+# ── 1. Create oasis-rag.service ──────────────────────────────────────────────
+echo "Creating oasis-rag.service..."
+sudo tee /etc/systemd/system/oasis-rag.service > /dev/null <<EOF
+[Unit]
+Description=O.A.S.I.S. RAG Service (Python Flask, port 5001)
+After=network.target
+# Soft dependency: chatbot will fall back to protocol matching if RAG is down
+
+[Service]
+Type=simple
+User=$TARGET_USER
+WorkingDirectory=$USER_HOME/whisplay-ai-chatbot
+
+ExecStart=$PYTHON3_BIN $USER_HOME/whisplay-ai-chatbot/python/oasis-rag/service.py
+
+Environment=HOME=$USER_HOME
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+
+# Restart only on failure — not on intentional stop
+Restart=on-failure
+RestartSec=5
+
+# Logs (separate from chatbot.log for easy diagnosis)
+StandardOutput=append:$USER_HOME/whisplay-ai-chatbot/oasis-rag.log
+StandardError=append:$USER_HOME/whisplay-ai-chatbot/oasis-rag.log
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# ── 2. Create chatbot.service (with soft dependency on oasis-rag) ─────────────
+echo "Creating chatbot.service..."
 sudo tee /etc/systemd/system/chatbot.service > /dev/null <<EOF
 [Unit]
 Description=Chatbot Service
-After=network.target sound.target
-Wants=sound.target
+After=network.target sound.target oasis-rag.service
+Wants=sound.target oasis-rag.service
 
 [Service]
 Type=simple
@@ -82,13 +120,19 @@ RestartSec=2
 WantedBy=multi-user.target
 EOF
 
-# start the service
-echo "Service file created. Reloading Systemd..."
+# ── 3. Enable and start both services ────────────────────────────────────────
+echo "Service files created. Reloading Systemd..."
 sudo systemctl daemon-reload
+
+sudo systemctl enable oasis-rag.service
+sudo systemctl restart oasis-rag.service
+
 sudo systemctl enable chatbot.service
 sudo systemctl restart chatbot.service
 
-echo "Done! Chatbot is starting..."
+echo "Done! Services are starting..."
 echo "Checking status..."
 sleep 2
+sudo systemctl status oasis-rag --no-pager
+echo ""
 sudo systemctl status chatbot --no-pager
