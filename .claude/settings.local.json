@@ -8,7 +8,9 @@
       "Bash(kill:*)",
       "Bash(cat:*)",
       "Bash(python3:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(/tmp/tree_output.txt:*)",
+      "Read(//tmp/**)"
     ]
   }
 }

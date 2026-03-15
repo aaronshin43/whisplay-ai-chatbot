@@ -1,16 +1,32 @@
 node_modules
-data
-knowledge
-tts_temp
+dist
 /.env
+package-lock.json
+
+# data runtime directories
+data/rag_index/
+data/chat_history/
+data/recordings/
+data/tts/
+data/asr/
+data/images/
+data/camera/
+
+# logs
+chatbot.log
+oasis-rag.log
+
+# python
+**/__pycache__/
+*.pyc
+
+# other
+tts_temp
 emoji_svg
 NotoSansSC-Bold.ttf
 cloud-api/speech.mp3
 python/emoji_svg.zip
-dist
-python/__pycache__/
-chatbot.log
 use_ollama
 use_npm
-package-lock.json
 docker/volume
+*.pdf

@@ -1,3 +1,5 @@
+# FALLBACK ONLY: Used when RAG service is down. Primary: oasis-rag-client.ts
+
 """
 O.A.S.I.S. Protocol Matcher
 - Embeds user input and finds the closest protocol using FAISS

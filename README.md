@@ -129,6 +129,47 @@ If you have a LLM8850 AI Accelerator, you can set up the LLM8850 services for lo
 
 Please refer to the [LLM8850 Integration Guide](https://github.com/PiSugar/whisplay-ai-chatbot/wiki/LLM8850-Integration) for detailed setup instructions.
 
+## O.A.S.I.S. — Offline AI Survival & First-aid Kit (RAG)
+
+This fork adds a 3-Stage Hybrid RAG pipeline optimized for offline emergency first-aid on Raspberry Pi 5.
+
+### Architecture
+
+```
+Voice Input (Whisper ASR)
+  → RAG Retrieval (Python Flask :5001)
+      Stage 1: FAISS vector search  — gte-small 384-dim, top-20
+      Stage 2: Hybrid re-ranking    — cosine 0.6 + BM25 lexical 0.4, top-5
+      Stage 3: Context compression  — sentence-level pruning
+  → LLM (gemma3:1b via Ollama)
+  → Voice Output (Piper TTS)
+```
+
+**Knowledge base:** WHO Basic Emergency Care 2018 (7 files) + Red Cross Wilderness First Aid (10 files) = 317 chunks
+
+**Validation:** 109/109 tests pass — retrieval accuracy, safety, coverage, edge cases, latency (~32ms avg on PC)
+
+### Running the RAG Pipeline
+
+```bash
+# 1. Build the knowledge index (first time or after adding documents)
+bash index_knowledge.sh
+
+# 2. Start services in order
+ollama serve                           # LLM (gemma3:1b)
+cd python/oasis-rag && python app.py   # RAG service (:5001)
+bash run_chatbot.sh                    # Node.js chatbot
+
+# 3. Run validation tests
+cd python/oasis-rag && python validation/run_all.py
+```
+
+### RAG Fallback
+
+If the RAG service is unavailable, `src/cloud-api/local/oasis-matcher-node.ts` provides lightweight protocol matching using embedded vectors (no server required).
+
+---
+
 ## Goals
 
 - Integrate the tool with the API ✅

@@ -1,3 +1,4 @@
+// FALLBACK ONLY: Used when RAG service is down. Primary: oasis-rag-client.ts
 
 import { pipeline, env } from "@xenova/transformers";
 
