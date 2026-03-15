@@ -30,6 +30,8 @@ Rules:
 4. Never diagnose. Never prescribe medication.
 5. If unsure: Call emergency services immediately.
 6. If panicking: Start with 'Take a deep breath. I will guide you.'
+7. Begin directly with step 1. No preambles, disclaimers, or introductions.
+8. Answer in your own words. Never copy or reproduce the reference text.
 
 REFERENCE:
 {context}`;
@@ -47,6 +49,28 @@ Do not explain. Do not reassure. Just tell them what to do.
 
 ACTIVE PROTOCOL:
 {protocol}`;
+
+// ── Spinal injury detection ──────────────────────────────────────────────────
+
+/** Keywords that suggest possible spinal cord injury. */
+const SPINAL_SIGNALS: string[] = [
+    "cannot feel", "can't feel", "cant feel",
+    "paralyz", "numb legs", "numb feet", "numb limb",
+    "neck injury", "spinal", "spine",
+];
+
+/**
+ * Inject a spinal warning into RAG context when the query signals possible
+ * spinal cord injury. The small on-device LLM follows in-context evidence
+ * more reliably than abstract conditional rules.
+ */
+function injectSpinalWarning(context: string, query: string): string {
+    const q = query.toLowerCase();
+    if (SPINAL_SIGNALS.some(s => q.includes(s))) {
+        return "CRITICAL: Possible spinal cord injury. Do not move the person.\n\n" + context;
+    }
+    return context;
+}
 
 // ── Main export ──────────────────────────────────────────────────────────────
 
@@ -67,7 +91,8 @@ export const getSystemPromptFromOasis = async (query: string): Promise<string> =
 
         if (context && context.trim().length > 0) {
             console.log("[OasisAdapter] Using RAG context");
-            return RAG_SYSTEM_PROMPT_TEMPLATE.replace("{context}", context);
+            const enriched = injectSpinalWarning(context, query);
+            return RAG_SYSTEM_PROMPT_TEMPLATE.replace("{context}", enriched);
         }
 
         console.log("[OasisAdapter] RAG returned empty context — falling back");
