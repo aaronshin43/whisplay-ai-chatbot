@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "id": "LAT-001",
+      "passed": true,
+      "note": "avg=29.6ms p50=29.4ms p95=37.9ms max=37.9ms [target<200.0ms]",
+      "details": {
+        "query": "bleeding",
+        "avg_ms": 29.594,
+        "p50_ms": 29.415,
+        "p95_ms": 37.91,
+        "max_ms": 37.91
+      }
+    },
+    {
+      "id": "LAT-002",
+      "passed": true,
+      "note": "avg=47.3ms p50=46.5ms p95=54.3ms max=54.3ms [target<200.0ms]",
+      "details": {
+        "query": "she collapsed and is not breathing",
+        "avg_ms": 47.27,
+        "p50_ms": 46.545,
+        "p95_ms": 54.27,
+        "max_ms": 54.27
+      }
+    },
+    {
+      "id": "LAT-003",
+      "passed": true,
+      "note": "avg=18.6ms p50=19.0ms p95=23.8ms max=23.8ms [target<200.0ms]",
+      "details": {
+        "query": "HELP THERE IS SO MUCH BLOOD OH GOD PLEAS",
+        "avg_ms": 18.5735,
+        "p50_ms": 19.0,
+        "p95_ms": 23.81,
+        "max_ms": 23.81
+      }
+    },
+    {
+      "id": "LAT-004",
+      "passed": true,
+      "note": "avg=28.4ms p50=26.9ms p95=39.7ms max=39.7ms [target<200.0ms]",
+      "details": {
+        "query": "so we were hiking and my friend fell and",
+        "avg_ms": 28.4455,
+        "p50_ms": 26.925,
+        "p95_ms": 39.69,
+        "max_ms": 39.69
+      }
+    }
+  ],
+  "summary": {
+    "overall_avg_ms": 30.97075,
+    "overall_p95_ms": 49.6,
+    "overall_max_ms": 54.27,
+    "pc_target_ms": 200.0,
+    "pi5_target_ms": 2000.0,
+    "pc_pass": true,
+    "pi5_pass": true
+  }
+}

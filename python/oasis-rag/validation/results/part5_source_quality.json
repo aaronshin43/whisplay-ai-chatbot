@@ -1,0 +1,82 @@
+[
+  {
+    "id": "MED-001",
+    "passed": true,
+    "note": "all facts verified",
+    "details": {
+      "failed_facts": [],
+      "facts_total": 2,
+      "facts_passed": 2
+    }
+  },
+  {
+    "id": "MED-002",
+    "passed": true,
+    "note": "all facts verified",
+    "details": {
+      "failed_facts": [],
+      "facts_total": 2,
+      "facts_passed": 2
+    }
+  },
+  {
+    "id": "MED-003",
+    "passed": true,
+    "note": "all facts verified",
+    "details": {
+      "failed_facts": [],
+      "facts_total": 1,
+      "facts_passed": 1
+    }
+  },
+  {
+    "id": "MED-004",
+    "passed": true,
+    "note": "all facts verified",
+    "details": {
+      "failed_facts": [],
+      "facts_total": 2,
+      "facts_passed": 2
+    }
+  },
+  {
+    "id": "MED-005",
+    "passed": true,
+    "note": "all facts verified",
+    "details": {
+      "failed_facts": [],
+      "facts_total": 3,
+      "facts_passed": 3
+    }
+  },
+  {
+    "id": "MED-006",
+    "passed": true,
+    "note": "all facts verified",
+    "details": {
+      "failed_facts": [],
+      "facts_total": 2,
+      "facts_passed": 2
+    }
+  },
+  {
+    "id": "MED-007",
+    "passed": true,
+    "note": "all facts verified",
+    "details": {
+      "failed_facts": [],
+      "facts_total": 2,
+      "facts_passed": 2
+    }
+  },
+  {
+    "id": "MED-008",
+    "passed": true,
+    "note": "all facts verified",
+    "details": {
+      "failed_facts": [],
+      "facts_total": 2,
+      "facts_passed": 2
+    }
+  }
+]

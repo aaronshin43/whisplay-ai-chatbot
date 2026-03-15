@@ -1,0 +1,801 @@
+[
+  {
+    "id": "BLD-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5089577794075012,
+      "source_rank1": "who_bec_module4_shock.md",
+      "sources_all": [
+        "who_bec_module4_shock.md",
+        "redcross_special.md",
+        "redcross_bone_joint.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BLD-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5777875583512443,
+      "source_rank1": "who_bec_skills.md",
+      "sources_all": [
+        "who_bec_skills.md",
+        "who_bec_module2_trauma.md",
+        "who_bec_module2_trauma.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BLD-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5154808044433593,
+      "source_rank1": "who_bec_skills.md",
+      "sources_all": [
+        "who_bec_skills.md",
+        "redcross_wounds.md",
+        "redcross_bites_stings.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BLD-004",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6043587361063276,
+      "source_rank1": "who_bec_skills.md",
+      "sources_all": [
+        "who_bec_skills.md",
+        "who_bec_skills.md",
+        "redcross_wounds.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BLD-005",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5852033662796021,
+      "source_rank1": "who_bec_module2_trauma.md",
+      "sources_all": [
+        "who_bec_module2_trauma.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module2_trauma.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CPR-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5770056330362955,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module3_breathing.md",
+        "who_bec_module3_breathing.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CPR-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5736976953262978,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module3_breathing.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CPR-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5721556397194558,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module3_breathing.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CPR-004",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5761291356796914,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module3_breathing.md",
+        "who_bec_module3_breathing.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CPR-005",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5683682533020669,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_skills.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CHK-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5230342626571655,
+      "source_rank1": "who_bec_module3_breathing.md",
+      "sources_all": [
+        "who_bec_module3_breathing.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module3_breathing.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CHK-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6425186013353282,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CHK-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6502317761552745,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "CHK-004",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5346633911132812,
+      "source_rank1": "who_bec_skills.md",
+      "sources_all": [
+        "who_bec_skills.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "ANA-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5834592146031996,
+      "source_rank1": "redcross_bites_stings.md",
+      "sources_all": [
+        "redcross_bites_stings.md",
+        "who_bec_module5_mental_status.md",
+        "who_bec_module5_mental_status.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "ANA-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6306997849391057,
+      "source_rank1": "redcross_bites_stings.md",
+      "sources_all": [
+        "redcross_bites_stings.md",
+        "redcross_bites_stings.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "ANA-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6151447250292852,
+      "source_rank1": "redcross_bites_stings.md",
+      "sources_all": [
+        "redcross_bites_stings.md",
+        "redcross_bites_stings.md",
+        "redcross_bites_stings.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "ANA-004",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5095805168151856,
+      "source_rank1": "who_bec_module3_breathing.md",
+      "sources_all": [
+        "who_bec_module3_breathing.md",
+        "who_bec_module3_breathing.md",
+        "who_bec_quick_cards.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "SHK-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5384692311286926,
+      "source_rank1": "redcross_bone_joint.md",
+      "sources_all": [
+        "redcross_bone_joint.md",
+        "redcross_heat_emergencies.md",
+        "redcross_heat_emergencies.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "SHK-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6168462486977273,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module4_shock.md",
+        "who_bec_module3_breathing.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "SHK-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5753533988113863,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "TRM-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6446330302470439,
+      "source_rank1": "redcross_bone_joint.md",
+      "sources_all": [
+        "redcross_bone_joint.md",
+        "redcross_bone_joint.md",
+        "redcross_bone_joint.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "TRM-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6504539244883769,
+      "source_rank1": "redcross_bone_joint.md",
+      "sources_all": [
+        "redcross_bone_joint.md",
+        "redcross_bone_joint.md",
+        "who_bec_skills.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "TRM-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5979567170143127,
+      "source_rank1": "who_bec_module2_trauma.md",
+      "sources_all": [
+        "who_bec_module2_trauma.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module2_trauma.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "TRM-004",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6058002471923828,
+      "source_rank1": "who_bec_module2_trauma.md",
+      "sources_all": [
+        "who_bec_module2_trauma.md",
+        "who_bec_module2_trauma.md",
+        "who_bec_module3_breathing.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "TRM-005",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5115824818611144,
+      "source_rank1": "redcross_special.md",
+      "sources_all": [
+        "redcross_special.md",
+        "redcross_special.md",
+        "redcross_special.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BRN-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.603245863047513,
+      "source_rank1": "redcross_burns.md",
+      "sources_all": [
+        "redcross_burns.md",
+        "redcross_bone_joint.md",
+        "redcross_burns.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BRN-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5750663042068481,
+      "source_rank1": "redcross_bone_joint.md",
+      "sources_all": [
+        "redcross_bone_joint.md",
+        "redcross_burns.md",
+        "redcross_bone_joint.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BRN-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6272930470379916,
+      "source_rank1": "redcross_bone_joint.md",
+      "sources_all": [
+        "redcross_bone_joint.md",
+        "redcross_burns.md",
+        "who_bec_skills.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BRT-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6398451899660045,
+      "source_rank1": "who_bec_module3_breathing.md",
+      "sources_all": [
+        "who_bec_module3_breathing.md",
+        "who_bec_module2_trauma.md",
+        "who_bec_quick_cards.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BRT-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5893053431664743,
+      "source_rank1": "who_bec_module3_breathing.md",
+      "sources_all": [
+        "who_bec_module3_breathing.md",
+        "who_bec_module2_trauma.md",
+        "who_bec_module3_breathing.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "BRT-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5691278778711955,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_quick_cards.md",
+        "who_bec_skills.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "AMS-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.6016232967376709,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module2_trauma.md",
+        "who_bec_module2_trauma.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "AMS-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5658011595408121,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module3_breathing.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "AMS-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5811250766118368,
+      "source_rank1": "who_bec_module2_trauma.md",
+      "sources_all": [
+        "who_bec_module2_trauma.md",
+        "who_bec_module1_abcde.md",
+        "who_bec_module5_mental_status.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "AMS-004",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5871540307998657,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "who_bec_module2_trauma.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "AMS-005",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5573254448611561,
+      "source_rank1": "who_bec_module1_abcde.md",
+      "sources_all": [
+        "who_bec_module1_abcde.md",
+        "redcross_special.md",
+        "who_bec_quick_cards.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-001",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5263127088546753,
+      "source_rank1": "who_bec_skills.md",
+      "sources_all": [
+        "who_bec_skills.md",
+        "redcross_bites_stings.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-002",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5749118428230285,
+      "source_rank1": "redcross_cold_emergencies.md",
+      "sources_all": [
+        "redcross_cold_emergencies.md",
+        "redcross_cold_emergencies.md",
+        "redcross_cold_emergencies.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-003",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5476986179480682,
+      "source_rank1": "redcross_lightning.md",
+      "sources_all": [
+        "redcross_lightning.md",
+        "redcross_altitude.md",
+        "redcross_altitude.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-004",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.562615790701749,
+      "source_rank1": "redcross_heat_emergencies.md",
+      "sources_all": [
+        "redcross_heat_emergencies.md",
+        "redcross_cold_emergencies.md",
+        "redcross_heat_emergencies.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-005",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5854374040157423,
+      "source_rank1": "redcross_altitude.md",
+      "sources_all": [
+        "redcross_altitude.md",
+        "redcross_altitude.md",
+        "redcross_altitude.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-006",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5630913123299804,
+      "source_rank1": "redcross_cold_emergencies.md",
+      "sources_all": [
+        "redcross_cold_emergencies.md",
+        "redcross_cold_emergencies.md",
+        "redcross_cold_emergencies.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-007",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.564364744868933,
+      "source_rank1": "redcross_submersion.md",
+      "sources_all": [
+        "redcross_submersion.md",
+        "redcross_submersion.md",
+        "who_bec_module1_abcde.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-008",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5356771230697631,
+      "source_rank1": "redcross_bites_stings.md",
+      "sources_all": [
+        "redcross_bites_stings.md",
+        "redcross_bites_stings.md",
+        "redcross_bites_stings.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-009",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.587792877589955,
+      "source_rank1": "redcross_bites_stings.md",
+      "sources_all": [
+        "redcross_bites_stings.md",
+        "redcross_bites_stings.md",
+        "who_bec_module5_mental_status.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  },
+  {
+    "id": "WLD-010",
+    "passed": true,
+    "note": "",
+    "details": {
+      "score": 0.5697526973836562,
+      "source_rank1": "redcross_bites_stings.md",
+      "sources_all": [
+        "redcross_bites_stings.md",
+        "redcross_bites_stings.md",
+        "who_bec_module5_mental_status.md"
+      ],
+      "missing_keywords": [],
+      "forbidden_found": [],
+      "source_match": true
+    }
+  }
+]

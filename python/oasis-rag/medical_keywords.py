@@ -92,6 +92,8 @@ _TAXONOMY: dict[str, list[str]] = {
         "blister", "eschar", "debridement", "burn dressing",
         "cool water", "do not ice", "burn center",
         "flash burn", "contact burn", "scalding",
+        "scald", "boiling water", "hot water", "steam burn",
+        "burned", "burning skin", "blistering",
     ],
 
     # ── 6. Fractures / Musculoskeletal ────────────────────────────────────
@@ -105,6 +107,8 @@ _TAXONOMY: dict[str, list[str]] = {
         "femur fracture", "tibia fracture", "radius fracture",
         "clavicle fracture", "rib fracture", "pelvic fracture",
         "skull fracture", "crepitus", "neurovascular status",
+        "bone sticking out", "deformed limb", "angulated",
+        "sprain", "strain", "joint injury", "sling", "swathe",
     ],
 
     # ── 7. Neurological / Head Trauma ─────────────────────────────────────
@@ -114,9 +118,14 @@ _TAXONOMY: dict[str, list[str]] = {
         "subdural hematoma", "epidural hematoma", "subarachnoid hemorrhage",
         "Glasgow Coma Scale", "GCS", "pupils", "pupil response",
         "altered consciousness", "loss of consciousness", "LOC",
+        "consciousness", "level of consciousness", "unconscious",
         "seizure", "convulsion", "epilepsy", "status epilepticus",
-        "stroke", "FAST", "facial droop", "arm weakness", "speech",
+        "stroke", "CVA", "cerebrovascular", "FAST assessment",
+        "facial droop", "face drooping", "slurred speech", "arm weakness",
+        "speech difficulty", "sudden weakness", "sudden numbness",
+        "AVPU", "alert", "voice", "pain response", "unresponsive",
         "dizziness", "vertigo", "headache", "vomiting after head injury",
+        "altered mental status", "AMS", "confused", "disoriented",
     ],
 
     # ── 8. Hypothermia / Hyperthermia ─────────────────────────────────────
@@ -126,7 +135,10 @@ _TAXONOMY: dict[str, list[str]] = {
         "heat stroke", "heat exhaustion", "hyperthermia", "heat cramps",
         "sunstroke", "dehydration", "heat index",
         "core temperature", "body temperature", "shivering",
+        "stopped shivering", "not shivering", "rigid muscles",
         "altered mental status from cold", "after-drop",
+        "hypothermia wrap", "warm", "rewarm", "cold skin",
+        "frostbitten", "frozen", "numb fingers", "numb toes",
     ],
 
     # ── 9. Poisoning / Toxicology ─────────────────────────────────────────
@@ -134,12 +146,49 @@ _TAXONOMY: dict[str, list[str]] = {
         "poisoning", "overdose", "intoxication", "toxic ingestion",
         "activated charcoal", "antidote", "naloxone", "Narcan",
         "opioid overdose", "carbon monoxide poisoning", "CO poisoning",
-        "cyanide", "organophosphate", "snake bite", "envenomation",
-        "insect sting", "bee sting", "spider bite", "jellyfish sting",
+        "cyanide", "organophosphate", "snake bite", "snakebite", "envenomation",
+        "insect sting", "bee sting", "wasp sting", "spider bite", "jellyfish sting",
+        "tick bite", "tick removal", "scorpion sting",
+        "venom", "antivenin", "antivenom",
         "corrosive ingestion", "acid", "alkali",
+        "poison ivy", "poison oak", "plant rash", "contact dermatitis",
     ],
 
-    # ── 10. Obstetric / Pediatric ─────────────────────────────────────────
+    # ── 10-A. Anaphylaxis / Allergy (expanded from respiratory) ──────────
+    "anaphylaxis_allergy": [
+        "anaphylaxis", "anaphylactic", "anaphylactic shock", "anaphylactic reaction",
+        "epinephrine", "epipen", "auto-injector", "adrenaline", "IM adrenaline",
+        "severe allergic reaction", "allergic reaction", "allergy", "allergic",
+        "urticaria", "hives", "swelling throat", "throat closing",
+        "lip swelling", "tongue swelling", "angioedema",
+        "bee sting allergy", "food allergy", "peanut allergy",
+        "antihistamine", "diphenhydramine", "benadryl",
+    ],
+
+    # ── 10-B. Diabetic / Metabolic Emergencies ────────────────────────────
+    "metabolic_endocrine": [
+        "diabetic", "diabetes", "diabetic emergency",
+        "insulin", "blood sugar", "glucose", "dextrose",
+        "hypoglycemia", "low blood sugar", "hyperglycemia", "high blood sugar",
+        "diabetic ketoacidosis", "DKA",
+        "sweating confused", "shakiness", "trembling",
+        "orange juice", "sugar", "glucagon",
+    ],
+
+    # ── 10-C. Altitude / Wilderness Emergencies ────────────────────────────
+    "altitude_wilderness": [
+        "altitude", "altitude sickness", "acute mountain sickness", "AMS",
+        "HAPE", "high altitude pulmonary edema",
+        "HACE", "high altitude cerebral edema",
+        "acclimatization", "acclimatize", "descend", "descent",
+        "high elevation", "mountain sickness", "thin air",
+        "headache nausea altitude", "altitude headache",
+        "lightning strike", "lightning storm", "thunder",
+        "avalanche", "buried in snow", "snow burial",
+        "drowning", "submersion", "near-drowning", "water rescue",
+    ],
+
+    # ── 11. Obstetric / Pediatric ─────────────────────────────────────────
     "obstetric_pediatric": [
         "childbirth", "delivery", "emergency delivery", "precipitous labor",
         "cord prolapse", "placenta", "postpartum hemorrhage",
@@ -149,18 +198,22 @@ _TAXONOMY: dict[str, list[str]] = {
         "SIDS", "sudden infant death",
     ],
 
-    # ── 11. Triage / Assessment ───────────────────────────────────────────
+    # ── 12. Triage / Assessment ───────────────────────────────────────────
     "triage_assessment": [
         "triage", "START triage", "SALT triage", "mass casualty",
         "MCI", "immediate", "delayed", "minimal", "expectant",
         "primary survey", "secondary survey", "ABCDE", "SAMPLE history",
         "vital signs", "blood pressure", "heart rate", "respiratory rate",
         "capillary refill", "skin color", "skin temperature",
-        "mental status", "AVPU", "Glasgow Coma Scale",
+        "mental status", "AVPU", "Glasgow Coma Scale", "GCS score",
         "mechanism of injury", "MOI",
+        "consciousness", "level of consciousness", "responsiveness",
+        "pale skin", "cold clammy skin", "sweating", "pallor",
+        "perfusion", "peripheral perfusion", "poor perfusion",
+        "hypovolaemic", "hypovolemic", "blood volume",
     ],
 
-    # ── 12. WHO BEC / IFRC Protocol Terms ────────────────────────────────
+    # ── 13. WHO BEC / IFRC Protocol Terms ────────────────────────────────
     "who_bec_protocol": [
         "basic emergency care", "BEC", "WHO BEC",
         "WHO first aid", "IFRC", "Red Cross",
