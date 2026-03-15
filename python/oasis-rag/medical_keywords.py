@@ -39,6 +39,11 @@ _TAXONOMY: dict[str, list[str]] = {
         "junctional hemorrhage", "wound gauze", "combat gauze",
         "elevation", "pressure point", "femoral artery", "brachial artery",
         "carotid artery", "subclavian artery", "aorta",
+        # ── Colloquial user language ──────────────────────────────────────
+        "blood",                                        # "there is blood everywhere"
+        "wont stop", "won't stop", "cant stop", "can't stop",  # bleeding that won't stop
+        "gushing", "soaking through", "soaked through", "soaked",  # severity descriptors
+        "cut", "cuts", "deep cut", "gash",             # wound descriptions
     ],
 
     # ── 2. Airway Management ──────────────────────────────────────────────
@@ -50,6 +55,11 @@ _TAXONOMY: dict[str, list[str]] = {
         "aspiration", "tongue obstruction", "oropharyngeal", "nasopharyngeal",
         "supraglottic", "intubation", "bag-valve-mask", "BVM",
         "tracheotomy", "cricothyrotomy", "snoring", "apnea",
+        # ── Colloquial user language ──────────────────────────────────────
+        "cant breathe", "can't breathe",               # "I cant breathe"
+        "cant cough", "can't cough",                   # choking: unable to cough
+        "turning blue", "going blue", "lips blue",     # cyanosis descriptors
+        "something stuck", "stuck in throat",          # foreign body
     ],
 
     # ── 3. Breathing / Respiratory ────────────────────────────────────────
@@ -73,13 +83,18 @@ _TAXONOMY: dict[str, list[str]] = {
         "shock", "hypovolemic shock", "cardiogenic shock", "septic shock",
         "anaphylactic shock", "neurogenic shock", "obstructive shock",
         "hypotension", "tachycardia", "bradycardia", "arrhythmia",
-        "heart attack", "myocardial infarction", "MI", "STEMI",
+        "heart attack", "myocardial infarction", "STEMI",  # removed "MI" — substring false-positive in "hypothermia", "coming"
         "chest pain", "angina", "palpitation",
         # Collapse / arrest presentation terms
         "collapse", "collapsed", "sudden collapse", "unresponsive",
         "not breathing", "no breathing", "stopped breathing",
         "rescue breathing", "agonal breathing", "gasping",
         "chain of survival", "ROSC", "return of spontaneous circulation",
+        # ── Colloquial user language ──────────────────────────────────────
+        "dying", "he is dying", "she is dying",        # "he is dying what do i do"
+        "not moving", "wont move", "won't move",       # collapse / unconscious
+        "not waking", "wont wake", "won't wake up",    # unresponsive
+        "heart stopped", "stopped his heart",          # cardiac arrest
     ],
 
     # ── 5. Burns ──────────────────────────────────────────────────────────
@@ -118,8 +133,8 @@ _TAXONOMY: dict[str, list[str]] = {
 
     # ── 7. Neurological / Head Trauma ─────────────────────────────────────
     "neuro_head": [
-        "head injury", "traumatic brain injury", "TBI", "concussion",
-        "intracranial pressure", "ICP", "cerebral hemorrhage",
+        "head injury", "traumatic brain injury", "concussion",  # removed "TBI" — false-positive in "frostbite"
+        "intracranial pressure", "cerebral hemorrhage",         # removed "ICP" — risky short abbreviation
         "subdural hematoma", "epidural hematoma", "subarachnoid hemorrhage",
         "Glasgow Coma Scale", "GCS", "pupils", "pupil response",
         "altered consciousness", "loss of consciousness", "LOC",
@@ -152,6 +167,7 @@ _TAXONOMY: dict[str, list[str]] = {
         "activated charcoal", "antidote", "naloxone", "Narcan",
         "opioid overdose", "carbon monoxide poisoning", "CO poisoning",
         "cyanide", "organophosphate", "snake bite", "snakebite", "envenomation",
+        "snake bit", "bit by snake", "bitten by snake", "bitten",  # past tense variants
         "insect sting", "bee sting", "wasp sting", "spider bite", "jellyfish sting",
         "tick bite", "tick removal", "scorpion sting",
         "venom", "antivenin", "antivenom",
@@ -168,6 +184,11 @@ _TAXONOMY: dict[str, list[str]] = {
         "lip swelling", "tongue swelling", "angioedema",
         "bee sting allergy", "food allergy", "peanut allergy",
         "antihistamine", "diphenhydramine", "benadryl",
+        # ── Colloquial user language ──────────────────────────────────────
+        "throat swelling",                              # word-order fix: "throat swelling" ≠ "swelling throat"
+        "face swelling", "face swollen",               # angioedema descriptors
+        "cant breathe", "can't breathe",               # anaphylaxis presentation
+        "throat closing", "closing throat",            # airway compromise
     ],
 
     # ── 10-B. Diabetic / Metabolic Emergencies ────────────────────────────
@@ -189,6 +210,8 @@ _TAXONOMY: dict[str, list[str]] = {
         "high elevation", "mountain sickness", "thin air",
         "headache nausea altitude", "altitude headache",
         "lightning strike", "lightning storm", "thunder",
+        "lightning",                                    # standalone: "lightning coming no shelter"
+        "struck by lightning", "lightning hit",        # injury scenarios
         "avalanche", "buried in snow", "snow burial",
         "drowning", "submersion", "near-drowning", "water rescue",
     ],
@@ -225,11 +248,50 @@ _TAXONOMY: dict[str, list[str]] = {
         "essential emergency care", "emergency health system",
         "point-of-care", "resource-limited", "low-resource setting",
         "standard precautions", "universal precautions",
-        "personal protective equipment", "PPE", "gloves", "mask",
+        "personal protective equipment", "gloves", "mask",  # removed "PPE" — false-positive in "stopped", "happening"
         "scene safety", "danger assessment", "call for help",
         "do no further harm", "informed consent",
     ],
 }
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Colloquial (detection-only) terms
+#
+# These terms are used to MAP user queries to categories in Stage 1 (detection
+# and keyword_map lookup), but are EXCLUDED from expand_query so they do NOT
+# inflate the query_terms denominator in the Stage 2 lexical score calculation.
+# Medical document chunks use formal clinical language, not colloquial phrases,
+# so including these terms in query_terms would always produce 0 hits and dilute
+# lexical_score for every chunk.
+# ─────────────────────────────────────────────────────────────────────────────
+_COLLOQUIAL_TERMS: frozenset[str] = frozenset({
+    # hemorrhage_control colloquial
+    "blood", "wont stop", "won't stop", "cant stop", "can't stop",
+    "gushing", "soaking through", "soaked through", "soaked",
+    "cut", "cuts", "deep cut", "gash",
+    # airway_management colloquial
+    "cant breathe", "can't breathe", "cant cough", "can't cough",
+    "turning blue", "going blue", "lips blue",
+    "something stuck", "stuck in throat",
+    # circulation_cardiac colloquial
+    "dying", "he is dying", "she is dying",
+    "not moving", "wont move", "won't move",
+    "not waking", "wont wake", "won't wake up",
+    "heart stopped", "stopped his heart",
+    # anaphylaxis_allergy colloquial
+    "throat swelling", "face swelling", "face swollen",
+    "closing throat",
+    # fractures_ortho colloquial
+    "spinal", "spine", "neck injury",
+    "cant feel", "cannot feel", "no feeling", "no sensation",
+    "paralysis", "paralyzed", "paralysed",
+    "numb legs", "numb feet", "numbness below",
+    "dont move", "do not move", "keep still",
+    # altitude_wilderness colloquial
+    "lightning", "struck by lightning", "lightning hit",
+    # poisoning_tox colloquial
+    "snake bit", "bit by snake", "bitten by snake", "bitten",
+})
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Flat set of all keywords (for fast membership testing)
@@ -282,6 +344,10 @@ def expand_query(query: str) -> list[str]:
     """
     Given a user query, detect matching keywords and return all related terms
     from the same categories — useful for query expansion before retrieval.
+
+    Colloquial detection terms (_COLLOQUIAL_TERMS) are excluded from the result
+    because they don't appear in medical document chunk texts and would dilute
+    the Stage-2 lexical score (query_terms denominator) without adding hits.
     """
     detected  = detect_keywords(query)
     seen_cats: set[str] = set()
@@ -292,12 +358,12 @@ def expand_query(query: str) -> list[str]:
             seen_cats.add(category)
             expanded.extend(get_category_terms(category))
 
-    # Deduplicate while preserving order
+    # Deduplicate while preserving order; skip colloquial detection-only terms
     seen: set[str] = set()
     result: list[str] = []
     for t in expanded:
         tl = t.lower()
-        if tl not in seen:
+        if tl not in seen and tl not in _COLLOQUIAL_TERMS:
             seen.add(tl)
             result.append(t)
 
