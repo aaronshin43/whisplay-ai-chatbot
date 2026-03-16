@@ -29,11 +29,71 @@ RAG_URL    = "http://localhost:5001/retrieve"
 OLLAMA_URL = "http://localhost:11434/api/chat"
 DEFAULT_MODEL = "gemma3:1b"
 
-# ── Spinal injury detection ───────────────────────────────────────────────────
+# ── Context injection signals ─────────────────────────────────────────────────
+_CARDIAC_ARREST_SIGNALS = [
+    "collapsed not breathing", "not breathing no pulse", "no pulse not breathing",
+    "cardiac arrest", "no pulse no breath", "not breathing and no pulse",
+    "collapsed no pulse",
+]
+
 _SPINAL_SIGNALS = [
     "cannot feel", "can't feel", "cant feel",
     "paralyz", "numb legs", "numb feet", "numb limb",
     "neck injury", "spinal", "spine",
+]
+
+_FROSTBITE_SIGNALS = [
+    "frostbite", "frost bite", "frostbitten", "frozen finger", "frozen toe",
+]
+
+_PANIC_BLOOD_SIGNALS = [
+    "theres so much blood", "there's so much blood", "so much blood",
+]
+
+_NO_EPIPEN_SIGNALS = [
+    "no epipen", "no epinephrine", "dont have epipen",
+    "don't have epipen", "without epipen", "no auto-injector",
+]
+
+_LIGHTNING_SIGNALS = [
+    "lightning", "thunder", "struck by lightning", "lightning strike",
+    "lightning coming", "lightning outside",
+]
+
+_BURN_SIGNALS = [
+    "burn", "burnt", "scalded", "scald", "boiling water", "hot water on",
+    "on fire", "caught fire", "flame",
+]
+
+_SNAKEBITE_SIGNALS = [
+    "snake", "snakebite", "snake bite", "snake bit", "bitten by snake", "venom",
+]
+
+_HYPOTHERMIA_SIGNALS = [
+    "hypothermia", "hypothermic", "stopped shivering", "stop shivering",
+    "freezing person", "frozen person",
+]
+
+_HEAT_STROKE_SIGNALS = [
+    "heat stroke", "heatstroke", "heat exhaustion",
+    "hot skin", "not sweating", "overheated",
+]
+
+_CHOKING_SIGNALS = [
+    "choking", "chok", "can't cough", "cant cough", "turning blue",
+    "unable to cough", "foreign body airway",
+]
+
+_HEART_ATTACK_SIGNALS = [
+    "heart attack", "having a heart attack", "think i have a heart attack",
+    "think i'm having",
+]
+
+_BLOCKED_MEDICAL_TERMS = [
+    "antibiotic", "ceftriaxone", "cefotaxime", "amoxicillin",
+    "clindamycin", "vancomycin", "broad-spectrum", "azithromycin",
+    "penicillin", "cephalosporin", "ciprofloxacin", "metronidazole",
+    "tetracycline", "doxycycline",
 ]
 
 # ── System prompt ─────────────────────────────────────────────────────────────
@@ -196,10 +256,119 @@ def main() -> None:
         context, chunks, rag_ms = retrieve(query)
 
         if context:
-            # Spinal injection
             q_lower = query.lower()
+
+            if any(sig in q_lower for sig in _CARDIAC_ARREST_SIGNALS):
+                context = (
+                    "CARDIAC ARREST PROTOCOL — ACT NOW:\n"
+                    "1. CALL emergency services (911/999/112) immediately.\n"
+                    "2. BEGIN chest compressions: push hard and fast on centre of chest.\n"
+                    "3. Rate: 100-120 compressions per minute. Depth: 5-6 cm.\n"
+                    "4. After 30 compressions, give 2 rescue breaths.\n"
+                    "5. Continue 30:2 cycle until emergency services arrive.\n\n"
+                ) + context
+
             if any(sig in q_lower for sig in _SPINAL_SIGNALS):
-                context = "CRITICAL: Possible spinal cord injury. Do not move the person.\n\n" + context
+                context = context + (
+                    "\n\n⚠ OVERRIDE: SUSPECTED SPINAL CORD INJURY.\n"
+                    "STEP 1 MUST BE: Do NOT move the person. Keep head and neck completely still.\n"
+                    "Do NOT perform any assessment that requires moving the patient.\n"
+                )
+
+            if any(sig in q_lower for sig in _FROSTBITE_SIGNALS):
+                context = (
+                    "CRITICAL: This is FROSTBITE (cold injury).\n"
+                    "Move to WARM shelter immediately. Do NOT move to cool or shaded area.\n"
+                    "Rewarm the affected area with WARM (not hot) water 37-39°C.\n"
+                    "Do NOT rub the frostbitten area. Do NOT use snow or cold water.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _PANIC_BLOOD_SIGNALS):
+                context = (
+                    "EMERGENCY BLEEDING PROTOCOL:\n"
+                    "- CALL EMERGENCY SERVICES immediately.\n"
+                    "- Apply direct PRESSURE to the wound with your hands.\n"
+                    "- Use cloth, shirt or any fabric and press firmly.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _NO_EPIPEN_SIGNALS):
+                context = (
+                    "CRITICAL: NO EPINEPHRINE available. Epipen NOT available.\n"
+                    "MANDATORY FIRST STEPS:\n"
+                    "1. Call emergency services immediately (911/999/112).\n"
+                    "2. Lay the person flat, legs elevated if no breathing difficulty.\n"
+                    "3. Give antihistamine if available.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _LIGHTNING_SIGNALS):
+                context = (
+                    "LIGHTNING SAFETY PROTOCOL:\n"
+                    "1. Do NOT stand under trees, poles, or tall objects.\n"
+                    "2. CROUCH LOW on balls of feet, feet together, head down.\n"
+                    "3. Keep 20 metres from other people.\n"
+                    "4. Move to a solid building or hard-topped vehicle if reachable.\n"
+                    "5. Stay away from open fields, hilltops, water, and metal objects.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _BURN_SIGNALS):
+                context = context + (
+                    "\n\n⚠ BURN PROTOCOL — MANDATORY STEP 1:\n"
+                    "COOL the burn under COOL running water for 20 minutes.\n"
+                    "Do NOT skip this step. Do NOT use ice, butter, or warm/hot water.\n"
+                    "After cooling: remove jewellery, cover loosely with cling film.\n"
+                    "Call emergency services for large, deep, or facial burns.\n"
+                )
+
+            if any(sig in q_lower for sig in _CHOKING_SIGNALS):
+                context = (
+                    "CHOKING PROTOCOL — PERFORM NOW:\n"
+                    "1. Give 5 firm BACK BLOWS between shoulder blades with heel of hand.\n"
+                    "2. Give 5 ABDOMINAL THRUSTS (Heimlich): stand behind, pull inward and upward.\n"
+                    "3. Alternate 5 back blows + 5 abdominal thrusts until object clears.\n"
+                    "4. If unconscious: lower to ground, call 911, begin CPR.\n"
+                    "5. Do NOT do a blind finger sweep.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _SNAKEBITE_SIGNALS):
+                context = (
+                    "SNAKEBITE PROTOCOL:\n"
+                    "1. KEEP THE PERSON STILL and calm — movement spreads venom faster.\n"
+                    "2. Immobilize the bitten limb at or below heart level.\n"
+                    "3. Remove watches, rings, tight clothing from the affected limb.\n"
+                    "4. Call emergency services or transport to hospital URGENTLY.\n"
+                    "5. Do NOT cut the wound, suck the venom, or apply tourniquet.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _HYPOTHERMIA_SIGNALS):
+                context = (
+                    "HYPOTHERMIA PROTOCOL — This is COLD INJURY, NOT heat illness:\n"
+                    "1. Move the person to WARM shelter immediately.\n"
+                    "2. Remove wet clothing; replace with dry insulation (blankets, sleeping bag).\n"
+                    "3. Warm the core (trunk/torso) first, not extremities.\n"
+                    "4. Give warm fluids ONLY if the person is conscious and can swallow.\n"
+                    "5. Handle gently — a cold heart is prone to dangerous arrhythmia.\n"
+                    "Do NOT cool this person. Do NOT give cold fluids. Do NOT rub vigorously.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _HEAT_STROKE_SIGNALS):
+                context = (
+                    "HEAT STROKE EMERGENCY — ACT IMMEDIATELY:\n"
+                    "1. MOVE the person to shade or a cool area NOW.\n"
+                    "2. Remove excess clothing.\n"
+                    "3. Cool with cool water — douse, spray, or immerse in cool water.\n"
+                    "4. Fan the person while keeping them wet.\n"
+                    "5. Call emergency services. Heat stroke is life-threatening.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _HEART_ATTACK_SIGNALS):
+                context = (
+                    "HEART ATTACK PROTOCOL:\n"
+                    "1. CALL emergency services IMMEDIATELY (911/999/112).\n"
+                    "2. Sit or lie the person down in a comfortable position.\n"
+                    "3. Loosen tight clothing around neck and chest.\n"
+                    "4. If conscious and not allergic: chew one adult aspirin (300 mg).\n"
+                    "5. Do NOT leave the person alone. Monitor breathing.\n\n"
+                ) + context
 
             top       = chunks[0] if chunks else {}
             top_src   = top.get("source", "?")

@@ -68,10 +68,10 @@
   {
     "id": "COV-007",
     "passed": true,
-    "note": "[CPR] cosine=0.8313 hybrid=0.5683",
+    "note": "[CPR] cosine=0.8611 hybrid=0.6123",
     "details": {
-      "cosine": 0.831305980682373,
-      "hybrid": 0.5683488058007282,
+      "cosine": 0.8610643744468689,
+      "hybrid": 0.6122907985811648,
       "has_context": true,
       "scenario": "CPR"
     }

@@ -12,9 +12,9 @@
   {
     "id": "EDG-002",
     "passed": true,
-    "note": "응답이 비어있으면 안 됨 | score=0.5490",
+    "note": "응답이 비어있으면 안 됨 | score=0.5756",
     "details": {
-      "score": 0.5489814354448902,
+      "score": 0.5755895327548591,
       "has_context": true,
       "missing": []
     }

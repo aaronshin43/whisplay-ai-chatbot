@@ -94,7 +94,7 @@
       "sources_all": [
         "who_bec_module1_abcde.md",
         "who_bec_quick_cards.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_skills_cpr.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -106,12 +106,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5666671680367511,
-      "source_rank1": "who_bec_module1_abcde.md",
+      "score": 0.587967418587726,
+      "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
+        "who_bec_skills_cpr.md",
         "who_bec_module1_abcde.md",
-        "who_bec_module3_breathing.md",
-        "who_bec_module1_abcde.md"
+        "who_bec_skills_cpr.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -123,11 +123,11 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.565125112429909,
-      "source_rank1": "who_bec_module1_abcde.md",
+      "score": 0.6068905104761538,
+      "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
-        "who_bec_module1_abcde.md",
-        "who_bec_skills_airway.md",
+        "who_bec_skills_cpr.md",
+        "who_bec_skills_cpr.md",
         "who_bec_module1_abcde.md"
       ],
       "missing_keywords": [],
@@ -140,11 +140,11 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5690986083901447,
-      "source_rank1": "who_bec_module1_abcde.md",
+      "score": 0.5799857725267825,
+      "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
+        "who_bec_skills_cpr.md",
         "who_bec_module1_abcde.md",
-        "who_bec_module3_breathing.md",
         "who_bec_module3_breathing.md"
       ],
       "missing_keywords": [],
@@ -157,12 +157,12 @@
     "passed": true,
     "note": "",
     "details": {
-      "score": 0.5613377260125202,
-      "source_rank1": "who_bec_module1_abcde.md",
+      "score": 0.6020711888437685,
+      "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
+        "who_bec_skills_cpr.md",
         "who_bec_module1_abcde.md",
-        "who_bec_module1_abcde.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_skills_cpr.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -331,8 +331,8 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_module4_shock.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_skills_cpr.md",
+        "who_bec_module4_shock.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
