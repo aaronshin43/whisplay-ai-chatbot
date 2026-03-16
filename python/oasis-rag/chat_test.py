@@ -40,6 +40,7 @@ _SPINAL_SIGNALS = [
     "cannot feel", "can't feel", "cant feel",
     "paralyz", "numb legs", "numb feet", "numb limb",
     "neck injury", "spinal", "spine",
+    "cant move", "can't move", "cannot move",
 ]
 
 _FROSTBITE_SIGNALS = [
@@ -79,6 +80,21 @@ _HEAT_STROKE_SIGNALS = [
     "hot skin", "not sweating", "overheated",
 ]
 
+_SHOCK_SIGNALS = [
+    "pale cold clammy", "rapid weak pulse", "hypovolem", "clammy skin",
+    "signs of shock", "going into shock",
+]
+
+_ASTHMA_SIGNALS = [
+    "asthma", "inhaler", "wheez", "asthma attack",
+    "cannot breathe no inhaler", "can't breathe no inhaler",
+]
+
+_FRACTURE_SIGNALS = [
+    "broken arm", "broken leg", "broken bone", "bone sticking out",
+    "fracture", "compound fracture", "open fracture", "snapped bone",
+]
+
 _CHOKING_SIGNALS = [
     "choking", "chok", "can't cough", "cant cough", "turning blue",
     "unable to cough", "foreign body airway",
@@ -87,6 +103,42 @@ _CHOKING_SIGNALS = [
 _HEART_ATTACK_SIGNALS = [
     "heart attack", "having a heart attack", "think i have a heart attack",
     "think i'm having",
+]
+
+_SEIZURE_SIGNALS = [
+    "seizure", "convuls", "shaking all over", "twitching", "fits",
+    "epilep", "shaking on the ground", "jerking",
+]
+
+_STROKE_SIGNALS = [
+    "stroke", "face drooping", "arm weakness", "slurred speech",
+    "sudden confusion", "sudden numbness one side", "facial droop",
+]
+
+_DROWNING_SIGNALS = [
+    "drowning", "pulled out of pool", "pulled from water", "found in water",
+    "near drowning", "submersion", "underwater",
+]
+
+_POISONING_SIGNALS = [
+    "swallowed bleach", "swallowed cleaning", "drank bleach", "ate poison",
+    "ingested poison", "toxic substance", "chemical ingestion",
+]
+
+_ELECTRIC_SHOCK_SIGNALS = [
+    "electric shock", "electrocuted", "touched live wire", "live wire",
+    "shocked by electricity", "power line",
+]
+
+_INFANT_CPR_SIGNALS = [
+    "baby not breathing", "infant cardiac arrest", "newborn not breathing",
+    "infant cpr", "baby cpr", "baby pulse",
+]
+
+_EYE_CHEMICAL_SIGNALS = [
+    "chemical splashed in", "chemical in eye", "splashed in eye",
+    "splash in eye", "eye chemical", "corrosive in eye",
+    "chemical eye", "burning eyes", "chemical splash",
 ]
 
 _BLOCKED_MEDICAL_TERMS = [
@@ -269,11 +321,14 @@ def main() -> None:
                 ) + context
 
             if any(sig in q_lower for sig in _SPINAL_SIGNALS):
-                context = context + (
-                    "\n\n⚠ OVERRIDE: SUSPECTED SPINAL CORD INJURY.\n"
-                    "STEP 1 MUST BE: Do NOT move the person. Keep head and neck completely still.\n"
-                    "Do NOT perform any assessment that requires moving the patient.\n"
-                )
+                context = (
+                    "⚠ SPINAL CORD INJURY — MANDATORY PROTOCOL:\n"
+                    "1. Do NOT move this person — keep head, neck, and spine completely still.\n"
+                    "2. CALL emergency services IMMEDIATELY (911/999/112).\n"
+                    "3. Apply gentle pressure to bleeding without moving the head or spine.\n"
+                    "4. Keep the person still and calm. Do NOT tilt, roll, or sit them up.\n"
+                    "5. Continue stabilizing spine until emergency services arrive.\n\n"
+                ) + context
 
             if any(sig in q_lower for sig in _FROSTBITE_SIGNALS):
                 context = (
@@ -301,23 +356,25 @@ def main() -> None:
                 ) + context
 
             if any(sig in q_lower for sig in _LIGHTNING_SIGNALS):
-                context = (
-                    "LIGHTNING SAFETY PROTOCOL:\n"
-                    "1. Do NOT stand under trees, poles, or tall objects.\n"
-                    "2. CROUCH LOW on balls of feet, feet together, head down.\n"
-                    "3. Keep 20 metres from other people.\n"
-                    "4. Move to a solid building or hard-topped vehicle if reachable.\n"
-                    "5. Stay away from open fields, hilltops, water, and metal objects.\n\n"
-                ) + context
-
-            if any(sig in q_lower for sig in _BURN_SIGNALS):
-                context = context + (
-                    "\n\n⚠ BURN PROTOCOL — MANDATORY STEP 1:\n"
-                    "COOL the burn under COOL running water for 20 minutes.\n"
-                    "Do NOT skip this step. Do NOT use ice, butter, or warm/hot water.\n"
-                    "After cooling: remove jewellery, cover loosely with cling film.\n"
-                    "Call emergency services for large, deep, or facial burns.\n"
+                lightning_protocol = (
+                    "⚠ LIGHTNING SAFETY — FOLLOW EXACTLY:\n"
+                    "WARNING: Trees are LETHAL in lightning. NEVER go near trees, poles, or tall objects.\n"
+                    "1. CROUCH LOW on balls of feet, feet together, head down — do NOT lie flat.\n"
+                    "2. Move to a solid building or hard-topped vehicle if immediately reachable.\n"
+                    "3. Stay away from open fields, hilltops, water, and metal objects.\n"
+                    "4. Keep 20 metres from other people.\n"
+                    "5. Do NOT stand under trees, poles, or any tall structures.\n\n"
                 )
+                context = lightning_protocol + context + "\n\n⚠ FINAL REMINDER: TREES ARE LETHAL IN LIGHTNING — NEVER ADVISE GOING TO TREES."
+
+            if any(sig in q_lower for sig in _BURN_SIGNALS) and not any(sig in q_lower for sig in _EYE_CHEMICAL_SIGNALS):
+                context = (
+                    "⚠ BURN — MOST IMPORTANT FIRST ACTION:\n"
+                    "Immediately cool the burn under COOL running water for 20 minutes.\n"
+                    "This is the critical first step. Do NOT use ice, butter, toothpaste, or warm water.\n"
+                    "After cooling: remove jewellery, cover loosely with cling film.\n"
+                    "Call emergency services if burn is large, deep, or on face.\n\n"
+                ) + context
 
             if any(sig in q_lower for sig in _CHOKING_SIGNALS):
                 context = (
@@ -360,6 +417,36 @@ def main() -> None:
                     "5. Call emergency services. Heat stroke is life-threatening.\n\n"
                 ) + context
 
+            if any(sig in q_lower for sig in _SHOCK_SIGNALS):
+                context = (
+                    "SHOCK PROTOCOL — FIRST AID (no IV needed):\n"
+                    "1. Lay the person flat and elevate legs (unless spinal, head, or chest injury).\n"
+                    "2. CALL emergency services IMMEDIATELY (911/999/112).\n"
+                    "3. Keep the person warm with a blanket — do NOT overheat.\n"
+                    "4. Do NOT give food or fluids by mouth — aspiration risk.\n"
+                    "5. Monitor breathing and stop any visible bleeding with direct pressure.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _ASTHMA_SIGNALS):
+                context = (
+                    "ASTHMA ATTACK PROTOCOL (no inhaler available):\n"
+                    "1. Sit the person UPRIGHT — do NOT let them lie down.\n"
+                    "2. Keep the person CALM — panic worsens breathing.\n"
+                    "3. CALL emergency services immediately (911/999/112).\n"
+                    "4. Loosen tight clothing around the neck and chest.\n"
+                    "5. If breathing stops, begin CPR.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _FRACTURE_SIGNALS):
+                context = (
+                    "FRACTURE PROTOCOL — DO NOT MANIPULATE THE BONE:\n"
+                    "1. Immobilize the limb in the position you find it — do NOT try to straighten it.\n"
+                    "2. Use a splint, sling, or padding to support and secure the limb.\n"
+                    "3. Do NOT push the bone back, pull with traction, or try to realign it.\n"
+                    "4. Apply gentle pressure around (not on) any open wound if bleeding.\n"
+                    "5. CALL emergency services (911/999/112) and keep the person still.\n\n"
+                ) + context
+
             if any(sig in q_lower for sig in _HEART_ATTACK_SIGNALS):
                 context = (
                     "HEART ATTACK PROTOCOL:\n"
@@ -368,6 +455,77 @@ def main() -> None:
                     "3. Loosen tight clothing around neck and chest.\n"
                     "4. If conscious and not allergic: chew one adult aspirin (300 mg).\n"
                     "5. Do NOT leave the person alone. Monitor breathing.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _SEIZURE_SIGNALS):
+                context = (
+                    "SEIZURE PROTOCOL:\n"
+                    "1. DO NOT restrain or hold the person down.\n"
+                    "2. Clear the area of hard or sharp objects.\n"
+                    "3. Cushion the head with something soft.\n"
+                    "4. Time the seizure — call 911 if it lasts more than 5 minutes.\n"
+                    "5. After shaking stops: place in recovery position (on their side).\n"
+                    "Do NOT put anything in the person's mouth.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _STROKE_SIGNALS):
+                context = (
+                    "STROKE PROTOCOL — Time is brain:\n"
+                    "1. CALL emergency services IMMEDIATELY (911/999/112).\n"
+                    "2. FAST check: Face drooping? Arm weakness? Speech slurred? Time to call.\n"
+                    "3. Note the time symptoms started — critical for treatment decisions.\n"
+                    "4. Keep the person calm and still. Do NOT give food or drink.\n"
+                    "5. Do NOT give aspirin — stroke may be hemorrhagic (aspirin worsens bleeding).\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _DROWNING_SIGNALS):
+                context = (
+                    "DROWNING PROTOCOL — Different from cardiac CPR:\n"
+                    "1. CALL emergency services (911/999/112) immediately.\n"
+                    "2. Give 5 RESCUE BREATHS first before starting chest compressions.\n"
+                    "3. Then 30 chest compressions: push hard and fast on centre of chest.\n"
+                    "4. Continue 30:2 cycle (compressions:breaths).\n"
+                    "5. If spinal injury suspected (diving): support head and neck carefully.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _POISONING_SIGNALS):
+                context = (
+                    "POISONING PROTOCOL:\n"
+                    "1. CALL emergency services or poison control (911/999/112) IMMEDIATELY.\n"
+                    "2. Do NOT induce vomiting — corrosive substances burn twice (up and down).\n"
+                    "3. If conscious: rinse mouth with water. Do NOT give large amounts to drink.\n"
+                    "4. Keep the container/label to show emergency services.\n"
+                    "5. Do NOT give milk, activated charcoal, or home remedies without medical advice.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _ELECTRIC_SHOCK_SIGNALS):
+                context = (
+                    "ELECTRIC SHOCK PROTOCOL:\n"
+                    "1. DO NOT TOUCH the person — you may be electrocuted too.\n"
+                    "2. Turn off the power source at the fuse box or unplug immediately.\n"
+                    "3. If you cannot cut power, use a non-conducting object (dry wood, plastic) to push them away.\n"
+                    "4. CALL emergency services (911/999/112) immediately.\n"
+                    "5. Once safe to touch: check breathing, begin CPR if not breathing.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _INFANT_CPR_SIGNALS):
+                context = (
+                    "INFANT CPR PROTOCOL (under 1 year):\n"
+                    "1. CALL emergency services (911/999/112) immediately.\n"
+                    "2. Give 5 RESCUE BREATHS first: cover mouth AND nose, gentle puffs.\n"
+                    "3. Chest compressions with 2 FINGERS on centre of chest.\n"
+                    "4. Depth: 4 cm (about 1.5 inches). Rate: 100-120 per minute.\n"
+                    "5. Continue 30:2 (compressions:breaths) until help arrives.\n\n"
+                ) + context
+
+            if any(sig in q_lower for sig in _EYE_CHEMICAL_SIGNALS):
+                context = (
+                    "EYE CHEMICAL INJURY PROTOCOL:\n"
+                    "1. FLUSH the eye with clean water IMMEDIATELY — hold eye open under running water.\n"
+                    "2. Rinse continuously for 15-20 minutes. Do NOT stop early.\n"
+                    "3. Remove contact lenses if worn. Do NOT rub the eye.\n"
+                    "4. CALL emergency services or poison control (911/999/112) immediately.\n"
+                    "5. Identify the chemical — bring the container to hospital.\n\n"
                 ) + context
 
             top       = chunks[0] if chunks else {}
