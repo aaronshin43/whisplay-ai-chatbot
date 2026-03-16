@@ -26,9 +26,6 @@ as nausea (in individuals with food
 allergies).
 Figure 1
 
-dna
-seigrella
-sixalyHpana
 
 ### To give CARE:
 - remove the allergen (e.g., bees, food) or move the person away from the allergen.
@@ -62,9 +59,6 @@ difficulty breathing; signs of shock; or nausea, vomiting or cramping.
  you know someone has come into contact with an allergen and shows any
 signs or symptoms of shock.
 
-dna
-seigrella
-sixalyHpana
 
 ### To give CARE:
 - Keep everyone calm.
@@ -98,9 +92,6 @@ this person.
 if the medication is visible, confirm that the liquid is clear and not cloudy. if it is
 cloudy, do not use it.
 
-dna
-seigrella
-sixalyHpana
  locate the outside middle of one
 thigh to use as the injection site
 (figure 4).
@@ -173,10 +164,6 @@ their stinger. if you use tweezers, grasp the stinger, not the venom sac.
 - wash the site and cover it to keep the site clean.
 - apply cold to the area.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 
 ### Venomous Snakebites
 When CHECKing the person, look, listen and feel for:
@@ -213,10 +200,6 @@ In serious infections:
 - appearance of red streaks just under the skin near the wound.
 - systemic fever.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 
 ### To give CARE:
 For mild infections:
@@ -282,7 +265,6 @@ brown recluse spider:
 - apply wound gel.
 - Bandage the wound.
 - apply a cold pack to the site.
-gninosiop
 
 - if it is available, give the person antivenin (a medication that blocks the effects of
 poisonous venom).
@@ -315,7 +297,6 @@ available, use a baking soda slurry.
 - when stinging stops, care for pain with hot water immersion.
 NOTE f or a portuguese man-of-war sting, flush with ocean water instead of vinegar.
 special situations 103
-gninosiop
 
 For a stingray sting:
 - flush the wound with tap water or ocean water.
@@ -385,7 +366,6 @@ a seizure.
 - evacuate rapidly—GO FAST—anyone who has a seizure in the water or who
 does not regain consciousness following a seizure.
 special situations 105
-seruzies
 
 
 ### Snow Blindness

@@ -13,10 +13,10 @@
   {
     "id": "COV-002",
     "passed": true,
-    "note": "[fractures] cosine=0.8733 hybrid=0.6429",
+    "note": "[fractures] cosine=0.8708 hybrid=0.6414",
     "details": {
-      "cosine": 0.873349130153656,
-      "hybrid": 0.6429283970111125,
+      "cosine": 0.8707984685897827,
+      "hybrid": 0.6413980000727886,
       "has_context": true,
       "scenario": "fractures"
     }
@@ -24,10 +24,10 @@
   {
     "id": "COV-003",
     "passed": true,
-    "note": "[burns] cosine=0.8894 hybrid=0.6427",
+    "note": "[burns] cosine=0.8890 hybrid=0.6425",
     "details": {
-      "cosine": 0.8893648386001587,
-      "hybrid": 0.6427098122510043,
+      "cosine": 0.8890321254730225,
+      "hybrid": 0.6425101843747226,
       "has_context": true,
       "scenario": "burns"
     }
@@ -46,10 +46,10 @@
   {
     "id": "COV-005",
     "passed": true,
-    "note": "[allergic reactions] cosine=0.8916 hybrid=0.6580",
+    "note": "[allergic reactions] cosine=0.8983 hybrid=0.6620",
     "details": {
-      "cosine": 0.891589879989624,
-      "hybrid": 0.6580308510706975,
+      "cosine": 0.8982579708099365,
+      "hybrid": 0.6620317055628849,
       "has_context": true,
       "scenario": "allergic reactions"
     }
@@ -90,10 +90,10 @@
   {
     "id": "COV-009",
     "passed": true,
-    "note": "[trauma] cosine=0.8724 hybrid=0.5235",
+    "note": "[trauma] cosine=0.8756 hybrid=0.5254",
     "details": {
-      "cosine": 0.8724309802055359,
-      "hybrid": 0.5234585881233215,
+      "cosine": 0.8755960464477539,
+      "hybrid": 0.5253576278686524,
       "has_context": true,
       "scenario": "trauma"
     }
@@ -211,10 +211,10 @@
   {
     "id": "COV-020",
     "passed": true,
-    "note": "[hypothermia] cosine=0.8622 hybrid=0.6206",
+    "note": "[hypothermia] cosine=0.8636 hybrid=0.6214",
     "details": {
-      "cosine": 0.8622267842292786,
-      "hybrid": 0.6205618769891801,
+      "cosine": 0.8635735511779785,
+      "hybrid": 0.6213699371584,
       "has_context": true,
       "scenario": "hypothermia"
     }
@@ -222,10 +222,10 @@
   {
     "id": "COV-021",
     "passed": true,
-    "note": "[heat stroke] cosine=0.8958 hybrid=0.5686",
+    "note": "[heat stroke] cosine=0.8994 hybrid=0.5708",
     "details": {
-      "cosine": 0.8957808017730713,
-      "hybrid": 0.5686373122326739,
+      "cosine": 0.8993613719940186,
+      "hybrid": 0.5707856543652423,
       "has_context": true,
       "scenario": "heat stroke"
     }
@@ -233,10 +233,10 @@
   {
     "id": "COV-022",
     "passed": true,
-    "note": "[lightning] cosine=0.7758 hybrid=0.6227",
+    "note": "[lightning] cosine=0.7779 hybrid=0.6239",
     "details": {
-      "cosine": 0.7758476734161377,
-      "hybrid": 0.6226514611925398,
+      "cosine": 0.7779009938240051,
+      "hybrid": 0.6238834534372601,
       "has_context": true,
       "scenario": "lightning"
     }
@@ -244,10 +244,10 @@
   {
     "id": "COV-023",
     "passed": true,
-    "note": "[altitude sickness] cosine=0.9185 hybrid=0.7140",
+    "note": "[altitude sickness] cosine=0.9168 hybrid=0.7131",
     "details": {
-      "cosine": 0.9184623956680298,
-      "hybrid": 0.7140404003637808,
+      "cosine": 0.9168183207511902,
+      "hybrid": 0.7130539554136771,
       "has_context": true,
       "scenario": "altitude sickness"
     }
@@ -255,10 +255,10 @@
   {
     "id": "COV-024",
     "passed": true,
-    "note": "[frostbite] cosine=0.8830 hybrid=0.6072",
+    "note": "[frostbite] cosine=0.8971 hybrid=0.6157",
     "details": {
-      "cosine": 0.8829622864723206,
-      "hybrid": 0.607196726722102,
+      "cosine": 0.8971219062805176,
+      "hybrid": 0.6156924986070201,
       "has_context": true,
       "scenario": "frostbite"
     }
@@ -266,10 +266,10 @@
   {
     "id": "COV-025",
     "passed": true,
-    "note": "[drowning] cosine=0.7781 hybrid=0.6298",
+    "note": "[drowning] cosine=0.7803 hybrid=0.6312",
     "details": {
-      "cosine": 0.7780940532684326,
-      "hybrid": 0.6298193949240225,
+      "cosine": 0.7803391218185425,
+      "hybrid": 0.6311664360540885,
       "has_context": true,
       "scenario": "drowning"
     }
@@ -288,10 +288,10 @@
   {
     "id": "COV-027",
     "passed": true,
-    "note": "[diabetic emergency] cosine=0.8896 hybrid=0.5829",
+    "note": "[diabetic emergency] cosine=0.8371 hybrid=0.5725",
     "details": {
-      "cosine": 0.8896411657333374,
-      "hybrid": 0.5829075064575463,
+      "cosine": 0.8371354937553406,
+      "hybrid": 0.5724567348496955,
       "has_context": true,
       "scenario": "diabetic emergency"
     }
@@ -321,10 +321,10 @@
   {
     "id": "COV-030",
     "passed": true,
-    "note": "[eye injury] cosine=0.8533 hybrid=0.5120",
+    "note": "[eye injury] cosine=0.8660 hybrid=0.5196",
     "details": {
-      "cosine": 0.8533431887626648,
-      "hybrid": 0.5120059132575988,
+      "cosine": 0.8660272359848022,
+      "hybrid": 0.5196163415908813,
       "has_context": true,
       "scenario": "eye injury"
     }

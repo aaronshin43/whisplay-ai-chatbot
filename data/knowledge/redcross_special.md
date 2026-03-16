@@ -33,10 +33,6 @@ scene becomes safe.
 - identify available resources, including materials and additional
 trained responders.
 
-roF
-eraC—llaC—KCeHC
-ssenredliW
-eHt
 
 ### CHECK the Person
 
@@ -68,10 +64,6 @@ Figure 2
 scanning the body for severe bleeding. if severely bleeding, use direct pressure to
 control the bleeding.
 
-roF
-eraC—llaC—KCeHC
-ssenredliW
-eHt
 - D = look for any disability as a result of damage to the spinal cord. if you
 suspect a spinal injury, minimize movement of the head, neck and spine.
 manually support the head in the position found.
@@ -111,10 +103,6 @@ what happened
  A+O×2: knows only who and where
  A+O×1: knows only who
 
-roF
-eraC—llaC—KCeHC
-ssenredliW
-eHt
 - V = responds only to verbal stimuli (e.g., by grimacing or rolling away from
 your voice when you speak or shout)
 - P = responds only to painful stimuli (e.g., pinch)
@@ -152,10 +140,6 @@ treatment, may provide useful information to emergency response personnel and
 aid in collecting the samPle history. However, each step in the samPle history
 still must be asked, even if such forms are available for reference.
 
-roF
-eraC—llaC—KCeHC
-ssenredliW
-eHt
 
 ### CAlling for help:
 
@@ -251,10 +235,6 @@ describe it on report form.
 quadrant quadrant
 Figure 2
 special situations 87
-seirujni
-lanimodba
-sessenlli
-dna
 
 
 ### Asthma Attack
@@ -417,7 +397,6 @@ use the power in your legs to get up
 and move.
 4. move the person to safety.
 special situations 95
-dna
 ycnegreme
 sevom
 ycnegreme-non
@@ -460,7 +439,6 @@ Figure 5
 blanket under the person.
 5. roll the person onto the blanket.
 6. gather the blanket at the head and move the person to safety (figure 5).
-dna
 ycnegreme
 sevom
 ycnegreme-non
@@ -500,7 +478,6 @@ a good stretcher:
 - will not injure the person carrying it.
 - is strong enough to deal with the terrain.
 special situations 97
-dna
 ycnegreme
 sevom
 ycnegreme-non
@@ -600,11 +577,6 @@ recovery position to allow blood to drain from the mouth.
 - place another dressing on the outer surface of the lip.
 - if the tongue is bleeding, apply a dressing and direct pressure.
 - apply cold to the lips or tongue to reduce swelling and ease pain.
-dna
-htuom
-,eye
-seirujni
-pil
 
 Poisoning
 a poison is any substance that causes injury, illness or death if it enters the

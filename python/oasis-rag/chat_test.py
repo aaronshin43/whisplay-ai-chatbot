@@ -2,16 +2,20 @@
 chat_test.py — O.A.S.I.S. Interactive CLI
 
 Usage:
-    python chat_test.py
+    python chat_test.py                      # default: gemma3:1b
+    python chat_test.py --model qwen3.5:0.8b
+    python chat_test.py --model gemma3:4b
 
 Requires:
     - RAG service running on localhost:5001  (python service.py)
     - Ollama running on localhost:11434      (ollama serve)
-    - gemma3:1b pulled                      (ollama pull gemma3:1b)
+    - target model pulled                   (ollama pull <model>)
 """
 from __future__ import annotations
 
+import argparse
 import io
+import re
 import sys
 import time
 
@@ -23,7 +27,7 @@ import requests
 # ── Endpoints ────────────────────────────────────────────────────────────────
 RAG_URL    = "http://localhost:5001/retrieve"
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL      = "gemma3:1b"
+DEFAULT_MODEL = "gemma3:1b"
 
 # ── Spinal injury detection ───────────────────────────────────────────────────
 _SPINAL_SIGNALS = [
@@ -83,14 +87,28 @@ def retrieve(query: str) -> tuple[str, list[dict], float]:
         return "", [], 0.0
 
 
+# ── Thinking-mode stripping ────────────────────────────────────────────────────
+_THINK_RE = re.compile(r"<think>.*?</think>", re.DOTALL | re.IGNORECASE)
+
+
+def _strip_think(text: str) -> str:
+    """Remove <think>…</think> blocks in case any reasoning model leaks them."""
+    return _THINK_RE.sub("", text).strip()
+
+
 # ── LLM call ──────────────────────────────────────────────────────────────────
-def call_llm(system: str, query: str) -> tuple[str, float]:
+def call_llm(system: str, query: str, model: str = DEFAULT_MODEL) -> tuple[str, float]:
     """Returns (response_text, elapsed_seconds)."""
+    # Qwen3 / reasoning models consume their entire token budget on internal
+    # thinking and return an empty content field. Disable thinking mode with
+    # the Ollama `think: false` top-level payload key.
+    is_thinking_model = any(x in model.lower() for x in ("qwen3", "qwen3.5", "deepseek-r", "phi4"))
+
     payload = {
-        "model":   MODEL,
+        "model":   model,
         "stream":  False,
         "options": {
-            "num_predict": 120,
+            "num_predict": 150,
             "temperature": 0.1,
             "stop": ["6.", "**", "Okay", "Let's", "Here's"],
         },
@@ -99,11 +117,14 @@ def call_llm(system: str, query: str) -> tuple[str, float]:
             {"role": "user",   "content": query},
         ],
     }
+    if is_thinking_model:
+        payload["think"] = False
     t0   = time.perf_counter()
     resp = requests.post(OLLAMA_URL, json=payload, timeout=120)
     resp.raise_for_status()
     elapsed = time.perf_counter() - t0
-    return resp.json()["message"]["content"].strip(), elapsed
+    raw = resp.json()["message"]["content"]
+    return _strip_think(raw), elapsed
 
 
 # ── Preflight check ───────────────────────────────────────────────────────────
@@ -124,6 +145,15 @@ def check_services() -> tuple[bool, bool]:
 
 # ── Main loop ─────────────────────────────────────────────────────────────────
 def main() -> None:
+    parser = argparse.ArgumentParser(description="O.A.S.I.S. Interactive Test CLI")
+    parser.add_argument(
+        "--model", "-m",
+        default=DEFAULT_MODEL,
+        help=f"Ollama model to use (default: {DEFAULT_MODEL})",
+    )
+    args = parser.parse_args()
+    model = args.model
+
     print()
     print("  O.A.S.I.S. Interactive Test CLI")
     print("  ─────────────────────────────────────────────")
@@ -140,7 +170,7 @@ def main() -> None:
         print("  Exiting.")
         sys.exit(1)
     else:
-        print(f"  [OK] Ollama       →  localhost:11434  ({MODEL})")
+        print(f"  [OK] Ollama       →  localhost:11434  ({model})")
 
     print()
     print('  Type your query below. Enter "quit" or Ctrl-C to exit.')
@@ -193,7 +223,7 @@ def main() -> None:
 
         # ── Stage 2: LLM ──────────────────────────────────────────────────────
         try:
-            response, elapsed = call_llm(system, query)
+            response, elapsed = call_llm(system, query, model=model)
         except requests.exceptions.ConnectionError:
             print("  [ERROR] Ollama not reachable.\n")
             continue
@@ -201,7 +231,7 @@ def main() -> None:
             print(f"  [ERROR] LLM call failed: {e}\n")
             continue
 
-        print(f"  [LLM] {MODEL} ({elapsed:.1f}s)")
+        print(f"  [LLM] {model} ({elapsed:.1f}s)")
         print()
         print(response)
         print()

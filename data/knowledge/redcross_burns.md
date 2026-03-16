@@ -28,7 +28,6 @@ an hour after cooling
 
 ### Figure 2A Figure 2B
 
-snrub
 - full-thickness burns (figure 3,
 a and B)
  Painless skin
@@ -96,7 +95,6 @@ regularly move burned areas as
 much as possible.
 - Keep the person well hydrated and monitor burns as you would any
 open wound.
-snrub
 
 - re-dress the injury twice a day by:
  removing old dressings by soaking off with clean, tepid water if needed.

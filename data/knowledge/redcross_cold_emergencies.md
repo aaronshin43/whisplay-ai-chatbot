@@ -31,8 +31,6 @@ When CHECKing the person, look, listen and feel for:
 - elevated heart rate and respiratory rate.
 - slightly elevated core temperature (not common).
 
-sessenlli
-detaler-taeH
 
 ### To give CARE:
 - Have the person stop activity and rest, preferably in a cool, shady place.
@@ -102,8 +100,6 @@ When CHECKing the person, look, listen and feel for:
 - increasing level of anxiety.
 - altered mental status including disorientation, irritability and combativeness (in
 severe cases, this is referred to as water intoxication).
-sessenlli
-detaler-taeH
 
 
 ### To give CARE:
@@ -139,7 +135,6 @@ With mild hypothermia:
 - shivering.
 - the “umbles”:
 
-aimreHtopyH
  inability to perform complex tasks (“fumbles”).
  confusion, apathy and sluggish thinking (“grumbles”).
  slurred speech (“mumbles”).
@@ -177,7 +172,6 @@ muscles easily, try to keep him or her warm by:
  Having him or her snuggle with warm people, such as in a sleeping bag. if the
 person goes to sleep, wake him or her periodically.
 
-aimreHtopyH
  Placing a hot water bottle or chemical heat packs near the heart and in the armpits
 and groin area (but not against bare skin).
 - wait until the person returns to normal and is able to exercise muscles before

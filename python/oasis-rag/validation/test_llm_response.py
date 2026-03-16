@@ -20,7 +20,7 @@ import requests
 # ── Service endpoints ─────────────────────────────────────────────────────────
 RAG_URL    = "http://localhost:5001/retrieve"
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL      = "gemma3:1b"
+MODEL      = "gemma3:1b"   # overridden by --model arg or run_tests(model=...)
 
 SYSTEM_PROMPT_TEMPLATE = """\
 You are OASIS. A person needs first aid RIGHT NOW.
@@ -104,10 +104,10 @@ def _postprocess_response(response: str) -> str:
 
 
 # ── Helper: call Ollama ───────────────────────────────────────────────────────
-def call_llm(context: str, query: str) -> str:
+def call_llm(context: str, query: str, model: str = MODEL) -> str:
     q_lower = query.lower()
 
-    # Spinal injury (existing)
+    # Spinal injury
     if any(sig in q_lower for sig in _SPINAL_SIGNALS):
         context = "CRITICAL: Possible spinal cord injury. Do not move the person.\n\n" + context
 
@@ -128,7 +128,7 @@ def call_llm(context: str, query: str) -> str:
             "- Use cloth, shirt or any fabric and press firmly.\n\n" + context
         )
 
-    # No epinephrine available — inject mandatory step 1
+    # No epinephrine available
     if any(sig in q_lower for sig in _NO_EPIPEN_SIGNALS):
         context = (
             "CRITICAL: NO EPINEPHRINE available. Epipen NOT available.\n"
@@ -140,7 +140,7 @@ def call_llm(context: str, query: str) -> str:
 
     system = SYSTEM_PROMPT_TEMPLATE.format(context=context)
     payload = {
-        "model":  MODEL,
+        "model":  model,
         "stream": False,
         "options": {
             "num_predict": 120,
@@ -152,6 +152,11 @@ def call_llm(context: str, query: str) -> str:
             {"role": "user",    "content": query},
         ],
     }
+    # Qwen3 thinking models exhaust token budget on internal reasoning;
+    # disable thinking so content field is populated.
+    if any(x in model.lower() for x in ("qwen3", "deepseek-r", "phi4")):
+        payload["think"] = False
+
     resp = requests.post(OLLAMA_URL, json=payload, timeout=120)
     resp.raise_for_status()
     raw = resp.json()["message"]["content"].strip()
@@ -455,13 +460,13 @@ def make_tests() -> list[dict]:
 
 
 # ── Run one test ──────────────────────────────────────────────────────────────
-def run_test(tc: dict) -> LLMTestResult:
+def run_test(tc: dict, model: str = MODEL) -> LLMTestResult:
     tid   = tc["id"]
     query = tc["query"]
     try:
         t0 = time.perf_counter()
         context, sources = get_context(query)
-        response = call_llm(context, query)
+        response = call_llm(context, query, model=model)
         latency_ms = (time.perf_counter() - t0) * 1000
 
         scores = {name: fn(response) for name, fn in tc["criteria"].items()}
@@ -558,7 +563,14 @@ def print_report(results: list[LLMTestResult]):
 
 # ── Entry point ───────────────────────────────────────────────────────────────
 def main():
-    print("Checking services …", end=" ", flush=True)
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model", "-m", default=MODEL,
+                        help=f"Ollama model to test (default: {MODEL})")
+    args = parser.parse_args()
+    active_model = args.model
+
+    print(f"Checking services … model={active_model}", end=" ", flush=True)
 
     # Preflight checks
     rag_ok, ollama_ok = False, False
@@ -588,7 +600,7 @@ def main():
     for i, tc in enumerate(tests, 1):
         sys.stdout.write(f"  [{i:02d}/{len(tests)}] {tc['id']} {tc['query'][:55]:<55} ... ")
         sys.stdout.flush()
-        r = run_test(tc)
+        r = run_test(tc, model=active_model)
         results.append(r)
         if r.error:
             print(f"ERROR: {r.error}")
@@ -604,17 +616,20 @@ def main():
     import os
     out_dir = os.path.join(os.path.dirname(__file__), "results")
     os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, "llm_response_test.json")
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(
-            [{"id": r.id, "query": r.query, "passed": r.passed,
-              "scores": r.scores, "response": r.response,
-              "context_src": r.context_src, "latency_ms": round(r.latency_ms),
-              "error": r.error}
-             for r in results],
-            f, indent=2, ensure_ascii=False
-        )
+    safe_model = active_model.replace(":", "_").replace("/", "_")
+    out_path = os.path.join(out_dir, f"llm_response_test.json")  # default filename kept
+    # Also save model-specific file for compare_models.py
+    model_path = os.path.join(out_dir, f"llm_{safe_model}.json")
+    payload_out = [{"id": r.id, "query": r.query, "passed": r.passed,
+                    "scores": r.scores, "response": r.response,
+                    "context_src": r.context_src, "latency_ms": round(r.latency_ms),
+                    "error": r.error, "model": active_model}
+                   for r in results]
+    for path in (out_path, model_path):
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(payload_out, f, indent=2, ensure_ascii=False)
     print(f"\n  Results saved to: {out_path}")
+    print(f"  Model file     : {model_path}")
     sys.exit(0 if passed == total else 1)
 
 

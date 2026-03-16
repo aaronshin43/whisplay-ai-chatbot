@@ -43,10 +43,6 @@ pack the wound with your fingers
 and then switch to packing with Figure 2
 absorbent material.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 - do not apply direct pressure to bleeding wounds of the head.
  For skull fractures: cover the wound with a bulky dressing and press lightly.
 - monitor the person for shock.
@@ -84,10 +80,6 @@ use anything narrow (e.g., rope
 or string).
 Figure 4
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 - tie a short, sturdy stick or another
 rigid object into the material
 and twist it (called the windlass
@@ -126,10 +118,6 @@ referred to as irrigating the wound.
 - remove any large materials with tweezers or gauze pads before washing
 the wound.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 - Vigorously wash and rinse dirty wounds with large amounts (at least 1 quart)
 of disinfected water or water that is potable (safe to drink). disinfected water
 has been treated via boiling, chemicals or filtration—or some combination—to
@@ -168,10 +156,6 @@ that have even or ragged edges
 (figure 7).
 Figure 7
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 
 ### To give CARE:
 - if the wound is a laceration that you
@@ -204,10 +188,6 @@ difficult to clean well enough to prevent infection.
 and covered with dry gauze to allow them to drain until a health care
 provider can be consulted.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 Abrasions
 abrasions are shallow and often dirty
 wounds that occur when some skin has
@@ -238,10 +218,6 @@ discomfort and speed healing.
 - wash with soap and water.
 - if the roof has been rubbed away, care for as an open wound.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 - in all cases, apply a dressing that
 limits friction.
  if available, use a commercial
@@ -278,10 +254,6 @@ For objects lodged in the ear:
 ear canal.
  for insects, use cooking oil instead of water.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 For ear infections:
 When CHECKing the person, look, listen and feel for:
 - Pain when the ear is pulled on.
@@ -318,10 +290,6 @@ NOTE Blood running down the throat when leaning forward may indicate a
 serious nosebleed. the person will need rapid evacuation and a health
 care provider’s attention.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 
 ### Teeth Problems
 
@@ -355,10 +323,6 @@ times a day with warm, salty water.
 - aspirin may help alleviate pain.
 NOTE evacuate the person rapidly—GO FAST.
 
-dna
-sdnuoW
-noitCeFni
-dnuoW
 NOTE the person should only take medication if he or she can swallow and has
 no known contraindications. individuals should read and follow all label
 or health care provider instructions. check state and local regulations

@@ -18,10 +18,6 @@ Because these injuries can look alike, you may have difficulty determining exact
 which type of injury has occurred. this should not be a problem because in most
 cases, the care you give will be the same.
 
-seirujni
-tnioj
-dna
-enob
 
 ### General Considerations
 When CHECKing the person, look, listen and feel for:
@@ -59,10 +55,6 @@ do not have ice or a cold pack, soak the injured part in cold water or, in warme
 months, wrap the part in wet cotton. do not apply an ice or cold pack directly on
 an open fracture site.
 
-seirujni
-tnioj
-dna
-enob
  E = Elevate the injured area above the heart level if possible. do not elevate if
 you suspect a fracture or if moving the injured area causes pain.
 - after about 20 minutes of rice, remove the cold and let the joint warm
@@ -92,10 +84,6 @@ behind the knees for slight flexion (figure 2); feet at 90 degrees to
 
 ### Figure 1 Figure 2
 
-seirujni
-tnioj
-dna
-enob
 
 ### Figure 3 Figure 4
 legs (figure 3); arms flexed to cross
@@ -127,10 +115,6 @@ triangular bandage.
 - recheck for feeling, warmth and
 color (figure 6). Figure 6
 
-seirujni
-tnioj
-dna
-enob
 
 ### Application of an Anatomic Splint
 - support the injured body part above and below the site of the injury.
@@ -167,10 +151,6 @@ color.
 NOTE if you are not able to check warmth and color because a sock or shoe is
 in place, check for sensation.
 
-seirujni
-tnioj
-dna
-enob
 
 ### Application of a Rigid Splint
 - support the injured body part above and below the site of the injury.
@@ -205,10 +185,6 @@ putting pressure on the kneecap).
 ### To give CARE:
 - splint any injured bone or joint that the person cannot use.
 
-seirujni
-tnioj
-dna
-enob
 Fractures
 When CHECKing the person for a suspected fracture:
 - determine if the injured part looks broken by comparing it to the uninjured
@@ -242,10 +218,6 @@ sling-and-swathe.
 bones of the hand are damaged, be sure to secure the hand to the splint with
 lots of padding.
 
-seirujni
-tnioj
-dna
-enob
 For a broken finger:
 - tape the broken finger to nearby uninjured fingers with padding between
 the fingers.
@@ -277,10 +249,6 @@ For a leg fracture (including ankle and foot):
 immobilization of the ankle and foot.
 - Pad behind the knee for comfort.
 
-seirujni
-tnioj
-dna
-enob
 
 ### Complicated Fractures
 
@@ -318,10 +286,6 @@ the injured person and the responder.
  stop if the pain increases dramatically.
  splint the injury after the joint is back in its normal position.
 
-seirujni
-tnioj
-dna
-enob
 When CHECKing the person, look, listen and feel for:
 - a joint that does not look “right.” (shoulder dislocations are the most
 common type.)
@@ -356,10 +320,6 @@ swathe as soon as the shoulder is returned to its normal position.
 - do not bind the person’s arm in case he or she needs to use the arm in an
 emergency (e.g., escaping from an overturned raft).
 
-seirujni
-tnioj
-dna
-enob
 For a finger or toe dislocation:
 - Keeping the injured finger or toe
 partially flexed (bent), pull on the
@@ -413,7 +373,6 @@ an hour after cooling
 
 ### Figure 2A Figure 2B
 
-snrub
 - full-thickness burns (figure 3,
 a and B)
  Painless skin
@@ -481,7 +440,6 @@ regularly move burned areas as
 much as possible.
 - Keep the person well hydrated and monitor burns as you would any
 open wound.
-snrub
 
 - re-dress the injury twice a day by:
  removing old dressings by soaking off with clean, tepid water if needed.

@@ -32,17 +32,17 @@
   {
     "id": "EDG-004",
     "passed": true,
-    "note": "비의료 질문은 낮은 점수여야 함 | score=0.4756 (max=0.5)",
+    "note": "비의료 질문은 낮은 점수여야 함 | score=0.4777 (max=0.5)",
     "details": {
-      "score": 0.475554621219635
+      "score": 0.4776503205299377
     }
   },
   {
     "id": "EDG-005",
     "passed": true,
-    "note": "비의료 질문은 낮은 점수여야 함 | score=0.4834 (max=0.5)",
+    "note": "비의료 질문은 낮은 점수여야 함 | score=0.4844 (max=0.5)",
     "details": {
-      "score": 0.48340387344360347
+      "score": 0.48440430164337156
     }
   },
   {
@@ -78,9 +78,9 @@
   {
     "id": "EDG-009",
     "passed": true,
-    "note": "비표준 영어 입력 | score=0.5096",
+    "note": "비표준 영어 입력 | score=0.5068",
     "details": {
-      "score": 0.5096374154090881,
+      "score": 0.5067667007446289,
       "has_context": true,
       "missing": []
     }
@@ -100,15 +100,15 @@
     "passed": true,
     "note": "no exception, context empty=False",
     "details": {
-      "context_len": 3660
+      "context_len": 3770
     }
   },
   {
     "id": "EDG-012",
     "passed": true,
-    "note": "긴 자연어 입력 — 핵심 정보 추출 가능한지 | score=0.5695",
+    "note": "긴 자연어 입력 — 핵심 정보 추출 가능한지 | score=0.5702",
     "details": {
-      "score": 0.5694769196696096,
+      "score": 0.5702419214434438,
       "has_context": true,
       "missing": []
     }

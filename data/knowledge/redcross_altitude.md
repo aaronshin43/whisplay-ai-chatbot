@@ -30,8 +30,6 @@ or more.
 - insomnia.
 - lassitude (unusual weariness or exhaustion).
 
-sessenlli
-edutitla
 
 ### To give CARE:
 - descend (go down) to a lower altitude or stop ascending (going up) and wait

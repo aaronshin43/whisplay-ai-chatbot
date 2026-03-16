@@ -31,8 +31,6 @@ When CHECKing the person, look, listen and feel for:
 - elevated heart rate and respiratory rate.
 - slightly elevated core temperature (not common).
 
-sessenlli
-detaler-taeH
 
 ### To give CARE:
 - Have the person stop activity and rest, preferably in a cool, shady place.
@@ -102,8 +100,6 @@ When CHECKing the person, look, listen and feel for:
 - increasing level of anxiety.
 - altered mental status including disorientation, irritability and combativeness (in
 severe cases, this is referred to as water intoxication).
-sessenlli
-detaler-taeH
 
 
 ### To give CARE:

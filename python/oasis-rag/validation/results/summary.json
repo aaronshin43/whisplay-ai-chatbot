@@ -1,14 +1,14 @@
 {
-  "date": "2026-03-15 16:49",
+  "date": "2026-03-15 21:45",
   "index_chunks": 278,
   "model": "thenlper/gte-small",
   "grand_pass": 109,
   "grand_total": 109,
   "all_pass": true,
   "latency": {
-    "overall_avg_ms": 35.893875,
-    "overall_p95_ms": 52.16,
-    "overall_max_ms": 58.03,
+    "overall_avg_ms": 33.169375,
+    "overall_p95_ms": 48.77,
+    "overall_max_ms": 55.3,
     "pc_target_ms": 200.0,
     "pi5_target_ms": 2000.0,
     "pc_pass": true,

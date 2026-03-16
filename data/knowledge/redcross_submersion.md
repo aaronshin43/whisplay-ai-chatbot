@@ -23,8 +23,6 @@ discuss and practice rescue procedures before engaging in water activities.
 you must first recognize that someone is in trouble and then choose a safe rescue
 procedure based on the behaviors you observe.
 
-stnediCni
-noisrembus )gninWord(
 helping a Person in Trouble in the Water
 When CHECKing the person, look for these behaviors:
 - distressed swimmer (figure 1)
@@ -62,8 +60,6 @@ or submerged
  no forward progress
  unable to grasp a rescue aid; assist normally requires contact by rescuer
 
-stnediCni
-noisrembus )gninWord(
 To assist the victim in the water:
 - continue to monitor the safety of everyone else (or have someone else do so)
 when attention is focused on an individual in trouble.
@@ -93,8 +89,6 @@ pulled into the water.
 hand. extend your free hand or one of your legs to the victim. do not let go of
 the secure object or swim out into the water. Pull the victim to safety.
 
-stnediCni
-noisrembus )gninWord(
 
 ### Figure 5A Figure 5B
  if the water is safe and shallow enough (not higher than your chest), you can
@@ -124,8 +118,6 @@ head, so that the line drops
 within reach (figure 6).
 Figure 6
 
-stnediCni
-noisrembus )gninWord(
  when the victim has grasped the object or the line, slowly pull him or her to
 safety. lean away from the water as you pull.
  if the object does not reach the victim, quickly pull the line back in and throw it
@@ -193,5 +185,3 @@ should seek medical attention as soon as possible.
 NOTE secondary drowning is an aftereffect of water entering the lungs. it may
 take several days to appear. it can be fatal due to the water damage that
 occurs in the lungs.
-stnediCni
-noisrembus )gninWord(
