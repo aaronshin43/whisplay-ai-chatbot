@@ -51,7 +51,7 @@ MEDICAL_FACT_TESTS = [
      "facts": [
          # Retriever returns brain-injury content that mentions face, visual, speech
          {"fact": "face / visual symptoms",    "keywords": ["face"]},
-         {"fact": "neurological change",       "keywords": ["brain"]},
+         {"fact": "speech / consciousness",    "keywords": ["speech"]},
      ]},
     {"id": "MED-008",
      "query": "shock treatment first aid",

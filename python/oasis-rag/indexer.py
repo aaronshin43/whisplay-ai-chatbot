@@ -34,7 +34,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 import config
-from document_chunker import DocumentChunker
+from document_chunker import DocumentChunker, SectionAwareChunker
 from medical_keywords import detect_keywords
 
 logging.basicConfig(
@@ -103,7 +103,7 @@ class Indexer:
         self.model_name    = model_name
 
         self._model:       SentenceTransformer | None = None
-        self._chunker:     DocumentChunker            = DocumentChunker(
+        self._chunker:     SectionAwareChunker        = SectionAwareChunker(
             chunk_size=config.CHUNK_SIZE,
             chunk_overlap=config.CHUNK_OVERLAP,
         )
@@ -145,7 +145,7 @@ class Indexer:
 
         # ── 3. Embed ──────────────────────────────────────────────────
         log.info("Embedding %d chunks with %s …", len(metadata), self.model_name)
-        texts   = [m["text"] for m in metadata]
+        texts   = [m["text_with_prefix"] for m in metadata]
         vectors = _embed(self.model, texts)    # shape: (N, 384)
         log.info("  Embedding done. Shape: %s", vectors.shape)
 

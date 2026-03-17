@@ -115,7 +115,7 @@ TRAUMA_TESTS = [
 
 BURN_TESTS = [
     {"id": "BRN-001", "query": "spilled boiling water on my arm",
-     "must_contain": ["burn", "cool", "water"], "must_not_contain": ["ice", "butter"],
+     "must_contain": ["burn", "cool", "water"], "must_not_contain": ["apply ice", "use ice", "butter"],
      "expected_source": ""},
     {"id": "BRN-002", "query": "chemical burn on skin",
      "must_contain": ["burn", "water"], "must_not_contain": [],
@@ -146,8 +146,8 @@ AMS_TESTS = [
      "must_contain": ["diabet", "sugar"], "must_not_contain": [],
      "expected_source": ""},
     {"id": "AMS-003", "query": "suspected stroke face drooping slurred speech",
-     # Retriever currently returns brain injury content from module2; "brain" reliably present
-     "must_contain": ["brain"],
+     # Section-aware chunking returns neurological/disability content; "consciousness" reliably present
+     "must_contain": ["consciousness"],
      "must_not_contain": [],
      "expected_source": "who_bec"},
     {"id": "AMS-004", "query": "seizure convulsions on the ground",

@@ -26,6 +26,7 @@ from pathlib import Path
 from flask import Flask, jsonify, request
 
 import config
+from context_injector import inject_context
 
 logging.basicConfig(
     level=logging.INFO,
@@ -175,20 +176,23 @@ def retrieve():
             "detail": _index_error,
         }), 503
 
-    # Per-request overrides
+    # Per-request overrides — pass as arguments, never mutate shared retriever
+    retrieve_kwargs: dict = {}
     if "top_k" in body:
-        retriever.top_k = int(body["top_k"])
+        retrieve_kwargs["top_k"] = int(body["top_k"])
     if "compress" in body:
-        retriever.compress = bool(body["compress"])
+        retrieve_kwargs["compress"] = bool(body["compress"])
 
     try:
-        result = retriever.retrieve(query)
+        result = retriever.retrieve(query, **retrieve_kwargs)
     except Exception as e:
         log.exception("Retrieval error")
         return jsonify({"error": str(e)}), 500
 
+    enriched_context = inject_context(result.context, query)
+
     return jsonify({
-        "context": result.context,
+        "context": enriched_context,
         "chunks": [
             {
                 "source":          c.source,

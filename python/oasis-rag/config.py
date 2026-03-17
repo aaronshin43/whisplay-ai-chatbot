@@ -43,7 +43,8 @@ LEXICAL_CANDIDATE_POOL: int = 50   # max candidates forwarded to Stage 2
 # ─────────────────────────────────────────────────────────────
 ALPHA:           float = 0.6   # semantic weight
 SCORE_THRESHOLD: float = 0.10  # min hybrid score to pass through
-TOP_K:           int   = 3     # final chunks returned to LLM
+TOP_K:           int   = 4     # final chunks returned to LLM
+MAX_PER_SOURCE:  int   = 2     # max chunks from the same source document
 
 # ─────────────────────────────────────────────────────────────
 # Stage 3 — Selective Context Compression
@@ -55,8 +56,8 @@ COMPRESS_POSITION_DECAY:   float = 0.05  # small bonus for early sentences
 COMPRESS_SENTENCE_THRESHOLD: float = 0.0  # sentences with score > this are kept
                                            # 0.0 = keep any sentence with ≥1 hit
 # Target token budget after compression (relative to original)
-COMPRESS_MIN_RATIO: float = 0.60   # keep at least 60% of original tokens
-COMPRESS_MAX_RATIO: float = 0.80   # target ceiling (20-40% reduction)
+COMPRESS_MIN_RATIO: float = 0.40   # keep at least 40% of original tokens
+COMPRESS_MAX_RATIO: float = 0.70   # target ceiling (30-60% reduction)
 
 # ─────────────────────────────────────────────────────────────
 # Flask service

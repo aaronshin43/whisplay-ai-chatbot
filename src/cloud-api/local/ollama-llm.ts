@@ -40,9 +40,9 @@ const enableThinking = process.env.ENABLE_THINKING === "true";
 const isOasisMode = process.env.ENABLE_OASIS_MATCHER === "true" || true;
 const oasisOptions = isOasisMode
   ? {
-      num_predict: 120,
+      num_predict: 200,
       temperature: 0.1,
-      stop: ["6.", "**", "Okay", "Let's", "Here's"],
+      stop: ["**", "Okay", "Let's", "Here's"],
     }
   : undefined;
 
@@ -110,7 +110,14 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
     resetChatHistory();
   }
   updateLastMessageTime();
-  messages.push(...(inputMessages as OllamaMessage[]));
+  // If inputMessages contains a system prompt (OASIS RAG), replace the default one
+  const incomingSystem = (inputMessages as OllamaMessage[]).find(m => m.role === "system");
+  if (incomingSystem) {
+    messages[0] = incomingSystem;
+    messages.push(...(inputMessages as OllamaMessage[]).filter(m => m.role !== "system"));
+  } else {
+    messages.push(...(inputMessages as OllamaMessage[]));
+  }
   let endResolve: () => void = () => {};
   const promise = new Promise<void>((resolve) => {
     endResolve = resolve;

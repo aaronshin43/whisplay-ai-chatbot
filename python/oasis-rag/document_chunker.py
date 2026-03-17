@@ -200,6 +200,176 @@ class DocumentChunker:
 
 
 # ─────────────────────────────────────────────────────────────
+# Section-aware chunker
+# ─────────────────────────────────────────────────────────────
+
+MIN_SECTION_TOKENS = 80   # sections smaller than this are merged with next
+
+# Pattern matching H2 (##) headings — used for parent tracking only
+_H2_RE = re.compile(r"^#{2}(?!#)\s+(.+)$", re.MULTILINE)
+# Matches H3 (###) headings — the section split boundary
+# We only split at H3, so H1/H2 headings stay as part of section text.
+_SPLIT_RE = re.compile(r"^#{3}(?!#)\s+(.+)$", re.MULTILINE)
+
+
+def _h2_parent(pos: int, text: str) -> str:
+    """Return the most recent H2 heading title before *pos* in *text*."""
+    parent = ""
+    for m in _H2_RE.finditer(text, 0, pos):
+        parent = m.group(1).strip()
+    return parent
+
+
+class _Section:
+    """Represents a markdown section (H3 or lower-level boundary)."""
+
+    __slots__ = ("heading", "h2_parent", "text", "tokens")
+
+    def __init__(self, heading: str, h2_parent: str, text: str) -> None:
+        self.heading   = heading
+        self.h2_parent = h2_parent
+        self.text      = text
+        self.tokens    = len(_tokenize(text))
+
+
+class SectionAwareChunker:
+    """
+    Splits documents at H3 (###) boundaries, then:
+      1. Merges sections smaller than MIN_SECTION_TOKENS with the next
+         section, provided they share the same H2 parent.
+      2. Falls back to sliding-window chunking for merged sections that
+         still exceed chunk_size.
+
+    This prevents tiny 10-20 token sections (common in medical reference
+    lists) from degrading embedding quality while still keeping semantically
+    distinct conditions in separate chunks.
+
+    Parameters
+    ----------
+    chunk_size    : maximum tokens per chunk (after merging)
+    chunk_overlap : overlap when sliding-window fallback is used
+    """
+
+    def __init__(
+        self,
+        chunk_size:    int = DEFAULT_CHUNK_SIZE,
+        chunk_overlap: int = DEFAULT_CHUNK_OVERLAP,
+    ) -> None:
+        if chunk_overlap >= chunk_size:
+            raise ValueError("chunk_overlap must be smaller than chunk_size")
+        self.chunk_size    = chunk_size
+        self.chunk_overlap = chunk_overlap
+        self._fallback     = DocumentChunker(chunk_size, chunk_overlap)
+
+    # ------------------------------------------------------------------
+    # Public API (same as DocumentChunker)
+    # ------------------------------------------------------------------
+
+    def load_and_chunk(self, knowledge_dir: str | Path) -> list[Chunk]:
+        knowledge_dir = Path(knowledge_dir)
+        if not knowledge_dir.is_dir():
+            raise FileNotFoundError(f"Knowledge directory not found: {knowledge_dir}")
+
+        all_chunks: list[Chunk] = []
+        for file_path in sorted(knowledge_dir.rglob("*")):
+            if file_path.suffix.lower() not in SUPPORTED_EXTENSIONS:
+                continue
+            relative = str(file_path.relative_to(knowledge_dir))
+            all_chunks.extend(self._chunk_file(file_path, relative))
+
+        return all_chunks
+
+    # ------------------------------------------------------------------
+    # Internal helpers
+    # ------------------------------------------------------------------
+
+    def _chunk_file(self, path: Path, source: str) -> list[Chunk]:
+        text = path.read_text(encoding="utf-8")
+        return self._section_split(text, source)
+
+    def _section_split(self, text: str, source: str) -> list[Chunk]:
+        """Split *text* at H3 boundaries, merge tiny sections, yield Chunks."""
+
+        # ── Step 1: Locate all H1/H2/H3 split points ──────────────────
+        boundaries: list[int] = [0]
+        for m in _SPLIT_RE.finditer(text):
+            if m.start() > 0:
+                boundaries.append(m.start())
+        boundaries.append(len(text))
+
+        # ── Step 2: Build raw sections ────────────────────────────────
+        raw: list[_Section] = []
+        for i in range(len(boundaries) - 1):
+            s_start = boundaries[i]
+            s_end   = boundaries[i + 1]
+            body    = text[s_start:s_end].strip()
+            if not body:
+                continue
+            # Determine heading of this section (H3 only)
+            first_line = body.split("\n", 1)[0].strip()
+            m = re.match(r"^#{3}(?!#)\s+(.+)$", first_line)
+            heading = m.group(1).strip() if m else source
+            h2p = _h2_parent(s_start, text)
+            raw.append(_Section(heading=heading, h2_parent=h2p, text=body))
+
+        if not raw:
+            return []
+
+        # ── Step 3: Merge tiny sections forward ───────────────────────
+        merged: list[_Section] = []
+        i = 0
+        while i < len(raw):
+            sec = raw[i]
+            # Accumulate forward while tiny and same H2 parent
+            while (
+                sec.tokens < MIN_SECTION_TOKENS
+                and i + 1 < len(raw)
+                and raw[i + 1].h2_parent == sec.h2_parent
+            ):
+                i += 1
+                next_sec = raw[i]
+                combined = sec.text + "\n\n" + next_sec.text
+                sec = _Section(
+                    heading   = sec.heading,   # keep the original heading
+                    h2_parent = sec.h2_parent,
+                    text      = combined,
+                )
+            merged.append(sec)
+            i += 1
+
+        # ── Step 4: Emit chunks ───────────────────────────────────────
+        chunks: list[Chunk] = []
+        chunk_idx = 0
+        for sec in merged:
+            if sec.tokens <= self.chunk_size:
+                # Section fits in one chunk
+                chunks.append(Chunk(
+                    text        = sec.text,
+                    source      = source,
+                    section     = sec.heading[:80],
+                    headings    = [sec.h2_parent, sec.heading] if sec.h2_parent else [sec.heading],
+                    chunk_idx   = chunk_idx,
+                    token_count = sec.tokens,
+                ))
+                chunk_idx += 1
+            else:
+                # Section too large — fall back to sliding window
+                sub_chunks = list(self._fallback._sliding_window(sec.text, source))
+                for sc in sub_chunks:
+                    chunks.append(Chunk(
+                        text        = sc.text,
+                        source      = source,
+                        section     = sec.heading[:80],
+                        headings    = [sec.h2_parent, sec.heading] if sec.h2_parent else [sec.heading],
+                        chunk_idx   = chunk_idx,
+                        token_count = sc.token_count,
+                    ))
+                    chunk_idx += 1
+
+        return chunks
+
+
+# ─────────────────────────────────────────────────────────────
 # CLI smoke-test
 # ─────────────────────────────────────────────────────────────
 if __name__ == "__main__":

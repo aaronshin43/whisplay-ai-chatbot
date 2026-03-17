@@ -20,22 +20,22 @@ import { ragRetrieve } from "../cloud-api/local/oasis-rag-client";
  * RAG-backed system prompt.
  * {context} is replaced with the compressed knowledge chunks from the RAG service.
  */
-const RAG_SYSTEM_PROMPT_TEMPLATE = `You are OASIS. A person needs first aid RIGHT NOW.
+const RAG_SYSTEM_PROMPT_TEMPLATE = `You are OASIS, a critical first aid AI. A person needs first aid RIGHT NOW. Provide immediate, life-saving instructions based ONLY on the REFERENCE.
 
-RULES YOU MUST FOLLOW:
-- Your response is ONLY numbered steps 1 through 5.
-- Do NOT write anything before "1."
-- Do NOT write anything after step 5.
-- Each step is ONE sentence, maximum 12 words.
-- Do NOT use asterisks, bold, markdown, or headers.
-- Do NOT ask questions. Give commands only.
-- Do NOT say "Okay" or "Let's" or any introduction.
+RULES YOU MUST STRICTLY FOLLOW:
+- Output the required actions as a numbered list starting with "1.".
+- Identify the specific injury or illness the user has. Extract steps ONLY for that specific condition. Completely IGNORE instructions for other body parts or conditions in the REFERENCE.
+- Provide ONLY the necessary steps. Stop writing when the required steps for the specific injury are complete (maximum 7 steps). Do not fill up steps with unrelated information.
+- If the REFERENCE states an absolute restriction (e.g., "Do not give water"), make it step "1.".
+- Each step must be ONE short sentence, maximum 12 words.
+- Use plain text only. No markdown, no bolding, no headers.
+- Use direct command verbs (e.g., "Apply firm pressure", "Call emergency services").
+- Start directly with step 1. No introductions, no greetings, no conclusions.
 
 REFERENCE:
 {context}
 
-YOUR RESPONSE MUST START WITH "1." AND END AFTER STEP 5. NOTHING ELSE.`;
-
+YOUR RESPONSE:`;
 /**
  * Safe fallback prompt used when the RAG service is unavailable.
  * Does NOT include any hardcoded medical content — only directs to emergency services.
@@ -48,56 +48,6 @@ Tell the user clearly and calmly:
 2. Stay on the line with the dispatcher — they will guide you.
 3. Do not leave the person alone.
 Do not provide any specific medical instructions without the knowledge base.`;
-
-// ── Spinal injury detection ──────────────────────────────────────────────────
-
-/** Keywords that suggest possible spinal cord injury. */
-const SPINAL_SIGNALS: string[] = [
-    "cannot feel", "can't feel", "cant feel",
-    "paralyz", "numb legs", "numb feet", "numb limb",
-    "neck injury", "spinal", "spine",
-];
-
-/**
- * Inject a spinal warning into RAG context when the query signals possible
- * spinal cord injury. The small on-device LLM follows in-context evidence
- * more reliably than abstract conditional rules.
- */
-function injectSpinalWarning(context: string, query: string): string {
-    const q = query.toLowerCase();
-    if (SPINAL_SIGNALS.some(s => q.includes(s))) {
-        return "CRITICAL: Possible spinal cord injury. Do not move the person.\n\n" + context;
-    }
-    return context;
-}
-
-// ── Seizure / Convulsion detection ───────────────────────────────────────────
-
-/** Keywords that indicate active or recent seizure/convulsion. */
-const SEIZURE_SIGNALS: string[] = [
-    "seizure", "convuls", "shaking", "fitting", "fit ",
-    "jerking", "twitching", "epilep",
-    "발작", "경련",
-];
-
-/**
- * Inject a seizure safety notice into RAG context when the query signals
- * active convulsions. Prioritises bystander safety actions over ABCDE
- * assessment — the LLM must not instruct pulse/breathing checks mid-seizure.
- */
-function injectSeizureWarning(context: string, query: string): string {
-    const q = query.toLowerCase();
-    if (SEIZURE_SIGNALS.some(s => q.includes(s))) {
-        return (
-            "SEIZURE PRIORITY OVERRIDE: If the patient is having active convulsions, " +
-            "prioritize safety (clearing area, head protection) over ABCDE assessment " +
-            "until the shaking stops. Do NOT restrain. Do NOT put anything in the mouth. " +
-            "Do NOT attempt pulse or breathing checks during convulsions.\n\n" +
-            context
-        );
-    }
-    return context;
-}
 
 // ── Main export ──────────────────────────────────────────────────────────────
 
@@ -119,9 +69,8 @@ export const getSystemPromptFromOasis = async (query: string): Promise<string> =
 
         if (context && context.trim().length > 0) {
             console.log("[OasisAdapter] Using RAG context");
-            let enriched = injectSpinalWarning(context, query);
-            enriched = injectSeizureWarning(enriched, query);
-            return RAG_SYSTEM_PROMPT_TEMPLATE.replace("{context}", enriched);
+            // Context injection is applied server-side in context_injector.py
+            return RAG_SYSTEM_PROMPT_TEMPLATE.replace("{context}", context);
         }
 
         console.warn("[OasisAdapter] RAG returned empty context — using safe fallback");

@@ -42,6 +42,7 @@ import config
 from compressor import compress_chunk
 from indexer import IndexStore
 from medical_keywords import detect_keywords, expand_query
+from query_classifier import classify_query, _UPPER_EXTREMITY, _LOWER_EXTREMITY, _AXIAL
 
 log = logging.getLogger(__name__)
 
@@ -111,7 +112,21 @@ class Retriever:
     # Main entry point
     # ------------------------------------------------------------------
 
-    def retrieve(self, query: str) -> RetrievalResult:
+    def retrieve(
+        self,
+        query: str,
+        top_k: int | None = None,
+        compress: bool | None = None,
+    ) -> RetrievalResult:
+        """
+        Retrieve context for *query*.
+
+        Per-call *top_k* and *compress* override instance defaults without
+        mutating shared state, making concurrent requests safe.
+        """
+        effective_top_k  = top_k    if top_k    is not None else self.top_k
+        effective_compress = compress if compress is not None else self.compress
+
         t0 = time.perf_counter()
 
         # ── Stage 1: Lexical pre-filtering ────────────────────────────
@@ -122,15 +137,31 @@ class Retriever:
         # ── Stage 2: Semantic re-ranking ──────────────────────────────
         ranked = self._stage2_semantic(query, candidates, query_terms)
         passing = [c for c in ranked if c["hybrid_score"] >= self.threshold]
-        top = passing[: self.top_k]
         stage2_count = len(passing)
-        log.debug("Stage 2: %d above threshold, taking top %d", stage2_count, len(top))
+
+        # Source diversity: limit chunks from the same document to MAX_PER_SOURCE.
+        # Prevents a single broad document (e.g. redcross_bone_joint.md) from
+        # filling all top_k slots, while still allowing complementary chunks
+        # from the same source (e.g. two who_bec_module5 chunks that together
+        # provide complete context).
+        source_count: dict[str, int] = {}
+        diverse: list[dict] = []
+        for c in passing:
+            src = self.store.metadata[c["chunk_id"]].get("source", "")
+            if source_count.get(src, 0) < config.MAX_PER_SOURCE:
+                source_count[src] = source_count.get(src, 0) + 1
+                diverse.append(c)
+            if len(diverse) >= effective_top_k:
+                break
+        top = diverse
+        log.debug("Stage 2: %d above threshold, %d after source-diversity, taking top %d",
+                  stage2_count, len(diverse), len(top))
 
         # ── Stage 3: Context compression ──────────────────────────────
         retrieved: list[RetrievedChunk] = []
         for c in top:
             meta = self.store.metadata[c["chunk_id"]]
-            if self.compress:
+            if effective_compress:
                 compressed = compress_chunk(
                     chunk_text=meta["text"],
                     query=query,
@@ -255,12 +286,35 @@ class Retriever:
         # Cosine similarities: (1,384) × (384,|candidates|) → (|candidates|,)
         cosine_sims = (q_vec @ cand_vectors.T).flatten()
 
+        # Classify query for body-part filtering
+        qc = classify_query(query)
+
+        # Body-part mismatch penalty sets
+        # When query is upper-extremity-only, penalise chest/leg chunks (and vice versa)
+        _PENALTY = 0.15
+        penalise_for_upper = qc.is_upper_extremity_only
+        penalise_for_lower = qc.is_lower_extremity_only
+
+        _CHEST_RIB_TERMS  = {"chest", "rib", "thorax", "sternum", "lung", "pleura"}
+        _LEG_TERMS        = {"leg", "thigh", "femur", "tibia", "fibula", "shin", "calf"}
+        _ARM_HAND_TERMS   = {"arm", "hand", "finger", "wrist", "elbow", "forearm"}
+
         # Query-specific lexical scores for each candidate
         results = []
         for i, cid in enumerate(candidates):
             cos    = float(cosine_sims[i])
             lex    = self._query_lexical_score(self.store.metadata[cid]["text"], query_terms)
             hybrid = self.alpha * cos + (1.0 - self.alpha) * lex
+
+            # Apply body-part mismatch penalty
+            chunk_text_lower = self.store.metadata[cid]["text"].lower()
+            if penalise_for_upper:
+                if any(t in chunk_text_lower for t in _CHEST_RIB_TERMS) or \
+                   any(t in chunk_text_lower for t in _LEG_TERMS):
+                    hybrid = max(0.0, hybrid - _PENALTY)
+            elif penalise_for_lower:
+                if any(t in chunk_text_lower for t in _ARM_HAND_TERMS):
+                    hybrid = max(0.0, hybrid - _PENALTY)
 
             results.append({
                 "chunk_id":     cid,

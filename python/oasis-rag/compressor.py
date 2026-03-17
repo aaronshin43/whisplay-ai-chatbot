@@ -42,6 +42,14 @@ from config import (
 )
 from medical_keywords import detect_keywords, expand_query
 
+# Sentences matching these prefixes are always preserved (safety-critical)
+_SAFETY_PREFIXES = re.compile(
+    r"^\s*(do\s+not|don'?t|never|avoid|warning|caution|critical|important)",
+    re.IGNORECASE,
+)
+# Numbered list item (e.g. "1. ", "2. ")
+_NUMBERED_ITEM_RE = re.compile(r"^\s*\d+[.)]\s")
+
 # ─────────────────────────────────────────────────────────────
 # Sentence splitter
 # ─────────────────────────────────────────────────────────────
@@ -156,6 +164,35 @@ def compress_chunk(
 
     # --- selection pass ---
     kept_indices = [i for i, (_, score) in enumerate(scored) if score > threshold]
+
+    # Always keep safety-critical sentences (Do NOT / Never / Avoid + any query keyword)
+    # This prevents the compressor from silently removing contraindication warnings.
+    safety_set = set(kept_indices)
+    for i, (sent, _) in enumerate(scored):
+        if _SAFETY_PREFIXES.match(sent) and any(t in sent.lower() for t in terms):
+            safety_set.add(i)
+    kept_indices = sorted(safety_set)
+
+    # Preserve numbered list integrity: if any item from a numbered list is kept,
+    # keep all contiguous items from that list (avoids gaps like "1. … 3. …").
+    if any(_NUMBERED_ITEM_RE.match(sentences[i]) for i in kept_indices):
+        numbered_kept = set(kept_indices)
+        # Find contiguous numbered runs that partially overlap with kept_indices
+        runs: list[list[int]] = []
+        current_run: list[int] = []
+        for i, sent in enumerate(sentences):
+            if _NUMBERED_ITEM_RE.match(sent):
+                current_run.append(i)
+            else:
+                if current_run:
+                    runs.append(current_run)
+                    current_run = []
+        if current_run:
+            runs.append(current_run)
+        for run in runs:
+            if any(idx in numbered_kept for idx in run):
+                numbered_kept.update(run)
+        kept_indices = sorted(numbered_kept)
 
     # Guarantee minimum sentence count (take top-scored if under floor)
     if len(kept_indices) < min_sentences:
