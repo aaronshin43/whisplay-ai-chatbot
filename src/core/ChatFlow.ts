@@ -25,7 +25,7 @@ import { cameraDir, recordingsDir } from "../utils/dir";
 import { getLatestDisplayImg, setLatestCapturedImg } from "../utils/image";
 import dotEnv from "dotenv";
 import { getSystemPromptWithKnowledge } from "./Knowledge";
-import { getSystemPromptFromOasis } from "./OasisAdapter";
+import { getSystemPromptFromOasis, sanitizeOasisChunk, logOasisResponse } from "./OasisAdapter";
 import { enableRAG } from "../cloud-api/knowledge";
 
 // Use OASIS instead of generic RAG if enabled
@@ -260,10 +260,28 @@ class ChatFlow {
                 content: this.asrText,
               },
             ]);
+
+            // Accumulate full response for OASIS logging and format validation
+            const oasisBuffer: string[] = [];
+            const capturedQuery = this.asrText;
+
             chatWithLLMStream(
               prompt,
-              (text) => currentAnswerId === this.answerId && partial(text),
-              () => currentAnswerId === this.answerId && endPartial(),
+              (text) => {
+                if (currentAnswerId !== this.answerId) return;
+                const clean = useOasis ? sanitizeOasisChunk(text) : text;
+                if (useOasis) oasisBuffer.push(clean);
+                partial(clean);
+              },
+              () => {
+                if (currentAnswerId !== this.answerId) return;
+                if (useOasis && oasisBuffer.length > 0) {
+                  const fullResponse = oasisBuffer.join("");
+                  logOasisResponse(capturedQuery, fullResponse);
+                  console.log("[OASIS] Full response:\n", fullResponse);
+                }
+                endPartial();
+              },
               (partialThinking) =>
                 currentAnswerId === this.answerId &&
                 this.partialThinkingCallback(partialThinking),

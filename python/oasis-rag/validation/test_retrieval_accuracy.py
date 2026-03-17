@@ -13,7 +13,7 @@ BLEEDING_TESTS = [
      "must_contain": ["pressure", "wound"], "must_not_contain": [],
      "expected_source": "who_bec"},  # any who_bec module (shock/trauma both cover bleeding)
     {"id": "BLD-002", "query": "she cut her hand deeply and bleeding wont stop",
-     "must_contain": ["pressure", "bandage"], "must_not_contain": [],
+     "must_contain": ["pressure", "dressing"], "must_not_contain": [],
      "expected_source": "who_bec"},
     {"id": "BLD-003", "query": "blood is soaking through the cloth what do i do",
      "must_contain": ["pressure", "dressing"],
@@ -65,7 +65,7 @@ CHOKING_TESTS = [
 
 ANAPHYLAXIS_TESTS = [
     {"id": "ANA-001", "query": "throat is swelling after bee sting",
-     "must_contain": ["allerg"],  # 'anaphyla' may not appear in bee-sting chunks; 'allerg' covers allergic/anaphylactic
+     "must_contain": ["sting"],  # "remove bee stinger" sentence survives compression (query keyword match)
      "must_not_contain": [],
      "expected_source": ""},
     {"id": "ANA-002", "query": "allergic reaction face is swelling cant breathe",

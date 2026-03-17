@@ -46,3 +46,6 @@ ensureDirExists(cameraDir);
 
 export const knowledgeDir = path.join(__dirname, "../..", "knowledge");
 ensureDirExists(knowledgeDir);
+
+export const oasisLogDir = path.join(dataDir, "oasis_logs");
+ensureDirExists(oasisLogDir);

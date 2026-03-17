@@ -20,7 +20,9 @@
       "Bash(wmic process:*)",
       "Bash(cmd /c \"taskkill /F /T /PID 3396 & taskkill /F /T /PID 21704 & taskkill /F /T /PID 24064\"\nsleep 3\nnetstat -ano 2>/dev/null | grep \":5001\"\necho \"Port clear check done\")",
       "Bash(powershell -Command \"Stop-Process -Id 3396,21704,24064 -Force -ErrorAction SilentlyContinue\"\nsleep 3\nnetstat -ano 2>/dev/null | grep \":5001\"\necho \"Done\")",
-      "Bash(for q:*)"
+      "Bash(for q:*)",
+      "Bash(python -c \":*)",
+      "Bash(npx tsc:*)"
     ]
   }
 }

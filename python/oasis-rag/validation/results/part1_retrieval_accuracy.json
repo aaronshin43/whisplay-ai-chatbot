@@ -8,9 +8,7 @@
       "source_rank1": "who_bec_skills_bleeding.md",
       "sources_all": [
         "who_bec_skills_bleeding.md",
-        "who_bec_skills_bleeding.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module4_shock.md"
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -26,9 +24,7 @@
       "source_rank1": "redcross_wounds.md",
       "sources_all": [
         "redcross_wounds.md",
-        "who_bec_skills_wound.md",
-        "who_bec_skills_bleeding.md",
-        "who_bec_skills_bleeding.md"
+        "who_bec_skills_wound.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -44,8 +40,6 @@
       "source_rank1": "who_bec_skills_wound.md",
       "sources_all": [
         "who_bec_skills_wound.md",
-        "who_bec_skills_bleeding.md",
-        "redcross_wounds.md",
         "who_bec_skills_bleeding.md"
       ],
       "missing_keywords": [],
@@ -62,9 +56,7 @@
       "source_rank1": "who_bec_skills_wound.md",
       "sources_all": [
         "who_bec_skills_wound.md",
-        "redcross_wounds.md",
-        "redcross_wounds.md",
-        "who_bec_skills_bleeding.md"
+        "redcross_wounds.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -80,9 +72,7 @@
       "source_rank1": "redcross_wounds.md",
       "sources_all": [
         "redcross_wounds.md",
-        "who_bec_skills_bleeding.md",
-        "who_bec_skills_bleeding.md",
-        "who_bec_module2_trauma.md"
+        "who_bec_skills_bleeding.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -98,9 +88,7 @@
       "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
         "who_bec_skills_cpr.md",
-        "who_bec_skills_cpr.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_quick_cards.md"
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -116,9 +104,7 @@
       "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
         "who_bec_skills_cpr.md",
-        "who_bec_skills_cpr.md",
-        "who_bec_chest_pain_cardiac.md",
-        "redcross_electric_shock.md"
+        "who_bec_chest_pain_cardiac.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -134,9 +120,7 @@
       "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
         "who_bec_skills_cpr.md",
-        "who_bec_skills_cpr.md",
-        "who_bec_chest_pain_cardiac.md",
-        "pediatric_emergency_consolidated.md"
+        "who_bec_chest_pain_cardiac.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -152,9 +136,7 @@
       "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
         "who_bec_skills_cpr.md",
-        "who_bec_skills_cpr.md",
-        "redcross_electric_shock.md",
-        "who_bec_chest_pain_cardiac.md"
+        "redcross_electric_shock.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -170,9 +152,7 @@
       "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
         "who_bec_skills_cpr.md",
-        "who_bec_skills_cpr.md",
-        "redcross_electric_shock.md",
-        "who_bec_chest_pain_cardiac.md"
+        "redcross_electric_shock.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -188,8 +168,6 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_quick_cards.md",
-        "who_bec_module3_breathing.md",
         "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
@@ -206,9 +184,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_quick_cards.md",
-        "who_bec_quick_cards.md",
-        "who_bec_module1_abcde.md"
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -224,9 +200,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_quick_cards.md",
-        "who_bec_skills_airway.md",
-        "who_bec_module1_abcde.md"
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -242,9 +216,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_quick_cards.md",
-        "who_bec_module1_abcde.md",
-        "who_bec_skills_airway.md"
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -260,9 +232,7 @@
       "source_rank1": "redcross_bites_stings.md",
       "sources_all": [
         "redcross_bites_stings.md",
-        "who_bec_poisoning_overdose.md",
-        "redcross_bites_stings.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_poisoning_overdose.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -278,9 +248,7 @@
       "source_rank1": "redcross_bites_stings.md",
       "sources_all": [
         "redcross_bites_stings.md",
-        "who_bec_module4_shock.md",
-        "redcross_bites_stings.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_module4_shock.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -296,9 +264,7 @@
       "source_rank1": "redcross_bites_stings.md",
       "sources_all": [
         "redcross_bites_stings.md",
-        "redcross_bites_stings.md",
-        "who_bec_quick_cards.md",
-        "who_bec_skills_medications.md"
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -314,9 +280,7 @@
       "source_rank1": "redcross_bites_stings.md",
       "sources_all": [
         "redcross_bites_stings.md",
-        "who_bec_module4_shock.md",
-        "who_bec_module3_breathing.md",
-        "redcross_bites_stings.md"
+        "who_bec_module4_shock.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -331,8 +295,6 @@
       "score": 0.5215217471122742,
       "source_rank1": "redcross_cold_emergencies.md",
       "sources_all": [
-        "redcross_cold_emergencies.md",
-        "redcross_heat_emergencies.md",
         "redcross_cold_emergencies.md",
         "redcross_heat_emergencies.md"
       ],
@@ -350,9 +312,7 @@
       "source_rank1": "who_bec_module4_shock.md",
       "sources_all": [
         "who_bec_module4_shock.md",
-        "who_bec_module4_shock.md",
-        "who_bec_module1_abcde.md",
-        "who_bec_module2_trauma.md"
+        "who_bec_module1_abcde.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -368,9 +328,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module4_shock.md",
-        "who_bec_module4_shock.md"
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -386,8 +344,6 @@
       "source_rank1": "redcross_bone_joint.md",
       "sources_all": [
         "redcross_bone_joint.md",
-        "redcross_bone_joint.md",
-        "who_bec_module2_trauma.md",
         "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
@@ -404,8 +360,6 @@
       "source_rank1": "redcross_bone_joint.md",
       "sources_all": [
         "redcross_bone_joint.md",
-        "redcross_bone_joint.md",
-        "who_bec_module2_trauma.md",
         "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
@@ -422,9 +376,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module5_mental_status.md"
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -440,8 +392,6 @@
       "source_rank1": "who_bec_module2_trauma.md",
       "sources_all": [
         "who_bec_module2_trauma.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_quick_cards.md",
         "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
@@ -458,9 +408,7 @@
       "source_rank1": "who_bec_quick_cards.md",
       "sources_all": [
         "who_bec_quick_cards.md",
-        "who_bec_quick_cards.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_skills_airway.md"
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -476,9 +424,7 @@
       "source_rank1": "redcross_burns.md",
       "sources_all": [
         "redcross_burns.md",
-        "who_bec_skills_burns.md",
-        "who_bec_skills_burns.md",
-        "redcross_burns.md"
+        "who_bec_skills_burns.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -494,8 +440,6 @@
       "source_rank1": "redcross_burns.md",
       "sources_all": [
         "redcross_burns.md",
-        "redcross_burns.md",
-        "who_bec_skills_burns.md",
         "who_bec_skills_burns.md"
       ],
       "missing_keywords": [],
@@ -512,8 +456,6 @@
       "source_rank1": "redcross_burns.md",
       "sources_all": [
         "redcross_burns.md",
-        "redcross_burns.md",
-        "who_bec_skills_burns.md",
         "who_bec_skills_burns.md"
       ],
       "missing_keywords": [],
@@ -530,9 +472,7 @@
       "source_rank1": "who_bec_module3_breathing.md",
       "sources_all": [
         "who_bec_module3_breathing.md",
-        "who_bec_quick_cards.md",
-        "redcross_special.md",
-        "who_bec_module3_breathing.md"
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -548,9 +488,7 @@
       "source_rank1": "who_bec_module2_trauma.md",
       "sources_all": [
         "who_bec_module2_trauma.md",
-        "who_bec_module3_breathing.md",
-        "who_bec_module3_breathing.md",
-        "redcross_burns.md"
+        "who_bec_module3_breathing.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -566,9 +504,7 @@
       "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
         "who_bec_skills_cpr.md",
-        "pediatric_emergency_consolidated.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module3_breathing.md"
+        "pediatric_emergency_consolidated.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -584,9 +520,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module5_mental_status.md"
+        "who_bec_module2_trauma.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -602,9 +536,7 @@
       "source_rank1": "redcross_special.md",
       "sources_all": [
         "redcross_special.md",
-        "who_bec_diabetic_emergency.md",
-        "who_bec_diabetic_emergency.md",
-        "who_bec_module5_mental_status.md"
+        "who_bec_diabetic_emergency.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -620,9 +552,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_stroke.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module2_trauma.md"
+        "who_bec_stroke.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -638,9 +568,7 @@
       "source_rank1": "who_bec_module1_abcde.md",
       "sources_all": [
         "who_bec_module1_abcde.md",
-        "who_bec_seizure_epilepsy.md",
-        "who_bec_module2_trauma.md",
-        "who_bec_module5_mental_status.md"
+        "who_bec_seizure_epilepsy.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -656,9 +584,7 @@
       "source_rank1": "who_bec_poisoning_overdose.md",
       "sources_all": [
         "who_bec_poisoning_overdose.md",
-        "who_bec_poisoning_overdose.md",
-        "redcross_special.md",
-        "who_bec_module5_mental_status.md"
+        "redcross_special.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -674,9 +600,7 @@
       "source_rank1": "who_bec_skills_snakebite.md",
       "sources_all": [
         "who_bec_skills_snakebite.md",
-        "who_bec_quick_cards.md",
-        "who_bec_skills_snakebite.md",
-        "who_bec_module5_mental_status.md"
+        "who_bec_quick_cards.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -692,8 +616,6 @@
       "source_rank1": "redcross_cold_emergencies.md",
       "sources_all": [
         "redcross_cold_emergencies.md",
-        "redcross_cold_emergencies.md",
-        "who_bec_module5_mental_status.md",
         "who_bec_module5_mental_status.md"
       ],
       "missing_keywords": [],
@@ -710,9 +632,7 @@
       "source_rank1": "redcross_altitude.md",
       "sources_all": [
         "redcross_altitude.md",
-        "redcross_lightning.md",
-        "redcross_lightning.md",
-        "redcross_altitude.md"
+        "redcross_lightning.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -728,8 +648,6 @@
       "source_rank1": "redcross_heat_emergencies.md",
       "sources_all": [
         "redcross_heat_emergencies.md",
-        "redcross_heat_emergencies.md",
-        "redcross_cold_emergencies.md",
         "redcross_cold_emergencies.md"
       ],
       "missing_keywords": [],
@@ -746,9 +664,7 @@
       "source_rank1": "redcross_altitude.md",
       "sources_all": [
         "redcross_altitude.md",
-        "redcross_altitude.md",
-        "who_bec_module5_mental_status.md",
-        "who_bec_module2_trauma.md"
+        "who_bec_module5_mental_status.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -764,9 +680,7 @@
       "source_rank1": "redcross_cold_emergencies.md",
       "sources_all": [
         "redcross_cold_emergencies.md",
-        "redcross_cold_emergencies.md",
-        "redcross_heat_emergencies.md",
-        "redcross_burns.md"
+        "redcross_heat_emergencies.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -782,9 +696,7 @@
       "source_rank1": "who_bec_skills_cpr.md",
       "sources_all": [
         "who_bec_skills_cpr.md",
-        "redcross_submersion.md",
-        "who_bec_skills_cpr.md",
-        "who_bec_module2_trauma.md"
+        "redcross_submersion.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -800,9 +712,7 @@
       "source_rank1": "redcross_wounds.md",
       "sources_all": [
         "redcross_wounds.md",
-        "redcross_bites_stings.md",
-        "redcross_bites_stings.md",
-        "redcross_wounds.md"
+        "redcross_bites_stings.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -818,9 +728,7 @@
       "source_rank1": "redcross_bites_stings.md",
       "sources_all": [
         "redcross_bites_stings.md",
-        "redcross_bites_stings.md",
-        "who_bec_skills_snakebite.md",
-        "who_bec_quick_cards.md"
+        "who_bec_skills_snakebite.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],
@@ -836,9 +744,7 @@
       "source_rank1": "who_bec_poisoning_overdose.md",
       "sources_all": [
         "who_bec_poisoning_overdose.md",
-        "redcross_bites_stings.md",
-        "redcross_bites_stings.md",
-        "who_bec_poisoning_overdose.md"
+        "redcross_bites_stings.md"
       ],
       "missing_keywords": [],
       "forbidden_found": [],

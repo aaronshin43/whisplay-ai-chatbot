@@ -36,13 +36,13 @@ const ollamaPredictNum = process.env.OLLAMA_PREDICT_NUM
   : undefined;
 const enableThinking = process.env.ENABLE_THINKING === "true";
 
-// OASIS mode: constrained generation options matching chat_test.py
+// OASIS mode: constrained generation options for medical accuracy
 const isOasisMode = process.env.ENABLE_OASIS_MATCHER === "true" || true;
 const oasisOptions = isOasisMode
   ? {
-      num_predict: 200,
-      temperature: 0.1,
-      stop: ["**", "Okay", "Let's", "Here's"],
+      num_predict: 300,
+      temperature: 0.05,
+      stop: ["**", "Okay", "Let's", "Here's", "Note:", "Note "],
     }
   : undefined;
 
@@ -106,16 +106,18 @@ const chatWithLLMStream: ChatWithLLMStreamFunction = async (
   partialThinkingCallback?: (partialThinking: string) => void,
   invokeFunctionCallback?: (functionName: string, result?: string) => void,
 ): Promise<void> => {
-  if (shouldResetChatHistory()) {
-    resetChatHistory();
-  }
   updateLastMessageTime();
-  // If inputMessages contains a system prompt (OASIS RAG), replace the default one
+  // OASIS mode: each emergency query is fully independent — reset history every time
+  // to prevent prior emergency context from contaminating the current response.
   const incomingSystem = (inputMessages as OllamaMessage[]).find(m => m.role === "system");
-  if (incomingSystem) {
-    messages[0] = incomingSystem;
+  if (isOasisMode && incomingSystem) {
+    messages.length = 0;
+    messages.push(incomingSystem);
     messages.push(...(inputMessages as OllamaMessage[]).filter(m => m.role !== "system"));
   } else {
+    if (shouldResetChatHistory()) {
+      resetChatHistory();
+    }
     messages.push(...(inputMessages as OllamaMessage[]));
   }
   let endResolve: () => void = () => {};
