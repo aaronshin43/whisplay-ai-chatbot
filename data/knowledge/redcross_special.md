@@ -8,6 +8,14 @@
 
 ---
 
+## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+
+> **During active convulsions:**
+> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
+> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
+> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+
+
 ### ChECK CAll CARE
 for the Wilderness
 if you find yourself in an emergency, you should follow three basic emergency
@@ -41,16 +49,16 @@ use the aBcdes to assess life-threatening
 conditions.
 - A = if the person is unconscious,
 use the head-tilt/chin-lift technique
-to open the airway (figure 1).
+to open the airway.
 a person who is speaking or
 breathing has an open airway, but
 ask if he or she is having problems
 breathing.
 - B = look, listen and feel for
 movement, normal breathing
-and quality of breathing (for Figure 1
-no more than 10 seconds)
-(figure 2). if an unconscious
+and quality of breathing (for
+no more than 10 seconds).
+if an unconscious
 adult is not breathing or is not
 breathing normally, assume a
 cardiac emergency and begin
@@ -59,7 +67,6 @@ cardiopulmonary resuscitation
 drowning or respiratory emergency,
 give 2 rescue breaths before
 starting cPr.
-Figure 2
 - C = assess the person's circulation by
 scanning the body for severe bleeding. if severely bleeding, use direct pressure to
 control the bleeding.
@@ -70,9 +77,9 @@ manually support the head in the position found.
 - E = assess the threat of the environment and expose any injuries. look
 for signs and symptoms of exposure to extreme environmental conditions,
 especially extreme heat and cold weather, which can cause changes to the
-body’s temperature and threaten a person’s life. it is important to protect the
+body's temperature and threaten a person's life. it is important to protect the
 person from extreme conditions, but if necessary, you may expose part of the
-person’s skin to assess the damage and to give care.
+person's skin to assess the damage and to give care.
 if you find a life-threatening condition during the primary assessment, call for
 help if possible and give care for the condition found. the caller should be
 prepared with information about the person, location/environment and resources
@@ -87,21 +94,21 @@ check the person head to toe during the hands-on physical exam, going in the
 following order: head, face, ears, neck, chest, abdomen, pelvis, genitalia, each
 arm, each leg and back.
 - look for dots:
- D = Deformity
- O = Open injuries
- T = Tenderness
- S = Swelling
+ D = Deformity
+ O = Open injuries
+ T = Tenderness
+ S = Swelling
 - check circulation, sensation and motion (csm) at each extremity.
 - assess skin color, temperature and moisture.
 
 ### Level of Consciousness
 use aVPu to describe the person's level of consciousness (loc).
 - A = Alert and able to answer orientation questions
- A+O×4: knows who (name), where (current location), when (day) and
+ A+O×4: knows who (name), where (current location), when (day) and
 what happened
- A+O×3: knows who, where and when
- A+O×2: knows only who and where
- A+O×1: knows only who
+ A+O×3: knows who, where and when
+ A+O×2: knows only who and where
+ A+O×1: knows only who
 
 - V = responds only to verbal stimuli (e.g., by grimacing or rolling away from
 your voice when you speak or shout)
@@ -179,12 +186,12 @@ With acute infection:
 - abdominal distention (swelling).
 With chronic infection:
 - intermittent episodes of:
- mushy, foul-smelling stools.
- abdominal pain and distention.
- gas.
- loss of appetite.
- weight loss.
- fatigue.
+ mushy, foul-smelling stools.
+ abdominal pain and distention.
+ gas.
+ loss of appetite.
+ weight loss.
+ fatigue.
 
 ### To give CARE:
 - care for persistent diarrhea. see diarrhea.
@@ -202,9 +209,8 @@ back into the cavity.
 - remove clothing from around
 the wound.
 - apply moist, sterile dressings
-loosely over the wound (figure 1).
+loosely over the wound.
 - cover dressings loosely with plastic
-Figure 1
 wrap, if available. foil or a plastic
 bag will also work.
 - give nothing by mouth.
@@ -221,20 +227,14 @@ abdominal injuries.
 - nausea.
 
 ### To give CARE:
-- closely observe the person. Upper right Upper left
-quadrant quadrant
+- closely observe the person.
 - carefully position the person on his
 or her back with the knees bent, if it
 does not cause more pain.
 - care for shock.
 - evacuate as soon as possible.
-- note quadrant of pain (figure 2) and
+- note quadrant of pain and
 describe it on report form.
-
-### Lower right Lower left
-quadrant quadrant
-Figure 2
-special situations 87
 
 
 ### Asthma Attack
@@ -258,55 +258,52 @@ comfortable position.
 - administer oxygen, if trained.
 - assist the person with or have the
 person self-administer a prescribed
-inhaler (figure 1). Figure 1
+inhaler.
 NOTE the person should only take medication if he or she has no known
 contraindications. individuals should read and follow all label or health
 care provider instructions. check state and local regulations regarding
 use of prescription and over-the-counter medications.
- Help the person sit up and rest in a position comfortable for breathing.
- ensure that the prescription is in the person’s name and is prescribed for “quick
-relief” or “acute” attacks.
+ Help the person sit up and rest in a position comfortable for breathing.
+ ensure that the prescription is in the person's name and is prescribed for "quick
+relief" or "acute" attacks.
 NOTE some inhalers contain long-acting, preventive medication that should not
 be used in an emergency.
 
- ensure that the expiration date of the medication has not passed.
- read and follow all instructions
+ ensure that the expiration date of the medication has not passed.
+ read and follow all instructions
 printed on the inhaler prior to
 administering the medication to
 the person.
- shake the inhaler.
- remove the cover from the inhaler
+ shake the inhaler.
+ remove the cover from the inhaler
 mouthpiece. some inhalers have
 extension or spacer tubes that fit
-between the mouthpiece and the Figure 2
-medication canister (figure 2). if
+between the mouthpiece and the
+medication canister. if
 present, attach and use.
- tell the person to breathe out as much as possible.
- Have the person place his or her lips tightly around the mouthpiece. the person
+ tell the person to breathe out as much as possible.
+ Have the person place his or her lips tightly around the mouthpiece. the person
 may use different techniques.
- as the person breathes in slowly, administer the medication by quickly pressing
+ as the person breathes in slowly, administer the medication by quickly pressing
 down on the inhaler canister, or the person may self-administer the medication.
- the person should continue a full, deep breath.
- tell the person to try to hold his or her breath for a count of 10. when using
+ the person should continue a full, deep breath.
+ tell the person to try to hold his or her breath for a count of 10. when using
 an extension tube, have the person take 5 to 6 deep breaths through the tube
 without holding his or her breath.
- note the time of administration and any change in the person’s condition.
- the medication may be repeated once after 1 to 2 minutes.
+ note the time of administration and any change in the person's condition.
+ the medication may be repeated once after 1 to 2 minutes.
 NOTE the medication may be repeated every 5 to 10 minutes thereafter
 as needed. these medications might take 5 to 15 minutes to reach
 full effectiveness.
- stay with the person and monitor his or her condition and give care for any other
+ stay with the person and monitor his or her condition and give care for any other
 injuries. Have the person rinse his or her mouth out with water.
- care for shock. Keep the person from getting chilled or overheated.
-NOTE if a person has an inhaler, you may assist with administration if you are
+ care for shock. Keep the person from getting chilled or overheated.
+NOTE if a person has an inhaler, you may assist with administration if it you are
 trained to do so and local and state protocols allow.
 
 ### CALLing for Help: Guidelines for Evacuation
 - evacuate rapidly—GO FAST—if breathing does not improve within
 15 minutes.
-special situations 89
-kcatta
-amhtsa
 
 
 ### Diabetic Emergency
@@ -330,13 +327,12 @@ diabetes, give sugar (e.g., fruit juices, non-diet soft drinks, sugar packets, c
 decorating gel, candy, oral glucose).
 - monitor the person for changes in consciousness.
 - Have the person check his or her own sugar level, if he or she knows how.
-special situations 93
 
 - if the person has insulin, you can get it for the person. the person must
 self-administer the insulin.
 - if the person is unconscious:
- do not give anything to eat or drink.
- care for the conditions you find.
+ do not give anything to eat or drink.
+ care for the conditions you find.
 
 ### CALLing for Help: Guidelines for Evacuation
 - evacuate rapidly—GO FAST—anyone who does not feel better in about
@@ -365,16 +361,14 @@ injury. if you cannot move a person safely, do not move the person.
 ### Walking Assist
 to help a person who needs help
 walking to safety:
-1. place the person’s arm around your
+1. place the person's arm around your
 shoulders or waist, depending on his
 or her size, and hold it in place with
 one hand.
 2. support the person with your other
-hand around the person’s waist
-(figure 1).
+hand around the person's waist.
 3. move the person to safety.
 another person, if present, can support
-Figure 1
 the person in the same way on the
 other side.
 
@@ -384,47 +378,42 @@ unconscious person when you do not
 suspect a head, neck or back injury:
 1. position yourself in front of the
 person with your back to the
-person’s front.
+person's front.
 2. place the person's arms over your
 shoulders and cross them in front of
 your neck, then grasp the person's
 wrists.
 3. lean forward slightly and pull the
-person onto your back (figure 2). to
+person onto your back. to
 do this, you may have to kneel close
-to the ground. then, when you lift, Figure 2
+to the ground. then, when you lift,
 use the power in your legs to get up
 and move.
 4. move the person to safety.
-special situations 95
-ycnegreme
-sevom
-ycnegreme-non
 
 
 ### Two-Person Seat Carry
 to carry a person who cannot walk and
 who you do not think has a head, neck
 or back injury:
-1. put one arm under the person’s
+1. put one arm under the person's
 thighs and the other across the
-person’s back, under his or her arms.
+person's back, under his or her arms.
 2. interlock your arms with another
-person’s arms under the person’s
-legs and across the person’s back.
-3. lift the person in the “seat” formed
-by your interlocked arms (figure 3).
+person's arms under the person's
+legs and across the person's back.
+3. lift the person in the "seat" formed
+by your interlocked arms.
 4. move the person to safety.
-Figure 3
 
 ### Clothes Drag
 to move a person who may have a
 head, neck or back injury:
-1. gather the person’s clothing behind
+1. gather the person's clothing behind
 his or her neck. while moving the
 person, cradle the head with his or
 her clothes and your hands.
-2. pull the person to safety (figure 4). Figure 4
+2. pull the person to safety.
 
 ### Blanket Drag
 to move a person in an emergency
@@ -432,30 +421,26 @@ situation when equipment is limited:
 1. Keep the person between you and
 the blanket.
 2. gather half the blanket and place it
-against the person’s side.
+against the person's side.
 3. roll the person toward you as a unit.
 4. reach over the person and place the
-Figure 5
 blanket under the person.
 5. roll the person onto the blanket.
-6. gather the blanket at the head and move the person to safety (figure 5).
-ycnegreme
-sevom
-ycnegreme-non
+6. gather the blanket at the head and move the person to safety.
 
 
 ### Foot Drag
 to move a person who is too large to
 carry or otherwise move:
-1. firmly grasp the person’s ankles and
-move backward (figure 6).
+1. firmly grasp the person's ankles and
+move backward.
 2. pull the person in a straight line and
 be careful not to bump his or her
-head. Figure 6
+head.
 Stretchers
 a stretcher (litter) can be used to move a person a short distance to a better site
 for giving care. a stretcher can also be used to transport an injured or ill person
-a longer distance. choose one of the following methods based on the person’s
+a longer distance. choose one of the following methods based on the person's
 injuries:
 - Blanket stretcher
 - rope stretcher
@@ -474,13 +459,9 @@ assess what equipment you have to improvise a stretcher.
 a good stretcher:
 - is stable.
 - can be tipped over without the person falling out.
-- Keeps the person safe and does not make the person’s injuries worse.
+- Keeps the person safe and does not make the person's injuries worse.
 - will not injure the person carrying it.
 - is strong enough to deal with the terrain.
-special situations 97
-ycnegreme
-sevom
-ycnegreme-non
 
 - is strong enough to deal with the movement it will be subjected to.
 - makes the person feel safe and comfortable (within reason).
@@ -488,7 +469,7 @@ ycnegreme-non
 when carrying a stretcher, make sure:
 - the person in the stretcher is wearing eye protection so debris does not get
 into his or her eyes.
-- the person’s head is pointing uphill.
+- the person's head is pointing uphill.
 - there are three people on each side to carry the stretcher over rough or
 steep terrain, plus one leader and two people with ropes to control the rate of
 descent or uphill movement.
@@ -515,7 +496,7 @@ complicate the birth or harm the baby.
 
 ### CALLing for Help: Guidelines for Evacuation
 - evacuate slowly—GO SLOW—if possible. give advanced medical personnel
-the woman’s name, age, expected due date, how long she has been having
+the woman's name, age, expected due date, how long she has been having
 labor pains and if this is her first child.
 
 
@@ -532,32 +513,31 @@ soft tissue injury.
 - remember that all eye injuries should be examined by a health care provider.
 - if foreign bodies get in the eye (e.g., dust), tell the person not to rub the eyes.
 do not touch the eye.
- Have the person blink several times.
- if the object is visible on the lower eyelid, pull the eyelid down and try to
+ Have the person blink several times.
+ if the object is visible on the lower eyelid, pull the eyelid down and try to
 remove the object with the corner of a sterile gauze pad. Be careful not to touch
 the eyeball.
- gently flush the eye with irrigation, saline solution or water.
- after irrigating, if the object is visible on the upper eyelid, gently roll the upper
+ gently flush the eye with irrigation, saline solution or water.
+ after irrigating, if the object is visible on the upper eyelid, gently roll the upper
 eyelid back over a cotton swab and attempt to remove the object with the corner
 of a sterile gauze pad, being careful not to touch the eyeball.
- if the object remains, the person should receive advanced medical care.
- cover the injured eye with an eye pad/shield.
+ if the object remains, the person should receive advanced medical care.
+ cover the injured eye with an eye pad/shield.
 - if an object is impaled in the eye, do not attempt to remove it.
- Keep the person on his or her back and have someone perform
+ Keep the person on his or her back and have someone perform
 manual stabilization.
- stabilize the object by encircling the eye with a gauze dressing or soft sterile cloth,
+ stabilize the object by encircling the eye with a gauze dressing or soft sterile cloth,
 being careful not to apply any pressure to the area.
- position bulky dressings around the impaled object (e.g., roller gauze) and then
+ position bulky dressings around the impaled object (e.g., roller gauze) and then
 cover it with a shield (e.g., a paper cup). do not use styrofoam®-type materials,
 as small particles can break off and get into the eye. the shield should not touch
 the object.
-special situations 99
 
- Bandage the shield and dressing in place with a self-adhering bandage and
-roller bandage covering the person’s injured eye to keep the object stable and
+ Bandage the shield and dressing in place with a self-adhering bandage and
+roller bandage covering the person's injured eye to keep the object stable and
 minimize movement.
- comfort and reassure the person.
- do not leave the person unattended.
+ comfort and reassure the person.
+ do not leave the person unattended.
 
 ### Mouth Injuries
 
@@ -592,25 +572,18 @@ When CHECKing the person, look, listen and feel for:
 - Burns around the lips or tongue or on
 the skin.
 - open or spilled containers.
-- overturned or damaged plants. Figure 1A
+- overturned or damaged plants.
 - unusual odors, flames and/or smoke.
 - Headache.
 - dizziness.
 - exposure to plants, such as poison
-ivy (figure 1, a), poison sumac
-(figure 1, B) or poison oak
-(figure 1, c).
-
-### Figure 1B
-
-### Figure 1C
-special situations 101
+ivy, poison sumac or poison oak.
 
 
 ### To give CARE:
 - look for any containers that may contain a harmful or poisonous substance.
 - if necessary, move the person to safety, away from the source of the poison.
-- check the person’s level of consciousness (loc), movement and breathing.
+- check the person's level of consciousness (loc), movement and breathing.
 - reassure the person that you are going to help.
 - if you suspect a conscious person has been poisoned and no immediate life-
 threatening condition is found and you have access to a phone, call the national
@@ -639,7 +612,7 @@ amputation is the complete removal or severing of an external body part.
 soft tissue.
 - if the body part is completely severed, once it has been found, wrap it in
 sterile gauze, moistened in sterile saline if available.
-- place it in a plastic bag and label it with the person’s name and the time and
+- place it in a plastic bag and label it with the person's name and the time and
 date it was placed in the bag.
 - Keep the bag cool by placing it in a larger bag or container of an ice and water
 slurry, not on ice alone and not on dry ice.

@@ -8,9 +8,14 @@
 
 ---
 
-Module 1: The ABCDE and SAMPLE history approach
-## Key Terms
-Write the definition using the Glossary at the back of the workbook.
+## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+
+> **During active convulsions:**
+> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
+> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
+> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+
+
 ## Abcde:
 Accessory muscle use:
 ### Altered mental status (AMS):
@@ -29,7 +34,6 @@ Diaphoresis:
 ### Difficulty in breathing (DIB):
 Disposition:
 Foreign body:
-111222
 
 ### GCS (Glasgow Coma Scale):
 Hives:
@@ -51,9 +55,7 @@ Needle decompression:
 Oedema:
 ### Oropharyngeal airway (OPA):
 ### Oxygen saturation (O2 sat):
-1133
 
-Module 1: The ABCDE and SAMPLE history approach
 Percussion:
 Perfusion:
 Pericardial tamponade:
@@ -70,7 +72,6 @@ Sucking chest wound:
 Tachypnoea:
 Tension pneumothorax:
 Wheezing:
-111444
 
 ## Overview
 Approaching every patient in a systematic way ensures that life-threatening conditions are
@@ -107,9 +108,7 @@ patients who are aggressive or agitated, request help as needed from security pe
 police before beginning your assessment.
  infectious disease risk. Is there a possibility for disease exposure (such as flu or haemorrhagic
 fever)?
-1155
 
-Module 1: The ABCDE and SAMPLE history approach
 ## Use Personal Protective Equipment
 You may not know the cause of illness or injury when you first approach a patient, and without
 appropriate personal protective equipment (PPE), may expose yourself to diseases, chemicals
@@ -135,12 +134,6 @@ or transfers.
  Know the relevant local agencies to contact for suspected outbreaks or hazardous
 exposures, such as chemical spills or radiation. There is often support and guidance available
 for containment and decontamination.
-### Workbook question 1: Safety
-A person walks into your health post vomiting, bleeding from the mouth, and
-complaining of abdominal pain.
-Using the workbook section above, describe what is needed to safely approach this
-person:
-111666
 
 ## Elements Of The Abcde Approach
 ### The ABCDE approach
@@ -157,9 +150,7 @@ identified and treated early, in order of priority. If a problem is discovered i
 steps, it must be addressed immediately before moving on to the next step. The ABCDE
 approach should be performed in the first 5 minutes and repeated whenever a patient’s
 condition changes or worsens.
-1177
 
-Module 1: The ABCDE and SAMPLE history approach
 ## The Abcde Assessment And Management
 REMEMBER... Always check for signs of trauma in each of the ABCDE sections, and
 reference the trauma module as needed. [see TRAUMA]
@@ -168,16 +159,16 @@ Airway Can the patient talk normally? If • If the patient is unconscious and
 YES, the airway is open. not breathing normally and:
 If the patient cannot talk – NO TRAUMA: open the airway
 A normally: using the head-tilt and chin-lift
-manoeuvre. [See SKILLS]
+manoeuvre.
 • look to see if the chest wall
 is moving and listen to see if – CONCERN FOR TRAUMA: maintain
 there is air movement from the cervical spine immobilization and
 mouth or nose. open the airway using the jaw
-thrust manoeuvre. [See SKILLS]
+thrust manoeuvre.
 • listen for abnormal sounds
 (such as stridor, grunting, or – Place an oropharyngeal or
 snoring) or a hoarse or raspy nasopharyngeal airway to
-voice that indicates a partially maintain the airway. [See SKILLS]
+voice that indicates a partially maintain the airway.
 obstructed airway.
 • If a foreign body is suspected:
 – Stridor plus swelling and/or
@@ -193,7 +184,7 @@ abnormal swelling around the – If the patient is choking (unable
 airway, and altered mental to cough, not making sounds) use
 status. age-appropriate chest thrusts/
 • Check if the patient is able to abdominal thrusts/back blows.
-swallow saliva or is drooling. [See SKILLS]
+swallow saliva or is drooling.
 – If the patient becomes
 unconscious while choking,
 follow relevant CPR protocols.
@@ -202,19 +193,17 @@ suction when available, or wipe
 clean. Consider placing patient in
 the recovery position if the rest of
 the ABCDE is normal and no trauma
-is suspected. [See SKILLS]
+is suspected.
 • If the patient has swelling, hives
 or stridor, consider severe allergic
 reaction (anaphylaxis), and give
-intramuscular adrenaline. [See
-## Skills]
+intramuscular adrenaline. 
 • Allow the patient to stay in a
 position of comfort and prepare
 for rapid handover/transfer to a
 centre capable of advanced airway
 management, if needed.
 If the airway is open, move onto “Breathing”.
-111888
 
 ## Assessment Immediate Management
 Breathing • Look, listen, and feel to see if • If unconscious with abnormal
@@ -224,7 +213,7 @@ B very slow, or very shallow. protocols.
 • Look for signs of increased work • If not breathing adequately (too
 of breathing (such as accessory slow for age or too shallow), begin
 muscle use, chest indrawing/ bag-valve-mask ventilation with
-retractions, nasal flaring) or oxygen [See SKILLS]. If oxygen not
+retractions, nasal flaring) or oxygen. If oxygen not
 abnormal chest wall movement. immediately available, DO NOT
 ### DELAY ventilation. Start ventilation
 • Listen for abnormal breath
@@ -233,38 +222,38 @@ sounds such as wheezing or
 Plan for rapid handover/transfer.
 crackles. [See DIFFICULTY IN
 BREATHING] • If breathing fast or hypoxic, give
-oxygen [See SKILLS]
+oxygen
 • With severe wheezing, there
 may be limited/no breath • If wheezing, give salbutamol.
-sounds on examination because [See SKILLS] Repeat salbutamol as
+sounds on examination because Repeat salbutamol as
 narrowing of the airways may needed.
 be so severe that breathing • If concern for severe allergic
 cannot be heard. reaction (anaphylaxis), give
 • Listen to see if breath sounds intramuscular adrenaline.
-are equal on both sides. [See SKILLS]
+are equal on both sides.
 • Check for the absence of • If concern for tension
 breath sounds and dull sounds pneumothorax, perform needle
 with percussion on one side decompression immediately and
 (large pleural effusion or give IV fluids and oxygen. [See
-haemothorax). [See SKILLS] SKILLS] Plan for rapid handover/
+haemothorax). SKILLS] Plan for rapid handover/
 transfer.
 • If there are no breath sounds
 on one side, and hypotension, • If concern for large pleural effusion
 check for distended neck veins or haemothorax, give oxygen and
 or a shifted trachea (tension plan for rapid handover/transfer.
 pneumothorax). • If cause unknown, remember the
-• Check oxygen saturation with a possibility of trauma [See TRAUMA]
+• Check oxygen saturation with a possibility of trauma
 pulse oximeter when available.
 If breathing is adequate, move onto “Circulation”.
 Circulation • Look and feel for signs of • For cardiopulmonary arrest, follow
 poor perfusion (cool, moist relevant CPR protocols.
 extremities, delayed capillary • If signs of poor perfusion, give IV
-C refill greater than 3 seconds, low fluids and oxygen [See SKILLS] and:
+C refill greater than 3 seconds, low fluids and oxygen and:
 blood pressure, tachypnoea,
 – For external bleeding, apply
 tachycardia, absent pulses).
 direct pressure or use other
-• Look for both external AND technique to control. [See SKILLS]
+• Look for both external AND technique to control.
 internal bleeding, including
 – If internal bleeding or pericardial
 bleeding:
@@ -281,25 +270,22 @@ neck veins and muffled heart
 sounds that might indicate
 pericardial tamponade.
 If circulation is adequate, move onto “Disability”.
-1199
 
-Module 1: The ABCDE and SAMPLE history approach
 ## Assessment Immediate Management
 Disability • Assess level of consciousness • If altered mental status and no
 with the AVPU scale (Alert, evidence of trauma, place in
-Voice, Pain, Unresponsive) or recovery position. [See SKILLS]
+Voice, Pain, Unresponsive) or recovery position.
 D in trauma cases, the Glasgow • If glucose low (<3.5 mmol/L) or
-Coma Scale (GCS). [See SKILLS] glucose test not available and
+Coma Scale (GCS). glucose test not available and
 • Always check glucose level in patient has altered mental status,
-the confused or unconscious give glucose. [See SKILLS]
+the confused or unconscious give glucose.
 patient. • For active seizures, give a
-• Check for pupil size, whether benzodiazepine. [See SKILLS]
+• Check for pupil size, whether benzodiazepine.
 the pupils are equal, and if • If pregnant and having seizures,
-pupils are reactive to light. give magnesium sulphate. [See
-## Skills]
+pupils are reactive to light. give magnesium sulphate. 
 • If pupils are small and breathing
 slow, consider opioid overdose and
-give naloxone. [See SKILLS]
+give naloxone.
 • If pupils are not equal, consider
 increased pressure on the brain
 and raise head of bed 30 degrees
@@ -315,7 +301,7 @@ possibility of trauma: Immobilize the
 cervical spine if concern for trauma.
 [See TRAUMA and SKILLS]
 Exposure • Examine the entire body for • If snake bite is suspected,
-hidden injuries, rashes, bites or immobilize the limb. [See SKILLS]
+hidden injuries, rashes, bites or immobilize the limb.
 other lesions. Take a picture of the snake if
 E • Rashes, such as hives, can possible from a distance and send
 indicate allergic reaction, with patient. Do not risk additional
@@ -334,7 +320,6 @@ If cause unknown, remember the
 possibility of trauma: Log roll if
 suspected spinal injury [See TRAUMA
 and SKILLS]
-222000
 
 ## Abcde In Depth: Acute, Life-Threatening Conditions
 This section takes a deeper look at conditions that must be managed during the ABCDE approach.
@@ -350,14 +335,14 @@ the airway (such as further into the airway. Do not try to remove a
 stridor, snoring, gurgling) foreign body unless clearly visible.
 • Mental status changes • Use age-appropriate chest thrusts/abdominal
 leading to airway thrusts/back blows if the airway is completely
-obstruction from the obstructed. [See SKILLS]
+obstruction from the obstructed.
 tongue
 • The tongue may obstruct the airway in patients
 • Poor chest rise with a decreased level of consciousness.
 – Open the airway using a head-tilt and chin-
 lift manoeuvre, or use jaw thrust (if there is
 concern for trauma); and place an oral or
-nasopharyngeal airway as needed. [See SKILLS]
+nasopharyngeal airway as needed.
 – These patients may also not be able to protect
 their airway and need to be watched for
 vomiting and aspiration.
@@ -369,19 +354,17 @@ Obstruction • Burns to head and neck Burns can cause airway swelling due to
 due to burns • Burned nasal hairs or inhalational injuries.
 soot around the nose or • Give oxygen to ALL patients with suspected
 mouth airway burn even if they do not show signs of
-• Abnormal sounds from hypoxia. [See SKILLS]
+• Abnormal sounds from hypoxia.
 the airway (such as • Open the airway using appropriate manoeuvre
 stridor) and place an oral or nasopharyngeal airway as
-• Change in voice needed. [See SKILLS]
+• Change in voice needed.
 • Poor chest rise • Maintain cervical spine immobilization if there is
-evidence of trauma. [See SKILLS]
+evidence of trauma.
 • The airway can swell and close off very quickly in
 burn patients. Plan for rapid handover/transfer
 to a provider capable of advanced airway
 management.
-2211
 
-Module 1: The ABCDE and SAMPLE history approach
 ## Condition Signs And Symptoms In-Depth Description And Management
 Obstruction • Mouth, lip, and tongue Severe allergic reactions can cause swelling of the
 due to severe swelling airway that can lead to obstruction.
@@ -392,11 +375,11 @@ reaction stridor and/or wheezing obstruction, severe wheezing or shock. [See
 pale or red, itchy, warm, – Adrenaline can wear off in minutes so be
 swollen skin) prepared to give additional doses.
 • Tachycardia and
-• Place an IV and give IV fluids. [See SKILLS]
+• Place an IV and give IV fluids.
 hypotension
 • Reposition airway as needed (sit patient upright
 • Abnormal sounds from
-if no trauma) and give oxygen. [See SKILLS]
+if no trauma) and give oxygen.
 the airway (such as
 stridor, snoring, gurgling) • If severe or not improving, prepare for rapid
 handover/transfer for advanced airway
@@ -415,13 +398,12 @@ use head-tilt/chin-lift); and place an oral airway
 as needed (do not use nasopharyngeal airways if
 there is facial trauma). [See SKILLS}
 • Maintain cervical spine immobilization if there is
-evidence of trauma. [See SKILLS]
+evidence of trauma.
 • Plan for rapid handover/transfer to advanced
 provider capable of advanced airway
 management or surgical intervention.
 For any abnormal airway sounds, re-assess airway frequently as partial obstruction may worsen
 rapidly and block airway.
-222222
 
 ### BREATHING conditions
 ## B
@@ -439,11 +421,11 @@ shock (tension pneumothorax).
 • hyperresonance with
 • If tension pneumothorax is suspected, perform
 percussion on affected
-emergency needle decompression. [See SKILLS]
-side [See SKILLS]
-• Give oxygen. [See SKILLS]
+emergency needle decompression.
+side
+• Give oxygen.
 • tracheal shift away from
-affected side • Give IV fluids. [See SKILLS]
+affected side • Give IV fluids.
 • Arrange for rapid handover/transfer to an
 advanced provider capable of placing a chest
 tube.
@@ -452,10 +434,9 @@ opioid • Hypoxia and heroin) can decrease the body’s drive to
 overdose breathe.
 • Very small pupils
 • Give naloxone to reverse the effects of opioids.
-[See SKILLS]
 – Monitor closely as naloxone will wear off and
 additional doses may be needed.
-• Give oxygen. [See SKILLS]
+• Give oxygen.
 Asthma/ • Wheezing Asthma and COPD are conditions causing spasm
 COPD (chronic • Cough in the lower airways, resulting in narrowing that
 obstructive causes difficulty in breathing and wheezing.
@@ -465,21 +446,19 @@ pulmonary
 disease) • May have history of
 (Salbutamol helps to relieve the spasm in the air
 asthma/COPD diagnosis,
-passages) [See SKILLS]
+passages)
 allergies or smoking
-• Give oxygen if indicated. [See SKILLS]
+• Give oxygen if indicated.
 Large pleural • Decreased breath sounds Pleural effusion occurs when fluid builds up in
 effusion/ on affected side the space between the lung and the chest wall
 haemothorax • Dull sounds with or diaphragm. As the fluid builds up, it limits
 percussion on affected expansion of the lungs.
-side [See SKILLS] • Give oxygen. [See SKILLS]
+side • Give oxygen.
 • If there is a large amount • Arrange for handover/transfer immediately
 of fluid, may have shock (many of these patients will need a procedure to
 drain fluid).
-If cause unknown, remember the possibility of trauma [See TRAUMA]
-2233
+If cause unknown, remember the possibility of trauma
 
-Module 1: The ABCDE and SAMPLE history approach
 ### CIRCULATION conditions
 ## C
 ## Condition Signs And Symptoms In-Depth Description And Management
@@ -496,11 +475,11 @@ to death.
 • Capillary refill>3 seconds
 patient flat (if tolerated).
 • Sweating (diaphoresis)
-• Give oxygen. [See SKILLS]
+• Give oxygen.
 • May have dizziness,
-• Control bleeding. [See SKILLS]
+• Control bleeding.
 confusion, altered mental
-status • Start an IV and give IV fluids. [See SKILLS]
+status • Start an IV and give IV fluids.
 • May have hypotension • If there are signs of infection, give antibiotics if
 available.
 • Prepare for rapid handover/transfer.
@@ -509,15 +488,15 @@ bleeding • Bruising around the quickly to shock. A large quantity of blood can
 (haemorrhage) umbilicus (belly button) be lost into the chest, pelvis, thigh and abdomen
 or over the flanks can be a before the bleeding is recognized.
 sign of internal bleeding • Stop the bleeding. Depending on the source, use:
-• Bleeding from the rectum – direct pressure [See SKILLS]
+• Bleeding from the rectum – direct pressure
 or vagina or in vomit
-– deep wound packing [See SKILLS]
+– deep wound packing
 • Pelvic fracture
-– a tourniquet [See SKILLS]
+– a tourniquet
 • Femur fracture
-– pelvic binder or femur splint. [See SKILLS]
+– pelvic binder or femur splint.
 • Decreased breath sounds
-on one side of the chest • Give IV fluids. [See SKILLS]
+on one side of the chest • Give IV fluids.
 (haemothorax)
 • Refer for blood transfusion and ongoing surgical
 • Signs of poor perfusion
@@ -535,24 +514,23 @@ extremities, capillary refill flow to the tissues and causing shock. Treatment i
 • Muffled heart sounds around the heart can be drained, give IV fluids to
 ensure that as much volume as possible enters
 • May have dizziness,
-the heart. [See SKILLS]
+the heart.
 confusion, altered mental
 status • Refer rapidly for surgical management.
-If cause unknown, remember the possibility of trauma [See TRAUMA]
-222444
+If cause unknown, remember the possibility of trauma
 
 ### DISABILITY conditions
 ## D
 ## Condition Signs And Symptoms In-Depth Description And Management
 Hypoglycaemia • Sweating (diaphoresis) Patients with hypoglycaemia (low blood sugar)
-• Altered mental need glucose immediately. [See SKILLS]
+• Altered mental need glucose immediately.
 status (ranging • If the person can speak and swallow, give oral
 from confusion to glucose.
 unconsciousness)
 • If the person cannot speak or is unconscious, give
 • Seizures/convulsions IV glucose if possible.
 • Blood glucose • If IV glucose is not possible or available, give
-<3.5 mmol/L buccal (inside of the cheek) glucose. [See SKILLS]
+<3.5 mmol/L buccal (inside of the cheek) glucose.
 • History of diabetes,
 malaria or severe
 infection
@@ -568,9 +546,9 @@ fluid, or mass increases the pressure around the
 • Weakness on one side • Raise the head of the bed to 30 degrees if
 of the body there is no concern for trauma and there is no
 hypotension.
-• Check glucose. [See SKILLS]
+• Check glucose.
 • If there are seizures/convulsions, give a
-benzodiazepine. [See SKILLS]
+benzodiazepine.
 • The pressure must be reduced as quickly as
 possible. Arrange for rapid handover/transfer to a
 surgical centre.
@@ -580,27 +558,25 @@ convulsion active seizure: prevent hypoxia and injury.
 gaze fixed to one any hard or sharp objects nearby.
 side or alternating • Do not place anything in the mouth of a person
 rhythmically and not with active seizure except to suction airway.
-responsive. [See SKILLS]
-Sign and symptoms of • Give oxygen. [See SKILLS]
+responsive.
+Sign and symptoms of • Give oxygen.
 recent seizure: • Check blood glucose. Give glucose if
-<3.5 mmol/L. [See SKILLS]
+<3.5 mmol/L.
 • Bitten tongue
-• Treat with a benzodiazepine [See SKILLS] and
+• Treat with a benzodiazepine and
 • Urinated on self
 monitor closely for slowing or difficult breathing.
 • Known history of
 • Place patient in recovery position if there is no
 seizures/convulsions
-trauma suspected. [See SKILLS]
+trauma suspected.
 • Confusion that
 • If the patient is pregnant, or recently gave birth,
 gradually improves
-give magnesium sulphate. [See SKILLS]
+give magnesium sulphate.
 over minutes to hours
-If cause unknown, remember the possibility of trauma [See TRAUMA]
-2255
+If cause unknown, remember the possibility of trauma
 
-Module 1: The ABCDE and SAMPLE history approach
 ### EXPOSURE conditions
 ## E
 ## Condition Signs And Symptoms In-Depth Description And Management
@@ -608,7 +584,7 @@ Snake bite • History of snake bite The goal of managing snake bites is to limi
 • Bite marks may be seen spread of the venom and the effects of venom on
 the body.
 • Oedema
-• Immobilize the extremity. [See SKILLS]
+• Immobilize the extremity.
 • Blistering of the skin
 • Take a picture of the snake when possible and
 • Bruising
@@ -616,7 +592,7 @@ send with the patient (for example, with the
 • Hypotension
 patient’s mobile phone).
 • Paralysis
-• Give IV fluids if evidence of shock. [See SKILLS]
+• Give IV fluids if evidence of shock.
 • Seizures
 • These patients may have delayed shock or airway
 • Bleeding from wounds problems. Monitor closely and plan early for
@@ -627,10 +603,6 @@ should be performed after the ABCDE approach. Do not delay ABCDE interventions f
 ## Abcde Should Be Repeated Frequently
 The ABCDE approach is designed to quickly identify reversible life-threatening conditions. Ideally,
 the ABCDE approach should be repeated at least every 15 minutes or with any change in condition.
-### Workbook question 2: ABCDE approach
-Using the workbook section above, list the management for airway blocked by a
-foreign body.
-222666
 
 ## Paediatric Abcde Considerations
 While the ABCDE approach is used in both adults and children, there are some aspects of
@@ -649,21 +621,18 @@ forward tilt of the head when sniffing a flower). page
 Shorter necks with airways that are softer and • Avoid over-extending or flexing the neck.
 more easily blocked.
 A larger head compared to the rest of the • Watch closely for airway obstruction.
-body. • Use the jaw thrust if airway is not open. [See
-## Skills]
+body. • Use the jaw thrust if airway is not open. 
 • Position head (using padding under shoulders
 for very small children) to open airway if no
-trauma. [See SKILLS]
-For choking, use age-appropriate chest thrusts/abdominal thrusts/back blows. [See SKILLS]
+trauma.
+For choking, use age-appropriate chest thrusts/abdominal thrusts/back blows.
 Neutral position in infants
-2277
 
-Module 1: The ABCDE and SAMPLE history approach
 Pediatric breathing conditions
 ## B
 • Nasal flaring, head bobbing, grunting and chest indrawing OR retractions, are signs of
 respiratory distress in children.
-page 33
+
 • CYANOSIS – a blue/grey discoloration around the lips, mouth or fingertips – is the result of a lack
 of oxygen and is a danger sign.
 • CHEST INDRAWING is a common presentation of paediatric accessory muscle use.
@@ -676,12 +645,11 @@ Chest indrawing
 distress in a child. With severe spasm and narrowing of the airways, there may be limited air
 movement and few breath sounds on exam. Give salbutamol and oxygen and re-assess frequently.
 Chest indrawing
-[See SKILLS]
 • STRIDOR signals severe airway compromise, and there are many possible causes. Children
 with stridor should be allowed to stay in a position of comfort and transferred immediately to
 an advanced provider. Further treatment will often include nebulized adrenaline. If immediate
 transfer is not possible, consider intramuscular adrenaline as per severe allergic reaction
-treatment. [See SKILLS]
+treatment.
 Pediatric circulation conditions
 ## C
 • MANAGEMENT OF POOR PERFUSION IN CHILDREN MAY CHANGE based on the cause and on the
@@ -689,12 +657,10 @@ condition of the child. [See SHOCK and SKILLS modules]
 • LOW BLOOD PRESSURE IN A CHILD IS A SIGN OF SEVERE SHOCK. Children are able to maintain
 normal blood pressure for longer than adults when in shock. Closely monitor other signs of poor
 perfusion, such as decreased urine output and altered mental status.
-• THE AMOUNT OF INTRAVENOUS FLUID GIVEN TO CHILDREN IS DIFFERENT FROM ADULTS. [See
-## Skills]
+• THE AMOUNT OF INTRAVENOUS FLUID GIVEN TO CHILDREN IS DIFFERENT FROM ADULTS. 
 • IN MALNOURISHED CHILDREN, both the rate of fluid administration and the type of fluid are
-different. [See SKILLS]
-• SEVERE SIGNS: Sunken fontanelle, poor skin pinch [See SKILLS], lethargy, altered mental status.
-222888
+different.
+• SEVERE SIGNS: Sunken fontanelle, poor skin pinch, lethargy, altered mental status.
 
 Pediatric disability conditions
 ## D
@@ -725,16 +691,8 @@ Paediatric danger signs include:
 • Vomiting everything
 • Seizures/convulsions
 • Low body temperature (hypothermia)
-2299
 
-Module 1: The ABCDE and SAMPLE history approach
-### Workbook question 3: ABCDE approach
-Using the workbook section above, list one of each of the following:
- a paediatric airway consideration
- a paediatric breathing consideration
- a paediatric circulation consideration
- a paediatric disability consideration
- a paediatric exposure consideration
+
 ### Elements of the SAMPLE history
 The SAMPLE approach is a standard way of gathering the key history related to an illness
 or injury. Sources of information include: the ill/injured person, family members, friends,
@@ -751,7 +709,6 @@ the person’s chronic conditions.
 ### P: Past medical history
 Knowing prior medical conditions may help in understanding the current illness and may
 change management choices.
-333000
 
 ### L: Last oral intake
 Record the time of last oral intake and whether solid or liquid. A full stomach increases the risk
@@ -760,8 +717,7 @@ required for surgical procedures.
 ### E: Events surrounding the injury or illness
 Knowing the circumstances around the injury or illness may be helpful in understanding the
 cause, progression and severity.
-### Workbook question 4: SAMPLE history
-Using the workbook section above, list what the letters in SAMPLE stand for:
+
 ## S: ______________________________________________________________________
 ## A: _____________________________________________________________________
 ## M: _____________________________________________________________________
@@ -773,15 +729,13 @@ Using the workbook section above, list what the letters in SAMPLE stand for:
 transfer to a higher level of care.
  Once you have completed the ABCDE approach, take a SAMPLE history and complete a
 physical examination based on the specific condition (secondary examination).
- A good handover summary [See SKILLS] to the next provider requires:
+ A good handover summary to the next provider requires:
 – brief identification of the patient;
 – relevant elements of the SAMPLE history;
 – physical examination findings;
 – record of interventions given;
 – plans for care needed next and other concerns you may have.
-3311
 
-Module 1: The ABCDE and SAMPLE history approach
 ## For Reference: Normal Vital Signs
 ## Normal Adult Vital Signs
  Pulse rate: 60–100 beats per minute
@@ -796,7 +750,7 @@ pressure in an adult (although this method may not work well in the elderly):
 • Femoral (groin) pulse ≥ 70 mmHg
 • Radial (wrist) pulse ≥ 80 mmHg
 ## Normal Paediatric Vital Signs
-page 35
+
 Vital signs are age-dependent in children. Normal heart rate and respiratory rate are higher
 in younger children, and normal blood pressures are lower. The brachial (middle of the upper
 arm) artery should be used to check the pulse in infants and small children.
@@ -819,87 +773,5 @@ Location of brachial pulse in a child
 or use weight-estimation tools such as PAWPER, Mercy TAPE, or Broselow tape.
  Children are able to maintain normal blood pressure for longer than adults when they are
 in shock. You must check closely for signs of poor perfusion.
- The amount of IV fluid appropriate for children is different from that for adults. [See SKILLS]
-333222
+ The amount of IV fluid appropriate for children is different from that for adults.
 
-## Facilitator-Led Case Scenarios
-These case scenarios will be discussed in small groups. These cases in this module will NOT be
-assessed and are for practice only. It is important that you practise with these scenarios since
-you will be assessed on how you lead a case in later modules. To complete a case scenario,
-the group must identify the critical findings and management needed and formulate a 1–2
-line handover summary that includes assessment findings and interventions. You should
-use the Quick Cards to manage these scenarios.
-## Case #1: Adult Abcde
-A 70-year-old man is brought in by taxi. The driver states the patient lost consciousness while
-talking with his daughter. There was no trauma, but the daughter poured water on him to try to
-wake him up. Initially he was confused and vomiting. Now he is unconscious with a respiratory
-rate of 3 breaths per minute.
-1. What do you need to do in your initial approach?
-2. Use the ABCDE approach to assess and manage this patient. Ask the facilitator about
-look, listen and feel findings; use the Quick Card for reference as needed.
-## Assessment Findings Intervention Interventions To
-## Needed? Perform:
-## Airway Yes No
-## Breathing Yes No
-## Circulation Yes No
-## Disability Yes No
-## Exposure Yes No
-3. Formulate 1–2 sentences to summarize this patient for handover.
-3333
-
-Module 1: The ABCDE and SAMPLE history approach
-## Case #2: Paediatric Abcde
-A mother brings in her 2-year-old son for difficulty in breathing. She reports that he has had a
-fever for 3 days and has had worsening difficulty in breathing. He has been coughing a lot and
-today will not eat or drink.
-1. What is your initial approach to this patient?
-2. Use the ABCDE approach to assess and manage this patient. Ask the facilitator for specific
-findings when you look, listen and feel; use the Quick Card for reference as needed.
-## Assessment Findings Intervention Interventions To
-## Needed? Perform:
-## Airway Yes No
-## Breathing Yes No
-## Circulation Yes No
-## Disability Yes No
-## Exposure Yes No
-3. Formulate a 1–2 sentence summary of this patient for handover.
-## Multiple Choice Questions
-Answer the questions below. Questions and answers will be discussed within the session.
-1. A mother brings in her 3-year-old child because of difficulty in breathing. On assessment,
-you hear loud, high-pitched sounds when the child breathes in. What is the most immediate
-concern?
-### A. Severe infection
-### B. Shock
-### C. Asthma attack
-### D. Upper airway obstruction
-2. An elderly woman fell at home. She had normal vital signs, but complained of neck and knee
-pain prior to transport. During transport, she starts snoring and gurgling when taking a breath.
-What is the most appropriate method to immediately manage this problem?
-### A. Placing her in the recovery position
-### B. Administering salbutamol
-### C. Jaw thrust
-### D. Head-tilt/chin-lift
-333444
-
-3. A 50-year-old man has collapsed in a store and you are called to assist him. He is unconscious,
-has a respiratory rate of four breaths per minute and a pulse of 100 beats per minute. The
-collapse was witnessed and there is no trauma. What is the best next step?
-### A. Begin chest compressions
-### B. Open the airway
-### C. Begin bag-valve-mask ventilations
-### D. Check pupils
-4. A 2-year-old boy is brought to you for being more sleepy than normal. He is unconscious. You
-open his airway, and insert an oropharyngeal airway. What is your next step?
-### A. Check blood pressure
-### B. Check AVPU scale
-### C. Check glucose
-### D. Check breathing
-5. You are listening to the lungs of a 26-year-old man who has sudden onset chest pain and he
-is taking 30 breaths a minute. Which lung-sound finding is most suggestive of pneumothorax?
-### A. Crackles on both sides
-### B. Absent lung sounds on one side
-### C. Stridor
-### D. Wheezing on both sides
-3355
-
-Notes

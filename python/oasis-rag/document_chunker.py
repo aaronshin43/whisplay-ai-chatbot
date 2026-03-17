@@ -6,8 +6,8 @@ overlapping token-based chunks, and preserves section metadata
 (file name, heading hierarchy) for retrieval context.
 
 Chunking strategy:
-  - Target chunk size : 300 tokens  (≈ 225 words)
-  - Overlap           : 50  tokens  (≈ 38 words)
+  - Target chunk size : 400 tokens  (≈ 300 words)
+  - Overlap           : 75  tokens  (≈ 56 words)
   - Tokenizer         : whitespace split (no external dependency)
     → swap for tiktoken/transformers tokenizer when available on Pi
 
@@ -30,8 +30,8 @@ from typing import Iterator
 # ─────────────────────────────────────────────────────────────
 # Constants
 # ─────────────────────────────────────────────────────────────
-DEFAULT_CHUNK_SIZE    = 300   # tokens
-DEFAULT_CHUNK_OVERLAP = 50    # tokens
+DEFAULT_CHUNK_SIZE    = 400   # tokens
+DEFAULT_CHUNK_OVERLAP = 75    # tokens
 SUPPORTED_EXTENSIONS  = {".md", ".txt"}
 
 
@@ -49,13 +49,15 @@ class Chunk:
     token_count: int
 
     def to_dict(self) -> dict:
+        prefix = f"[Source: {self.source} | Section: {self.section}]\n"
         return {
-            "text":        self.text,
-            "source":      self.source,
-            "section":     self.section,
-            "headings":    self.headings,
-            "chunk_idx":   self.chunk_idx,
-            "token_count": self.token_count,
+            "text":             self.text,
+            "text_with_prefix": prefix + self.text,
+            "source":           self.source,
+            "section":          self.section,
+            "headings":         self.headings,
+            "chunk_idx":        self.chunk_idx,
+            "token_count":      self.token_count,
         }
 
 

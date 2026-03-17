@@ -8,6 +8,14 @@
 
 ---
 
+## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+
+> **During active convulsions:**
+> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
+> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
+> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+
+
 ### Module 2: Approach to trauma
 Cyanosis:
 Decontamination:
@@ -30,7 +38,6 @@ Hypovolaemic shock:
 Hypoxia:
 Laceration:
 ### Large bore IV:
-333888
 
 Log-roll manoeuvre:
 Needle decompression:
@@ -47,7 +54,6 @@ Sucking chest wound:
 Tension pneumothorax:
 Trauma primary survey:
 Trauma secondary survey:
-3399
 
 ### Module 2: Approach to trauma
 Overview
@@ -79,7 +85,6 @@ intake, and Events surrounding the injury
 identified by the primary survey
 During primary and secondary surveys, if life-threatening problems are identified, STOP
 AND MANAGE them.
-444000
 
 ## Abcde: Trauma Primary Survey
 The ABCDE approach in injured patients is often also called the trauma primary survey. As
@@ -89,19 +94,19 @@ assessment and management for all immediately life-threatening injuries. Always 
 head and spine injury in a trauma patient with altered mental status.
 ## Assessment Immediate Management
 Airway with Look for: • Stabilize the cervical spine.
-cervical spine • blood, vomit, tongue or [See SKILLS]
+cervical spine • blood, vomit, tongue or
 objects obstructing the airway • Open airway using jaw thrust, NOT
 immobilization
 • burned nasal hairs or soot head-tilt chin-lift if suspected spine
-around the nose or mouth injury. [See SKILLS]
+around the nose or mouth injury.
 A • head or neck trauma • Suction airway secretions, blood and/
 or vomit. Remove any visible foreign
 • neck haematoma (bleeding
-objects from the airway. [See SKILLS]
+objects from the airway.
 under the skin)
 • Place oral airway (avoid nasal airway if
 • altered mental status, as
-facial trauma). [See SKILLS]
+facial trauma).
 this can affect the ability to
 protect the airway • If the patient has an expanding
 neck haematoma or evidence
@@ -111,13 +116,13 @@ snoring, stridor, noisy provider capable of advanced airway
 breathing). management.
 If the airway is open, move onto
 “Breathing”.
-Breathing Look for: • Give oxygen. [See SKILLS]
+Breathing Look for: • Give oxygen.
 • increased work of breathing • Perform needle decompression
 • abnormal chest wall immediately and give oxygen and
 B movement which may IV fluids for tension pneumothorax.
-indicate flail chest [See SKILLS]
+indicate flail chest
 • tracheal shift • Place three-sided dressing for sucking
-chest wound. [See SKILLS]
+chest wound.
 • sucking chest wound
 • If breathing not adequate or patient
 • cyanosis (blue-grey color of
@@ -125,7 +130,7 @@ remains hypoxic on oxygen, assist
 the skin) around the lips and
 breathing with bag-valve-mask
 fingertips
-ventilation. [See SKILLS]
+ventilation.
 • abrasion, bruising or other
 • For chest or abdominal burns that
 signs of injury to chest
@@ -143,14 +148,13 @@ percussion.
 Feel for crepitus (cracking and
 popping when pressing on the
 skin).
-4411
 
 ### Module 2: Approach to trauma
 ## Assessment Immediate Management
 Circulation Look for: • Apply direct pressure to control active
 bleeding, or deep wound packing if
 • capillary refill longer than
-large or gaping. [See SKILLS]
+large or gaping.
 3 seconds
 C • If amputated limbs or any other
 • pale extremities
@@ -159,7 +163,7 @@ source of uncontrolled bleeding are
 present, apply tourniquet (document
 • external AND internal time of application), start IV fluids and
 bleeding plan for urgent transfer to a surgical
-unit. [See SKILLS]
+unit.
 Common sources of serious
 • If ongoing blood loss or evidence of
 bleeding are:
@@ -173,7 +177,7 @@ to burn size.
 • amputations or large external
 ## Skills]
 wounds
-• Bind pelvic fracture. [See SKILLS]
+• Bind pelvic fracture.
 • burns, noting size and depth
 • Leave any penetrating objects in place
 Feel for: and stabilize object for transfer to a
@@ -202,20 +206,18 @@ mental status.
 Check:
 • Give oxygen if concern for hypoxia
 • AVPU or GCS as a cause of altered mental status.
-• movement and sensation in [See SKILLS]
+• movement and sensation in
 all extremities • Give glucose if altered mental status
 • blood glucose level if and: measured low blood glucose,
 confused or unconscious unable to check blood glucose, or
-history of diabetes. [See SKILLS]
+history of diabetes.
 • If seizing, give a benzodiazepine.
-[See SKILLS]
-444222
 
 ## Assessment Immediate Management
 Exposure Remove all clothing. • If spinal injury is suspected, perform
 log-roll manoeuvre to examine the
 Examine entire body for
-back. [See SKILLS]
+back.
 evidence of injury (including
 E the back, spine, groin and • Remove restrictive clothing and all
 underarms) using the log-roll jewellery.
@@ -227,9 +229,7 @@ injured patients have difficulty
 regulating body temperature.
 • Respect the patient and protect
 modesty during exposure.
-### Workbook question 1: Approach to trauma
-A middle-aged man is brought in after being hit by a car. Using the workbook section
-above, list the immediate management for the assessment findings below.
+
 ## Primary Survey Findings Immediate Management
 On airway assessment:
 • Gurgling airway sounds
@@ -245,7 +245,6 @@ On circulation assessment:
 • Unstable pelvis on exam
 2. ������������������������������������������������
 3. ������������������������������������������������
-4433
 
 ### Module 2: Approach to trauma
 ## Do: Important Conditions To Recognize And Manage
@@ -295,7 +294,6 @@ affected side needle depression. [See: SKILLS]
 • Give oxygen and IV fluids. [See: SKILLS]
 • Plan for rapid handover/transfer to an advanced
 provider capable of placing a chest tube.
-444444
 
 ## Condition Signs And Symptoms In-Depth Management
 Sucking chest • Open wound in the Sucking chest wounds are important to recognize
@@ -306,10 +304,10 @@ noises through the wound in the chest wall when the
 • Difficulty in breathing patient takes a breath. Pressure on the lung builds
 if the air cannot escape.
 • Chest pain
-• Give oxygen. [See SKILLS]
+• Give oxygen.
 • Place a three-sided dressing that allows air to
 leave with exhalation but prevents air from
-entering when the person inhales. [See SKILLS]
+entering when the person inhales.
 – There is a danger of the dressing becoming
 stuck to the chest wall with clotted blood and
 causing a tension pneumothorax.
@@ -331,7 +329,7 @@ expanding. Flail chest is also usually associated
 of the chest when
 with damage to underlying lung tissue.
 breathing
-• Give oxygen and pain control. [See SKILLS]
+• Give oxygen and pain control.
 • There is a very high risk of developing difficulty
 in breathing and hypoxia.
 • Plan for rapid handover/transfer to a provider
@@ -346,7 +344,6 @@ percussion on affected • Give oxygen and IV fluids.
 side • Plan for rapid handover/transfer to a centre with
 • Large haemothorax may surgical capacity.
 cause shock
-4455
 
 ### Module 2: Approach to trauma
 ## C
@@ -369,9 +366,8 @@ blood vessels)
 • Stop bleeding with direct pressure, deep wound
 packing if wound is gaping, a tourniquet,
 splinting of fractures and binding the pelvis as
-needed. [See SKILLS]
+needed.
 • Start two large-bore IV lines and give IV fluids.
-[See SKILLS]
 • Patients with suspected large haemothorax
 or other internal haemorrhage will need rapid
 handover/transfer to a unit with surgical care
@@ -385,7 +381,7 @@ tachypnoea, this fluid can collapse the chambers of the heart
 hypotension, pale and prevent them from filling, limiting the amount
 skin, cold extremities, of blood the heart can pump.
 capillary refill greater
-• Give IV fluid to improve heart filling. [See SKILLS]
+• Give IV fluid to improve heart filling.
 than 3 seconds)
 • Patients need immediate handover/transfer to
 • Distended neck veins
@@ -394,7 +390,6 @@ an advanced provider for drainage of the fluid.
 • May have dizziness,
 confusion, altered
 mental status
-444666
 
 ## D
 Disability conditions
@@ -437,17 +432,9 @@ Vital signs should be checked at the end of the primary survey
 A full set of vital signs (blood pressure, heart rate, respiratory rate and oxygen saturation if available)
 should be performed after the primary survey. Do not delay primary survey interventions for
 vital signs.
-4477
 
 ### Module 2: Approach to trauma
-### Workbook question 2: Approach to trauma
-Using the workbook section above, list five important conditions to recognize in the
-primary survey
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-4. ______________________________________________________________________
-5. ______________________________________________________________________
+
 ## Ask: Key History Findings For Trauma Patients
 Information about an injured person and the injury event can be critical to planning
 management. Children, older adults and people with chronic disease have an increased risk of
@@ -471,7 +458,6 @@ the airway is swelling and that it may obstruct.
 Problems with breathing may develop over time and might not be present in the initial
 primary survey. Difficulty in breathing may suggest that the person has an injury to the
 lungs, ribs, muscles, chest wall or spine.
-444888
 
  Is there reported bleeding?
 It is usually quite difficult for patients to estimate the volume of blood loss, but it may be
@@ -503,7 +489,6 @@ Medications that affect blood clotting (e.g. aspirin, warfarin, clopidogrel) can
 bleeding more difficult to control and increase the risk of delayed bleeding. Blood pressure
 medications can make it hard to manage shock. Obtain a full list of medications if possible
 or ask family members to bring in medications.
-4499
 
 ### Module 2: Approach to trauma
 ## P: Past Medical History
@@ -544,7 +529,6 @@ can sustain multiple injuries when hit by a vehicle – both from direct impact 
 especially the lower extremities, and from secondary impact if they are thrown against the
 windscreen or road, which may cause injuries anywhere in the body, including to head, neck,
 chest or limbs.
-555000
 
  In a motorcycle (or powered 3-wheeler) crash, was the rider thrown?
 Motorcycles collisions often result in a rider being thrown. Ask if the motorcyclist was
@@ -590,7 +574,6 @@ exposure, if decontamination was performed. If the burn is less than 3 hours old
 aid was provided, the wound will need to be washed with clean water to stop the burning
 process. If there is a history of chemical exposure, protect yourself from the chemical and
 ensure that it is properly removed from the skin.
-5511
 
 ### Module 2: Approach to trauma
  Did the person sustain a crush injury? Is there severe pain or numbness? Is there dark
@@ -609,14 +592,7 @@ organs. Common blast injuries include damage to the lungs, intestines and ears. 
 involved in explosions need to be checked carefully and repeatedly because these injuries
 are easily missed. Blasts may also be associated with foreign bodies in the skin and eyes,
 burns or chemical injury, and toxin or radiation exposure.
-### Workbook question 3: Approach to trauma
-Using the workbook section above, list five questions you would ask when taking a
-SAMPLE history from a person injured in a road traffic crash:
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-4. ______________________________________________________________________
-5. ______________________________________________________________________
+
 ## Check: Trauma Secondary Survey
 Following the primary survey and SAMPLE history, the secondary survey is a detailed head-to-
 toe examination designed to identify any additional injuries or issues requiring intervention.
@@ -625,7 +601,6 @@ of trauma that may not have been obvious on the primary survey. Remember that ve
 or frightening injuries may distract both patients and providers from recognising other injuries.
 Always examine the entire body. If the secondary survey identifies a primary survey condition,
 STOP AND RETURN IMMEDIATELY TO THE PRIMARY SURVEY to manage it.
-555222
 
 ### Head, ears, eyes, nose, Look for:
 and throat (HEENT)
@@ -673,7 +648,6 @@ Listen for:
 Feel for:
 • Tenderness
 • Crepitus – concerning for fracture or pneumothorax
-5533
 
 ### Module 2: Approach to trauma
 ### Abdomen Look for:
@@ -716,7 +690,6 @@ Feel for:
 • Tenderness
 • Abnormally firm, painful muscular compartments in the extremities
 can indicate compartment syndrome
-555444
 
 Spine/back Log roll the person with assistance, then:
 Look for:
@@ -745,24 +718,8 @@ identify where it begins
 • Priapism (persistent penile erection)
 • Decreased sensation, decreased strength or priapism can indicate
 spinal cord injury
-5555
 
 ### Module 2: Approach to trauma
-### Workbook question 4: Approach to trauma
-Using the workbook section above, list one way that you would ASSESS the following
-systems.
-Head, ears, eyes, nose, throat:
-Listen for: _______________________________________________________________
-Look for: ________________________________________________________________
-Feel for: _________________________________________________________________
-Chest:
-Look for: ________________________________________________________________
-Listen for: _______________________________________________________________
-Feel for: _________________________________________________________________
-Pelvis and genitals:
-Look for: ________________________________________________________________
-Feel for: _________________________________________________________________
-555666
 
 ## Do: Important Conditions To Recognize And Manage
 ## Based On History And Secondary Survey
@@ -778,13 +735,11 @@ of brain function) using the Glasgow Coma
 fractures
 Scale (GCS) or AVPU scale in children.
 • Bruising to head (particularly
-[See SKILLS]
 around eyes or behind ears)
 • Any patient who has significant head injuries
 • Blood or clear fluid coming from
 is at risk of having spine injuries as well.
 nose or ears
-[See SKILLS]
 • Weakness on one side of the
 • Always monitor immobilized patients for
 body
@@ -801,7 +756,7 @@ Facial • Deformities or unusual • Give antibiotics for open facial fractures
 fractures movement in the facial bones (laceration over a broken bone).
 • Patient reports jaw not closing • Update tetanus vaccination.
 normally or teeth not aligned • Suspect cervical spine injury and immobilize
-• Problems with eye movements the cervical spine if needed. [See SKILLS]
+• Problems with eye movements the cervical spine if needed.
 • Remember to position patient to keep blood
 from flowing into airway.
 • Avoid nasopharyngeal airways and
@@ -824,7 +779,6 @@ eye may indicate a puncture
 provider.
 wound
 • Evidence of facial trauma
-5577
 
 ### Module 2: Approach to trauma
 Management of specific injuries found during secondary survey
@@ -834,7 +788,7 @@ neck wound wounds may be the only sign of at risk of airway obstruction, so moni
 serious injury airway closely. Neck wounds may also have
 • Swelling (suggesting significant haemorrhage.
 haematoma) • Maintain cervical spine precautions.
-• Look carefully for penetrating [See SKILLS]
+• Look carefully for penetrating
 objects • Stabilize, but do not remove penetrating
 objects.
 • Apply firm pressure to bleeding site, being
@@ -879,7 +833,6 @@ over the flanks can be a sign of
 internal bleeding
 plan for rapid handover/transfer to a unit
 with surgical capabilities.
-555888
 
 Management of specific injuries found during secondary survey
 ## Condition Signs And Symptoms In-Depth Management
@@ -891,19 +844,19 @@ cervical spine tenderness, numbness or
 weakness.
 (“pins and needles” sensation),
 loss of sensation – Use a rolled sheet or neck collar to
-immobilize the cervical spine. [See SKILLS]
+immobilize the cervical spine.
 • Loss of control of urine or stool
  Keep the patient lying flat in bed
 • Priapism
 to immobilize the rest of the spine.
-• May have hypotension, [See SKILLS]
+• May have hypotension,
 bradycardia
  When examining or moving the trauma
 • Crepitus when you touch the patient, the spine should be protected
 spinal bones by using the log-roll manoeuvre.
-• Spinal bones that are not [See SKILLS]
+• Spinal bones that are not
 properly aligned
-• Give IV fluids. [See SKILLS]
+• Give IV fluids.
 • Difficulty in breathing (upper
 cervical spine injury) • Any patient with possible spinal trauma
 needs handover/transfer to a specialist unit.
@@ -925,24 +878,23 @@ bleeding over the flanks can be a sign of chest, pelvis, thigh, and into the abd
 (not seen internal bleeding before bleeding is recognized.
 on primary • Pelvic fracture • Stop the bleeding if possible – bind pelvis or
 survey)
-• Femur fracture splint femur. [See SKILLS]
-• Decreased breath sounds on one • Give IV fluid. [See SKILLS]
+• Femur fracture splint femur.
+• Decreased breath sounds on one • Give IV fluid.
 side in the chest (haemothorax) • Refer for blood transfusion and ongoing
 • Signs of poor perfusion surgical management if needed.
 (hypotension, tachycardia, pale
 skin, diaphoresis)
-5599
 
 ### Module 2: Approach to trauma
 Management of specific injuries found during secondary survey
 ## Condition Signs And Symptoms In-Depth Management
-Pelvic • Pain with palpation of the pelvis • Give IV fluids and pain control. [See SKILLS]
+Pelvic • Pain with palpation of the pelvis • Give IV fluids and pain control.
 fracture • Instability or abnormal • Compress pelvis gently to check for stability.
 movement of the pelvic bones • Do not open and rock pelvis or perform
 • Blood at opening of the penis or repeat exams as this can worsen internal
 rectum bleeding.
 • Stabilize the pelvis with a sheet or pelvic
-binder. [See SKILLS]
+binder.
 • Plan for early handover/transfer to a unit
 with blood transfusion capabilities.
 Extremity • Deformity or crepitus of the Fractures can displace blood vessels and limit
@@ -953,7 +905,7 @@ perfusion fracture fracture.
 than 3 seconds beyond the
  Check capillary refill.
 fracture
- Look for pale skin. [See SKILLS]
+ Look for pale skin.
 • Cold extremities beyond the
  If a fracture is found with weak pulses or
 fracture with blue or grey skin
@@ -962,7 +914,6 @@ colour
 by reducing (manually re-aligning bone
 ends to put limb back to its normal
 position) and splinting the fracture.
-[See SKILLS]
  Always check and document pulses,
 capillary refill and sensation before and
 after any reduction.
@@ -974,15 +925,13 @@ abrasion) near a fracture site. Open fractures
 are emergencies because they can lead to
 severe bone infections.
 • Control haemorrhage with direct pressure.
-[See SKILLS]
 • Reduce the fracture immediately if there is
-poor perfusion. [See SKILLS]
-• Irrigate the wound well. [See SKILLS]
+poor perfusion.
+• Irrigate the wound well.
 • Dress wound.
 • Give antibiotics and tetanus vaccination.
 • Splint the wound.
 • Plan for handover/transfer to a specialist unit.
-666000
 
 Management of specific injuries found during secondary survey
 ## Condition Signs And Symptoms In-Depth Management
@@ -990,7 +939,7 @@ Open • Laceration The goal of wound care is to stop bleeding,
 wound • Abrasion prevent infection, assess damage to
 underlying structures and promote healing.
 • Wounds in the underarm area,
-genital area, buttocks or back • Stop bleeding. [See SKILLS]
+genital area, buttocks or back • Stop bleeding.
 are easily missed • Clean wounds thoroughly with soap and
 • Pumping or squirting blood can clean water or antiseptic to remove any dirt,
 indicate arterial bleeding foreign bodies or dead/dying tissue. (Give
@@ -1002,7 +951,6 @@ if available.)
 and after dressing wounds.
 • Splint extremities with large lacerations to
 help with wound healing and pain control.
-[See SKILLS]
 • Stabilize but do not remove penetrating
 objects.
 • For snake bite, immobilize the extremity. [See
@@ -1013,11 +961,10 @@ exposure. Depending on vaccination
 status, management can be extremely
 time-sensitive.
 • Give tetanus vaccination if needed.
-page 15
+
 REMEMBER… Always assess, treat and monitor pain.
 Applying direct pressure to a wound
 Applying direct pressure to a wound
-6611
 
 ### Module 2: Approach to trauma
 ## Special Considerations
@@ -1063,21 +1010,20 @@ thrown by the blast.
 • Abdominal pain,
 nausea, vomiting • Examine carefully for pneumothorax.
 with or without
-• Give oxygen if there is difficulty in breathing. [See SKILLS]
+• Give oxygen if there is difficulty in breathing.
 blood
 • Update tetanus.
 • Tympanic
 • Burns should be dressed and fluid needs calculated
 membrane (ear
-based on burn area. [See SKILLS]
+based on burn area.
 drum) rupture:
 hearing loss, • If the patient has abdominal pain, consider bowel
-ringing in the ears, perforation, give IV fluids [See SKILLS]
+ringing in the ears, perforation, give IV fluids
 pain, ear bleeding • Prepare for rapid surgical referral.
 • Other injuries,
 burns, exposure to
 chemicals or toxins
-666222
 
 Management by injury mechanism
 ## Condition Concerning Signs In-Depth Management
@@ -1097,27 +1043,24 @@ or airway injury. losses.
 – Soot (ash) around – In order to calculate the IV fluid requirements, it is
 nose or mouth, or important to determine the depth of the burn and the
 singed (burned) percentage of body surface area (BSA) that is burned.
-nasal hairs [See SKILLS]
+nasal hairs
 – Swelling to lips or • Do not forget to give tetanus vaccination and pain relief
 mouth for burn injuries.
 – Voice changes • Remove all jewelry and elevate the burned limb if
 possible.
 • Burns are at high risk for infection, even with good care.
-Clean and dress the wound carefully. [See SKILLS]
+Clean and dress the wound carefully.
 ## Burns Requiring Rapid Handover/Transfer:
-• Serious burns to >15% of body [See SKILLS]
+• Serious burns to >15% of body
 • Burns involving the hands, face, groin area, joints, or
 circumferential burns
 • Inhalation injury
 • Burns with other associated trauma
 • Any burn in very young or elderly people
 • Significant pre-burn illness (such as diabetes)
-6633
 
 ### Module 2: Approach to trauma
-### Workbook question 5: Approach to Trauma
-Using the workbook section above, list what you would DO to manage the following
-injuries.
+
 ## Injury Management
 Pelvic fracture
 1. ______________________________________________________
@@ -1136,7 +1079,6 @@ injury
 2. ______________________________________________________
 3. ______________________________________________________
 4. ______________________________________________________
-666444
 
 ## Special Populations
 ## Trauma In Pregnancy
@@ -1156,7 +1098,6 @@ closely.
 space for breathing.
  Circulation: check for vaginal bleeding; a pregnant uterus can also compress large
 blood vessels, causing hypotension. Place on left side with cervical spine precautions.
-[See SKILLS]
  Disability: always consider eclampsia if seizures/convulsions occur.
  Exposure: keep patient warm.
 ## Common Conditions Caused By Trauma
@@ -1171,21 +1112,11 @@ indicates that the patient is at least 20 weeks pregnant.
  If the woman is more than 20 weeks (5 months) pregnant, the pregnant uterus can
 compress the inferior vena cava, the large vessel that brings blood back to her heart,
 and can cause shock. When lying the pregnant patient flat, always place on the left
-side (on a spine board if immobilization necessary). [See SKILLS]
+side (on a spine board if immobilization necessary).
  Trauma in late pregnancy may trigger early labour. Prepare for neonatal resuscitation
 as well when trauma occurs in late pregnancy.
-6655
 
 ### Module 2: Approach to trauma
-### Workbook question 6: Approach to Trauma
-Using the workbook section above, list the common conditions in a pregnant woman
-that can be caused by trauma.
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-4. ______________________________________________________________________
-5. ______________________________________________________________________
-666666
 
 ## Special Considerations In Children
 Children can appear well after an injury, and yet deteriorate quickly. They have different
@@ -1194,32 +1125,29 @@ or rib fractures (paediatric bones are more flexible). Common management problem
 include over- or under-resuscitation, medication errors and failure to recognize
 hypothermia and hypoglycaemia.
 Below are special considerations for injured children. Refer also to the ABCDE module for
-normal paediatric vital signs and additional details. page 2
+normal paediatric vital signs and additional details. 
 ## Airway
 • When neck trauma or cervical spine injury is suspected, use jaw thrust to manually
 open airway while maintaining cervical spine immobilization. Children have big heads
 and large tongues that may easily obstruct their airways. Young children and infants
-may require a pad under the shoulders to align the airway. [See SKILLS]
+may require a pad under the shoulders to align the airway.
 • If the child is not breathing adequately after opening the airway, assist breathing with
 a bag-valve-mask, ideaNllye wuittrha olx ypgoesn.ition in infants
 • Give a breath every 4 seconds (15 breaths per minute) for older children and a breath
-every 3 seconds (20 breaths per minute) for infants. [See SKILLS]
-6677
+every 3 seconds (20 breaths per minute) for infants.
 
 ### Module 2: Approach to trauma
-page 35
+
 ## Circulation
 • For ongoing blood loss or evidence of poor perfusion in children with normal
 nutritional status (see also SKILLS):
 – place IV;
 – give IV fluids and re-assess.
-[See SKILLS]
 • For malnourished children,
 fluids MUST be adjusted.
-[See SKILLS]
 • For severe burn injury, initial
 bolus is with dextrose-
-containing fluids. [See SKILLS]
+containing fluids.
 • If significant haemorrhage,
 arrange for blood transfusion
 or rapid handover/transfer
@@ -1244,7 +1172,6 @@ tape, Mercy TAPE, or Broselow tape, etc.
 Young children may be less able than adults to report events, even major events like
 being hit by a vehicle. Always consider the possibility of unwitnessed trauma in young
 children.
-666888
 
 ## Head Injuries
 Head injuries are a common cause of death in children, and children frequently suffer
@@ -1264,17 +1191,6 @@ threatening and can cause severe internal bleeding.
 Burns in children can be difficult to manage. They require careful fluid resuscitation,
 close observation for airway swelling, and pain medications for dressing changes. In
 children who are burned, plan for rapid handover/transfer to a burn unit.
-### Workbook question 7: Approach to Trauma
-Using the workbook section above, list the circulation considerations in children who
-suffer trauma.
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-List the disability considerations in children who suffer trauma.
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-6699
 
 ### Module 2: Approach to trauma
 ## Disposition Considerations
@@ -1291,99 +1207,9 @@ urgent chest tube placement).
  Trauma in pregnancy: place on left side for transport (needs specialist obstetric care).
  Child with ABCDE problem, burn, or any head, chest or abdominal injury.
  Any serious burn injury: assess the burn depth and total burn surface area, commence fluid
-resuscitation (transfer preferably to a specialist burns unit). [See SKILLS]
+resuscitation (transfer preferably to a specialist burns unit).
 Other considerations for transfer:
  If a patient has required oxygen, arrange to continue it during transport and after handover.
  If an injured person is displaying signs of shock, ensure IV fluid started and continued during
 transfer. Ensure any external bleeding is controlled and monitored during transport.
-777000
 
-## Facilitator-Led Case Scenarios
-These case scenarios will be presented in small groups. The following cases WILL NOT be
-assessed and are for practice only. It is important that you practise these scenarios as you
-will be assessed on how you lead a case in the following modules. For each case scenario
-the group must identify the critical findings and management needed and formulate a one-
-line summary for handover, including assessment findings and interventions. You should
-use the Quick Cards for these scenarios.
-## Case #1: Adult Trauma
-A taxi driver brings in a man that was severely injured. You come outside to find a 30-year-old
-male lying in the back seat of the taxi in severe pain. He was in a car crash a few kilometers
-away. His jeans are soaked with blood, with bone sticking out of the right thigh.
-1. What do you need to do in your initial approach?
-2. Use the primary survey to assess and manage this patient. Ask the facilitator about look,
-listen and feel findings; use the Quick Card for reference as needed.
-## Assessment Findings Intervention Interventions
-## Needed? To Perform:
-## Airway Yes No
-## Breathing Yes No
-## Circulation Yes No
-## Disability Yes No
-## Exposure Yes No
-3. Formulate a short summary of this patient for handover.
-## Case #2: Paediatric Trauma
-A 5-year-old boy pulled a pan of boiling water off the stove at 8pm tonight. The boiling water
-spilled on him, burning his right side. His mother used a container of cool water to wash him
-down and then brought him in for evaluation. The child is crying and tells you he is in pain. He
-has burns to his right palm, and right inner arm up to the elbow, and the front of his chest and
-abdomen and the front of his right thigh. The mother does not know how much the child weighs.
-7711
-
-### Module 2: Approach to trauma
-1. What do you need to do in your initial approach?
-2. Use the primary survey to assess and manage this patient. Ask the facilitator about look,
-listen and feel findings; use the Quick Card for reference as needed. Use the table below for
-your notes.
-## Assessment Findings Intervention Interventions To
-## Needed? Perform:
-## Airway Yes No
-## Breathing Yes No
-## Circulation Yes No
-## Disability Yes No
-## Exposure Yes No
-A. Calculate the total burn surface area in this child. Try to shade in the children’s burn
-diagram for burn area estimation.
-B. Explain how you will decide if this child needs IV fluids?
-C. Calculate how much fluid is needed, explaining your method.
-### D. What fluid would you use?
-3. Formulate a short summary of this patient for handover.
-777222
-
-## Multiple Choice Questions
-Answer the questions below. Questions and answers will be discussed in the session.
-1. Which of the following is a component of the trauma primary survey?
-### A. Examine the arms for any fractures
-### B. Check the skin color and temperature
-C. Examine the ears for any drainage of blood or clear liquid
-### D. Check skin pinch
-2. You are assessing a man who was in a car crash. He is very confused, but the remainder of his
-primary survey is normal. How do you perform a SAMPLE history if the patient is too confused
-to answer your questions?
-A. You do not need to do a SAMPLE history in a trauma patient
-B. Ask the patient repeatedly until he is able to answer
-C. Ask bystanders or family member for the information
-D. Assume that there is no important information
-3. A 23-year-old man is carried in after diving head first into a river. He is speaking and his
-airway is open but he cannot walk or move his arms or legs. What is the first thing you must do?
-### A. Place an IV line
-### B. Examine him for other injuries
-### C. Immobilize the cervical spine
-### D. Give him a tetanus vaccination
-4. You are evaluating a 21-year-old male who was in a motorcycle crash. He was thrown from
-the motorcycle and suffered injuries to his face, chest and legs. When you compress his pelvis,
-he screams in pain. His vital signs are: blood pressure 90/40 mmHg, heart rate 120 bpm,
-respiratory rate 25/min. What should be your next step?
-### A. Place in a pelvic binder
-### B. Administer tetanus vaccine
-### C. Provide antibiotics
-D. Clean the abrasions with soap and water
-5. A young woman has been brought in after an explosion. She has an open airway, a respiratory
-rate of 30/min, heart rate 125 bpm, blood pressure of 85/50 mmHg, has moist pale skin and
-she complains of abdominal pain. She has small wounds to her skin but there is no obvious
-bleeding. What would you do to manage this patient?
-A. Place two large-bore cannulae and give 1 litre of fluid
-### B. Offer her a drink of water
-### C. Check her temperature
-### D. Provide antibiotics
-7733
-
-Notes

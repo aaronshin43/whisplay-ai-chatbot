@@ -8,6 +8,14 @@
 
 ---
 
+## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+
+> **During active convulsions:**
+> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
+> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
+> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+
+
 ### Module 4: Approach to shock
 Diaphoresis:
 Dehydration:
@@ -26,7 +34,6 @@ Pericardial tamponade:
 Resuscitation:
 Shock:
 Skin pinch testing:
-999666
 
 Overview
 Poor perfusion is when the body is not able to get enough oxygen-carrying blood to vital
@@ -63,7 +70,6 @@ REMEMBER...
  ALWAYS START WITH THE ABCDE APPROACH, intervening as needed.
  Then do a SAMPLE history.
  Then do a secondary examination.
-9977
 
 ### Module 4: Approach to shock
 ## Abcde: Key Elements In Shock
@@ -100,7 +106,6 @@ infection.
 Use the SAMPLE approach to obtain a history from the patient and/or family.
 If the history identifies an ABCDE condition, STOP AND RETURN IMMEDIATELY TO ABCDE
 to manage it.
-999888
 
 ## S: Signs And Symptoms
  Has there been vomiting and/or diarrhoea? For how long?
@@ -135,7 +140,6 @@ may be a sign of severe shock.
 ## A: Allergies
  Does the person have any known allergies?
 Allergic reactions can lead to shock by causing abnormal relaxation of the blood vessels.
-9999
 
 ### Module 4: Approach to shock
 ## M: Medications
@@ -171,17 +175,6 @@ ability to maintain blood pressure.
  Has there been any recent illness?
 Any infection can cause a blood infection that can spread throughout the body and lead
 to shock.
-111000000
-
-### Workbook question 1: Shock
-Using the workbook section above, list six questions about signs and symptoms you
-would ask when taking a SAMPLE history.
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-4. ______________________________________________________________________
-5. ______________________________________________________________________
-6. ______________________________________________________________________
 ## Check: Secondary Examination Findings In Shock
 A person with shock will have signs of poor perfusion, which may include a fast heart rate, a
 low systolic blood pressure, fast breathing, pale and cool skin, slow capillary refill, dizziness,
@@ -203,10 +196,9 @@ tries to address by faster or deeper breathing. This condition may also result i
 ‘fruity’ smelling breath. Since elevated blood glucose levels cause increased urination,
 severe dehydration and shock can result.
  Check for bleeding:
-– All external bleeding should be controlled with direct pressure. [See SKILLS] Arterial
+– All external bleeding should be controlled with direct pressure. Arterial
 bleeding may appear as pulsing or high pressure bleeding, and significant blood volume
 can be lost in minutes.
-110011
 
 ### Module 4: Approach to shock
 – Vaginal bleeding may be an important source of blood loss from pregnancy-related
@@ -230,7 +222,7 @@ Fever in a patient with shock suggests severe infection.
 Low blood glucose can sometimes look like shock. If you cannot check blood glucose, but
 the person has altered mental status, a history of diabetes or another reason to have low
 sugar (for example, is taking quinine for malaria, is very ill, or is very malnourished), give
-glucose. [See SKILLS]
+glucose.
  Check for severe abdominal pain or a very firm abdomen:
 If the person has severe abdominal pain, this can be a sign of bleeding or infection in the
 abdomen. In a patient who might be pregnant, this can be a sign of an ectopic pregnancy.
@@ -241,35 +233,17 @@ dehydration.
 Any significant diarrhoea can cause dehydration. A large amount of watery, “rice-water”
 stool suggests cholera, which can rapidly cause severe dehydration and shock. Black, dark,
 or reddish colored stool can suggest stomach or intestinal bleeding.
-111000222
-
-page 23
 pagpea p2gae2g 2e 222
  Check for malnourishment [see SKILLS]:
 If the person appears malnourished, fluid must be adjusted
 [see SKILLS]. Be sure to ask about recent changes in weight.
 Assessing for pitting edema in children with malnutrition
-AsAsesAssssesisnesgsi nsfoginr gf op friot tprin itpgtii ntetgind gee mdeedame inma cainh iincldh crielhdnirld ewrnei tnwh iwmthita hmln maultnarulintitourinttrioitnion
 Visible severe wasting in a child
 Visible severe wasting in a child
  Check for swelling, rash or excessive sweating:
 Swelling of mouth or body can indicate an allergic reaction. Rashes can indicate allergic
 reaction (hives) or systemic infection. Swelling of both legs can indicate heart failure.
 Sweating may occur with moderate to severe shock.
-### Workbook question 2: Shock
-Using the workbook section above, list what you need to check for in a person with
-shock.
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-4. ______________________________________________________________________
-5. ______________________________________________________________________
-6. ______________________________________________________________________
-7. ______________________________________________________________________
-8. ______________________________________________________________________
-9. ______________________________________________________________________
-10. _____________________________________________________________________
-110033
 
 ### Module 4: Approach to shock
 ## Possible Causes Of Shock
@@ -314,8 +288,6 @@ excessive urination)
 Burn injury • Red, white or black areas of skin depending on depth of burn
 • May have blistering
 • May have signs of inhalational injury
-111000444
-
 ## Poor Perfusion Due To Blood Loss
 ## Condition Signs And Symptoms
 ### External bleeding • History of trauma
@@ -348,7 +320,6 @@ haemorrhage • Heavy vaginal bleeding:
 – Constant trickling blood
 – Bleeding >250 ml
 – Soft uterus/lower abdomen
-110055
 
 ### Module 4: Approach to shock
 ## Poor Perfusion Due To Problems With The Heart
@@ -389,8 +360,6 @@ REMEMBER... hypoglycaemia can look like shock. Signs and symptoms include:
 • Blood glucose <3.5 mmol/L
 • Altered mental status (ranging from confusion to unconsciousness)
 • History of diabetes, malaria, or a severe illness, especially in children
-111000666
-
 ### Workbook Question 3: Shock
 Using the workbook section above, list the possible cause of shock next to the history
 and physical findings below.
@@ -413,14 +382,12 @@ THREATENING CONDITIONS.
 Start by giving IV fluid (normal saline or Ringer’s Lactate in adults and children with normal
 nutritional status). Then work to address underlying causes. Place IV access rapidly (two
 large-bore IVs) and start IV fluids. Place IV access rapidly (two large-bore IVs), start IV fluids and
-assess response. Repeat with additional boluses if needed. [See SKILLS] If you cannot place an
+assess response. Repeat with additional boluses if needed. If you cannot place an
 IV, immediately call for a provider who can place a nasogastric tube (a tube that goes from the
 nose into the stomach) or intraosseous line (a needle that is placed directly into the bone). See
 if the patient can safely take oral fluids in the meantime.
 CAUTION! For severely malnourished or severely anaemic people, or anyone with signs
-of volume overload, do NOT follow the fluid protocol below. Use adjusted protocol. [See
-## Skills]
-110077
+of volume overload, do NOT follow the fluid protocol below. Use adjusted protocol. 
 
 ### Module 4: Approach to shock
 ## Giving Fluid In Shock
@@ -445,10 +412,9 @@ REASS A E F S T S E R IM B M O E L D U I S ATELY IM T M RA ED NS IA F T E E R L 
 If vaginal bleeding after delivery (postpartum haemorrhage) is suspected as a cause of
 shock: ALL patients need rapid handover/transfer to an advanced obstetric provider. While
 arranging for transport and during transport, it is important to try to stop the bleeding.
-Give BOTH intramuscular and IV oxytocin. This is a loading dose. After these doses, continue page 17
-oxytocin IV until one hour after the bleeding stops. [See SKILLS] Bleeding frequently happens
-if the uterus is not fully contracted (does not feel hard on palpation). Perform uterine massage
-[See SKILLS] until the uterus is hard. You should use BOTH oxytocin and uterine massage to
+Give BOTH intramuscular and IV oxytocin. This is a loading dose. After these doses, continue 
+oxytocin IV until one hour after the bleeding stops. Bleeding frequently happens
+if the uterus is not fully contracted (does not feel hard on palpation). Perform uterine massage until the uterus is hard. You should use BOTH oxytocin and uterine massage to
 stop the bleeding. If the placenta delivers,
 collect it in a leak-proof container and
 keep with the patient to allow the
@@ -461,8 +427,6 @@ still need rapid handover/transfer to an
 advanced obstetric provider (see figure).
 Uterine massage for postpartum hemorrhage
 Uterine massage for postpartum hemorrhage
-111000888
-
 ### Postpartum Haemorrhage
 1. Arrange immediate transfer to qualifi ed obstetric provider!
 2. Attempt to control bleeding while arranging and during transfer.
@@ -498,53 +462,49 @@ REMEMBER... fluid status assessment is critical. Patients who have signs of poor
 overall volume overload can be particularly difficult to manage. Patients with malnutrition,
 severe anaemia, and excess fluid in the lungs due to heart, liver, or kidney failure can present
 this way. These patients still need fluids, but the fluids must be given cautiously and, especially
-in malnourished children, according to a specific protocol. [See SKILLS]
-110099
+in malnourished children, according to a specific protocol.
 
 ### Module 4: Approach to shock
 ## Do: Management Of Specific Conditions
 • Always perform ABCDE first. Patients in shock need oxygen.
+• **Position:** Keep the patient flat (supine). Do not sit the patient up unless breathing is severely compromised (e.g., heart failure, pulmonary oedema).
 • In all forms of shock, the primary management is administration of IV fluids
 appropriate for age and condition.
 • The specific conditions below require additional considerations.
 ## Condition Management Considerations
 Burns • Burns disrupt the skin barrier and can cause significant fluid
 losses that can lead to shock. These patients have different fluid
-replacement needs. [See SKILLS]
-Hyperglycaemia • If concern for diabetic ketoacidosis, treat with IV fluids.
-[See SKILLS] A person with diabetic ketoacidosis is extremely ill
+replacement needs.
+Hyperglycaemia • If concern for diabetic ketoacidosis, treat with IV fluids. A person with diabetic ketoacidosis is extremely ill
 and requires rapid transfer to a unit where IV infusion and close
 monitoring are available.
-Fever • Give fluids and start antibiotics. [See SKILLS] If infectious
+Fever • Give fluids and start antibiotics. If infectious
 diarrhoea (like cholera) is suspected, use gloves, aprons and
 relevant isolation precautions and report it to the local public
 health agency. If signs of poor perfusion do not improve with
 fluids, consider rapid handover/transfer.
 Spinal cause • Give IV fluids and refer for ongoing management at a unit that
-can provide spinal care. [See SKILLS]
-Stomach or intestinal • Start IV fluids and refer for blood transfusion. [See SKILLS]
+can provide spinal care.
+Stomach or intestinal • Start IV fluids and refer for blood transfusion.
 bleeding
 Ectopic pregnancy • Give IV fluids and refer for blood transfusion and obstetric care.
-[See SKILLS]
 Postpartum haemorrhage • Give oxytocin and IV fluids and plan for rapid transfer to facility
 with blood transfusion and obstetric care capabilities.
-• Give IV fluids and massage uterus until it is hard. [See SKILLS]
-• Give oxytocin. [See SKILLS]
+• Give IV fluids and massage uterus until it is hard.
+• Give oxytocin.
 • If the placenta has delivered, collect it in a leak-proof container
 and keep with patient for inspection by advanced provider.
 • Check for perineal and vaginal tears and apply direct pressure.
 Tension pneumothorax • Perform needle decompression immediately to relieve the
-pressure, give oxygen and IV fluids. [See SKILLS] Any patient
+pressure, give oxygen and IV fluids. Any patient
 who has had a needle decompression will need rapid handover/
 transfer to a unit that can place a chest tube.
 Pericardial tamponade • Give IV fluids to help fill the heart against the building pressure
-in the heart sac. [See SKILLS] Plan for rapid handover/transfer to
+in the heart sac. Plan for rapid handover/transfer to
 a provider who can drain the pericardial fluid.
-111111000
-
 ## Condition Management Considerations
 Suspected heart attack • Give aspirin if indicated. Place an IV and give fluids, re-assessing
-the patient frequently. [See SKILLS]
+the patient frequently.
 • While oxygen is no longer recommended in all patients with
 heart attack, it should initially be given in patients with shock or
 difficulty in breathing, even when heart attack is the suspected
@@ -553,41 +513,17 @@ cause.
 Heart failure • Give IV fluids more slowly, checking the lungs for crackles
 (fluid overload) frequently. Stop IV fluids if fluid overload
 develops (difficulty in breathing, crackles in the lungs, increased
-respiratory rate, increased heart rate). [See SKILLS]
+respiratory rate, increased heart rate).
 • Plan for rapid handover/transfer to an advanced provider.
-Severe allergic reaction • Give intramuscular adrenaline [See SKILLS]. These patients will
+Severe allergic reaction • Give intramuscular adrenaline. These patients will
 also need IV access and fluids as their condition can rapidly
 worsen once the adrenaline wears off. You may give a second
-dose if the effects wear off. [See SKILLS] If the airway is swollen or
+dose if the effects wear off. If the airway is swollen or
 there is difficulty in breathing, patients may need rapid transfer.
 Traumatic injury or rapid • Stop the bleeding, give IV fluids, and conduct a thorough
-trauma assessment. [See SKILLS] Refer for blood transfusion and
+trauma assessment. Refer for blood transfusion and
 blood loss suspected
 ongoing surgical management.
-### Workbook question 4: Shock
-Using the workbook section above, list what you would do to manage this patient.
-A 6-year-old boy is brought in 1. ________________________________________
-with fever. He is in shock and
-does not appear malnourished.
-2. ________________________________________
-Your facility has supplies to put
-in an IV.
-3. ________________________________________
-A young man is brought in after a
-motorcycle crash. He has a large 1. ________________________________________
-cut to his arm that is bleeding
-and there is a large pool of blood 2. ________________________________________
-under him. He is in shock when
-you examine him.
-3. ________________________________________
-A 30-year-old woman is brought
-in after accidentally eating 1. ________________________________________
-prawns. She has a known
-shellfish allergy, her body is 2. ________________________________________
-covered in a red, itchy rash and
-she is in shock.
-3. ________________________________________
-111111
 
 ### Module 4: Approach to shock
 ## Special Considerations In Children
@@ -600,17 +536,17 @@ WHO guidelines for the care of critically ill children use the presence of three
 features: cold extremities, capillary refill greater than 3 seconds, and weak and fast pulse.
 There are also other important signs of poor perfusion, including low blood pressure,
 fast breathing, altered mental status, and decreased urination (always ask parents how
-much urine the child is passing). [See SKILLS]
+much urine the child is passing).
 Signs of dehydration in children
 • Very dry mouth and lips
 • Lethargy (excessive drowsiness and slowness to respond), child not interactive
-page 34
+
 • Sunken eyes
 • Small amounts of dark urine (ask about number of nappies for infants)
 • Sunken fontanelles in infants under 1 year
 • Delayed capillary refill (normal capillary refill is less than 3 seconds)
-• Abnormal skin pinch [See SKILLS]
-• Pallor (anaemia makes dehydration even more difficult to treat [See SKILLS])
+• Abnormal skin pinch
+• Pallor (anaemia makes dehydration even more difficult to treat)
 Abnormal skin pinch in a child
 Common causes of shock and dehydration in children include:
 • Vomiting and diarrhoeaA: bGnaosrtmroael nstkeirnit ips inccahu sines a scuhdildden onset of vomiting and
@@ -622,26 +558,15 @@ important to examine the child for signs of trauma. Vomiting associated with fev
 may suggest infection.
 • Overwhelming infection: Fever can cause children to become dehydrated quickly. In
 addition, overwhelming infection can cause blood vessels to dilate, worsening shock.
-111111222
-
 Special management considerations:
 • Malnourishment: Malnourished children are at high risk for hypoglycaemia and
-will need sugar in addition to fluids. Give specialized fluids if available. [See SKILLS]
+will need sugar in addition to fluids. Give specialized fluids if available.
 Give less IV fluid more slowly, and check the lungs for crackles (fluid overload) every
 5 minutes. Stop IV fluids if fluid overload develops (crackles in the lungs, increased
 respiratory rate, increased heart rate). Switch to oral fluids as soon as signs of poor
 perfusion improve. These patients need rapid handover/transfer over to an advanced
 provider at a centre with blood transfusion capabilities.
-### Workbook question 5: Shock
-Using the workbook section above, list signs of severe dehydration in children.
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-4. ______________________________________________________________________
-5. ______________________________________________________________________
-6. ______________________________________________________________________
-7. ______________________________________________________________________
-8. ______________________________________________________________________
+
 ## Disposition Considerations
  People with shock can worsen and die quickly. They must be monitored very closely.
  Additionally, the same illnesses that cause shock interfere with the body’s ability to manage
@@ -651,94 +576,5 @@ during transfer.
  Patients with shock are often transferred for transfusion or general or obstetric surgery.
 Always communicate directly with the receiving facility to make sure that these resources
 are actually available at the time of transfer.
-111133
 
 ### Module 4: Approach to shock
-## Facilitator-Led Case Scenarios
-These case scenarios will be presented in small groups. One participant will be identified
-as the lead and will be assessed while the rest of the group writes the responses in the
-workbook. To complete a case scenario, participants must identify the critical findings
-and management needed, and formulate a one-line summary for handover, including
-assessment findings and interventions. You should use the Quick Card for these scenarios
-while being assessed.
-## Case #1: Adult Shock
-A 48-year-old male with a history of alcohol abuse is brought in by his wife to be evaluated for
-weakness. His wife states that he has been having very dark stools for the past 2 days and now
-cannot stand up.
-1. What do you need to do in your initial approach?
-2. Use the ABCDE approach to assess and manage this patient. Ask the facilitator about
-look, listen and feel findings; use the Quick Card for reference as needed.
-## Assessment Findings Intervention Interventions
-## Needed? To Perform:
-## Airway Yes No
-## Breathing Yes No
-## Circulation Yes No
-## Disability Yes No
-## Exposure Yes No
-111111444
-
-3. Formulate one sentence to summarize this patient for handover.
-## Case #2: Paediatric Shock
-The patient is a 4-year-old girl brought in by her mother. She has been having almost constant
-diarrhoea for the past 3 days and vomiting every time she tries to drink anything. The mother
-thinks she may have had a fever as well. She has no signs of malnutrition.
-1. What do you need to do in your initial approach?
-2. Use the ABCDE approach to assess and manage this patient. Ask the facilitator about
-look, listen and feel findings; use the Quick Card for reference as needed.
-## Assessment Findings Intervention Interventions
-## Needed? To Perform:
-## Airway Yes No
-## Breathing Yes No
-## Circulation Yes No
-## Disability Yes No
-## Exposure Yes No
-3. Formulate one sentence to summarize this patient for handover.
-111155
-
-### Module 4: Approach to shock
-## Multiple Choice Questions
-Answer the questions below. Questions and answers will be discussed in the session.
-1. A 7-year-old boy has had lethargy, vomiting and diarrhoea for the past 4 days. His vital signs
-are: blood pressure 80/40 mmHg, heart rate 140 beats per minute, respiratory rate 18 breaths
-per minute. The patient vomits when you try to give anything by mouth. What is your most
-immediate management?
-A. Start an IV line and give fluids
-### B. Continue to attempt oral rehydration
-C. Place a nasogastric (NG) tube and hydrate through it
-### D. Rapidly transfer to a referral hospital
-2. You are taking care of a 28-year-old man who was shot in the abdomen. He is lethargic and
-the vital signs are as follows: blood pressure 80/40 mmHg, heart rate 130 beats per minute,
-respiratory rate 20 breaths per minute. There is heavy bleeding from the gunshot wound and
-the abdomen is rigid and tender. What is the first intervention you should give this patient?
-### A. IV fluids
-### B. Intraosseous line
-### C. Surgery
-### D. Adrenaline
-3. A child that presents with sunken eyes, small amounts of dark urine, dry mucous membranes
-and abnormal skin pinch testing is most likely suffering from:
-### A. Pneumonia
-### B. Head injury
-### C. Dehydration
-### D. Hypoglycaemia
-4. A 60-year-old man states he has been weak and dizzy for the past week. His vital signs are:
-blood pressure 90/50 mmHg, heart rate 125 beats per minute, respiratory rate 16 breaths per
-minute. His skin is cool and pale. He states that his stools have been black for the past 2 days.
-What is the most likely cause of his shock?
-### A. Stomach bleeding
-### B. Abdominal trauma
-### C. Dehydration
-### D. Severe infection
-111111666
-
-5. You are assessing a 23-year-old man who was stabbed in the chest. You expose the chest
-to find one stab wound in the right chest with minor bleeding. He is complaining of severe
-difficulty in breathing and there are no lung sounds on the right side. His neck veins are
-distended and his skin is cool and sweaty. His vital signs are: blood pressure 86/56 mmHg,
-heart rate 136 beats per minute, respiratory rate 28 breaths per minute. What is your next step?
-### A. Chest tube placement
-### B. Needle decompression
-### C. Blood transfusion
-### D. Start IV fluids
-111177
-
-Notes

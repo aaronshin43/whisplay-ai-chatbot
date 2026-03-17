@@ -8,6 +8,14 @@
 
 ---
 
+## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+
+> **During active convulsions:**
+> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
+> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
+> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+
+
 ## Abcde Approach
 REMEMBER... Always check for signs of trauma [see also TRAUMA card]
 ## Assessment Findings Immediate Management
@@ -65,10 +73,10 @@ REMEMBER: PATIENTS WITH ABNORMAL ABCDE FINDINGS MAY NEED RAPID HANDOVER/TRANSFER
 ### NORMAL ADULT VITAL SIGNS SAMPLE History
 Pulse rate: 60–100 beats per minute Estimating systolic blood pressure Signs & Symptoms
 Respiratory rate: 10–20 breaths per minute (not reliable in children and the elderly): Allergies
-Systolic blood pressure >90 mmHg Carotid (neck) pulse  SBP ≥ 60 mmHg Medications
+Systolic blood pressure >90 mmHg Carotid (neck) pulse  SBP ≥ 60 mmHg Medications
 Key findings from the Trauma Primary Survey [see also ABCDE card]
-Femoral (groin) pulse  SBP ≥ 70 mmHg PMH
-Radial (wrist) pulse  SBP ≥80 mmHg Last oral intake ASSESSMENT FINDINGS IMMEDIATE MANAGEMENT
+Femoral (groin) pulse  SBP ≥ 70 mmHg PMH
+Radial (wrist) pulse  SBP ≥80 mmHg Last oral intake ASSESSMENT FINDINGS IMMEDIATE MANAGEMENT
 Events
 Airway Not speaking, with limited or no air movement Use jaw thrust with c-spine protection.
 Suction if needed, remove visible foreign
@@ -77,38 +85,38 @@ objects.
 SPECIAL CONSIDERATIONS IN THE ASSESSMENT OF CHILDREN Place OPA to keep the airway open.
 • Children have bigger heads and tongues, and shorter, softer necks than adults. Position airway as Signs of possible airway injury (neck haematoma or Give oxygen. Monitor closely-- swelling can
 A appropriate for age. wound, crepitus, stridor) rapidly block the airway.
-• Always consider foreign bodies. Will need advanced airway management
+• Always consider foreign bodies. Will need advanced airway management
 • Look for signs of increased work of breathing (e.g. chest indrawing, retractions, nasal fl aring). Signs of possible airway burns (soot around the mouth Give oxygen. Monitor closely-- swelling can
 ## B
 • Listen for abnormal breath sounds (e.g. grunting, stridor, or silent chest). or nose, burned facial hair, facial burns) rapidly close the airway.
-Will need advanced airway management
+Will need advanced airway management
 ## Age Respiratory Rate
 (breaths per minute) Breathing Signs of tension pneumothorax (hypotension with Perform needle decompression.
 absent breath sounds/hyperresonance on one side,
 <2 months 40–60 Give oxygen, IV fluids.
 distended neck veins)
-2–12 months 25–50 B Will need chest tube
+2–12 months 25–50 B Will need chest tube
 1–5 years 20–40
 Open (sucking) chest wound Give oxygen, place 3-sided dressing, monitor
 • Signs of poor perfusion in children include: slow capillary refi ll, decreased urine output, lethargy, sunken for tension pneumothorax.
 ## C
 fontanelle, poor skin pinch
-Will need chest tube
+Will need chest tube
 • Look for signs of anaemia and malnourishment (adjust fl uids).
 Breathing not adequate Give oxygen, assist ventilation with BVM.
 • Remember that children may not always report trauma and may have serious internal injury with few
 external signs. Large burns of chest or abdomen (or circumferential Give IV fluids per burn size, give oxygen,
 burn to limb) remove constricting clothing/jewelry.
 ## Age Normal Heart Rate
- May need escharotomy
+ May need escharotomy
 (in years) (beats per minute)
 <1 100–160 Signs of flail chest (section of chest wall moving in Give oxygen.
 1–3 90–150 opposite direction with breathing)
- May need advanced airway management
+ May need advanced airway management
 4–5 80–140 and assisted ventilation
 • Always check AVPU • Check for tone and response to stimulus. Signs of haemothorax (decreased breath sounds on Give oxygen, IV fluids.
 D one side, dull sounds with percussion)
-• Hypoglycaemia is common in ill children. • Look for lethargy or irritability. Will need chest tube
+• Hypoglycaemia is common in ill children. • Look for lethargy or irritability. Will need chest tube
 Circulation Signs of shock (capillary refill >3 sec, hypotension, Give oxygen, IV fluids, control external
 INFANTS AND CHILDREN HAVE DIFFICULTY MAINTAINING TEMPERATURE tachycardia) bleeding, splint femur/pelvis as indicated.
 ## E
@@ -123,7 +131,7 @@ veins, muffled heart sounds)
 Disability Signs of brain injury (AMS with wound, deformity or Immobilize cervical spine, check glucose, give
 bruising of head/face) nothing by mouth.
 • Signs of airway obstruction (unable to swallow saliva/ • Moves only when stimulated or no movement at all (AVPU
-drooling or stridor) other than “A”) D Will need neurosurgical care
+drooling or stridor) other than "A") D Will need neurosurgical care
 • Increased breathing eff ort (fast breathing, nasal fl aring , • Not feeding well, cannot drink or breastfeed or vomiting
 Signs of open skull fracture (as above, with blood or As above, and give IV antibiotics per local
 grunting, chest indrawing or retractions) everything
@@ -135,53 +143,6 @@ SURGICAL SERVICE. PLAN EARLY.
 sleepiness, confusion, disorientation)
 ESTIMATED WEIGHT in KILOGRAMS for CHILDREN 1–10 YEARS OLD:
 [age in years + 4] x 2
-
-## Approach To The Patient With Trauma
-Key fi ndings from the Trauma Primary Survey [see also ABCDE card]
-## Assessment Findings Immediate Management
-Airway Not speaking, with limited or no air movement Use jaw thrust with c-spine protection.
-Suction if needed, remove visible foreign
-objects.
-## A
-Place OPA to keep the airway open.
-Signs of possible airway injury (neck haematoma or Give oxygen. Monitor closely-- swelling can
-wound, crepitus, stridor) rapidly block the airway.
- Will need advanced airway management
-Signs of possible airway burns (soot around the mouth Give oxygen. Monitor closely-- swelling can
-or nose, burned facial hair, facial burns) rapidly close the airway.
- Will need advanced airway management
-Breathing Signs of tension pneumothorax (hypotension with Perform needle decompression.
-absent breath sounds/hyperresonance on one side,
-Give oxygen, IV fl uids.
-distended neck veins)
-### B  Will need chest tube
-Open (sucking) chest wound Give oxygen, place 3-sided dressing, monitor
-for tension pneumothorax.
- Will need chest tube
-Breathing not adequate Give oxygen, assist ventilation with BVM.
-Large burns of chest or abdomen (or circumferential Give IV fl uids per burn size, give oxygen,
-burn to limb) remove constricting clothing/jewelry.
-May need escharotomy
-Signs of fl ail chest (section of chest wall moving in Give oxygen.
-opposite direction with breathing)
-May need advanced airway management
-and assisted ventilation
-Signs of haemothorax (decreased breath sounds on Give oxygen, IV fl uids.
-one side, dull sounds with percussion)
- Will need chest tube
-Circulation Signs of shock (capillary refi ll >3 sec, hypotension, Give oxygen, IV fl uids, control external
-tachycardia) bleeding, splint femur/pelvis as indicated.
-C Uncontrolled external bleeding Apply pressure, deep wound packing or
-tourniquet as indicated.
-Signs of tamponade (poor perfusion, distended neck Give IV fl uids, oxygen.
-veins, muffl ed heart sounds)
-Disability Signs of brain injury (AMS with wound, deformity or Immobilize cervical spine, check glucose, give
-bruising of head/face) nothing by mouth.
-### D  Will need neurosurgical care
-Signs of open skull fracture (as above, with blood or As above, and give IV antibiotics per local
-fl uid from the ears/nose) protocol.
-REMEMBER: INJURED PATIENTS WITH ABNORMAL ABCDE FINDINGS MAY NEED RAPID HANDOVER/TRANSFER TO A
-SURGICAL SERVICE. PLAN EARLY.
 
 ## Approach To The Patient With Difficulty
 ## Management Of Specific Conditions
@@ -216,7 +177,7 @@ on both sides
 • Motorcycle crash or any vehicle crash with unrestrained • Blast or crush injuries Low blood pressure, tachycardia, muffl ed Pericardial tamponade
 occupants • Flail chest heart sounds
 • Falls from heights greater than 3 metres • Two or more large bone fractures, or pelvic fracture Altered mental status with small pupils Opioid overdose
-(or twice a child’s height)
+(or twice a child's height)
 • Spinal injury and slow breathing
 • Gunshot or stabbing
 • Limb paralysis
@@ -250,46 +211,6 @@ Considerations for transfer:
 • For signs of shock, ensure IV fl uid started and continued during transfer.
 ### History of heart failure Pulmonary oedema
 • Control any external bleeding and monitor site closely during transport.
-History of sickle cell disease Acute chest syndrome
-
-## Approach To The Patient With Difficulty
-## In Breathing
-Key ABCDE Findings (Always perform a complete ABCDE approach fi rst!)
-IF YOU FIND... REMEMBER...
-### Choking, coughing Foreign body
-Stridor Partial airway obstruction due to foreign body or infl ammation (from infection,
-chemical exposure or burn)
-Facial swelling Severe allergic reaction, medication eff ect
-### Drooling Indicates a blockage to swallowing
-Soot around the mouth or nose, burned Smoke inhalation and airway burns – rapid swelling can block the airway
-facial hair, facial burns
-Signs of chest wall trauma Rib fracture, fl ail chest, pneumothorax, contusion, tamponade
-Decreased breath sounds on one side Pneumothorax (consider tension pneumothorax if with hypotension and
-hyperresonance to percussion), haemothorax, large pleural eff usion/pneumonia
-Decreased breath sounds and crackles Pulmonary oedema, heart failure
-on both sides
-### Wheezing Asthma, allergic reaction, COPD
-### Fast or deep breathing DKA
-Low blood pressure, tachycardia, muffl ed Pericardial tamponade
-heart sounds
-Altered mental status with small pupils Opioid overdose
-and slow breathing
-Key Findings from the SAMPLE History and Secondary Exam
-IF YOU FIND... REMEMBER...
-DIB worse with exertion or activity Heart failure, heart attack
-DIB that began with choking or during Foreign body, allergic reaction
-eating
-### History of fever, cough Pneumonia, infection
-### Pesticide exposure Poisoning
-Recent fall or other trauma Rib fracture, fl ail chest, pneumothorax, contusion, tamponade
-### Known allergies, allergen exposure, bite Allergic reaction
-or sting
-Recent medication or dose change Allergic reaction or side eff ect
-History of opioid or sedative drug use Overdose
-### History of wheezing Asthma or COPD
-### History of diabetes DKA
-History of tuberculosis or malignancy Pericardial tamponade, pleural eff usion
-### History of heart failure Pulmonary oedema
 History of sickle cell disease Acute chest syndrome
 
 ## Critical Actions For High-Risk Conditions
@@ -334,60 +255,38 @@ Never leave patients with diffi culty in breathing unmonitored during handover/t
 Make transfer arrangements as early as possible for any patient who may require intubation or assisted ventilation.
 
 ## Approach To The Patient With Shock
-## Critical Actions For High-Risk Conditions
-## Choking Stridor Wheezing Severe Infection Trauma
-unable to cough, not high pitched sounds high pitched sounds
-making sounds on breathing IN on breathing OUT
 Key ABCDE Findings (Always perform a complete ABCDE approach fi rst!)
-Remove any visible Keep patient calm Give salbutamol Oxygen Oxygen IF YOU FIND... REMEMBER...
-foreign body and allow position of
-IM adrenaline for Antibiotics Needle Diffi culty breathing, stridor/wheezing, skin rash, swelling of mouth Severe allergic reaction
-comfort
-Perform age- suspected allergic decompression and
-Oral/IV fl uids as Hypotension with absent breath sounds and hyperresonance on Tension pneumothorax
-appropriate chest/ IM adrenaline for reaction IV fl uids for tension
-appropriate one side, distended neck veins
-abdominal thrusts or suspected allergic pneumothorax
-Oxygen if concern for
-back blows reaction Distended neck veins, muffl ed heart sounds, tachycardia, Pericardial tamponade
-hypoxia Three-sided dressing
-hypotension
-CPR if becomes Oxygen if concern for for sucking chest
-unconscious hypoxia wound Sweet smelling breath, deep or rapid breathing DKA
-Early handover/ Rapid transfer to History of trauma or no known cause Hidden sources of signifi cant blood loss (stomach,
-transfer for advanced surgical service intestines, intra-abdominal, chest, long-bone trauma) or
-airway management spinal injury
-Key Findings from the SAMPLE History and Secondary Exam
-## Special Considerations In Children
 IF YOU FIND... REMEMBER...
-THE FOLLOWING ARE DANGER SIGNS IN CHILDREN WITH BREATHING COMPLAINTS:
+Diffi culty breathing, stridor/wheezing, skin rash, swelling of mouth Severe allergic reaction
+Hypotension with absent breath sounds and hyperresonance on Tension pneumothorax
+one side, distended neck veins
+Distended neck veins, muffl ed heart sounds, tachycardia, Pericardial tamponade
+hypotension
+Sweet smelling breath, deep or rapid breathing DKA
+History of trauma or no known cause Hidden sources of signifi cant blood loss (stomach,
+intestines, intra-abdominal, chest, long-bone trauma) or
+spinal injury
+Key Findings from the SAMPLE History and Secondary Exam
+IF YOU FIND... REMEMBER...
 Vomiting and diarrhoea Ask about contacts and report cases per protocol.
-• Fast breathing • Poor feeding or drinking, or vomits everything Black or bloody vomit or stool Stomach or intestinal bleeding
-• Increased breathing eff ort (chest indrawing/retractions) • Seizures/convulsions, current or recent
+Black or bloody vomit or stool Stomach or intestinal bleeding
 Rapid or deep breathing, dehydration, high glucose, sweet- Diabetic ketoacidosis
-• Cyanosis • Drooling or stridor when calm smelling breath, history of frequent urination or known diabetes
-• Altered mental status (including lethargy) • Hypothermia
+smelling breath, history of frequent urination or known diabetes
 Burns Severe fl uid loss (calculate fl uid needs based on burn size)
-Wheezing in children is often caused by an object inhaled into the airway, viral infection or asthma. Fever or HIV Infection
-Stridor in children is often caused by an object stuck in the airway or airway swelling from infection. Recent fall or other trauma Internal AND external bleeding
+Fever or HIV Infection
+Recent fall or other trauma Internal AND external bleeding
 Pale conjunctiva or malnutrition Severe anemia (adjust fl uids)
-Fast or deep breathing can indicate diabetic crisis (DKA), which may be the fi rst sign of diabetes in a child.
 Chest pain Heart attack (give aspirin if indicated)
-FAST BREATHING MAY BE THE ONLY SIGN OF A SERIOUS BREATHING PROBLEM IN A CHILD.
 ### Vaginal bleeding Pregnancy and non-pregnancy related bleeding
 Numbness, weakness or shock that does not improve with fl uids Spinal shock (immobilize spine if indicated)
-## Disposition
-Salbutamol and IM adrenaline eff ects last for about 3 hours, and life-threatening symptoms may recur. Monitor closely, always CRITICAL ACTIONS FOR HIGH-RISK CONDITIONS
-have repeat dose available during transport and caution new providers at handover.
+CRITICAL ACTIONS FOR HIGH-RISK CONDITIONS
 For all shock:
-Naloxone lasts approximately 1 hour, and most opioids last longer. Monitor closely, always have repeat dose available during • Give oxygen
-transport and caution new providers.
+• Give oxygen
 • Give IV fl uids
-Following immersion in water (drowning), a person may develop delayed breathing problems after several hours. Monitor – ADULTS: 1 liter RL or NS bolus
-closely and caution new providers. – CHILDREN with NO severe anaemia, NO malnutrition, NO fl uid overload: 10–20 ml/kg bolus
-Never leave patients with diffi culty in breathing unmonitored during handover/transfer. – CHILDREN with malnutrition or severe anaemia: give 10–15 ml/kg dextrose-containing fl uid over 1 hour and assess for
+– ADULTS: 1 liter RL or NS bolus
+– CHILDREN with NO severe anaemia, NO malnutrition, NO fl uid overload: 10–20 ml/kg bolus
+– CHILDREN with malnutrition or severe anaemia: give 10–15 ml/kg dextrose-containing fl uid over 1 hour and assess for
 fl uid overload every 5 minutes.
-Make transfer arrangements as early as possible for any patient who may require intubation or assisted ventilation.
 – For suspected heart attack with shock, give smaller boluses, and monitor closely for fl uid overload.
 • Monitor vital signs, mental status, breathing and urine output
 ### AND for specifi c conditions:
@@ -479,36 +378,6 @@ CONTINUE ORS Fever/Hyperthermia Infectious, toxic, and environmental causes
 ## Iv
 ## Fluids
 
-## Approach To The Patient With Altered
-## Mental Status (Ams)
-Key ABCDE Findings (Always perform a complete ABCDE approach fi rst!)
-IF YOU FIND... REMEMBER...
-### Tachypnoea Hypoxia, DKA, toxic ingestion
-### Poor perfusion/shock Infection, internal bleeding
-### Tachycardia with normal perfusion Alcohol withdrawal
-Coma Hypoxia, high or low blood glucose, DKA and toxic ingestion
-Hypoglycaemia Infection, medication side eff ect (eg, diabetes medications, quinine)
-Very small pupils with slow breathing Opioid overdose
-Seizure/convulsion Abnormal glucose, infection, toxic ingestion (eg, TB meds) or withdrawal
-(eg, alcohol). Consider eclampsia if current pregnancy or recent delivery.
-Weakness on one side or unequal pupil size Brain mass or bleed
-Signs of trauma or unknown cause of AMS Consider brain injury (with possible spine injury)
-Key Findings from SAMPLE History and Secondary Exam
-IF YOU FIND... REMEMBER...
-History of wheezing Severe COPD crisis can cause AMS
-History of diabetes High or low blood sugar, DKA
-History of epilepsy Post-seizure confusion and sleepiness should improve over minutes to hours.
-Prolonged AMS or multiple convulsions without waking up in between
-require further workup.
-History of agricultural work or known Organophosphate poisoning
-pesticide exposure
-### History of regular alcohol use Alcohol withdrawal
-History of substance use or depression Acute intoxication, accidental or intentional overdose
-History of HIV Infection, medication side eff ect
-Rash on the lower abdomen or legs or Brain infection (meningitis)
-bulging fontanelle in infants
-### Fever/Hyperthermia Infectious, toxic, and environmental causes
-
 ## Critical Actions For High-Risk Conditions
 (Always check blood glucose in AMS, or give glucose if unable to check.)
 ## Hypoglycaemia Opioid Overdose Life-Threatening Severe Toxic Exposure Or
@@ -538,7 +407,7 @@ ALWAYS consider unwitnessed toxic ingestion Ask about any medications in the hou
 products, antifreeze) in or near the house.
 Check and regularly re-check blood glucose Low blood glucose is common in ill young children.
 High blood glucose can present with AMS and dehydration.
-AVOID hypothermia Keep skin-to-skin with mother, cover child’s head. Uncover only the parts you
+AVOID hypothermia Keep skin-to-skin with mother, cover child's head. Uncover only the parts you
 need to see, one at a time, during exam.
 Danger signs with ingestions Monitor closely and arrange handover/transfer for advanced airway
 management.
@@ -637,44 +506,25 @@ status unknown) burns and open
 fractures)
 
 ## Transfer And Handover
-## Medication Dosage Indication
-Oxytocin Solution: 10 IU in 1ml ampule Treatment of
-postpartum
-Initial Dose: Give 10 IU IM AND start IV fl uids with 20 IU/L at 60 drops/minute.
-haemorrhage
-Once placenta is delivered, continue IV fl uids with 20 IU/L at 30 drops/minute if
-still bleeding. Arrange transfer
-If placenta has to be manually removed or uterus does not contract: Repeat 10 IU • Check that patient needs match the available services at the destination facility (eg, operating theatre open, blood available)
-IM.
+Arrange transfer
+• Check that patient needs match the available services at the destination facility (eg, operating theatre open, blood available)
 • Communicate directly with an accepting provider at the receiving facility prior to departure
-Continue IV fl uids with 20 IU/L at 20 drops/minute for one hour after bleeding
 • Ensure that destination facility can be reached in time given patient condition
-stops.
 • Ensure that patient and family are aware of reasons, plan, and destination for transport
-Max Dose: 3 L of IV fl uids containing oxytocin.
 • Record family contact name and number in sending facility chart and in paperwork sent with patient
-Paracetamol Oral Tablet: 250 mg, 500 mg. Mild to moderate
-(acetaminophen) pain, fever, • Secure patient valuables for transport (whenever possible, leave with family)
-### Rectal Suppositories: 250 mg, 500 mg
-headache • A brief written record (including name, date of birth, clinical presentation and all interventions) should ALWAYS accompany the
-Adults: 500 mg–1 g oral/rectal every 6hrs
+• Secure patient valuables for transport (whenever possible, leave with family)
+• A brief written record (including name, date of birth, clinical presentation and all interventions) should ALWAYS accompany the
 patient.
-Max 4 g daily or max 2 g daily if liver impairment, cirrhosis
 Prepare for needs during transport
-Children: 10–15 mg/kg oral/rectal up to six times per day
 • PPE for staff
-Salbutamol Inhaler: 100 mcg per puff Severe wheezing
-(Albuterol) • Airway equipment and suction (check if working before departure)
-• Adult: Prime with 5 puff s and give 2 puff s via spacer every 2 minutes until
-improved. • Adequate oxygen (with replacement tank if needed) and bag valve mask (BVM)
-• Child: Prime with 5 puff s and give 2 puff s into spacer. Keep spacer in mouth for • IV access: Check that IV is secured prior to transport; consider second IV or backup supply
-3–5 breaths. Repeat until 6 puff s given for < 5 years, or 12 puff s for > 5 years.
+• Airway equipment and suction (check if working before departure)
+• Adequate oxygen (with replacement tank if needed) and bag valve mask (BVM)
+• IV access: Check that IV is secured prior to transport; consider second IV or backup supply
 • Medications: Bring additional doses of medications and fl uids, and consider other medications that may be needed
-Nebulizer: (ADULT) 5 mg in 5 ml sterile saline. (CHILD) 2.5 mg in 3 ml sterile saline. • Prepare for new or recurrent symptoms.
-For severe wheezing, above doses can be given several times in an hour. • Seizure/convulsion patients: place pads/pillows around patient to limit injury from a seizure during transport.
-Tetanus Vaccine IM Injection: 0.5 ml (Give for children not up to date; adults with none in 5 years; or Wounds (including • Watch for vomiting and ensure that airway remains clear, particularly for those with cervical spine immobilization.
-status unknown) burns and open • Check that there is adequate fuel for transport.
-fractures)
+• Prepare for new or recurrent symptoms.
+• Seizure/convulsion patients: place pads/pillows around patient to limit injury from a seizure during transport.
+• Watch for vomiting and ensure that airway remains clear, particularly for those with cervical spine immobilization.
+• Check that there is adequate fuel for transport.
 • Ensure that telephone or radio is present in vehicle and working
 Patient positioning
 • Position patient for best airway opening and breathing.
@@ -699,12 +549,12 @@ hypoglycaemic
 • Remember that critically ill or injured children can look well initially and then worsen quickly. Monitor closely.
 • Hypothermia and hypoglycaemia are common in children. Monitor closely.
 ### SBAR handover
-• Situation: Basic patient information (e.g. age, sex); chief complaint (the patient’s initial description of the problem, such as
+• Situation: Basic patient information (e.g. age, sex); chief complaint (the patient's initial description of the problem, such as
 diffi culty in breathing for 3 days, or arm pain after a fall)
-• Background: 2–4 most important and relevant aspects of patient’s case and/or condition; important ABCDE fi ndings/
+• Background: 2–4 most important and relevant aspects of patient's case and/or condition; important ABCDE fi ndings/
 interventions.
 • Assessment: What you think is wrong with the patient; reason for the handover/transfer.
-• Recommendations: next steps in treatment plan; potential worsening of the patient’s condition (e.g. need for close airway
+• Recommendations: next steps in treatment plan; potential worsening of the patient's condition (e.g. need for close airway
 observation if inhalation burn is suspected); cautions regarding prior therapies or interventions (e.g. time of last adrenaline
 dose to anticipate return symptoms, need to monitor mental status if sedating medications have been given, need to
 monitor 3-way dressing for clotting, etc.).

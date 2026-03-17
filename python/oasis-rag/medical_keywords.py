@@ -59,6 +59,7 @@ _TAXONOMY: dict[str, list[str]] = {
         # ── Colloquial user language ──────────────────────────────────────
         "cant breathe", "can't breathe",               # "I cant breathe"
         "cant cough", "can't cough",                   # choking: unable to cough
+        "cannot get air", "can't get air", "cannot breathe", "no air",  # partial obstruction
         "turning blue", "going blue", "lips blue",     # cyanosis descriptors
         "something stuck", "stuck in throat",          # foreign body
     ],
@@ -79,16 +80,13 @@ _TAXONOMY: dict[str, list[str]] = {
         "pull out", "remove object", "pull the knife", "knife in chest",
     ],
 
-    # ── 4. Circulation / Cardiac ──────────────────────────────────────────
+    # ── 4a. Cardiac Arrest / CPR ──────────────────────────────────────────
     "circulation_cardiac": [
         "CPR", "cardiopulmonary resuscitation", "cardiac arrest",
         "chest compression", "defibrillation", "AED", "automated external defibrillator",
         "ventricular fibrillation", "VF", "ventricular tachycardia", "VT",
         "pulseless", "no pulse", "pulse check", "carotid pulse", "radial pulse",
-        "shock", "hypovolemic shock", "cardiogenic shock", "septic shock",
-        "anaphylactic shock", "neurogenic shock", "obstructive shock",
-        "hypotension", "tachycardia", "bradycardia", "arrhythmia",
-        "heart attack", "myocardial infarction", "STEMI",  # removed "MI" — substring false-positive in "hypothermia", "coming"
+        "heart attack", "myocardial infarction", "STEMI",
         "chest pain", "angina", "palpitation",
         # Collapse / arrest presentation terms
         "collapse", "collapsed", "sudden collapse", "unresponsive",
@@ -96,10 +94,25 @@ _TAXONOMY: dict[str, list[str]] = {
         "rescue breathing", "agonal breathing", "gasping",
         "chain of survival", "ROSC", "return of spontaneous circulation",
         # ── Colloquial user language ──────────────────────────────────────
-        "dying", "he is dying", "she is dying",        # "he is dying what do i do"
-        "not moving", "wont move", "won't move",       # collapse / unconscious
-        "not waking", "wont wake", "won't wake up",    # unresponsive
-        "heart stopped", "stopped his heart",          # cardiac arrest
+        "dying", "he is dying", "she is dying",
+        "not moving", "wont move", "won't move",
+        "not waking", "wont wake", "won't wake up",
+        "heart stopped", "stopped his heart",
+    ],
+
+    # ── 4b. Shock / Circulatory Failure ───────────────────────────────────
+    # Kept separate so "shock" queries expand to fluid/perfusion terms,
+    # not CPR terms — avoids retrieving CPR chunks for hypovolemic shock queries.
+    "shock_management": [
+        "shock", "hypovolemic shock", "cardiogenic shock", "septic shock",
+        "anaphylactic shock", "neurogenic shock", "obstructive shock",
+        "distributive shock", "circulatory failure", "circulatory collapse",
+        "hypotension", "tachycardia", "bradycardia", "arrhythmia",
+        "poor perfusion", "capillary refill", "mottled skin",
+        "IV fluid", "IV access", "fluid resuscitation", "fluid bolus",
+        "normal saline", "Ringer's lactate", "intraosseous", "IO access",
+        "pale cold sweaty", "weak pulse", "rapid pulse", "low blood pressure",
+        "in shock", "going into shock", "signs of shock",
     ],
 
     # ── 5. Burns ──────────────────────────────────────────────────────────

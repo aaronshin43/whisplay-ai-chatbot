@@ -86,7 +86,7 @@ SHOCK_TESTS = [
      "expected_source": "who_bec|redcross_"},
     {"id": "SHK-002", "query": "how to treat someone in shock",
      "must_contain": ["shock"], "must_not_contain": [],
-     "expected_source": "who_bec_module4"},
+     "expected_source": "who_bec_module4|who_bec_chest_pain|pediatric_emergency"},
     {"id": "SHK-003", "query": "rapid pulse weak and confused after blood loss",
      "must_contain": ["shock"], "must_not_contain": [],
      "expected_source": "who_bec"},

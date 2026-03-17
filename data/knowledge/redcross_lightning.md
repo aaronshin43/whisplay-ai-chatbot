@@ -21,8 +21,6 @@ is approximately 1 mile away.
 away. that is 30 seconds from flash to boom. stay in the safe location for
 30 minutes after the storm passes.
 
-gnintHgil
-
 ### Reaching Safety in a lightning Storm
 What to do:
 - move downhill.

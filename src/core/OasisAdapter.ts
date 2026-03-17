@@ -71,6 +71,34 @@ function injectSpinalWarning(context: string, query: string): string {
     return context;
 }
 
+// ── Seizure / Convulsion detection ───────────────────────────────────────────
+
+/** Keywords that indicate active or recent seizure/convulsion. */
+const SEIZURE_SIGNALS: string[] = [
+    "seizure", "convuls", "shaking", "fitting", "fit ",
+    "jerking", "twitching", "epilep",
+    "발작", "경련",
+];
+
+/**
+ * Inject a seizure safety notice into RAG context when the query signals
+ * active convulsions. Prioritises bystander safety actions over ABCDE
+ * assessment — the LLM must not instruct pulse/breathing checks mid-seizure.
+ */
+function injectSeizureWarning(context: string, query: string): string {
+    const q = query.toLowerCase();
+    if (SEIZURE_SIGNALS.some(s => q.includes(s))) {
+        return (
+            "SEIZURE PRIORITY OVERRIDE: If the patient is having active convulsions, " +
+            "prioritize safety (clearing area, head protection) over ABCDE assessment " +
+            "until the shaking stops. Do NOT restrain. Do NOT put anything in the mouth. " +
+            "Do NOT attempt pulse or breathing checks during convulsions.\n\n" +
+            context
+        );
+    }
+    return context;
+}
+
 // ── Main export ──────────────────────────────────────────────────────────────
 
 /**
@@ -91,7 +119,8 @@ export const getSystemPromptFromOasis = async (query: string): Promise<string> =
 
         if (context && context.trim().length > 0) {
             console.log("[OasisAdapter] Using RAG context");
-            const enriched = injectSpinalWarning(context, query);
+            let enriched = injectSpinalWarning(context, query);
+            enriched = injectSeizureWarning(enriched, query);
             return RAG_SYSTEM_PROMPT_TEMPLATE.replace("{context}", enriched);
         }
 

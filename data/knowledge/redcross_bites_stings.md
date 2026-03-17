@@ -8,6 +8,14 @@
 
 ---
 
+## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+
+> **During active convulsions:**
+> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
+> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
+> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+
+
 ### Allergies and Anaphylaxis
 when the body recognizes an allergen, a foreign substance that causes an
 allergic reaction, its immune system releases histamines and other chemicals
@@ -19,12 +27,11 @@ will die.
 
 ### Non-life-Threatening Allergic Reactions
 When CHECKing the person, look, listen and feel for:
-- Hives or rash (figure 1).
+- Hives or rash.
 - itching.
 - gastrointestinal complaints, such
 as nausea (in individuals with food
 allergies).
-Figure 1
 
 
 ### To give CARE:
@@ -45,18 +52,17 @@ injectable epinephrine systems are available
 by prescription only, in spring-loaded syringes
 that function when pressed in the thigh. two
 systems widely available are the epiPen®
-Figure 2
-(figure 2) and auvi-Q®.
+and auvi-Q®.
 When CHECKing the person, look, listen and feel for:
 - any of the following three scenarios:
- a specific combination of signs and symptoms. first, look for any skin symptom,
+ a specific combination of signs and symptoms. first, look for any skin symptom,
 such as hives, itchiness or a red or flushed face, or look for swollen lips. then,
 check for trouble breathing or signs of shock, such as pale, cool and sweaty skin;
 lightheadedness; weakness; or anxiety.
- when you suspect someone has come into contact with an allergen, look for
+ when you suspect someone has come into contact with an allergen, look for
 at least two of the following signs and symptoms: a skin symptom or swollen lips;
 difficulty breathing; signs of shock; or nausea, vomiting or cramping.
- you know someone has come into contact with an allergen and shows any
+ you know someone has come into contact with an allergen and shows any
 signs or symptoms of shock.
 
 
@@ -66,13 +72,13 @@ signs or symptoms of shock.
 (id) tag or bracelet that may warn
 of a severe allergy or indicate that
 the person has been prescribed an
-auto-injector (figure 3).
+auto-injector.
 - try to determine whether the
 substance that triggered the
 allergic reaction is still present
 and if the reaction is likely to
 happen again.
- remove the allergen or move the Figure 3
+ remove the allergen or move the
 person away from the allergen.
 - Help the person self-administer an injection of epinephrine, if necessary.
 - a second dose should only be given when advanced medical help is delayed
@@ -86,44 +92,38 @@ medications.
 group has allergies and carries an epinephrine auto-injector and where
 the person carries his or her epinephrine auto-injector.
 - if using an epiPen®:
- check the label to confirm that the prescription of the auto-injector is for
+ check the label to confirm that the prescription of the auto-injector is for
 this person.
- check the expiration date of the auto-injector. if it has expired, do not use it.
+ check the expiration date of the auto-injector. if it has expired, do not use it.
 if the medication is visible, confirm that the liquid is clear and not cloudy. if it is
 cloudy, do not use it.
 
- locate the outside middle of one
-thigh to use as the injection site
-(figure 4).
- grasp the auto-injector firmly in
+ locate the outside middle of one
+thigh to use as the injection site.
+ grasp the auto-injector firmly in
 your fist, and pull off the safety cap
-with your other hand (figure 5).
- Hold the tip (needle end) near the
-person’s outer thigh so that the
-Figure 4
+with your other hand.
+ Hold the tip (needle end) near the
+person's outer thigh so that the
 auto-injector is at a
 90-degree angle to the thigh. do
 not place your thumb over the end.
- Quickly and firmly push the tip
+ Quickly and firmly push the tip
 straight into the outer thigh (it will
-go through light clothing) (figure
-6). you will hear a click.
- Hold the auto-injector firmly in place
+go through light clothing). you will hear a click.
+ Hold the auto-injector firmly in place
 for 10 seconds, then remove it from
 the thigh and massage the injection
-Figure 5
 site for several seconds.
- Handle the auto-injector carefully,
-placing it in a safe container
-(figure 7). give the used
+ Handle the auto-injector carefully,
+placing it in a safe container.
+give the used
 auto-injector to more advanced
 medical personnel when they arrive.
-Figure 6
-Figure 7
 
-NOTE n recheck the person’s airway, breathing and circulation and observe
+NOTE n recheck the person's airway, breathing and circulation and observe
 his or her response to the epinephrine.
-- a person’s breathing and heart rate are typically higher after a dose of
+- a person's breathing and heart rate are typically higher after a dose of
 epinephrine and the person may also be restless.
 - Be aware that epiPen® and auvi-Q® auto-injectors only provide one dose.
 
@@ -146,7 +146,7 @@ care provider for evaluation.
 
 ### To give CARE:
 - remove the tick immediately.
- grasp the tick as close to the skin as possible, perpendicular to its long axis and
+ grasp the tick as close to the skin as possible, perpendicular to its long axis and
 pull it out slowly using tweezers or gloved fingers.
 - wash the bite area and apply wound gel to prevent infection.
 - wash your hands.
@@ -180,7 +180,7 @@ When CHECKing the person, look, listen and feel for:
 - apply an elastic (pressure immobilization) bandage to slow the spread of
 venom from the lymph nodes. you should still be able to slip a finger between
 the bandage and skin.
-- Keep the bite site lower than the person’s heart.
+- Keep the bite site lower than the person's heart.
 - do not cut the wound. do not apply ice, suction or a tourniquet.
 - go for help.
 - unless it is unavoidable, do not allow the person to walk.
@@ -222,13 +222,13 @@ the person can tolerate.
 - evacuate slowly—GO SLOW—anyone with a wound that cannot be closed in
 the field.
 - evacuate rapidly—GO FAST—anyone with a wound that:
- is heavily contaminated.
- opens a joint space or body cavity.
- involves tendons or ligaments.
- was caused by an animal bite.
- is deep and on the face.
- involves an impalement.
- was caused by a crushing injury.
+ is heavily contaminated.
+ opens a joint space or body cavity.
+ involves tendons or ligaments.
+ was caused by an animal bite.
+ is deep and on the face.
+ involves an impalement.
+ was caused by a crushing injury.
 - evacuate rapidly—GO FAST—anyone with an infected wound or skin infection
 that does not improve within 12 hours of care or that spreads to other parts of
 the body.
@@ -238,10 +238,6 @@ serious infection.
 rapidly and immediately seek advanced medical care. this may be a sign
 of group contamination with methicillin-resistant Staphylococcus aureus
 (mrsa), a serious staphylococcal infection.
-
-Special
-Situations
-
 
 ### Poisonous Plants
 
@@ -295,8 +291,7 @@ For a jellyfish sting:
 - irrigate the injured part with vinegar for at least 30 seconds. if vinegar is not
 available, use a baking soda slurry.
 - when stinging stops, care for pain with hot water immersion.
-NOTE f or a portuguese man-of-war sting, flush with ocean water instead of vinegar.
-special situations 103
+NOTE for a portuguese man-of-war sting, flush with ocean water instead of vinegar.
 
 For a stingray sting:
 - flush the wound with tap water or ocean water.
@@ -331,30 +326,28 @@ experiencing an aura).
 - rigid body.
 
 - sudden, uncontrollable, rhythmic
-muscle contractions (convulsions)
-(figure 1).
+muscle contractions (convulsions).
 - decreased level of consciousness
 (loc).
 - loss of bladder or bowel control.
 
 ### To give CARE:
-Figure 1
 - reassure the person that you are
 going to help.
 - remove nearby objects that might
 cause injury.
-- protect the person’s head by placing
+- protect the person's head by placing
 a thinly folded towel or clothing
-beneath it (figure 2). do not
+beneath it. do not
 restrict the airway doing so.
 - do not hold or restrain the person.
-- do not place anything between the Figure 2
-person’s teeth.
+- do not place anything between the
+person's teeth.
 - place the person on his or her side to drain fluids from the mouth.
 - if the seizure was caused by a sudden rise in body temperature, loosen
 clothing and fan the person. do not immerse in cold water or use rubbing
 alcohol to cool.
-- when the seizure is over, be sure that the person’s airway is open and check for
+- when the seizure is over, be sure that the person's airway is open and check for
 breathing and injuries.
 - comfort and stay with the person until he or she is fully conscious.
 
@@ -365,7 +358,6 @@ few minutes or has repeated seizures.
 a seizure.
 - evacuate rapidly—GO FAST—anyone who has a seizure in the water or who
 does not regain consciousness following a seizure.
-special situations 105
 
 
 ### Snow Blindness
@@ -391,30 +383,28 @@ into the brain.
 
 ### When CHECKing the person:
 - use fast to determine if the person is having a stroke:
- Face—weakness on one side of the face
- ask the person to smile
-(figure 1).
- Arm—weakness or numbness of
+ Face—weakness on one side of the face
+ ask the person to smile.
+ Arm—weakness or numbness of
 one arm
- ask the person to raise both
-arms (figure 2).
- SpeecH—slurred speech or
+ ask the person to raise both
+arms.
+ SpeecH—slurred speech or
 trouble getting words out
- ask the person to speak a Figure 1
+ ask the person to speak a
 simple sentence.
- Time—note the time that the signs
+ Time—note the time that the signs
 and symptoms were first observed.
 if the person shows one sign or
 symptom, he or she is having a
 stroke.
 
 ### To give CARE:
-- note the time that the signs and Figure 2
+- note the time that the signs and
 symptoms began.
 - monitor and care for the aBcdes.
- if the person is unconscious, make sure he or she has an open airway and care for
+ if the person is unconscious, make sure he or she has an open airway and care for
 life-threatening conditions.
- if fluid or vomit is in the person’s mouth, turn him or her on one side to allow fluids
+ if fluid or vomit is in the person's mouth, turn him or her on one side to allow fluids
 to drain.
 NOTE evacuate the person rapidly—GO FAST—as this is a life-threatening condition.
-special situations 107

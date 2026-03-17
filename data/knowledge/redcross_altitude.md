@@ -8,6 +8,14 @@
 
 ---
 
+## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+
+> **During active convulsions:**
+> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
+> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
+> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+
+
 ### Altitude Illnesses
 altitude illnesses occur when people at a high altitude do not have enough
 oxygen in their blood because the air pressure is too low. the three altitude
@@ -40,10 +48,10 @@ helpful during sleep.
 acetaminophen for headaches (if the person is able to swallow and has no
 known contraindications).
 - care for the illness, not just the symptoms.
- if prescribed and recommended by the person’s health care provider, help
+ if prescribed and recommended by the person's health care provider, help
 the person self-administer medication for altitude illness (e.g., acetazolamide,
 dexamethasone) based on label instructions.
- many persons with ams usually respond to these medications within 12 to
+ many persons with ams usually respond to these medications within 12 to
 24 hours.
 NOTE the person should only take medication if he or she can swallow and has
 no known contraindications. individuals should read and follow all label
@@ -56,7 +64,7 @@ Hace is caused by swelling of brain tissue, which increases pressure on the
 brain until it fails to function properly, eventually resulting in death.
 When CHECKing the person, look, listen and feel for:
 - loss of coordination (ataxia).
- inability to walk a straight line or stand straight with feet together and eyes closed
+ inability to walk a straight line or stand straight with feet together and eyes closed
 - severe headache that is not relieved by rest and medication.
 - Bizarre changes in personality.
 - Possible seizures and/or coma.
@@ -67,17 +75,16 @@ When CHECKing the person, look, listen and feel for:
 - administer oxygen if available and you are trained to do so.
 - Keep the person from getting chilled or overheated. cold temperatures put
 more pressure on the respiratory system.
-- if prescribed and recommended by the person’s health care provider, help
+- if prescribed and recommended by the person's health care provider, help
 the person self-administer medication for altitude illness (e.g., acetazolamide,
 dexamethasone) based on label
 instructions.
 - use a portable hyperbaric chamber
 if available and you are trained to
-do so (figure 1). do not use
+do so. do not use
 a portable hyperbaric chamber
 instead of descending. moving to a
 lower altitude is the only definitive
-Figure 1
 care for the severely ill person.
 NOTE the person should only take medication if he or she can swallow and has
 no known contraindications. individuals should read and follow all label
@@ -95,14 +102,6 @@ When CHECKing the person, look, listen and feel for:
 - Possible chest pain.
 - cough that becomes more productive, first producing frothy sputum, later
 producing reddish sputum.
-sessenllI
-edutItla
-.cnI
-,raeG
-lacideM
-koonihC
-fo
-ysetruoC
 
 
 ### To give CARE:
@@ -123,5 +122,5 @@ symptoms resolve.
 not resolve. if the illness does not resolve or it gets worse, descent is mandatory.
 - evacuate rapidly—GO FAST—to a lower altitude (descend at least 1000 to
 1500 feet) anyone with Hace or HaPe.
- anyone with Hace or HaPe must be evaluated as soon as possible by a health
+ anyone with Hace or HaPe must be evaluated as soon as possible by a health
 care provider once a lower altitude has been reached.

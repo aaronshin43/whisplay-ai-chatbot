@@ -15,10 +15,11 @@ A wound that is deep and bleeding heavily may not stop on its own. Apply direct 
 1. Put on gloves.
 2. Use gauze or another clean non-adherent dressing. Do NOT use bulky dressings.
 3. Apply firm pressure as directly as possible to the source of bleeding, usually with two or three fingers.
-4. If the wound is on a limb, elevate the limb above the heart.
-5. If the first dressing becomes soaked with blood, do NOT remove — this will dislodge clots. Add another pad and apply firm pressure.
-6. When bleeding stops, apply a bandage to keep the gauze/pad in place.
-7. If bleeding does not stop, consider deep wound packing or tourniquet.
+4. If the first dressing becomes soaked with blood, do NOT remove — this will dislodge clots. Add another pad and apply firm pressure.
+5. When bleeding stops, apply a bandage to keep the gauze/pad in place.
+6. If bleeding does not stop, consider deep wound packing or tourniquet.
+
+> **Note:** Limb elevation is NOT a primary hemorrhage control measure. Maintain direct pressure as the priority. Do not interrupt or delay pressure to position the limb.
 
 ### Deep Wound Packing for External Bleeding
 If the wound is deep or gaping and simple pressure does not stop the bleeding:
@@ -67,10 +68,10 @@ Use ONLY if all other bleeding control measures have failed AND haemorrhage is l
 **Skill 2 — Direct pressure:**
 - Gloves on
 - Gauze or clean non-adherent dressing; firm pressure; do not use bulky dressings
-- Elevate limb above heart
-- Do NOT remove first dressing; add second pad
+- Do NOT remove first dressing; add second pad on top
 - Apply bandage when bleeding ceases
 - Call for help
+- **Do NOT** interrupt pressure to elevate limb — direct pressure is the priority
 
 **Skill 3 — Deep wound packing:**
 - Gloves on

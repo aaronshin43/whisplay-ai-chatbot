@@ -8,6 +8,14 @@
 
 ---
 
+## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+
+> **During active convulsions:**
+> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
+> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
+> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+
+
 ### Module 5: Approach to altered mental status
 Delirium:
 Dementia:
@@ -26,8 +34,6 @@ Psychosis:
 Rabies:
 Seizure:
 Stroke:
-111222000
-
 Overview
 Altered mental status (AMS) is a term used for a range of presentations, from sudden or gradual
 changes in behaviour to disorientation, confusion and coma. Changes in mental status and/or
@@ -54,7 +60,6 @@ REMEMBER...
  ALWAYS START WITH THE ABCDE APPROACH, intervening as needed.
  Then do a SAMPLE history.
  Then do a secondary exam.
-112211
 
 ### Module 5: Approach to altered mental status
 ## Abcde: Key Elements For Altered Mental Status
@@ -100,8 +105,6 @@ history from a confused patient. For example, a person with hypoglycaemia may be
 confused to relate a history of diabetes.
 If the history identifies an ABCDE condition, STOP AND RETURN IMMEDIATELY TO ABCDE
 to manage it.
-111222222
-
 ## S: Signs And Symptoms
  How does the current condition compare to baseline mental status?
 Always ask family/friends about baseline mental status when possible.
@@ -139,7 +142,6 @@ brain itself, such as a stroke or tumour.
 Fluid that circulates around the brain also circulates around the spinal cord, meaning any
 bleeding, inflammation or infection in the brain (meningitis, encephalitis) can also cause
 neck pain and stiffness.
-112233
 
 ### Module 5: Approach to altered mental status
  Is there a recent history of trauma or falls?
@@ -175,8 +177,6 @@ deep breathing suggest diabetic crisis (diabetic ketoacidosis).
  History of heart disease?
 Heart attack can cause decreased blood flow and oxygen to the brain leading to confusion.
 Those with heart disease are also at an increased risk of stroke.
-111222444
-
  History of stroke?
 Altered mental status in a patient with a history of stroke may suggest an additional stroke
 or bleeding in the brain. Be sure to ask people who know the patient about his or her usual
@@ -214,7 +214,6 @@ high blood pressure) during pregnancy.
 ## L: Last Oral Intake
  When did the person last eat or drink?
 Low blood glucose levels and dehydration can cause altered mental status.
-112255
 
 ### Module 5: Approach to altered mental status
 ## E: Events Surrounding Illness
@@ -232,23 +231,12 @@ very low and very high body temperatures.
 Both alcohol intoxication and alcohol withdrawal can cause altered mental status.
 Methamphetamines and cocaine may cause severe agitation, while heroin (and other
 opioids) may cause lethargy and coma. See also “Past medical history” section above.
-### Workbook question 1: Altered mental status
-Using the workbook section above, list seven questions about signs and symptoms
-you would ask about when taking a SAMPLE history.
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-4. ______________________________________________________________________
-5. ______________________________________________________________________
-6. ______________________________________________________________________
-7. ______________________________________________________________________
+
 ## Check: Secondary Examination Findings In Altered
 ## Mental Status
 A person with altered mental status may be unable to answer questions, and clues to the
 cause may only be found during the physical examination. Always assess ABCDE first. The
 initial ABCDE approach identifies and manages life-threatening conditions. The secondary
-111222666
-
 examination looks for changes in the patient’s condition or less obvious causes that may have
 been missed during ABCDE. If the secondary examination identifies an ABCDE condition, STOP
 AND RETURN IMMEDIATELY TO ABCDE to manage it.
@@ -270,9 +258,9 @@ arrange handover/transfer to an advanced provider.
 AVPU tests the person’s ability to respond to stimuli. A person who is not intoxicated and
 who has no illness or injury affecting the brain will usually be alert without being prompted.
 Patients who only respond when prompted by voice or pain require further assessment of
-the neurological system. [See SKILLS]
+the neurological system.
  In trauma, check Glasgow Coma Scale:
-Check and monitor the Glasgow Coma Scale. [See SKILLS]
+Check and monitor the Glasgow Coma Scale.
  Check the blood glucose level:
 Hypoglycaemia can cause altered mental status. Diabetic ketoacidosis can present with
 hyperglycaemia and altered mental status.
@@ -290,7 +278,6 @@ suggests head injury with skull fracture.
  Check temperature:
 Fever should raise concerns about an infectious cause, and fever with stiff neck suggests
 an infection in or around the brain. Poisonings, medication overdoses, alcohol withdrawal
-112277
 
 ### Module 5: Approach to altered mental status
 and changes in body hormones can also present with fever. Hypothermia may indicate
@@ -318,15 +305,6 @@ People who are initially confused and rapidly return to normal without treatment
 had a seizure/convulsion or head trauma. People with altered mental status require close
 monitoring to make sure they do not worsen again. (This can happen in patients who have
 low blood sugar or head trauma).
-### Workbook question 2: Altered mental status
-Using the workbook section above, list five secondary examination findings you
-would check for in a patient with altered mental status.
-1. ______________________________________________________________________
-2. ______________________________________________________________________
-3. ______________________________________________________________________
-4. ______________________________________________________________________
-5. ______________________________________________________________________
-111222888
 
 ## Possible Causes Of Altered Mental Status
 ## Rapidly Reversible Causes
@@ -374,7 +352,6 @@ association with fever
 • Drooling
 • Weakness
 • History of animal bite
-112299
 
 ### Module 5: Approach to altered mental status
 ## Metabolic
@@ -417,8 +394,6 @@ dosing issue
 Gaseous poisoning • History consistent with possible exposure
 • Multiple people with symptoms
 • Headache
-111333000
-
 ## Other Causes
 ## Condition Signs And Symptoms
 ### Seizures/convulsions • Known history of seizures/convulsions
@@ -449,12 +424,9 @@ Head trauma • Visual changes, loss of memory, vomiting, headache
 ## Condition Signs And Symptoms
 Ingestions of chemicals or • Common in younger children
 toxins • History of medications or substances found around child
-113311
 
 ### Module 5: Approach to altered mental status
-### Workbook question 3: Altered mental status
-Using the workbook section above, list the possible cause of altered mental status
-from the history and physical findings below.
+
 ## History And Physical Findings Likely Cause
 A 15-year-old girl presents with altered
 mental status, fever and:
@@ -472,44 +444,41 @@ and:
 ## First Perform Abcde Assessment And Intervene For Life-Threatening
 CONDITIONS.
 NOTE: If the airway is clear, and there is no evidence of trauma, place the patient in the
-recovery position to avoid getting fluid or vomit in the lungs. [See SKILLS]
+recovery position to avoid getting fluid or vomit in the lungs.
 ## Condition Management Considerations
-Hypoxia Give oxygen. Look for underlying cause. [See SKILLS]
-### Hypoglycaemia Treat with glucose. [See SKILLS]
-Hyperglycaemia If concern for diabetic ketoacidosis, treat with IV fluids. [See SKILLS]
+Hypoxia Give oxygen. Look for underlying cause.
+### Hypoglycaemia Treat with glucose.
+Hyperglycaemia If concern for diabetic ketoacidosis, treat with IV fluids.
 A person with diabetic ketoacidosis is extremely ill and requires
 rapid transfer to a unit where IV infusion and close monitoring are
 available.
 Fever (hyperthermia) with Start antibiotics. Severe infections may require treatment by an
 altered mental status advanced provider. Include malaria testing and treatment in
 endemic areas. Also consider poisoning and envenomation. Treat
-high fever with paracetamol. [See SKILLS] For severe temperature
+high fever with paracetamol. For severe temperature
 elevation, spray with cool water mist, fan and give IV fluids. Avoid
 shivering.
 Hypothermia Move to warm environment, remove wet clothing, warm with
 blankets and warm IV fluid.
-111333222
-
 ## Condition Management Considerations
 Bleeding or other cause of If no trauma, raise the head of the bed to 30 degrees. If trauma is
-increased pressure on the suspected ensure spinal immobilization. [See SKILLS]
+increased pressure on the suspected ensure spinal immobilization.
 brain
-Opioid overdose Administer naloxone. [See SKILLS] Naloxone effects last
+Opioid overdose Administer naloxone. Naloxone effects last
 approximately 1 hour. Most opioids last longer and patients
 may need repeat naloxone dosing. Consider this when planning
 ongoing care and re-assess the person frequently.
 Active seizure/convulsion Treat with benzodiazepine and monitor the person closely to check
 for slow breathing. Check glucose or give glucose if you are unable
-to check. Place patient in recovery position if no trauma suspected.
-[See SKILLS] If the patient continues to seize or does not wake
+to check. Place patient in recovery position if no trauma suspected. If the patient continues to seize or does not wake
 up between seizures, arrange for rapid transfer to an advanced
 provider and monitor the airway.
 Pregnant with active This could be eclampsia. Arrange rapid handover/transfer to a
 seizure/convulsion specialist unit and give magnesium sulphate. Monitor the patient
-closely for signs of toxicity. [See SKILLS] If any of these occur, do not
+closely for signs of toxicity. If any of these occur, do not
 give additional doses of magnesium.
 Alcohol withdrawal Always check glucose and give as needed. Treat withdrawal with a
-benzodiazepine. [See SKILLS] Monitor the airway closely.
+benzodiazepine. Monitor the airway closely.
 Poisoning or envenomation Try to identify the poison and refer to an advanced provider for
 specific treatments. If pesticide poisoning, make sure the patient
 has been decontaminated, and monitor the airway closely as the
@@ -532,8 +501,7 @@ Consider other causes: check glucose and vital signs including
 temperature and oxygen saturation. Treat abnormalities. Arrange
 for safe handover/transport to advanced provider.
 Trauma Assess GCS, immobilize the spine and evaluate for signs of
-increased pressure on the brain. [See SKILLS]
-113333
+increased pressure on the brain.
 
 ### Module 5: Approach to altered mental status
 ## Special Considerations
@@ -551,8 +519,7 @@ for low blood pressure and slow breathing.
 • If the patient does not wake between seizure/convulsions, consider this a life-threatening
 condition. Arrange for rapid handover/transfer to an advanced provider.
 • If the seizures/convulsions stop, place patient in recovery position and monitor closely.
-### Workbook question 4: Altered mental status
-Using the workbook section above, list what you would do to manage these patients.
+
 ## Condition Management
 A 3-year-old child presents with
 altered mental status and a blood
@@ -571,8 +538,6 @@ following a fall from a roof. He has
 a headache and altered mental
 status.
 2. ____________________________________________
-111333444
-
 ## Special Considerations In Children
 Children with altered mental status may have seemingly mild signs such as sleeping
 more than usual or being less interactive. Manage ABCDE first, and then look for and
@@ -595,7 +560,7 @@ Seizures/convulsions can be due to fever alone but (as in adults) can also sugge
 infection, hypoglycaemia or hyponatremia (low sodium). Do not delay antibiotics in
 patients with suspected serious bacterial infection. Always consider trauma.
 Infection in or around the brain can cause altered mental status. Look for a bulging or
-page 31
+
 swollen fontanelle (in a child under 1 year) and/or rash to the legs and lower abdomen,
 which can indicate infection or increased pressure on the brain. Do not delay antibiotics
 in children with suspected serious bacterial infection.
@@ -605,8 +570,7 @@ quickly. Check for signs of dehydration: abnormal skin pinch, dry mucous membran
 ### Flat fontanelle Bulging fontanelle
 (the inner, pink part of the mouth), irritability, sunken or depressed fontanelle (in a child
 under 1 year), slow capillary refill (greater than 3 seconds), cold extremities, tachycardia,
-and hypotension. Give IV fluids and re-assess frequently. [See SKILLS]
-113355
+and hypotension. Give IV fluids and re-assess frequently.
 
 ### Module 5: Approach to altered mental status
 Malaria may be more severe in children than adults. Children with severe malaria may
@@ -626,13 +590,6 @@ Consider unwitnessed ingestions in children aged under 6 years
 or damaged the airway and are causing swelling.
 • Children with ingestion of drugs or chemicals need to be monitored closely and may
 require handover/transfer to a referral unit for further management.
-### Workbook question 5: Altered mental status
-Using the workbook section above, answer the following questions about altered
-mental status in children:
-How would you assess for brain infection in a child?
-Why does hypoglycaemia occur frequently in severely ill children?
-Seizures/convulsions in young children can be a sign of what?
-111333666
 
 ## Disposition Considerations
 Disposition depends on the cause of altered mental status. Causes of altered mental status
@@ -647,86 +604,3 @@ require repeat treatments. These patients need to be monitored closely.
 medications are longer-acting and may need more doses of naloxone to reverse the opioid
 effects. Any patient treated with naloxone must be monitored closely. Make sure the new
 provider knows the patient has been given naloxone and may need additional doses.
-## Facilitator-Led Case Scenarios
-These case scenarios will be presented in small groups. One participant will be identified
-as the lead and will be assessed, while the rest of the group writes the responses in the
-workbook. To complete a case scenario, the group must identify the critical findings
-and management needed, and formulate a one-line summary for handover, including
-assessment findings and interventions. You should use the Quick Card for these scenarios
-while being assessed.
-## Case #1: Adult With Altered Mental Status
-A 42-year-old man is brought in after he was found slumped over at a bus stop. When the
-bystanders went to him he was awake but very confused. They do not know him, but because
-he is so confused they brought him to you for care.
-1. What do you need to do in your initial approach?
-2. Use the ABCDE approach to assess and manage this patient. Ask the facilitator about
-look, listen and feel findings; use the Quick Card for reference as needed.
-## Assessment Findings Intervention Intervention To
-## Needed? Perform:
-## Airway Yes No
-## Breathing Yes No
-113377
-
-### Module 5: Approach to altered mental status
-## Assessment Findings Intervention Intervention To
-## Needed? Perform:
-## Circulation Yes No
-## Disability Yes No
-## Exposure Yes No
-3. Formulate one sentence to summarize this patient for handover.
-## Case #2: Paediatric Patient With Altered Mental Status
-A mother brings her 3-year-old child to you for evaluation after she had two seizures/
-convulsions today. The child is wrapped in multiple blankets. The mother states that the child
-has been increasingly confused over the past 2 days and has had high fevers.
-1. What do you need to do in your initial approach?
-2. Use the ABCDE approach to assess and manage this patient. Ask the facilitator about
-look, listen and feel findings; use the Quick Card for reference as needed.
-## Assessment Findings Intervention Intervention
-## Needed? To Perform:
-## Airway Yes No
-## Breathing Yes No
-## Circulation Yes No
-## Disability Yes No
-## Exposure Yes No
-3. Formulate one sentence to summarize this patient for handover.
-111333888
-
-## Multiple Choice Questions
-Answer the questions below. Questions and answers will be discussed in the session.
-1. You are evaluating ABCDE on a 4-year-old boy who has a fever and a cough. He is not
-responding to you calling his name, but if you pinch the sole of his foot, he moans. What is his
-level on the AVPU scale?
-### A. Alert
-### B. Verbal
-### C. Pain
-### D. Unresponsive
-2. A 37-year-old male is brought in by his wife with fever and confusion. She says since the
-fever began 3 days ago he has become increasingly confused. There has been no trauma. On
-examination you notice that his neck is stiff. What is the most likely cause of his altered mental
-status?
-### A. Pneumonia
-### B. Infection around the brain
-### C. Stroke
-### D. Drug use
-3. A 46-year-old man comes in to check his blood pressure. His vital signs are: blood pressure
-160/90, heart rate 120, respiratory rate 18, and blood glucose is 5 mmol/L. While you are
-examining him he has a seizure/convulsion. What treatment should you give?
-### A. Benzodiazepine
-### B. Glucose
-### C. Antibiotics
-### D. Naloxone
-4. A 36-week pregnant woman is having a seizure/convulsion. She has a recent history of high
-blood pressure as well. What treatment should you give?
-### A. Magnesium sulphate
-### B. Glucose
-### C. Nitroglycerin
-D. Nothing, the seizure/convulsion will stop on its own
-5. You are assessing a 6-month-old infant and find a depressed fontanelle. What does this
-physical examination finding suggest?
-### A. Infection in the brain
-### B. Dehydration
-### C. Pneumonia
-### D. Hypoglycaemia
-113399
-
-Notes
