@@ -1,179 +1,105 @@
-# Red Cross Wilderness First Aid — Submersion Incidents (Drowning)
+---
+tags: [drowning, submersion, near_drowning, water_rescue, reach_throw_row_go, CPR, rescue_breathing, swimmer_distress, wilderness, aquatic_emergency]
+source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
+standard: "American Red Cross / SOLO Wilderness Medicine"
+---
 
-**Source:** American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide
-**Standard:** American Red Cross / SOLO Wilderness Medicine
+# Submersion Incidents (Drowning) — Wilderness First Aid Reference
+
 **Applies to:** All ages; field settings without rapid EMS access
-
-[DOMAIN_TAGS: drowning, submersion, near_drowning, water_rescue, reach_throw_row_go, CPR, rescue_breathing, swimmer_distress, wilderness, aquatic_emergency]
 
 ---
 
-### Submersion Incidents
-(Drowning)
-the first step when dealing with any emergency is to determine that the scene
-is safe for the rescuer. a drowning person in the water can place a responder in
-a hazardous situation if the responder is unskilled in water rescue, particularly
-in an unsafe area. fortunately, drowning can often be prevented with simple
-precautions, including the use of a safe area for swimming and matching activities
-to swimming ability. in murky water, where it would be difficult to find someone on
-the bottom, limit depths to shallow water or have all swimmers wear a life jacket.
-all boaters should wear a u.s. coast guard-approved life jacket and be skilled
-with their craft in the local environment. it is important to gather rescue aids and
-discuss and practice rescue procedures before engaging in water activities.
-you must first recognize that someone is in trouble and then choose a safe rescue
-procedure based on the behaviors you observe.
+## Recognising a Person in Trouble in the Water
 
-helping a Person in Trouble in the Water
-When CHECKing the person, look for these behaviors:
-- distressed swimmer
- can breathe and might call for help
- can float, scull or tread water;
-might wave for help
- could be in horizontal, vertical or
-diagonal body position, depending
-on means of support
- makes little or no forward progress;
-less and less able to support self
- may reach for rescue aids
-extended, thrown or pushed nearby
-- active drowning victim
- struggles to breathe; cannot call
-out for help
- arms to sides alternately moving
-up and pressing down; no
-supporting kick
- Vertical body position
- no forward progress (has only 20
-to 60 seconds before submerging)
- unable to reach for or move even a
-short distance to a rescue aid, but
-may be supported by an aid placed
-within his or her grasp
-- Passive drowning victim
- not breathing
- no arm or leg action
- Horizontal or vertical body position;
-could be face-down, face-up
-or submerged
- no forward progress
- unable to grasp a rescue aid; assist normally requires contact by rescuer
+### Distressed Swimmer
 
-To assist the victim in the water:
-- continue to monitor the safety of everyone else (or have someone else do so)
-when attention is focused on an individual in trouble.
-- follow the progression of Reach, Throw, Row, Go based on your level of
-training. out-of-water assists are safer for the responder. ensure that you
-talk to the victim throughout the rescue to keep him or her calm and aware
-of your presence.
-- if conditions are unsafe and beyond your level of training, stop your rescue
-efforts if the risk becomes unacceptable. for example, you should not attempt
-a rescue of a kayaker pinned in heavy white water unless you have specialized
-training in swift-water rescue.
-- remember the progression of
-Reach, Throw, Row, Go.
-1. Reach out to the person with a
-hand, foot, clothing, stick, paddle
-or anything that allows you to
-remain safely on land or in a boat.
- Brace yourself on the pier
-surface, shoreline or another
-solid surface. extend the object to the victim or reach with your arm and grasp the
-victim. when the victim grasps the object or when you grasp the victim, slowly and
-carefully pull him or her to safety. Keep your body low and lean back to avoid being
-pulled into the water.
- if you are in the water, hold on to a piling or another secure object with one
-hand. extend your free hand or one of your legs to the victim. do not let go of
-the secure object or swim out into the water. Pull the victim to safety.
+- Can breathe; may call or wave for help
+- Can float, scull, or tread water — but making little or no forward progress
+- Body position: horizontal, vertical, or diagonal depending on means of support
+- Decreasing ability to support self
+- May reach for rescue aids extended nearby
 
- if the water is safe and shallow enough (not higher than your chest), you can
-wade in to reach the victim. do not enter the water if there is a current, if the
-bottom is soft or if you do not know the condition of the bottom. if possible,
-wear a life jacket when attempting a wading assist, and take a buoyant object
-to extend your reach. wade into the water and extend the object to the victim.
-when the victim grasps the object, tell him or her to hold on
-to the object tightly for support and pull him or her to safety. Keep the object
-between you and the victim to help prevent the victim from clutching at you in a
-panic.
-2. Throw something that floats to the person so he or she can hold on to it. you can
-also throw a rope and tow the person to safety.
- get into a stride position; the leg opposite your throwing arm is forward.
- step on the end of the line with
-your forward foot.
- shout to get the victim's
-attention. make eye contact and
-say that you are going to throw
-the object now. tell the victim to
-grab it.
- Bend your knees and throw the
-object to the victim. try to throw
-the object upwind and/or up
-current, just over the victim's
-head, so that the line drops
-within reach.
+### Active Drowning Victim
 
- when the victim has grasped the object or the line, slowly pull him or her to
-safety. lean away from the water as you pull.
- if the object does not reach the victim, quickly pull the line back in and throw it
-again. try to keep the line from tangling, but do not waste time trying to coil it.
-if using a throw bag, partially fill the bag with some water and throw it again.
-3. Row to the person, or get to the
-person in some sort of watercraft,
-using reaching or throwing devices
-as appropriate, with safety as a top
-priority.
-4. Go. "go" is only appropriate for
-good swimmers with water rescue
-training and when it is possible
-to safely reach the victim. the
-responder may wade or swim with
-a flotation aid toward a conscious victim, stop a safe distance away and then pass
-the flotation aid within the victim's grasp. recovery of an unconscious victim may
-require a surface dive and contact tow. in murky water, limit water depth and/or
-require participants to wear life jackets to make underwater recovery easier if an
-incident occurs.
+- Cannot breathe; cannot call out for help
+- Arms moving alternately up and pressing down at sides — no supporting kick
+- Vertical body position
+- No forward progress — only 20–60 seconds before submerging
+- Unable to reach toward a rescue aid; may grasp one placed directly within reach
 
-### Caring for a Near-Drowned Person (Once
-the person is removed from the water)
-When CHECKing the person, look, listen and feel for:
-- unconsciousness.
-- airway.
-- Breathing.
-- circulation.
-- disability.
-- environmental conditions.
+### Passive Drowning Victim
 
+- Not breathing
+- No arm or leg movement
+- Body position: horizontal or vertical — may be face-down, face-up, or submerged
+- No forward progress
+- Unable to grasp a rescue aid — contact by rescuer is normally required
 
-### To give CARE:
-- if the person is unconscious and not breathing, give 2 rescue breaths. if the
-chest clearly rises, immediately begin cPr.
- if the chest does not clearly rise with the initial breath, retilt the head before giving
-the second breath.
- if the second breath does not make the chest rise, the airway may be blocked.
-after each subsequent set of chest compressions and before attempting breaths,
-look for an object and, if seen, remove it. continue cPr.
-- do not attempt to clear the person's lungs of water.
-- Be ready to roll the person to clear the airway if water or vomit comes up.
-- if the person has a suspected head, neck or back injury, take steps to
-immobilize the spine.
-NOTE techniques for providing in-line stabilization for suspected head, neck
-and back injuries in the water for both face-up and face-down victims
-are covered in water rescue courses, such as american red cross
-lifeguarding or Basic water rescue.
-- care for shock, hypothermia or other conditions as appropriate, including
-anything that might have caused the person's distress in the water (e.g.,
-diabetic emergency).
-NOTE scuba diving introduces risks from breathing compressed air. certified
-scuba divers are trained to avoid, recognize and arrange care for such
-problems. care may require transport to a hyperbaric chamber.
+---
 
-### CALLing for help: Guidelines for evacuation
-- evacuate rapidly—GO FAST—anyone who was unconscious, no matter
-how short a time, during a submersion incident. this situation can become
-life threatening.
-- evacuate rapidly—GO FAST—anyone with signs and symptoms of respiratory
-problems after a submersion incident or anyone who ingested water during a
-submersion incident. this situation can become life threatening. the person
-should seek medical attention as soon as possible.
-NOTE secondary drowning is an aftereffect of water entering the lungs. it may
-take several days to appear. it can be fatal due to the water damage that
-occurs in the lungs.
+## Water Rescue — Reach, Throw, Row, Go
+
+Always prioritise rescuer safety. Out-of-water assists are safer than in-water contact. Talk to the victim throughout the rescue to keep them calm and aware of your presence.
+
+Unsafe conditions or situation beyond your training level: Stop rescue efforts if risk becomes unacceptable — do not attempt swift-water rescue (e.g., kayaker pinned in heavy white water) without specialist training.
+
+### 1 — Reach
+
+- From land or a boat: Extend a hand, foot, clothing, stick, paddle, or any object that keeps you out of the water
+- Brace yourself on a solid surface; extend the object or grasp the victim; pull slowly and carefully to safety — keep body low and lean back to avoid being pulled in
+- In the water near a fixed structure: Hold a piling or secure object with one hand; extend the free hand or a leg to the victim — do not let go of the fixed object; do not swim out
+- Shallow, safe water (not above chest height, no current, known bottom condition): Wade in wearing a life jacket if possible; extend a buoyant object; when victim grasps it, pull to safety — keep the object between you and the victim to prevent panic-grabbing
+
+### 2 — Throw
+
+- Throw a floating object or a rope to the victim
+- Stance: Stride position with the leg opposite your throwing arm forward; step on the end of the line with your forward foot
+- Get the victim's attention; make eye contact; announce you are throwing now; tell the victim to grab it
+- Throw upwind and/or upcurrent, just over the victim's head so the line falls within reach
+- Victim grasps the object or line: Pull slowly to safety — lean away from the water as you pull
+- Object falls short: Pull the line back quickly and throw again — do not waste time coiling it; if using a throw bag, partially refill with water before re-throwing
+
+### 3 — Row
+
+- Reach the victim by watercraft (boat, kayak, etc.)
+- Use reaching or throwing devices from the craft as appropriate
+- Maintain safety as the top priority throughout
+
+### 4 — Go
+
+- Go is appropriate only for trained swimmers with water rescue training when safe contact with the victim is possible
+- Conscious victim: Wade or swim with a flotation aid; stop a safe distance away; pass the flotation aid within the victim's grasp
+- Unconscious victim: May require a surface dive and contact tow
+- Murky water: Limit swimming depth and/or require participants to wear life jackets to facilitate underwater recovery if needed
+
+---
+
+## Care for a Near-Drowned Person After Removal from Water
+
+### Assessment After Submersion
+
+Assess in order: unconsciousness → airway → breathing → circulation → disability → environmental conditions
+
+### Care and Management for Near-Drowning
+
+1. Unconscious and not breathing: Give 2 rescue breaths
+   - Chest rises clearly: Begin CPR immediately
+   - Chest does not rise on first breath: Retilt the head before giving the second breath
+   - Chest still does not rise: Airway may be blocked — after each subsequent set of chest compressions, look for an obstruction before attempting breaths; remove if visible; continue CPR
+2. Do not attempt to clear the lungs of water — this is ineffective and wastes time
+3. Be ready to roll the person onto their side to clear the airway if water or vomit comes up
+4. Suspected head, neck, or back injury: Immobilise the spine before and during movement
+5. Treat concurrently for shock, hypothermia, or any underlying condition that may have caused the person's distress in the water (e.g., diabetic emergency)
+
+**SCUBA diving incidents:** Risks from compressed air breathing may require transport to a hyperbaric chamber — arrange advanced care immediately.
+
+---
+
+## Evacuation Criteria for Submersion Incidents
+
+- Unconscious at any point during the incident — even briefly: Evacuate rapidly (GO FAST) — delayed life-threatening complications are common
+- Any signs or symptoms of respiratory problems after submersion: Evacuate rapidly (GO FAST) — seek medical attention as soon as possible
+- Ingested water during submersion: Evacuate rapidly (GO FAST)
+
+**Secondary drowning:** Water entering the lungs can cause fatal lung damage that may not appear for several days after the incident — all submersion victims must be evaluated by a healthcare provider regardless of apparent recovery.

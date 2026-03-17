@@ -1,169 +1,223 @@
-# WHO BEC Skills — Airway & Breathing
+---
+tags: [airway_management, choking, suctioning, OPA, NPA, jaw_thrust, head_tilt, chin_lift, bag_valve_mask, BVM, oxygen_delivery, needle_decompression, pneumothorax, sucking_chest_wound, respiratory, spacer]
+source: "WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section"
+standard: "WHO / ICRC 2018"
+category: "Clinical Skills — Airway Management and Breathing"
+---
 
-**Source:** WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section
-**Standard:** WHO / ICRC 2018
-**Category:** Clinical Skills — Airway Management & Breathing
-
-[DOMAIN_TAGS: airway_management, choking, suctioning, OPA, NPA, jaw_thrust, head_tilt, chin_lift, bag_valve_mask, BVM, oxygen_delivery, needle_decompression, pneumothorax, sucking_chest_wound, respiratory]
+# Clinical Skills — Airway Management and Breathing — WHO BEC
 
 ---
 
-## Airway Skill Station: Basic Airway Manoeuvres
+## Airway Skill 1: Head-Tilt Chin-Lift (Non-Trauma)
 
-### Opening the airway: adult head-tilt and chin-lift
-To be used for patients with altered mental status who may not be able to protect the airway, with NO history of trauma:
-- Place person face up on flat, firm surface.
-- Tilt the head back with one hand and lift the chin with your fingers. Place one hand on the patient's forehead and two fingers on the chin. Rotate your hands, tilting the chin up away from the chest.
-- Remove foreign bodies if visible.
-- Use suction to remove any liquids or secretions from the airway if needed.
-- Hold the airway open — do not let the head drop back as this will close the airway.
+**Indication:** Patient with altered mental status who cannot protect the airway AND no history of trauma.
 
-### Opening the airway: paediatric head-tilt and chin-lift
-- Children's heads are bigger than adults' heads relative to body size; airways are softer and easier to block.
-- In older children, tilt the head backwards slightly.
-- Babies: place head in neutral (sniffing) position.
-- Inspect the mouth and remove visible foreign bodies.
-- Use suction to remove liquids or secretions.
+**Adult procedure:**
+1. Place the patient face up on a flat, firm surface
+2. Place one hand on the patient's forehead; place two fingers under the chin
+3. Tilt the head back with the forehead hand while lifting the chin up and away from the chest
+4. Remove any visible foreign bodies from the mouth
+5. Suction to clear liquids or secretions if needed
+6. Hold the airway open — do not allow the head to drop back
 
-### Opening the airway: jaw thrust
-Use when the patient has altered mental status AND there IS a history of trauma (cervical spine fracture possible):
-- Ask an assistant to immobilize the cervical spine.
-- Place fingers behind the angle of mandible on both sides of the jaw and push up so that the lower jaw moves. The head and neck should NOT move.
-- Inspect the mouth and remove foreign bodies if visible.
-- Hold the jaw in place — do not let the jaw drop back.
-
-### Skill Assessment: Basic Airway Manoeuvres
-- Skill 1: Head-tilt chin-lift — non-trauma cases only; baby in neutral (sniffing) position
-- Skill 2: Jaw thrust — trauma with possible cervical spine injury; ask assistant to immobilize cervical spine; head and neck should NOT move
+**Paediatric modifications:**
+- Older children: Tilt the head back slightly (less extension than adults)
+- Infants: Place head in the neutral "sniffing" position — do not tilt back
+- Children have proportionally larger heads and softer airways than adults — over-extension collapses the trachea
+- Inspect the mouth and remove visible foreign bodies; suction to clear secretions
 
 ---
 
-## Airway Skill Station: Management of Choking
+## Airway Skill 2: Jaw Thrust (Trauma with Possible Spinal Injury)
 
-### Managing choking in an adult or larger child
-If the person is unable to speak or cough (complete obstruction):
-1. Tell the person you are going to provide help.
-2. Deliver five abdominal thrusts: stand behind, lean person forward, fist between umbilicus and breastbone, pull in and up five times.
-3. If obstruction persists: five back blows between shoulder blades.
-4. Reassess. Repeat abdominal thrusts then back blows until patient speaks, coughs, or becomes unconscious.
-5. If pregnant: place side of fist in centre of chest and pull sharply inward.
-6. If unconscious: lie face up, perform chest thrusts; continue CPR protocols if unsuccessful.
+**Indication:** Patient with altered mental status AND history of trauma where cervical spine fracture is possible.
 
-### Managing choking in an infant or small child
-1. Lay infant face down on arm or thigh, head lower than abdomen.
-2. Give five back blows between shoulder blades.
-3. If obstruction persists, turn infant over.
-4. Give five chest thrusts with two fingers, just below nipple line.
-5. Check mouth for visible obstruction.
-6. Repeat entire process until obstruction removed.
-
-### Skill Assessment: Choking
-- Skill 3: Adult — abdominal thrusts, back blows, reassess; modification for pregnant women
-- Skill 4: Infant — back blows face down, chest thrusts face up, repeat
+**Procedure:**
+1. Ask an assistant to manually immobilise the cervical spine
+2. Place fingers behind the angle of the mandible on both sides of the jaw
+3. Push upward so the lower jaw moves forward — the head and neck must NOT move
+4. Inspect the mouth; remove any visible foreign bodies
+5. Hold the jaw in the forward position — do not allow the jaw to drop back
 
 ---
 
-## Airway Skill Station: Airway Suctioning
+## Airway Skill 3: Choking Management — Adult and Larger Child
 
-Purpose: remove liquids or secretions from the upper airway.
-- Check suction canister or handheld device is working.
-- Attach rigid (yankauer) or soft suction catheter.
-- Explain what you are doing.
-- Insert suction catheter into back of mouth (only as far as you can see); cover side hole (NOT the tip) to create suction only while pulling out.
-- Do not suction for more than 10 seconds at a time unless airway is completely blocked with fluid.
-- Suction only in the oral cavity; do not suction up the nose.
+**Indication:** Person unable to speak or cough (complete airway obstruction).
 
-### Skill 5: Suctioning
-- Suction only while pulling catheter out (NOT while inserting)
-- No more than 10 seconds unless completely blocked
-- Constantly move catheter; do not hold against soft tissue
+**Procedure:**
+1. Tell the person you are going to help
+2. Deliver 5 abdominal thrusts: Stand behind the person; lean them forward; place a fist between the umbilicus and breastbone; pull sharply inward and upward — 5 times
+3. If obstruction persists: Deliver 5 back blows firmly between the shoulder blades
+4. Reassess after each cycle — repeat abdominal thrusts then back blows until the person speaks, coughs, or loses consciousness
+5. Pregnant person: Place the side of the fist in the centre of the chest; pull sharply inward instead of upward
+6. Person becomes unconscious: Lay face up; perform chest thrusts; continue with CPR protocols if obstruction is not cleared
 
 ---
 
-## Airway Skill Station: Basic Airway Device Insertion
+## Airway Skill 4: Choking Management — Infant and Small Child
 
-### Oropharyngeal airway (OPA) insertion
-- Insert ONLY when person is unconscious. Conscious person will not tolerate OPA.
-- Measure OPA: from tip of earlobe to corner of mouth.
-- Open mouth; insert OPA with curved portion sideways, tip pointing toward cheek.
-- Push gently, then rotate 90 degrees so tip points down the throat.
-- Push remainder in so flange rests on lips.
-- Verify OPA did not push tongue down to obstruct airway.
-- Give oxygen if available.
-
-### Nasopharyngeal airway (NPA) insertion
-- Better tolerated in semi-conscious patients or those with gag reflex.
-- DO NOT use in people with head and facial trauma.
-- Measure: from base of nostril to earlobe. Diameter must be smaller than nasal passage.
-- Lubricate well; insert into nostril directing along floor of nose until flange rests against nostril.
-- Give oxygen if available.
-
-### Skill 6: OPA
-- Indication: unconscious, no gag reflex
-- Measure from earlobe to corner of mouth; rotate 90° during insertion
-
-### Skill 7: NPA
-- Indication: semi-conscious or possible gag reflex; contraindicated in head/facial trauma
-- Measure from nostril to earlobe; lubricate; insert along floor of nose
+**Procedure:**
+1. Lay the infant face down along your arm or thigh with the head lower than the abdomen
+2. Deliver 5 back blows firmly between the shoulder blades
+3. If obstruction persists: Turn the infant face up
+4. Deliver 5 chest thrusts with two fingers just below the nipple line
+5. Check the mouth for any visible obstruction
+6. Repeat the entire cycle until the obstruction is cleared
 
 ---
 
-## 2. Breathing Skill Stations
+## Airway Skill 5: Airway Suctioning
 
-### Breathing Skill Station: Breathing Exam
-- Assess and count the rate of breathing (normal adult: 10–20 breaths/min).
-- Look for increased work of breathing: nasal flaring, retractions, chest in-drawing.
-- Feel for chest rise and chest wall tenderness.
-- Percuss the chest wall: place hand on chest, tap middle finger, listen for hollow or dull tones.
-- Listen to the chest (auscultate): always expose chest, compare left and right, upper/middle/lower zones and front/back.
-- Abnormal sounds: air through water (crackles), crumpling paper (wheeze), or no air movement.
+**Purpose:** Remove liquids and secretions from the upper airway.
 
-### Breathing Skill Station: Giving Supplemental Oxygen
-- Indication: hypoxia — fast breathing, anxiety, excessive sweating, cyanosis, chest pain.
-- **Nasal cannula** (mild hypoxia): in each nostril, secure to cheeks or over ears; max 5 L/min.
-- **Simple facemask** (moderate hypoxia): 6–10 L/min, ~40–60% oxygen.
-- **Non-rebreather facemask** (severe hypoxia): inflate reservoir bag first; 10–15 L/min, ~100% oxygen.
-  - NEVER put non-rebreather on before connecting to oxygen.
+**Procedure:**
+1. Confirm the suction device (canister or handheld) is working
+2. Attach a rigid (Yankauer) or soft suction catheter
+3. Explain the procedure to the patient
+4. Insert the catheter into the back of the mouth — only as far as you can see
+5. Apply suction by covering the side hole only while withdrawing the catheter — do not apply suction while inserting
+6. Move the catheter constantly; do not hold it against soft tissue
+7. Do not suction for more than 10 seconds at a time unless the airway is completely blocked with fluid
+8. Suction the oral cavity only — do not suction into the nose
 
-### Breathing Skill Station: Bag-Valve-Mask (BVM) Ventilation
-Indication: not breathing or breathing inadequately; unconscious with abnormal breathing; pulse present but not breathing.
-- Attach oxygen if available — DO NOT DELAY BVM to prepare oxygen.
-- Place mask over mouth and nose; "EC" hand position — C (thumb+forefinger) seals top, E (three fingers under jaw) pulls jaw upward to open airway.
-- Pull face up to mask; push mask down onto face.
-- Ventilation rates: adult 1 breath every 6 sec (10/min); older child every 4 sec (15/min); infant every 3 sec (20/min).
-- Squeeze bag over 1–2 seconds; watch chest rise. Allow chest to fall before next breath.
-- CAUTION: Avoid over-aggressive ventilation — can damage lungs, cause pneumothorax, especially in children.
-- If unable to ventilate: reposition mask; consider OPA/NPA; check for obstruction.
+---
 
-### Breathing Skill Station: Emergency Needle Decompression
-Indication: suspected **tension pneumothorax** (air in chest cavity causing excessive pressure).
-Signs: shock + difficulty breathing + absent lung sounds on affected side + hypotension + distended neck veins + hyperresonance on percussion + tracheal shift away from affected side.
-- Expose chest and assess breathing.
-- Insert large-bore IV cannula (14–16G preferred) along upper edge of third rib through second intercostal space, midclavicular line on affected side. In tension pneumothorax: gush of expelled air.
-- Give oxygen at high concentration (non-rebreather mask).
-- Start IV lines and give IV fluids.
-- Refer and transport to definitive care **immediately**.
-- Chest tube should be placed as soon as possible following needle decompression.
+## Airway Skill 6: Oropharyngeal Airway (OPA) Insertion
 
-### Breathing Skill Station: Management of Open Pneumothorax (Sucking Chest Wound)
-An open chest wall wound that sucks air in when patient breathes. Treat with three-sided dressing:
-1. Give high-flow oxygen.
-2. Cover sucking chest wound with petroleum gauze or non-adhesive dressing (plastic wrapper).
-3. Tape THREE sides of the dressing; leave one side un-taped as a flap valve (allows air to escape during exhalation, prevents air entering during inhalation).
-4. Transfer as soon as possible for chest tube placement. Do NOT place chest tube through the injury.
+**Indication:** Unconscious patient without a gag reflex.
+**Contraindication:** Conscious or semi-conscious patient — will not tolerate OPA and may vomit.
 
-**CAUTION:** Dressing can become stuck to chest wall with clotted blood — air cannot escape → tension pneumothorax. Remove dressing completely if worsening respiratory status or worsening perfusion. If patient cannot be continuously observed, do NOT place three-sided dressing.
+**Procedure:**
+1. Measure the OPA: from the tip of the earlobe to the corner of the mouth
+2. Open the mouth
+3. Insert the OPA with the curved portion sideways — tip pointing toward the cheek
+4. Push gently inward, then rotate 90 degrees so the tip points down the throat
+5. Push the remainder in until the flange rests on the lips
+6. Verify the OPA has not pushed the tongue down to obstruct the airway
+7. Give oxygen if available
 
-### Breathing Skill Station: Making a Spacer from a Plastic Bottle
-- Use a clean 300–500ml plastic bottle.
-- Trace inhaler opening on base of bottle; cut opening slightly smaller.
-- Insert inhaler to check size (should fit tightly).
-- Prime spacer with five puffs before use to clear dead space.
-- Purpose: holds salbutamol released from metered dose inhaler so patient can effectively inhale medication.
+---
 
-### Breathing Skill Station Assessments
-**Skill 1:** Assess breathing — rate, work of breathing, feel, percuss, listen
-**Skill 2:** Supplemental oxygen — nasal cannula (max 5 L/min) → simple facemask (6–10 L/min) → non-rebreather (10–15 L/min)
-**Skill 3:** BVM — indication, seal, rate, volume, cautions in children
-**Skill 4:** Needle decompression — second intercostal space, midclavicular line; plan chest tube; give O2 and IV fluids
-**Skill 5:** Open pneumothorax — high-flow O2; petroleum gauze; tape 3 sides; risk of clotted dressing; needs chest tube
+## Airway Skill 7: Nasopharyngeal Airway (NPA) Insertion
+
+**Indication:** Semi-conscious patient or patient with a gag reflex who cannot tolerate an OPA.
+**Contraindication:** Head or facial trauma — do not use.
+
+**Procedure:**
+1. Measure the NPA: from the base of the nostril to the earlobe; diameter must be smaller than the nasal passage
+2. Lubricate the NPA well
+3. Insert into the nostril directing the device along the floor of the nose
+4. Advance until the flange rests against the nostril
+5. Give oxygen if available
+
+---
+
+## Breathing Skill 1: Breathing Examination
+
+**Procedure:**
+1. Count the respiratory rate — normal adult: 10–20 breaths/minute
+2. Look for increased work of breathing: nasal flaring, chest retractions, chest indrawing
+3. Feel for chest rise and chest wall tenderness
+4. Percuss the chest wall: place one hand flat on the chest; tap the middle finger; listen for hollow (hyperresonant) or dull tones; compare left and right sides
+5. Auscultate the chest: always expose the chest; compare left and right sides; assess upper, middle, and lower zones front and back
+   - Crackles (air through fluid) = possible pulmonary oedema or pneumonia
+   - Wheeze (crumpling paper sound) = lower airway narrowing
+   - Absent air movement = possible pneumothorax or haemothorax
+
+---
+
+## Breathing Skill 2: Supplemental Oxygen Delivery
+
+**Indication:** Hypoxia — fast breathing, anxiety, excessive sweating, cyanosis, or chest pain.
+
+**Nasal cannula (mild hypoxia):**
+- Insert prongs into each nostril; secure to cheeks or over ears
+- Flow rate: maximum 5 L/min
+
+**Simple face mask (moderate hypoxia):**
+- Flow rate: 6–10 L/min
+- Delivers approximately 40–60% oxygen
+
+**Non-rebreather face mask (severe hypoxia):**
+- Inflate the reservoir bag with oxygen before placing on the patient
+- Flow rate: 10–15 L/min
+- Delivers approximately 100% oxygen
+- **Never place the non-rebreather mask on the patient before connecting it to oxygen**
+
+---
+
+## Breathing Skill 3: Bag-Valve-Mask (BVM) Ventilation
+
+**Indications:**
+- Not breathing or breathing inadequately
+- Unconscious with abnormal breathing (slow, shallow, gasping, or noisy)
+- Pulse present but not breathing
+
+**Procedure:**
+1. Attach oxygen if available — **do not delay BVM ventilation to prepare oxygen**
+2. Place the mask over the mouth and nose — use the EC hand position:
+   - **C** (thumb and index finger): Forms a seal over the top of the mask
+   - **E** (three fingers under the jaw): Pulls the jaw upward to open the airway
+3. Pull the face up into the mask; press the mask down firmly onto the face
+4. Squeeze the bag over 1–2 seconds; watch for chest rise
+5. Allow the chest to fall completely before delivering the next breath
+6. Ventilation rates:
+   - Adult: 1 breath every 6 seconds (10/min)
+   - Older child: 1 breath every 4 seconds (15/min)
+   - Infant: 1 breath every 3 seconds (20/min)
+
+**Caution:** Avoid over-aggressive ventilation — can cause lung damage and pneumothorax, especially in children.
+
+**Unable to ventilate:** Reposition the mask; consider inserting OPA or NPA; check for obstruction.
+
+---
+
+## Breathing Skill 4: Emergency Needle Decompression for Tension Pneumothorax
+
+**Indication:** Suspected tension pneumothorax.
+
+**Signs of tension pneumothorax (all in combination):**
+- Shock
+- Difficulty breathing
+- Absent or decreased breath sounds on the affected side
+- Hyperresonance on percussion of the affected side
+- Hypotension
+- Distended neck veins
+- Tracheal shift away from the affected side
+
+**Procedure:**
+1. Expose the chest and reassess breathing
+2. Insert a large-bore IV cannula (14–16G preferred) along the upper edge of the third rib through the **second intercostal space, midclavicular line** on the affected side
+   - In tension pneumothorax: A rush of expelled air confirms correct placement
+3. Give high-flow oxygen via non-rebreather mask
+4. Establish IV access and give IV fluids
+5. Arrange immediate transfer to definitive care — a chest tube must be placed as soon as possible after needle decompression
+
+---
+
+## Breathing Skill 5: Management of Open Pneumothorax (Sucking Chest Wound)
+
+An open chest wall wound that draws air into the pleural space when the patient inhales — can rapidly progress to tension pneumothorax.
+
+**Procedure:**
+1. Give high-flow oxygen
+2. Cover the wound with petroleum gauze or a non-adhesive dressing (plastic wrapper acceptable)
+3. Tape **three sides only** of the dressing — leave one side un-taped as a flutter valve: allows air to escape during exhalation; prevents air from entering during inhalation
+4. Transfer immediately for chest tube placement — do NOT insert a chest tube through the wound itself
+
+**Critical caution:** The dressing can become stuck to the chest wall with clotted blood — if air can no longer escape, tension pneumothorax will develop. Remove the dressing completely if respiratory status worsens or perfusion deteriorates. If the patient cannot be continuously observed, do NOT apply a three-sided dressing.
+
+---
+
+## Breathing Skill 6: Making an Improvised Inhaler Spacer from a Plastic Bottle
+
+**Purpose:** Holds the aerosol released from a metered-dose inhaler so the patient can effectively inhale the medication.
+
+**Procedure:**
+1. Use a clean 300–500 mL plastic bottle
+2. Trace the inhaler opening on the base of the bottle; cut the opening slightly smaller than the tracing
+3. Insert the inhaler to check fit — it should fit tightly
+4. Prime the spacer with 5 puffs before first use to clear dead space
+5. Patient places mouth over the bottle opening and inhales after the inhaler is actuated

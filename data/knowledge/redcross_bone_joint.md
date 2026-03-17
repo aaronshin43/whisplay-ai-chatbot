@@ -1,340 +1,259 @@
-# Red Cross Wilderness First Aid — Bone and Joint Injuries
+---
+tags: [fracture, broken_bone, dislocation, sprain, strain, splint, immobilization, sling, bone_joint, open_fracture, compound_fracture, crepitus, neurovascular, wilderness, orthopedic]
+source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
 
-**Source:** American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide
-**Standard:** American Red Cross / SOLO Wilderness Medicine
+standard: "American Red Cross / SOLO Wilderness Medicine"
+---
+
+# Bone and Joint Injuries — Wilderness First Aid Reference
+
 **Applies to:** All ages; field settings without rapid EMS access
-
-[DOMAIN_TAGS: fracture, broken_bone, dislocation, sprain, strain, splint, immobilization, sling, bone_joint, open_fracture, compound_fracture, crepitus, neurovascular, wilderness, orthopedic]
 
 ---
 
-### Bone and Joint Injuries
-there are four main types of bone and joint injuries:
-- strains: overstretched muscles and/or tendons that attach muscles to bones
-- sprains: injuries to ligaments that hold bones together at joints
-- fractures: a break, chip or crack in a bone
-- dislocations: movement of a bone away from its normal position at a joint
-Because these injuries can look alike, you may have difficulty determining exactly
-which type of injury has occurred. this should not be a problem because in most
-cases, the care you give will be the same.
+## Overview of Bone and Joint Injury Types
 
+- **Strain:** Overstretched muscle or tendon (attaches muscle to bone)
+- **Sprain:** Injury to a ligament (holds bones together at a joint)
+- **Fracture:** A break, chip, or crack in a bone
+- **Dislocation:** Movement of a bone out of its normal position at a joint
 
-### General Considerations
-When CHECKing the person, look, listen and feel for:
-- deformity, open injuries, tenderness and swelling (dots).
-- moderate or severe pain or discomfort.
-- Bruising (may take hours to appear).
-- inability to move or use the affected body part normally.
-- Broken bone or bone fragments sticking out of a wound.
-- feeling of bones grating or the sound of bones grating.
-- feeling or hearing of a snap or pop at the time of injury.
-- loss of circulation, sensation and motion (csm) beyond the site of the injury,
-including tingling, cold or bluish color.
-- cause of injury (e.g., a fall), that suggests the injury may be severe.
+These injuries often present similarly — care is the same in most cases.
 
-### To give CARE:
-- determine if the person can use the injured body part.
-- Have the person rest and relax.
-- carefully remove clothing to look at the injury site if the area is not
-already exposed.
-- ask how the injury happened and if there are any painful areas. (High-speed
-impacts cause more damage than low-speed impacts.)
-- Visually inspect the entire body from head to toe. compare the two sides of
-the body, then carefully check each body part.
-- notice if the person can easily move the injured part or if he or she guards it to
-prevent movement.
-- give care using the rice method:
- R = Have the person rest the injured area and avoid any movement that
-causes pain.
- I = Immobilize the injured area. stabilize or immobilize the injured part on the
-ground or with a splint if movement is needed.
- C = apply a cold pack or an ice and water mixture in a plastic bag to the injured
-area. Place a layer of gauze or cloth between the cold or ice pack and the skin
-to prevent damaging the skin. leave the ice pack on for about 20 minutes. if you
-do not have ice or a cold pack, soak the injured part in cold water or, in warmer
-months, wrap the part in wet cotton. do not apply an ice or cold pack directly on
-an open fracture site.
+---
 
- E = Elevate the injured area above the heart level if possible. do not elevate if
-you suspect a fracture or if moving the injured area causes pain.
-- after about 20 minutes of rice, remove the cold and let the joint warm
-naturally for 10 to 15 minutes before testing to determine whether the joint can
-be used.
-- the injury will heal faster if rice is repeated 3 to 4 times a day until pain and
-swelling subside.
-Splinting
+## General Assessment of Bone and Joint Injuries
 
-### Follow These Principles:
-- in a wilderness or remote setting, chances are the person will need to
-be moved. the general rule in the delayed-help situation is: "when in
-doubt, splint!"
-- splint only if you can do so without causing more pain.
-- remove rings, bracelets or watches from injured extremities.
-- make the splint out of something rigid enough to provide support, and always
-place padding between the splint and the body part.
-- fill in any hollows with soft padding.
-- Be sure the splint is long enough to restrict the movement of the joints above
-and below a broken bone, or the movement of the bones above and below an
-injured joint.
-- Prepare the splint before moving the limb.
-- splint an injury in the position of function or as close to it as possible.
-these positions include spine, neck and pelvis in-line, with padding in
-the small of the back; legs almost straight with padding
-behind the knees for slight flexion; feet at 90 degrees to
-legs; arms flexed to cross
-the heart; and hands in a
-functional curve with padding in the
-palms.
-- splint the injured area and the
-bones or joints above and below
-the injury.
-- attach the splint with a number of
-bandages tied securely with knots.
-- monitor the injured area. check csm below the site of the injury before and
-after splinting and with every vital signs check. if there is no csm, remove,
-loosen or reposition the splint.
+### Signs and Symptoms of Bone and Joint Injuries
 
-### Application of a Sling-and-Swathe (Sling and Binder)
-- support the injured body part above and below the site of the injury.
-- check for feeling, warmth and color.
-- Place a triangular bandage under the injured arm and over the uninjured
-shoulder to form a sling, keeping
-the wrist higher than the elbow.
-- tie the ends of the sling at the
-side of the neck, placing padding
-beneath the knot.
-- Bind the injured body part to
-the chest with a folded
-triangular bandage.
-- recheck for feeling, warmth and
-color.
+- Deformity, open injuries, tenderness, or swelling (DOTS)
+- Moderate or severe pain or discomfort
+- Bruising — may take hours to appear
+- Inability to move or use the affected body part normally
+- Bone or bone fragments protruding through a wound
+- Sensation or sound of bones grating (crepitus)
+- Sensation or sound of a snap or pop at time of injury
+- Loss of circulation, sensation, or motion (CSM) beyond the injury site — tingling, coldness, or bluish colour
+- High-speed mechanism of injury suggests severe injury
 
+### General Care and Management for Bone and Joint Injuries
 
-### Application of an Anatomic Splint
-- support the injured body part above and below the site of the injury.
-- check for feeling, warmth and color.
-- for arms or legs, place several
-folded triangular bandages above
-and below the injured body part.
-- Place the uninjured body part next
-to the injured body part.
-- tie triangular bandages securely.
-for fingers or toes,
-secure fingers to fingers and toes to
-toes with tape.
-- recheck for feeling, warmth
-and color.
-NOTE if you are not able to check warmth and color because a sock or shoe is
-in place, check for sensation.
+1. Determine whether the person can use the injured body part
+2. Have the person rest; remove clothing over the injury site if not already exposed
+3. Ask how the injury occurred — high-speed impacts cause more damage than low-speed impacts
+4. Visually inspect the entire body head to toe; compare both sides
+5. Note whether the person moves the injured part freely or guards it against movement
+6. Apply **RICE** method:
+   - **R — Rest:** Avoid any movement that causes pain
+   - **I — Immobilise:** Stabilise the injured part on the ground or with a splint if movement is needed
+   - **C — Cold:** Apply cold pack or ice-water bag to the area — place a cloth layer between ice and skin; leave on 20 minutes; do not apply cold directly to an open fracture site; if no ice available, soak in cold water or wrap in wet cotton
+   - **E — Elevate:** Raise above heart level if possible — do not elevate if fracture is suspected or elevation causes pain
+7. After 20 minutes of RICE: Remove cold and allow the joint to warm naturally for 10–15 minutes before testing usability
+8. Repeat RICE 3–4 times daily until pain and swelling subside
 
-### Application of a Soft Splint
-- support the injured body part above and below the site of the injury.
-- check for feeling, warmth and color.
-- Place several folded triangular
-bandages above and below the
-injured body part.
-- gently wrap a soft object
-(e.g., a folded blanket or pillow)
-around the injured body part.
-- tie triangular bandages securely
-with knots.
-- recheck for feeling, warmth and
-color.
-NOTE if you are not able to check warmth and color because a sock or shoe is
-in place, check for sensation.
+---
 
+## Splinting — Principles and Application
 
-### Application of a Rigid Splint
-- support the injured body part above and below the site of the injury.
-- check for feeling, warmth and color.
-- Place the rigid splint (e.g., a board)
-under the injured body part and the
-joints that are above and below the
-injured body part.
-- tie several folded triangular
-bandages above and below the
-injured body part.
-- recheck for feeling, warmth
-and color.
-NOTE if a rigid splint is used on an injured forearm, immobilize the wrist and
-elbow. Bind the arm to the chest using folded triangular bandages or
-apply a sling.
+### General Splinting Principles
 
-### Strains and Sprains
+- Wilderness/remote setting: When in doubt, splint
+- Splint only if doing so does not cause additional pain
+- Remove rings, bracelets, and watches from injured extremities before splinting
+- Use a splint rigid enough to provide support; always pad between splint and skin
+- Fill hollows with soft padding
+- Splint must be long enough to immobilise the joints above and below a fracture, or the bones above and below an injured joint
+- Prepare the splint before moving the limb
+- Splint in position of function or as close to it as possible:
+  - Spine, neck, pelvis: In-line with padding in the small of the back
+  - Legs: Nearly straight with padding behind the knees for slight flexion
+  - Feet: At 90 degrees to the legs
+  - Arms: Flexed to cross the chest
+  - Hands: In a functional curve with padding in the palms
+- Secure splint with multiple bandages tied firmly
+- Check CSM below the injury site before splinting, after splinting, and with every vital signs check — if CSM is absent, remove, loosen, or reposition the splint immediately
 
-### When CHECKing the person:
-- Have the person actively move the injured joint and evaluate the pain involved.
-- move the joint yourself and evaluate the person's response.
-- if the joint appears to be usable, have the person test it with his or her
-body weight.
-- tell the person not to use the injured part if movement causes pain.
-- if the injury is to the lower part of the body and the person can use the injured
-part without pain, offer to provide an appropriate support (e.g., for an injured
-knee, provide a walking splint, which restricts movement of the knee without
-putting pressure on the kneecap).
+### Sling-and-Swathe Application
 
-### To give CARE:
-- splint any injured bone or joint that the person cannot use.
+1. Support the injured arm above and below the injury site
+2. Check for feeling, warmth, and colour
+3. Place a triangular bandage under the injured arm and over the uninjured shoulder — keep wrist higher than elbow
+4. Tie bandage ends at the side of the neck with padding under the knot
+5. Bind the injured arm to the chest with a folded triangular bandage
+6. Recheck for feeling, warmth, and colour
 
-Fractures
-When CHECKing the person for a suspected fracture:
-- determine if the injured part looks broken by comparing it to the uninjured
-side. ask the person if he or she thinks the part is broken.
-- gently touch the injured area and look for these signs of a fracture:
- the person reacts to your touch.
- the muscles appear to be spasming.
- the injured area feels unstable.
- one spot hurts noticeably more than others.
-- check for csm beyond the site of the injury. loss of a pulse,
-numbness, tingling and inability to move are all signs of serious
-fracture-related complications.
+### Anatomic Splint Application
 
-### To give CARE:
-General:
-- splint any injury that you suspect is a fracture. always use padding between
-the splint and the body part.
-- continue to check csm after splinting to ensure that circulation is not cut off.
-For a jaw fracture:
-- Hold the jaw in place with a wide wrap that goes around the head.
-- make sure the wrap can be removed quickly if the person needs to vomit.
-For a collarbone fracture:
-- secure with a sling-and-swathe.
-- make the sling from triangular bandages or improvise by lifting the tail of the
-person's shirt up over the arm on the injured side and pinning it in place.
-- Be sure the sling lifts the elbow to take pressure off the shoulder.
-For a lower arm fracture (including the wrist and hand):
-- secure the injured part to a well-padded, rigid support and place it in a
-sling-and-swathe.
-- Place a roll of something soft in the hand to keep it in a position of function. if
-bones of the hand are damaged, be sure to secure the hand to the splint with
-lots of padding.
+1. Support the injured body part above and below the injury site
+2. Check for feeling, warmth, and colour
+3. Place several folded triangular bandages above and below the injured part
+4. Place the uninjured limb alongside the injured limb
+5. Tie triangular bandages securely — for fingers or toes, tape injured digit to adjacent uninjured digit
+6. Recheck for feeling, warmth, and colour — if sock or shoe cannot be removed, check for sensation
 
-For a broken finger:
-- tape the broken finger to nearby uninjured fingers with padding between
-the fingers.
-For an upper arm fracture:
-- Place the arm in a sling-and-swathe.
-- secure the broken bone to the person's chest with a wide, soft wrap.
-For a rib fracture:
-- Protect the injured rib by supporting the arm on the injured side with a
-sling-and-swathe.
-- do not wrap a band snugly around the person's chest.
-- encourage the person to take deep breaths regularly, even if it hurts, to keep
-the lungs clear.
-- watch the person for increasing trouble breathing.
-For a pelvis or hip fracture:
-- secure the person on a rigid litter
-(stretcher) before attempting a
-carry-out.
-- Place wide conforming wraps (e.g.,
-a sheet or blanket) and tie around
-the pelvis to provide some support
-and security.
-- secure the legs comfortably to
-each other.
-- Be sure to watch the person for signs and symptoms of shock due to internal
-bleeding, which is common with pelvic fractures.
-For a leg fracture (including ankle and foot):
-- secure the injured part on a well-padded, rigid support that includes
-immobilization of the ankle and foot.
-- Pad behind the knee for comfort.
+### Soft Splint Application
 
+1. Support the injured body part above and below the injury site
+2. Check for feeling, warmth, and colour
+3. Place several folded triangular bandages above and below the injured part
+4. Gently wrap a soft object (e.g., folded blanket or pillow) around the injured part
+5. Tie triangular bandages securely with knots
+6. Recheck for feeling, warmth, and colour — if sock or shoe cannot be removed, check for sensation
 
-### Complicated Fractures
+### Rigid Splint Application
 
-### To give CARE:
-For an angulated fracture:
-if the limb is severely deformed or distorted, the bones may be straightened
-through gentle in-line traction to reduce pain. to do this:
-- Pull with gentle traction along the line in which the bone lies. this will relax the
-muscle and reduce the pain.
-- slowly and gently move the broken bone back into normal alignment.
-- do not use force.
-- do not continue if the person complains of increasing pain.
-- splint the injury once the injured part is aligned.
-For an open fracture:
-- irrigate the wound and dress it appropriately. (go to "wounds" section for
-information on how to irrigate and dress the fracture.)
-- if bone ends stick out of the wound and a health care provider is longer than 4
-to 6 hours away:
- clean the wound and bone ends without touching them.
- apply gentle in-line traction to the fracture to pull the bone ends back under
-the skin.
- dress the wound.
- splint the fracture.
-Dislocations
+1. Support the injured body part above and below the injury site
+2. Check for feeling, warmth, and colour
+3. Place the rigid splint (e.g., a board) under the injured part and the joints above and below the injury
+4. Tie several folded triangular bandages above and below the injured part
+5. Recheck for feeling, warmth, and colour
+6. Forearm rigid splint: Immobilise wrist and elbow; bind arm to chest with folded triangular bandages or apply a sling
 
-### Follow These Principles:
-- the only treatment available for certain dislocations that occur in the
-wilderness is splinting in the most comfortable position.
-- in other cases, the joint can be put back in its normal position through
-a process called reduction. if you are going to attempt a reduction, it is
-important that you:
- work quickly but calmly. usually, the sooner a reduction is done, the easier it is on
-the injured person and the responder.
- encourage the person to relax, with particular concentration on the injured joint.
- stop if the pain increases dramatically.
- splint the injury after the joint is back in its normal position.
+---
 
-When CHECKing the person, look, listen and feel for:
-- a joint that does not look "right." (shoulder dislocations are the most
-common type.)
-- Pain and/or loss of normal range of motion.
-- a bump, ridge or hollow that does not normally exist.
+## Strains and Sprains — Assessment and Care
 
-### To give CARE:
-For a shoulder dislocation:
-- use the Stimson technique right away:
- Position the person face-down across a firm surface (e.g., a rock or log) with the
-arm on the injured side dangling
-down vertically.
- Help the person to relax.
- with a soft cloth, tie something that
-weighs about 5 to 10 pounds to the
-dangling wrist.
- wait. this process takes about 20
-to 30 minutes to work.
-or
-- Have the injured person perform a
-similar technique on him- or herself
-right away:
- standing or sitting, the person
-should pull the injured arm straight
-and forward, away from the body,
-by gripping the wrist with the
-opposite hand.
-- Place the injured arm in a sling-and-
-swathe as soon as the shoulder is returned to its normal position.
-- do not bind the person's arm in case he or she needs to use the arm in an
-emergency (e.g., escaping from an overturned raft).
+### Assessment of Strains and Sprains
 
-For a finger or toe dislocation:
-- Keeping the injured finger or toe
-partially flexed (bent), pull on the
-end with one hand while gently
-pressing the dislocated joint back
-into place with your other thumb.
-- Place a gauze pad between
-the injured finger or toe and an
-uninjured neighboring finger or toe.
-- tape the injured finger or toe to the uninjured neighboring finger or toe.
-- do not tape directly over the joint itself.
-For a kneecap dislocation:
-- apply gentle traction to the leg to straighten it out. this may cause the
-kneecap to pop back into place without any further treatment.
-- if the kneecap does not pop back into place after the leg is straightened,
-massage the thigh and use your hand to push the kneecap gently back into
-normal alignment.
-- apply a splint that does not put pressure on the kneecap. this way, the person
-may be able to walk.
+- Have the person actively move the injured joint; evaluate the pain produced
+- Passively move the joint; evaluate the person's response
+- Joint appears usable: Have the person test it with body weight
+- Movement causes pain: Instruct the person not to use the injured part
+- Lower body injury usable without pain: Provide appropriate support (e.g., walking splint for an injured knee that restricts movement without pressure on the kneecap)
 
-### CALLing for help: Guidelines for evacuation
-- if a person is able to use the injured body part, the person's degree of
-discomfort should determine whether and how to evacuate.
-- evacuate slowly—GO SLOW—anyone who cannot use the injured body part
-or who is suffering from a first-time dislocation. you might be able to avoid
-evacuation if the injury is to the outer joints of the fingers or toes.
-- evacuate rapidly—GO FAST—anyone with an angulated fracture; open fracture;
-fracture of the pelvis, hip or thigh; or more than one long bone fracture.
-- evacuate rapidly—GO FAST—anyone whose injuries create a decrease in csm
-beyond the injury itself.
+### Care and Management for Strains and Sprains
+
+- Any injured bone or joint the person cannot use: Apply a splint
+
+---
+
+## Fractures — Assessment and Care
+
+### Signs and Symptoms of Fracture
+
+- Injured part visually deformed compared to uninjured side
+- Person reacts to gentle palpation of the injured area
+- Visible muscle spasm
+- Injured area feels unstable on palpation
+- One localised spot is significantly more painful than surrounding areas
+- Loss of pulse, numbness, tingling, or inability to move beyond injury site = serious fracture complication
+
+### General Care and Management for Fractures
+
+- Splint any suspected fracture — always use padding between splint and skin
+- Check CSM after splinting to confirm circulation is not compromised
+
+### Care and Management for Jaw Fracture
+
+1. Hold jaw in place with a wide wrap passing around the head
+2. Ensure the wrap can be removed quickly if the person needs to vomit
+
+### Care and Management for Collarbone Fracture
+
+1. Secure with a sling-and-swathe
+2. Improvise sling from triangular bandages, or lift the shirt tail over the arm on the injured side and pin in place
+3. Ensure sling lifts the elbow to relieve pressure on the shoulder
+
+### Care and Management for Lower Arm Fracture (Including Wrist and Hand)
+
+1. Secure to a well-padded rigid support and place in a sling-and-swathe
+2. Place a soft roll in the hand to maintain position of function
+3. Hand bones involved: Secure hand to splint with generous padding
+
+### Care and Management for Broken Finger
+
+1. Tape the broken finger to adjacent uninjured fingers with padding between fingers
+
+### Care and Management for Upper Arm Fracture
+
+1. Place arm in a sling-and-swathe
+2. Secure the fractured bone to the chest with a wide soft wrap
+
+### Care and Management for Rib Fracture
+
+1. Support the arm on the injured side with a sling-and-swathe to protect the rib
+2. Do not wrap a band tightly around the chest
+3. Encourage regular deep breaths — even if painful — to prevent lung complications
+4. Monitor for increasing difficulty breathing
+
+### Care and Management for Pelvis or Hip Fracture
+
+1. Secure person to a rigid litter (stretcher) before any carry-out
+2. Apply wide conforming wraps (e.g., sheet or blanket) around the pelvis for support
+3. Secure legs comfortably together
+4. Monitor closely for signs and symptoms of shock — internal bleeding is common with pelvic fractures
+
+### Care and Management for Leg Fracture (Including Ankle and Foot)
+
+1. Secure to a well-padded rigid support that includes immobilisation of the ankle and foot
+2. Pad behind the knee for comfort
+
+---
+
+## Complicated Fractures — Care and Management
+
+### Angulated Fracture
+
+1. Apply gentle in-line traction along the line the bone lies to relax the muscle and reduce pain
+2. Slowly and gently move the bone back toward normal alignment
+3. Do not use force
+4. Stop immediately if pain increases
+5. Splint once the injured part is aligned
+
+### Open Fracture
+
+1. Irrigate the wound and dress appropriately
+2. Healthcare provider is more than 4–6 hours away AND bone ends protrude:
+   - Clean the wound and bone ends without directly touching them
+   - Apply gentle in-line traction to pull bone ends back under the skin
+   - Dress the wound
+   - Splint the fracture
+
+---
+
+## Dislocations — Assessment and Care
+
+### Signs and Symptoms of Dislocation
+
+- Joint does not appear normal — shoulder dislocations are most common
+- Pain and/or loss of normal range of motion
+- Abnormal bump, ridge, or hollow at the joint
+
+### Care and Management for Shoulder Dislocation — Stimson Technique
+
+1. Position the person face-down on a firm surface with the injured arm hanging vertically
+2. Help the person relax completely
+3. Using a soft cloth, tie a weight of approximately 5–10 pounds to the dangling wrist
+4. Wait 20–30 minutes for the joint to reduce gradually
+
+**Alternative self-reduction technique:**
+- Standing or sitting, have the person grip the injured wrist with the opposite hand and pull the injured arm straight forward and away from the body
+
+5. Once shoulder is reduced: Place arm in a sling-and-swathe
+6. Do not bind the arm against the body — the person may need to use it in an emergency
+
+### Care and Management for Finger or Toe Dislocation
+
+1. Keep the injured digit partially flexed
+2. Pull on the end with one hand while pressing the dislocated joint back into place with the other thumb
+3. Place gauze padding between the injured digit and the adjacent uninjured digit
+4. Tape the injured digit to the adjacent uninjured digit — do not tape directly over the joint
+
+### Care and Management for Kneecap Dislocation
+
+1. Apply gentle traction to straighten the leg — kneecap may reduce spontaneously
+2. Kneecap does not reduce after straightening: Massage the thigh and use the hand to gently push the kneecap back into normal alignment
+3. Apply a splint that does not place pressure on the kneecap — person may then be able to walk
+
+---
+
+## Evacuation Criteria for Bone and Joint Injuries
+
+- Person able to use the injured body part: Degree of discomfort determines whether and how to evacuate
+- Person unable to use the injured body part, or first-time dislocation: Evacuate slowly (GO SLOW) — evacuation may not be required for outer finger or toe joint injuries
+- Evacuate rapidly (GO FAST) for any of the following:
+  - Angulated fracture
+  - Open fracture
+  - Fracture of the pelvis, hip, or thigh
+  - More than one long-bone fracture
+  - Injuries causing decreased CSM beyond the injury site

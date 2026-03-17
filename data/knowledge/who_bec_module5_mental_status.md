@@ -1,606 +1,357 @@
-# WHO BEC Module 5: Approach to Altered Mental Status
+---
+tags: [altered_mental_status, AMS, seizure, stroke, hypoglycemia, meningitis, GCS, AVPU, coma, encephalopathy, intracranial_pressure, confusion, unresponsive, eclampsia, opioid_overdose, DKA, rabies, pesticide_poisoning, paediatric_AMS]
+source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
+standard: "WHO / ICRC 2018"
+category: "Neurological Emergency — AMS, Seizure, Stroke, Hypoglycemia, Meningitis"
+---
 
-**Source:** WHO Basic Emergency Care (BEC) — Participant Workbook
-**Standard:** WHO / ICRC 2018
-**Category:** Neurological Emergency — AMS, Seizure, Stroke, Hypoglycemia, Meningitis
-
-[DOMAIN_TAGS: altered_mental_status, AMS, seizure, stroke, hypoglycemia, meningitis, GCS, AVPU, coma, encephalopathy, intracranial_pressure, confusion, unresponsive]
+# Approach to Altered Mental Status (AMS) — WHO BEC Reference
 
 ---
 
-## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+## Overview of Altered Mental Status (AMS)
 
-> **During active convulsions:**
-> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
-> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
-> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+AMS ranges from sudden or gradual behavioural changes to disorientation, confusion, and coma. It may result from:
+- Conditions that affect the brain indirectly: hypoxia, hypoglycaemia, or shock causing reduced perfusion
+- Problems within the brain itself: infection, inflammation, or injury
+- Delirium — a rapidly changing state of confusion with agitation, loss of focus, and inability to interact appropriately — always requires full assessment
 
+Chronic psychiatric problems and dementia can cause AMS, but all life-threatening causes must be considered first.
 
-### Module 5: Approach to altered mental status
-Delirium:
-Dementia:
-### Diabetic ketoacidosis (DKA):
-Eclampsia:
-Envenomation:
-### Human Immunodeficiency Virus (HIV):
-Hypoglycaemia:
-Hypoxia:
-Ingestion:
-Kangaroo care:
-### Large-bore IV:
-Level of consciousness:
-Orientation:
-Psychosis:
-Rabies:
-Seizure:
-Stroke:
-Overview
-Altered mental status (AMS) is a term used for a range of presentations, from sudden or gradual
-changes in behaviour to disorientation, confusion and coma. Changes in mental status and/or
-level of consciousness may be due to conditions that affect the brain (such as lack of oxygen or
-glucose; or shock causing lack of perfusion) or problems with the brain itself (such as infection,
-inflammation or injury). While chronic psychiatric problems and dementia can cause changes
-in mental status, altered mental status is often an indication of severe disease, and other life-
-threatening causes must always be considered. The presence of delirium – a rapidly changing
-state of confusion with agitation, loss of focus and inability to interact appropriately – always
-requires a full assessment. Always ask family/friends about baseline mental status when possible.
-The goal of INITIAL ASSESSMENT is to identify rapidly reversible causes of altered
-mental status, and to recognize dangerous conditions requiring transfer.
-The goal of ACUTE MANAGEMENT is to ensure that blood, oxygen and glucose reach
-the brain; and to protect the brain from additional injury.
-This module will guide you through:
- ABCDE key elements
- ASK: key history findings (SAMPLE history)
- CHECK: secondary exam findings
- Possible causes
- DO: Management
- Special considerations in children
- Disposition considerations
-REMEMBER...
- ALWAYS START WITH THE ABCDE APPROACH, intervening as needed.
- Then do a SAMPLE history.
- Then do a secondary exam.
+Always ask family or friends about the patient's baseline mental status.
 
-### Module 5: Approach to altered mental status
-## Abcde: Key Elements For Altered Mental Status
-For the person with altered mental status, the following are key elements that should be
-considered in the ABCDE approach.
-## Airway
-## A
-People with altered mental status may not be able to protect their airways
-and may be at risk of choking on vomit.
-## B
-Hypoxia (lack of oxygen) can be a cause of altered mental status. Search
-for any signs of difficulty breathing, or cyanosis (blue colouring of the skin).
-Abnormal breathing can reflect diabetic ketoacidosis or poisoning.
-## Circulation
-## C
-Lack of perfusion to the brain can cause altered mental status. Look for
-and manage signs of shock (low blood pressure, elevated heart rate,
-delayed capillary refill).
-## Disability
-## D
-Check AVPU or GCS (in trauma). Look for abnormal glucose (hypoglycaemia
-or hyperglycaemia can cause altered mental status). Very small pupils
-suggest opioid overdose or poisoning (consider pesticides). Very dilated
-pupils suggest stimulant drug use. Unequal pupils suggest an increased pressure on the
-brain. If the patient can follow commands, test for strength and sensation in face, arms and
-legs. Weakness or loss of sensation on one side suggests a mass, bleeding, or blocked blood
-vessels in the brain (stroke), though hypoglycemia can also present this way. Altered mental
-status with general muscle weakness may suggest salt (electrolyte) imbalance in the blood.
-Look for abnormal repetitive movements or shaking on one or both sides of the body (seizure/
-convulsion) – this may be due to a tumour, bleeding, brain infection, hypoglycaemia, or salt
-(electrolyte) imbalance.
-## Exposure
-## E
-Remember that patients with altered mental status may not report their
-history accurately. Examine the entire body for infections, rashes, and
-any evidence of trauma, bites or stings. Needle marks on the arms may
-suggest drugs as a cause.
-## Ask: Key History Findings For Patients With Altered
-## Mental Status
-Use the SAMPLE approach to obtain a history from the patient and/or family. It is important
-to obtain a history from bystanders, friends or family as it may be difficult to obtain accurate
-history from a confused patient. For example, a person with hypoglycaemia may be too
-confused to relate a history of diabetes.
-If the history identifies an ABCDE condition, STOP AND RETURN IMMEDIATELY TO ABCDE
-to manage it.
-## S: Signs And Symptoms
- How does the current condition compare to baseline mental status?
-Always ask family/friends about baseline mental status when possible.
- Is there difficulty breathing?
-Altered mental status associated with difficulty in breathing may indicate lack of oxygen to
-the brain.
- Is there headache?
-Headache with altered mental status can indicate infection, tumour or bleeding.
- Is there vomiting/diarrhoea?
-Vomiting without diarrhoea can be a sign of increased pressure in the brain. Any source of
-dehydration, including vomiting and diarrhoea, may cause altered mental status from poor
-perfusion. Vomiting and diarrhoea can also cause hypoglycaemia leading to altered mental
-status.
- Has there been any dizziness or fainting?
-These may be signs of poor perfusion (lack of oxygenated blood) to the brain.
- When did the symptoms start? Do they come and go? How long do they last? Have they
-changed over time?
-Rapid onset of altered mental status may suggest infection, inflamation, bleeding or drugs/
-toxic exposures. A more gradual onset (over weeks or months) may indicate a space-
-occupying lesion in the brain, such as a tumour or slow bleeding in the brain. Altered mental
-status that comes and goes with normal intervals between episodes may suggest other
-causes, such as seizures/convulsions or psychiatric disease.
- Has there been any recent fever?
-Any person with altered mental status and fever may have an infection. Brain infections
-often present with altered mental status and fever. In small children and the elderly, any
-serious infection, such as urine, lung, or blood infection can cause altered mental status.
-Also consider prolonged outdoor exposure, poisonings, medications and drugs as these
-may present with fever as well. Very high fever itself from any source may cause altered
-mental status.
- Is there any weakness, clumsiness or difficulty walking?
-Change in mental status with weakness or sensory loss in one area of the body, or problems
-with walking and balance, suggest that the altered mental status comes from a cause in the
-brain itself, such as a stroke or tumour.
- Is there neck pain or stiffness?
-Fluid that circulates around the brain also circulates around the spinal cord, meaning any
-bleeding, inflammation or infection in the brain (meningitis, encephalitis) can also cause
-neck pain and stiffness.
+**Initial assessment goal:** Identify rapidly reversible causes; recognise dangerous conditions requiring transfer.
 
-### Module 5: Approach to altered mental status
- Is there a recent history of trauma or falls?
-Bleeding in or around the brain can cause altered mental status some days after an injury.
-Remember that chronic alcohol drinkers and the elderly are more prone to brain bleeding
-and may not remember falls. Always consider slow bleeding around the brain as a cause,
-even several days after a fall, and consider unwitnessed trauma in a patient who is found
-altered with no known cause.
- Has there been any recent depression or changes in behaviour?
-Drug and alcohol use or psychiatric problems can present as altered mental status. Always
-consider the possibility of a suicide attempt by poisoning.
- Does anyone else from the same family or location have symptoms?
-Gaseous poisoning, like carbon monoxide poisoning, can cause altered mental status in
-multiple people. Carbon monoxide poisoning is usually seen in cold climates when people
-use indoor heating.
-## A: Allergies
- Any allergies or recent exposure to a known allergen?
-Severe allergic reactions (anaphylaxis) may present with altered mental status due to low
-blood oxygen levels or poor blood circulation to the brain as a result of shock.
-## M: Medications
- Currently taking any medications?
-Many common medications can cause altered mental status as a side effect, including
-those for seizures/convulsions, pain and sleeping. Ask about new medications and changed
-doses, and consider medication interactions. A medication list should be collected and can
-provide clues for underlying disease (such as convulsions, liver disease, diabetes) if the
-person cannot communicate. Opioid medications (such as morphine, pethidine and heroin)
-can cause altered mental status.
-## P: Past Medical History
- History of diabetes?
-In any patient with diabetes and altered mental status, suspect diabetic crisis, or low blood
-sugar caused by medications. Recent increase in urine output, increased thirst, and fast or
-deep breathing suggest diabetic crisis (diabetic ketoacidosis).
- History of heart disease?
-Heart attack can cause decreased blood flow and oxygen to the brain leading to confusion.
-Those with heart disease are also at an increased risk of stroke.
- History of stroke?
-Altered mental status in a patient with a history of stroke may suggest an additional stroke
-or bleeding in the brain. Be sure to ask people who know the patient about his or her usual
-mental and neurological status. Symptoms of old stroke may return with severe illness of
-any kind.
- History of high blood pressure?
-High blood pressure increases the risk for bleeding in and around the brain (such as stroke).
- History of seizure/convulsion?
-Altered mental status in a patient with a history of seizures/convulsions may suggest that
-the patient is having or recovering from a convulsion. If there is a history of epilepsy (primary
-seizure/convulsion disorder), ask about regular medication and any recent dose changes
-or missed doses. With a witnessed convulsion, ask about fall or head trauma. Always ask
-if the convulsion was the same or different compared to prior. Remember that recovery
-of normal mental status after convulsions usually takes only a half hour to several hours
-at most, though patients may feel tired for longer. Longer altered mental status suggests
-another cause.
- History of HIV infection?
-Altered mental status in a person with HIV may suggest infection in or around the brain
-(meningitis, encephalitis).
- History of tuberculosis?
-Tuberculosis can infect the brain and cause altered mental status.
- History of liver or kidney failure?
-Liver or kidney failure can cause problems with the clearing of toxins and waste from the
-blood, which can lead to altered mental status.
- History of heavy alcohol use?
-Alcohol intoxication and alcohol withdrawal can present with altered mental status. People
-with a history of heavy alcohol use also have a high risk for head injury (and may not
-remember falls) and hypoglycaemia, both of which can cause altered mental status.
- Use of drugs of abuse?
-Several drugs of abuse cause altered mental status, including stimulants, sedatives and
-opioids.
- History of pregnancy?
-High blood pressure during pregnancy can lead to eclampsia (or seizures/convulsions and
-high blood pressure) during pregnancy.
-## L: Last Oral Intake
- When did the person last eat or drink?
-Low blood glucose levels and dehydration can cause altered mental status.
+**Acute management goal:** Ensure blood, oxygen, and glucose reach the brain; protect the brain from additional injury.
 
-### Module 5: Approach to altered mental status
-## E: Events Surrounding Illness
- Recent trauma?
-Both head injury and poor perfusion resulting from blood loss can cause altered mental status.
- Recent travel to areas where certain types of infections might be more common?
-Specific infections that can cause altered mental status may be more common in certain
-areas. Malaria is a key consideration in many areas.
- Recent exposures: contact with a sick person, recent bites, chemical exposures, hot or
-cold environments etc.?
-Sick contacts may suggest infectious cause. Chemical exposures (such as pesticides) or bites
-may suggest intoxication or envenomation. Altered mental status can be caused by both
-very low and very high body temperatures.
- Recent alcohol or drug use?
-Both alcohol intoxication and alcohol withdrawal can cause altered mental status.
-Methamphetamines and cocaine may cause severe agitation, while heroin (and other
-opioids) may cause lethargy and coma. See also “Past medical history” section above.
+Always perform ABCDE first, then SAMPLE history, then secondary examination.
 
-## Check: Secondary Examination Findings In Altered
-## Mental Status
-A person with altered mental status may be unable to answer questions, and clues to the
-cause may only be found during the physical examination. Always assess ABCDE first. The
-initial ABCDE approach identifies and manages life-threatening conditions. The secondary
-examination looks for changes in the patient’s condition or less obvious causes that may have
-been missed during ABCDE. If the secondary examination identifies an ABCDE condition, STOP
-AND RETURN IMMEDIATELY TO ABCDE to manage it.
- Check for safety:
-Agitated and violent behaviour is a common presentation. It is very important to identify
-and treat the underlying cause if possible, while prioritizing the safety of the patient and
-providers. Keep calm and work as a team. Ensure that the space is safe from possible
-weapons and make sure that the patient is not between you and the door. Avoid making
-the patient feel threatened. Do not sit too close and speak with a calm, soft and sympathetic
-voice. Continually explain what is happening. Many aggressive patients will cooperate when
-faced with a team, so call for help and approach a patient as a group if necessary. Check vital
-signs, including temperature and glucose, and treat abnormalities. Call for help early and
-arrange handover/transfer to an advanced provider.
- Check and monitor level of consciousness with the AVPU scale:
-– A: Alert
-– V: Responds to Voice
-– P: Responds to Pain
-– U: Unresponsive
-AVPU tests the person’s ability to respond to stimuli. A person who is not intoxicated and
-who has no illness or injury affecting the brain will usually be alert without being prompted.
-Patients who only respond when prompted by voice or pain require further assessment of
-the neurological system.
- In trauma, check Glasgow Coma Scale:
-Check and monitor the Glasgow Coma Scale.
- Check the blood glucose level:
-Hypoglycaemia can cause altered mental status. Diabetic ketoacidosis can present with
-hyperglycaemia and altered mental status.
- Check the pupils:
-Very small pupils and slow breathing suggests opioid overdose. Very large (dilated) pupils
-suggest stimulant drug use. Unequal pupils suggest increased pressure on the brain.
- Check for orientation:
-If the patient is alert and responds to voice, ask simple questions (for example: What is your
-name? Where are you? What time is it? What day of the week is it?).
- Check for trauma:
-Any patient with altered mental status and history or evidence of trauma should be
-considered to have a possible head injury – even if the trauma occurred several days before.
-Bruising around the eyes, behind the ears, or leaking of clear fluid from the nose or ears
-suggests head injury with skull fracture.
- Check temperature:
-Fever should raise concerns about an infectious cause, and fever with stiff neck suggests
-an infection in or around the brain. Poisonings, medication overdoses, alcohol withdrawal
+---
 
-### Module 5: Approach to altered mental status
-and changes in body hormones can also present with fever. Hypothermia may indicate
-infection, low body hormone levels (e.g., thyroid) or exposure to wet or cold environments.
- Check for stiff neck (Remember, if you suspect trauma, do not move the neck):
-Stiff neck is suggestive of infection (meningitis) or bleeding around the brain. If you suspect
-infection, anyone who comes in contact with the patient should wear a mask.
- Check strength and sensation:
-If the patient can follow commands, test for strength and sensation in face, arms and legs.
-Weakness or loss of sensation on one side suggests a mass, bleeding or blocked blood
-vessels in the brain (stroke), though hypoglycaemia can also present this way. Altered
-mental status with general muscle weakness may suggest salt (electrolyte) imbalance in
-the blood.
- Check for signs of dehydration:
-Dehydration can cause altered mental status. Check for dry mouth and abnormal skin pinch.
-Dehydration may also suggest diabetic ketoacidosis.
- Check the abdomen:
-Feel if the liver is enlarged or tender. A palpable or tender liver suggests liver disease.
- Check the skin:
-Cool, pale, and moist skin suggests shock or hypoglycaemia. Yellow skin (jaundice) suggests
-liver disease. Bruising suggests trauma. Rashes can indicate systemic infection. Check for
-bites and stings.
- Monitor for changes in mental status:
-People who are initially confused and rapidly return to normal without treatment may have
-had a seizure/convulsion or head trauma. People with altered mental status require close
-monitoring to make sure they do not worsen again. (This can happen in patients who have
-low blood sugar or head trauma).
+## ABCDE Key Elements in Altered Mental Status
 
-## Possible Causes Of Altered Mental Status
-## Rapidly Reversible Causes
-## Condition Signs And Symptoms
-### Hypoglycaemia • Sweating (diaphoresis)
-• Seizures/convulsions
-• Blood glucose <3.5 mmol/L
-• History of diabetes, malaria, or severe illness, especially in children
-• Mental status improves quickly with glucose
-### Severe dehydration • Signs of poor perfusion
-• Abnormal skin pinch
-• Decreased ability to drink fluids, or fluid loss
-• Dry mucous membranes
-Heat stroke • Prolonged exposure to heat and sun
-• High body temperature, very warm skin
-• May or may not be sweating (diaphoretic)
-### Hypoxia • Shortness of breath
-• Low blood oxygen levels
-• Cyanosis
-## Infection
-## Condition Signs And Symptoms
-### Cerebral malaria • Fever
-• Rapid malaria test or smear positive
-• In or from an area with malaria
-### Inflammation/infection • Fever
-around the brain • Neck stiffness
-(meningitis, encephalitis,
-• Rash
-brain abscess, bleeding)
-• Eye pain with looking at light/sensitivity to light
-• Headache
-• Known infectious epidemic or exposure
-• History of HIV or TB infection
-### Severe infection • Fever
-• Tachycardia
-• Tachypnoea
-• May have hypotension
-• Signs of infection: visible infection in the skin, cough and crackles
-in one area of the lungs (often with tachypnoea), burning with
-urination or urine that is cloudy (not clear), or any focal pain in
-association with fever
-## Condition Signs And Symptoms
-### Rabies • Agitation
-• Fear of drinking (hydrophobia)
-• Drooling
-• Weakness
-• History of animal bite
+### A — Airway in AMS
 
-### Module 5: Approach to altered mental status
-## Metabolic
-## Condition Signs And Symptoms
-### Diabetic ketoacidosis • History of diabetes
-(DKA) • Rapid or deep breathing
-• Frequent urination
-• Sweet smelling breath
-• High glucose in blood or urine
-• Dehydration
-## Toxic
-## Condition Signs And Symptoms
-Alcohol or drug • Known alcohol or drug use
-intoxication or withdrawal • Injection marks, drugs found on patients
-• Alcohol – breath smells of alcohol, reddened face
-– Acutely intoxicated (drunk)
-– Withdrawal (convulsions, confusion, tachycardia)
-– Chronic use (balance problems, confusion)
-• Opioids:
-– Acutely intoxicated (lethargy, very small pupils and slow
-breathing)
-– Withdrawal (agitation, sweating, diarrhoea, vomiting)
-• Other drugs may cause large pupils, agitation, sweating, fever
-### Pesticide poisoning • History of exposure
-• Very small pupils
-• Diarrhoea
-• Vomiting
-• Diaphoresis
-### Snake bite • Snake bite history
-• Bite marks in a setting with venomous snakes
-• Oedema
-• Blistering of the skin
-• Bruising
-• Hypotension
-• Paralysis
-• Seizures
-• Bleeding from wounds
-Medication reaction or • New medications or recent change in dose
-dosing issue
-Gaseous poisoning • History consistent with possible exposure
-• Multiple people with symptoms
-• Headache
-## Other Causes
-## Condition Signs And Symptoms
-### Seizures/convulsions • Known history of seizures/convulsions
-• Bitten tongue
-• Urinated on self
-• Gradual improvement over minutes or hours
-• If pregnant, consider eclampsia
-### Increased pressure on the • Headache
-brain (trauma, tumour, • Seizures/convulsions
-bleeding or brain swelling)
-• Nausea, vomiting
-• Unequal pupils
-• Weakness on one side of the body or speech problems
-Liver disease • History of alcohol abuse or liver disease
-• Enlarged abdomen with thin arms, yellow coloring to the skin and
-eyes (jaundice), or hypoglycaemia
-### Kidney disease • High blood pressure
-• Oedema or swelling in the legs
-• Decreased or no urine if severe
-Head trauma • Visual changes, loss of memory, vomiting, headache
-• History of recent trauma
-• Scalp lacerations and/or skull deformity
-• Bruising to head (particularly around eyes or behind ears)
-• Blood or clear fluid coming from nose or ears
-• Unequal pupils or weakness on one side of the body
-• Seizures/convulsions
-## Additional Considerations In Children
-## Condition Signs And Symptoms
-Ingestions of chemicals or • Common in younger children
-toxins • History of medications or substances found around child
+- Patients with AMS may not be able to protect their airways and are at risk of aspiration of vomit
 
-### Module 5: Approach to altered mental status
+### B — Breathing in AMS
 
-## History And Physical Findings Likely Cause
-A 15-year-old girl presents with altered
-mental status, fever and:
-• neck stiffness
-• eye pain when looking at light
-• headache
-A 45-year-old man presents with altered
-mental status, and deep, rapid breathing
-and:
-• frequent urination
-• sweet-smelling breath
-• high glucose in blood or urine
-• dehydration
-## Do: Management
-## First Perform Abcde Assessment And Intervene For Life-Threatening
-CONDITIONS.
-NOTE: If the airway is clear, and there is no evidence of trauma, place the patient in the
-recovery position to avoid getting fluid or vomit in the lungs.
-## Condition Management Considerations
-Hypoxia Give oxygen. Look for underlying cause.
-### Hypoglycaemia Treat with glucose.
-Hyperglycaemia If concern for diabetic ketoacidosis, treat with IV fluids.
-A person with diabetic ketoacidosis is extremely ill and requires
-rapid transfer to a unit where IV infusion and close monitoring are
-available.
-Fever (hyperthermia) with Start antibiotics. Severe infections may require treatment by an
-altered mental status advanced provider. Include malaria testing and treatment in
-endemic areas. Also consider poisoning and envenomation. Treat
-high fever with paracetamol. For severe temperature
-elevation, spray with cool water mist, fan and give IV fluids. Avoid
-shivering.
-Hypothermia Move to warm environment, remove wet clothing, warm with
-blankets and warm IV fluid.
-## Condition Management Considerations
-Bleeding or other cause of If no trauma, raise the head of the bed to 30 degrees. If trauma is
-increased pressure on the suspected ensure spinal immobilization.
-brain
-Opioid overdose Administer naloxone. Naloxone effects last
-approximately 1 hour. Most opioids last longer and patients
-may need repeat naloxone dosing. Consider this when planning
-ongoing care and re-assess the person frequently.
-Active seizure/convulsion Treat with benzodiazepine and monitor the person closely to check
-for slow breathing. Check glucose or give glucose if you are unable
-to check. Place patient in recovery position if no trauma suspected. If the patient continues to seize or does not wake
-up between seizures, arrange for rapid transfer to an advanced
-provider and monitor the airway.
-Pregnant with active This could be eclampsia. Arrange rapid handover/transfer to a
-seizure/convulsion specialist unit and give magnesium sulphate. Monitor the patient
-closely for signs of toxicity. If any of these occur, do not
-give additional doses of magnesium.
-Alcohol withdrawal Always check glucose and give as needed. Treat withdrawal with a
-benzodiazepine. Monitor the airway closely.
-Poisoning or envenomation Try to identify the poison and refer to an advanced provider for
-specific treatments. If pesticide poisoning, make sure the patient
-has been decontaminated, and monitor the airway closely as the
-secretions can cause obstruction. Snake bites should be treated as
-described in the “Wound Management” section [see SKILLS] and
-referred as soon as possible for antivenom.
-Rabies There is no specific treatment for rabies. Symptomatic rabies is
-almost always fatal. See TRAUMA for management of suspected
-exposure from animal bite.
-Violent or very agitated Protect the patient from harming self or others.
-patient
-Ensure that staff have a clear exit path (do not place the patient
-between staff and the door).
-Remove potential weapons and unsafe objects.
-Call for help from colleagues, family members, and security if
-needed.
-Speak in a calm, soft, non-threatening tone. Explain what is
-happening at each stage of care. Do not confront or judge.
-Consider other causes: check glucose and vital signs including
-temperature and oxygen saturation. Treat abnormalities. Arrange
-for safe handover/transport to advanced provider.
-Trauma Assess GCS, immobilize the spine and evaluate for signs of
-increased pressure on the brain.
+- Hypoxia can cause AMS — look for signs of DIB or cyanosis
+- Abnormal breathing pattern can reflect diabetic ketoacidosis or poisoning
 
-### Module 5: Approach to altered mental status
-## Special Considerations
-## Management Of Active Convulsions
-• Check ABCDE.
-• Maintain the airway – do not put anything in the mouth.
-• Give oxygen if concern for hypoxia or prolonged seizure/convulsion.
-• Place patient on his/her side, if possible.
-• Protect the patient from harm or further injury.
-• Check glucose or give glucose (if unable to check).
-• Give a benzodiazepine.
-• If pregnant and seizing, give magnesium sulphate.
-• If no response, give another dose of benzodiazepine (repeat three times if needed) and monitor
-for low blood pressure and slow breathing.
-• If the patient does not wake between seizure/convulsions, consider this a life-threatening
-condition. Arrange for rapid handover/transfer to an advanced provider.
-• If the seizures/convulsions stop, place patient in recovery position and monitor closely.
+### C — Circulation in AMS
 
-## Condition Management
-A 3-year-old child presents with
-altered mental status and a blood
-1. ____________________________________________
-glucose of 2 mmol/L.
-A 25-year-old woman is brought
-in with jerky movements and
-1. ____________________________________________
-you suspect an active seizure/
-convulsion.
-2. ____________________________________________
-3. ____________________________________________
-A 50-year-old man is brought in
-following a fall from a roof. He has
-1. ____________________________________________
-a headache and altered mental
-status.
-2. ____________________________________________
-## Special Considerations In Children
-Children with altered mental status may have seemingly mild signs such as sleeping
-more than usual or being less interactive. Manage ABCDE first, and then look for and
-manage causes of altered mental status. Remember that very ill or injured children may
-have normal vital signs until they rapidly deteriorate.
-Hypoglycaemia occurs frequently in severely ill children and is a common cause of
-altered mental status in children. Check blood glucose (or give glucose if you are unable
-to check) in any child with altered mental status.
-Hypoxia can occur as a result of many conditions, including respiratory infections and
-shock; birth hypoxia is a consideration in newborns.
-Hyperthermia with altered mental status suggests infection, but can also be seen with
-excessive heat exposure, exercise, seizure/convulsion, hormonal imbalance and some
-medications and poisons.
-Hypothermia with altered mental status can also suggest infection, particularly in
-infants, but can be due to drug intoxication, exposure to cold or hormonal imbalance.
-Young infants are more affected by variation in temperature. Keep the child warm by
-using blankets and a hat to prevent heat loss and using skin-to-skin contact (also called
-“kangaroo care”) with a family member 24-hours per day while ill.
-Seizures/convulsions can be due to fever alone but (as in adults) can also suggest
-infection, hypoglycaemia or hyponatremia (low sodium). Do not delay antibiotics in
-patients with suspected serious bacterial infection. Always consider trauma.
-Infection in or around the brain can cause altered mental status. Look for a bulging or
+- Reduced perfusion to the brain causes AMS — look for and manage signs of shock (low BP, elevated HR, delayed capillary refill)
 
-swollen fontanelle (in a child under 1 year) and/or rash to the legs and lower abdomen,
-which can indicate infection or increased pressure on the brain. Do not delay antibiotics
-in children with suspected serious bacterial infection.
-### Flat fontanelle Bulging fontanelle
-Poor perfusion can cause altered mental status. Children can become dehydrated very
-quickly. Check for signs of dehydration: abnormal skin pinch, dry mucous membranes
-### Flat fontanelle Bulging fontanelle
-(the inner, pink part of the mouth), irritability, sunken or depressed fontanelle (in a child
-under 1 year), slow capillary refill (greater than 3 seconds), cold extremities, tachycardia,
-and hypotension. Give IV fluids and re-assess frequently.
+### D — Disability in AMS
 
-### Module 5: Approach to altered mental status
-Malaria may be more severe in children than adults. Children with severe malaria may
-present with severe anaemia, seizure/convulsions, coma, and hypoglycaemia.
-Ingestion of chemicals or drugs is common in children. Try to identify the poison (talk
-to parents) and try to get a photograph of the package. Consult advanced provider
-immediately for management.
-Consider unwitnessed ingestions in children aged under 6 years
-(especially aged 1–3):
-• Ask about signs and symptoms depending on the substance ingested.
-• Take a thorough history from the family.
-• Examine the bottles of the ingested substance or medicine.
-• Determine what time it took place.
-• Ensure that no other children were involved.
-• Check for signs of burns in or around the mouth
-• Check for stridor (high-pitched noises) suggesting ingestion of chemicals that burned
-or damaged the airway and are causing swelling.
-• Children with ingestion of drugs or chemicals need to be monitored closely and may
-require handover/transfer to a referral unit for further management.
+- Check AVPU or GCS (in trauma)
+- Check blood glucose — both hypo- and hyperglycaemia can cause AMS
+- Very small pupils = opioid overdose or poisoning (pesticides)
+- Very dilated pupils = stimulant drug use
+- Unequal pupils = increased intracranial pressure
+- Patient able to follow commands: Test strength and sensation in face, arms, and legs — unilateral weakness or sensory loss suggests stroke, mass, or intracranial bleed (note: hypoglycaemia can also cause unilateral deficits)
+- General muscle weakness with AMS = possible electrolyte imbalance
+- Abnormal repetitive movements or shaking (seizure) = possible tumour, bleed, brain infection, hypoglycaemia, or electrolyte imbalance
 
-## Disposition Considerations
-Disposition depends on the cause of altered mental status. Causes of altered mental status
-that cannot be rapidly corrected or which might return after medications wear off need
-management in a hospital setting.
- Any patient with altered mental status must be closely monitored for airway problems.
-Consider handover/transfer to a provider with advanced airway capabilities.
- If the underlying cause of the low blood glucose is not identified and treated, patients with
-hypoglycaemia who improved with glucose may develop low blood glucose again and may
-require repeat treatments. These patients need to be monitored closely.
- Naloxone (opioid reversal agent) effects only last approximately 1 hour. Many opioid
-medications are longer-acting and may need more doses of naloxone to reverse the opioid
-effects. Any patient treated with naloxone must be monitored closely. Make sure the new
-provider knows the patient has been given naloxone and may need additional doses.
+### E — Exposure in AMS
+
+- Patients with AMS may not report history accurately — examine entire body
+- Look for infections, rashes, and signs of trauma, bites, or stings
+- Needle marks on the arms = possible drug use as cause
+
+---
+
+## SAMPLE History for Altered Mental Status
+
+Obtain history from bystanders, family, or friends — a confused patient may be unable to provide accurate history (e.g., a hypoglycaemic patient may not be able to report diabetes).
+
+### S — Signs and Symptoms
+
+- **Comparison to baseline:** Always ask family about the patient's normal mental status
+- **DIB with AMS:** Suggest hypoxia as cause
+- **Headache with AMS:** Suggest infection, tumour, or bleeding
+- **Vomiting without diarrhoea:** Suspect raised intracranial pressure; any cause of dehydration can produce AMS through poor perfusion; vomiting and diarrhoea together can cause hypoglycaemia
+- **Dizziness or fainting:** Suggest poor perfusion to the brain
+- **Rapid-onset AMS:** Suspect infection, inflammation, bleeding, or drugs/toxic exposure
+- **Gradual-onset AMS (weeks to months):** Suspect space-occupying lesion (tumour or slow bleed)
+- **Episodic AMS with normal intervals:** Suspect seizures or psychiatric disease
+- **Fever with AMS:** Suspect infection; brain infections often present with fever and AMS; in children and the elderly, urinary, lung, or blood infection can cause AMS; also consider prolonged heat exposure, poisonings, or medications; very high fever itself can cause AMS
+- **Weakness, clumsiness, or difficulty walking with AMS:** Suggest stroke, tumour, or intrinsic brain cause
+- **Neck pain or stiffness:** Suggest meningitis, encephalitis, or subarachnoid haemorrhage — fluid circulates around both brain and spinal cord
+- **Recent trauma or falls:** Intracranial bleeding can cause AMS days after injury; chronic alcohol users and the elderly are prone to falls they may not remember — always suspect slow brain bleed even days after a fall
+- **Depression or behavioural changes:** Suspect alcohol or drug use or psychiatric cause; always consider suicide attempt by poisoning
+- **Multiple people with same symptoms:** Suspect gaseous poisoning (e.g., carbon monoxide — common in cold climates with indoor heating)
+
+### A — Allergies
+
+- Known allergies or recent allergen exposure: Anaphylaxis can cause AMS through hypoxia or shock
+
+### M — Medications
+
+- Many medications cause AMS as a side effect: seizure, pain, and sleep medications
+- New medications or dose changes: Consider allergic reaction or unexpected side effects
+- Opioids (morphine, pethidine, heroin): Cause AMS
+- Medication list provides clues to underlying disease if patient cannot communicate
+
+### P — Past Medical History
+
+- **Diabetes:** Suspect diabetic crisis or hypoglycaemia from medications; recent polyuria, polydipsia, and fast or deep breathing suggest DKA
+- **Heart disease:** Heart attack can reduce cerebral blood flow and oxygen; increased stroke risk
+- **Prior stroke:** AMS may indicate new stroke or bleed; note — old stroke symptoms can return with any severe illness
+- **Hypertension:** Increases risk of intracranial bleed and stroke
+- **Seizure history:** AMS may represent ongoing or post-ictal seizure state; ask about regular medications, missed doses, recent dose changes; recovery from seizure usually takes 30 minutes to several hours; prolonged AMS suggests another cause
+- **HIV:** Suspect opportunistic brain infection (meningitis, encephalitis)
+- **Tuberculosis:** TB can infect the brain and cause AMS
+- **Liver or kidney failure:** Impaired clearance of toxins and waste can cause AMS
+- **Heavy alcohol use:** Alcohol intoxication, alcohol withdrawal, head injury risk (may not recall falls), and hypoglycaemia are all causes of AMS
+- **Drug use:** Stimulants, sedatives, and opioids all cause AMS
+- **Pregnancy:** High blood pressure in pregnancy can lead to eclampsia (seizures with hypertension)
+
+### L — Last Oral Intake
+
+- Low blood glucose and dehydration both cause AMS
+
+### E — Events Surrounding Illness
+
+- **Recent trauma:** Head injury and blood-loss-related poor perfusion both cause AMS
+- **Recent travel:** Malaria is a key consideration in endemic areas
+- **Sick contacts, bites, chemical exposures, extreme temperature exposures:** Suggest infectious, envenomation, intoxication, or thermal causes
+- **Alcohol or drug use:** Both alcohol intoxication and withdrawal cause AMS; methamphetamines and cocaine cause severe agitation; opioids cause lethargy and coma
+
+---
+
+## Secondary Examination for Altered Mental Status
+
+### Safety Assessment for Agitated or Violent Patients
+
+- Keep calm and work as a team
+- Ensure the space is clear of potential weapons
+- Do not place the patient between you and the door — always maintain a clear exit
+- Avoid making the patient feel threatened — do not sit too close
+- Speak in a calm, soft, sympathetic voice; continuously explain what is happening
+- Approach as a group if needed — many aggressive patients cooperate when faced with a team
+- Check vital signs including temperature and glucose; treat all abnormalities
+- Call for help early and arrange transfer to an advanced provider
+
+### Level of Consciousness — AVPU
+
+- **A — Alert:** Appropriate without prompting
+- **V — Voice:** Responds only to verbal stimuli
+- **P — Pain:** Responds only to painful stimuli
+- **U — Unresponsive:** No response to any stimulus
+
+Patients responding only to voice or pain require full neurological assessment.
+
+In trauma: Use the Glasgow Coma Scale (GCS).
+
+### Blood Glucose
+
+- Hypoglycaemia: Common and rapidly reversible cause of AMS
+- DKA: Hyperglycaemia with AMS — confirm glucose level
+
+### Pupils
+
+- Very small pupils + slow breathing = opioid overdose
+- Very dilated pupils = stimulant drug use
+- Unequal pupils = raised intracranial pressure
+
+### Orientation
+
+- Alert patient: Ask name, location, time, day of week
+
+### Trauma Assessment
+
+- Any AMS + history or signs of trauma = suspect head injury — even if trauma occurred several days ago
+- Periorbital bruising, retroauricular bruising, or clear fluid from nose or ears = skull fracture with head injury
+
+### Temperature
+
+- Fever = suspect infectious cause; fever + stiff neck = brain infection (meningitis)
+- Poisonings, medication overdoses, alcohol withdrawal, and hormonal changes can also cause fever
+- Hypothermia = suspect infection, hypothyroidism, or cold or wet environment exposure
+
+### Neck Stiffness
+
+- Stiff neck = suspect meningitis or subarachnoid haemorrhage
+- If infection is suspected: All contacts must wear a mask
+- If trauma is suspected: Do not move the neck — immobilise the spine
+
+### Strength and Sensation
+
+- Patient able to follow commands: Test face, arms, and legs
+- Unilateral weakness or loss of sensation = suspect stroke, intracranial mass, or bleed (also consider hypoglycaemia)
+- Generalised muscle weakness = suspect electrolyte imbalance
+
+### Dehydration Signs
+
+- Dry mouth and abnormal skin pinch = dehydration causing AMS or DKA
+
+### Abdomen
+
+- Enlarged or tender liver = suspect liver disease
+
+### Skin
+
+- Cool, pale, moist skin = shock or hypoglycaemia
+- Jaundice (yellow skin) = liver disease
+- Bruising = trauma
+- Rashes = systemic infection
+- Bites or stings = possible envenomation or allergic reaction
+
+### Mental Status Monitoring
+
+- Patient who rapidly returns to normal without treatment = may have had a seizure or head trauma; monitor closely for recurrence — low blood glucose and head trauma can cause repeated deterioration
+
+---
+
+## Causes of Altered Mental Status — Signs by Category
+
+### Rapidly Reversible Causes
+
+- **Hypoglycaemia:** Diaphoresis; seizures; blood glucose < 3.5 mmol/L; history of diabetes, malaria, or severe illness (especially in children); mental status improves quickly with glucose
+- **Severe dehydration:** Signs of poor perfusion; abnormal skin pinch; decreased fluid intake or excessive fluid loss; dry mucous membranes
+- **Heat stroke:** Prolonged heat and sun exposure; high body temperature; very warm skin; may or may not be diaphoretic
+- **Hypoxia:** Shortness of breath; low oxygen saturation; cyanosis
+
+### Infectious Causes
+
+- **Cerebral malaria:** Fever; positive rapid malaria test or smear; patient in or from a malaria-endemic area
+- **Brain infection (meningitis, encephalitis, abscess, or subarachnoid bleed):** Fever; neck stiffness; rash; photophobia; headache; known infectious exposure or epidemic; history of HIV or TB
+- **Severe systemic infection (sepsis):** Fever; tachycardia; tachypnoea; possible hypotension; visible infection source (skin, lung crackles, cloudy or foul urine, focal pain with fever)
+- **Rabies:** Agitation; fear of drinking (hydrophobia); drooling; weakness; history of animal bite
+
+### Metabolic Causes
+
+- **Diabetic ketoacidosis (DKA):** History of diabetes; deep or rapid breathing; frequent urination; sweet-smelling breath; high blood or urine glucose; dehydration
+
+### Toxic Causes
+
+- **Alcohol or drug intoxication or withdrawal:**
+  - Alcohol: Breath smells of alcohol, flushed face; acute intoxication (disoriented); withdrawal (seizures, confusion, tachycardia); chronic use (balance problems, confusion)
+  - Opioids: Intoxication (lethargy, very small pupils, slow breathing); withdrawal (agitation, sweating, diarrhoea, vomiting)
+  - Other drugs: Dilated pupils, agitation, sweating, fever
+- **Pesticide poisoning:** History of exposure; very small pupils; diarrhoea; vomiting; diaphoresis
+- **Snake bite:** Bite history or marks in a setting with venomous snakes; oedema; blistering; bruising; hypotension; paralysis; seizures; bleeding from wounds
+- **Medication reaction or dosing issue:** New medications or recent dose change
+- **Gaseous poisoning (e.g., carbon monoxide):** History consistent with exposure (cold climate, indoor heating); multiple people with symptoms simultaneously; headache
+
+### Other Causes
+
+- **Seizures / convulsions:** Known seizure history; bitten tongue; urinary incontinence; gradual improvement over minutes to hours; if pregnant, consider eclampsia
+- **Raised intracranial pressure (trauma, tumour, bleeding, or brain swelling):** Headache; seizures; nausea and vomiting; unequal pupils; one-sided weakness or speech problems
+- **Liver disease:** History of alcohol abuse or liver disease; enlarged abdomen with thin limbs; jaundice; hypoglycaemia
+- **Kidney disease:** Hypertension; bilateral leg oedema; decreased or absent urine output if severe
+- **Head trauma:** Visual changes, memory loss, vomiting, headache; recent trauma history; scalp laceration or skull deformity; periorbital or retroauricular bruising; blood or clear fluid from nose or ears; unequal pupils; one-sided weakness; seizures
+
+---
+
+## Management of Altered Mental Status — By Condition
+
+First: Perform ABCDE and intervene for all life-threatening conditions.
+
+If the airway is clear and no trauma is suspected: Place patient in the recovery position to prevent aspiration of vomit.
+
+### Hypoxia
+1. Give oxygen
+2. Identify and treat the underlying cause
+
+### Hypoglycaemia
+1. Give glucose immediately
+
+### Hyperglycaemia / DKA
+1. Give IV fluids
+2. Arrange urgent transfer to a unit with IV infusion and close monitoring — DKA is a critical emergency
+
+### Fever (Hyperthermia) with AMS
+1. Start antibiotics immediately if infection is suspected
+2. Test and treat for malaria in endemic areas
+3. Consider poisoning and envenomation as contributing causes
+4. Treat high fever with paracetamol
+5. Severe temperature elevation: Spray with cool water mist, fan continuously, and give IV fluids — avoid shivering
+
+### Hypothermia
+1. Move to a warm environment
+2. Remove wet clothing
+3. Warm with blankets and warm IV fluids
+
+### Raised Intracranial Pressure (Bleeding or Brain Swelling)
+- No trauma: Raise the head of bed to 30 degrees
+- Trauma suspected: Maintain spinal immobilisation — do not raise the head
+
+### Opioid Overdose
+1. Give naloxone
+2. Naloxone lasts approximately 1 hour — most opioids last longer; repeat doses will be needed; inform the receiving provider
+3. Reassess the patient frequently
+
+### Active Seizure / Convulsion
+1. Perform ABCDE
+2. Maintain the airway — do not put anything in the mouth
+3. Give oxygen if hypoxia or prolonged seizure is present
+4. Place on side if possible
+5. Protect the patient from harm and further injury
+6. Check glucose — give glucose if unable to check or if low
+7. Give a benzodiazepine
+8. Monitor closely for slow breathing (benzodiazepine side effect)
+9. No response: Give another benzodiazepine dose — repeat up to three times; monitor for hypotension and respiratory depression
+10. Patient does not wake between seizures: Life-threatening status epilepticus — arrange rapid transfer to an advanced provider; monitor airway continuously
+11. Seizures stop: Place in recovery position; monitor closely
+
+### Eclampsia (Pregnant Patient with Active Seizure)
+1. Give magnesium sulphate immediately
+2. Monitor closely for signs of magnesium toxicity — do not give additional doses if toxicity signs appear
+3. Arrange rapid transfer to a specialist obstetric unit
+
+### Alcohol Withdrawal
+1. Check glucose and give if needed
+2. Treat withdrawal with a benzodiazepine
+3. Monitor the airway closely
+
+### Poisoning or Envenomation
+1. Identify the poison if possible
+2. Refer to an advanced provider for specific treatments
+3. Pesticide poisoning: Confirm decontamination has been completed; monitor airway closely — secretions can cause obstruction
+4. Snake bite: Immobilise the limb; refer urgently for antivenom
+
+### Rabies
+- No specific treatment; symptomatic rabies is almost always fatal
+- Manage suspected animal bite exposure as per trauma guidelines
+
+### Violent or Agitated Patient
+1. Protect the patient from harming self or others
+2. Ensure staff have a clear exit path — do not place patient between staff and the door
+3. Remove potential weapons and unsafe objects from the environment
+4. Call for help from colleagues, family, and security as needed
+5. Speak in a calm, soft, non-threatening tone; explain each step of care; do not confront or judge
+6. Check glucose and vital signs including temperature and SpO₂; treat all abnormalities
+7. Arrange safe transfer to an advanced provider
+
+### Head Trauma with AMS
+1. Assess GCS
+2. Immobilise the spine
+3. Evaluate for signs of raised intracranial pressure
+
+---
+
+## Paediatric Considerations for Altered Mental Status
+
+- Children with AMS may show only subtle signs: sleeping more than usual or being less interactive — do not dismiss these
+- Very ill or injured children may have normal vital signs until they deteriorate rapidly — ABCDE assessment is critical
+- **Hypoglycaemia:** Frequently occurs in severely ill children; check blood glucose (or give glucose if unable to check) in every child with AMS
+- **Hypoxia:** Caused by many conditions including respiratory infections and shock; birth hypoxia is a consideration in newborns
+- **Hyperthermia with AMS:** Suspect infection; also possible with excessive heat, exercise, seizure, hormonal imbalance, or certain medications or poisons
+- **Hypothermia with AMS:** Suspect infection (especially in infants); also possible with drug intoxication, cold exposure, or hormonal imbalance — infants are especially temperature-sensitive; keep warm with blankets, hat, and skin-to-skin kangaroo care 24 hours per day while ill
+- **Seizures:** Can result from fever alone but also suggest infection, hypoglycaemia, or hyponatraemia — do not delay antibiotics for suspected serious bacterial infection; always consider trauma
+- **Brain infection:** Look for bulging fontanelle in children under 1 year and rash on legs and lower abdomen (indicates infection or raised intracranial pressure) — do not delay antibiotics
+- **Poor perfusion:** Dehydration develops rapidly in children; check for abnormal skin pinch, dry oral mucous membranes, irritability, sunken or depressed fontanelle (under 1 year), slow capillary refill, cold extremities, tachycardia, and hypotension; give IV fluids and reassess frequently
+- **Malaria in children:** More severe than in adults; severe malaria may present with severe anaemia, seizures, coma, and hypoglycaemia
+- **Ingestion of chemicals or drugs:** Common in children under 6 years (especially ages 1–3); obtain thorough history from parents; photograph the packaging; determine time of ingestion; confirm no other children were exposed; check for burns in or around the mouth; listen for stridor suggesting airway damage from ingested chemical; arrange urgent transfer for monitoring and management
+
+---
+
+## Disposition Considerations for AMS
+
+- Any patient with AMS must be monitored continuously for airway problems — consider transfer to a provider with advanced airway capabilities
+- Hypoglycaemia resolved with glucose: Monitor closely — if the underlying cause is not treated, blood glucose will fall again and repeat treatment will be needed
+- Naloxone administered: Lasts approximately 1 hour — many opioids are longer-acting and require repeat naloxone doses; inform the receiving provider that the patient has received naloxone and may need additional doses
+- Any AMS cause that cannot be rapidly corrected or may return after medications wear off requires hospital-level monitoring

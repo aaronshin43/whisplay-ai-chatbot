@@ -3,56 +3,56 @@
     {
       "id": "LAT-001",
       "passed": true,
-      "note": "avg=27.5ms p50=26.6ms p95=33.3ms max=33.3ms [target<200.0ms]",
+      "note": "avg=26.0ms p50=24.1ms p95=38.1ms max=38.1ms [target<200.0ms]",
       "details": {
         "query": "bleeding",
-        "avg_ms": 27.497,
-        "p50_ms": 26.595,
-        "p95_ms": 33.29,
-        "max_ms": 33.29
+        "avg_ms": 26.0005,
+        "p50_ms": 24.1,
+        "p95_ms": 38.15,
+        "max_ms": 38.15
       }
     },
     {
       "id": "LAT-002",
       "passed": true,
-      "note": "avg=41.7ms p50=41.2ms p95=48.7ms max=48.7ms [target<200.0ms]",
+      "note": "avg=39.5ms p50=38.8ms p95=45.4ms max=45.4ms [target<200.0ms]",
       "details": {
         "query": "she collapsed and is not breathing",
-        "avg_ms": 41.6755,
-        "p50_ms": 41.18,
-        "p95_ms": 48.73,
-        "max_ms": 48.73
+        "avg_ms": 39.4785,
+        "p50_ms": 38.845,
+        "p95_ms": 45.38,
+        "max_ms": 45.38
       }
     },
     {
       "id": "LAT-003",
       "passed": true,
-      "note": "avg=29.2ms p50=27.9ms p95=35.4ms max=35.4ms [target<200.0ms]",
+      "note": "avg=28.6ms p50=26.9ms p95=46.9ms max=46.9ms [target<200.0ms]",
       "details": {
         "query": "HELP THERE IS SO MUCH BLOOD OH GOD PLEAS",
-        "avg_ms": 29.164,
-        "p50_ms": 27.92,
-        "p95_ms": 35.38,
-        "max_ms": 35.38
+        "avg_ms": 28.573999999999998,
+        "p50_ms": 26.93,
+        "p95_ms": 46.91,
+        "max_ms": 46.91
       }
     },
     {
       "id": "LAT-004",
       "passed": true,
-      "note": "avg=30.2ms p50=29.0ms p95=38.9ms max=38.9ms [target<200.0ms]",
+      "note": "avg=28.5ms p50=26.9ms p95=37.0ms max=37.0ms [target<200.0ms]",
       "details": {
         "query": "so we were hiking and my friend fell and",
-        "avg_ms": 30.176000000000002,
-        "p50_ms": 29.03,
-        "p95_ms": 38.91,
-        "max_ms": 38.91
+        "avg_ms": 28.454,
+        "p50_ms": 26.895,
+        "p95_ms": 37.04,
+        "max_ms": 37.04
       }
     }
   ],
   "summary": {
-    "overall_avg_ms": 32.128125,
-    "overall_p95_ms": 47.18,
-    "overall_max_ms": 48.73,
+    "overall_avg_ms": 30.62675,
+    "overall_p95_ms": 43.93,
+    "overall_max_ms": 46.91,
     "pc_target_ms": 200.0,
     "pi5_target_ms": 2000.0,
     "pc_pass": true,

@@ -1,77 +1,82 @@
-# Red Cross Wilderness First Aid — Lightning Injuries
+---
+tags: [lightning, lightning_strike, lightning_storm, thunder, 30_30_rule, cardiac_arrest, CPR, lightning_injuries, wilderness, shelter, storm_safety]
+source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
+standard: "American Red Cross / SOLO Wilderness Medicine"
+---
 
-**Source:** American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide
-**Standard:** American Red Cross / SOLO Wilderness Medicine
+# Lightning Safety and Injuries — Wilderness First Aid Reference
+
 **Applies to:** All ages; field settings without rapid EMS access
-
-[DOMAIN_TAGS: lightning, lightning_strike, lightning_storm, thunder, 30_30_rule, cardiac_arrest, CPR, lightning_injuries, wilderness, shelter, storm_safety]
 
 ---
 
-### Prevent lightning Injuries
-What to do (before a possible lightning storm arrives):
-- Pick campsites that meet safety precautions.
-- Know local weather patterns, especially in summertime.
- Plan turnaround times (the amount of time you need to get back) in lightning-prone
-areas, based on your research, and stick to the plan.
-- Plot storms using the following method:
- when the flash of lightning precedes the boom of thunder by 5 seconds, the storm
-is approximately 1 mile away.
- follow the 30-30 rule: seek a safe location when the storm is no less than 6 miles
-away. that is 30 seconds from flash to boom. stay in the safe location for
-30 minutes after the storm passes.
+## Lightning Storm Prevention and Preparedness
 
-### Reaching Safety in a lightning Storm
-What to do:
-- move downhill.
-- do not stay in a meadow or any other wide-open space.
-- seek uniform cover (e.g., low rolling hills or trees of about the same size).
-- take shelter in a steel-framed building or a hard-topped motor vehicle. Keep
-the windows of the vehicle rolled up.
-- if you are boating or swimming, get to land and move away from the shore.
-- aVoid all of the following:
- metal
- anything connected to electrical power
- High places and high objects (e.g., tall trees)
- open places
- damp, shallow caves and tunnels
- overhangs
- flood zones
- Places obviously struck by lightning in the past
- long conductors (e.g., fences)
-- to assume a safe position
-when outdoors:
- squat or sit in a tight body position
-on insulating material (e.g., sleeping
-pad, life jacket) (figure 1).
- take off any metal-framed packs
-and toss hiking poles away from
-the group.
-Figure 1
- do not lie down.
- if you feel your hair stand on end or your skin get tingly, cover your ears with your
-hands, close your eyes and get your head close to your knees.
-- spread groups out wide with about 100 feet or more between individuals.
-Keep everyone in sight if possible.
+### Pre-Storm Planning
 
-lightning Injuries
-lightning can produce several types of injuries, including cardiac and pulmonary
-arrest, neurological problems, blindness, deafness, burns and trauma.
-When CHECKing the person, look, listen and feel for:
-- Burn marks on the skin (entry and exit of current).
-- unconsciousness.
-- trauma (e.g., fractures or dislocations).
-- dazed, confused behavior.
-- trouble breathing.
-- weak, irregular or absent pulse.
+- Select campsites that meet lightning safety precautions
+- Research local weather patterns — especially in summertime in lightning-prone areas
+- Set and strictly follow turnaround times to allow safe retreat before storms arrive
+- Use the **30-30 Rule** to track storm proximity:
+  - Flash-to-boom interval of 5 seconds = storm approximately 1 mile away
+  - Flash-to-boom interval of 30 seconds = storm approximately 6 miles away — seek shelter immediately
+  - Remain in shelter for 30 minutes after the last thunder is heard
 
-### To give CARE:
-- Begin cardiopulmonary resuscitation (cPr) immediately if needed.
-- treat any injuries as needed.
-- Be ready to treat secondary issues (e.g., hypothermia in a wet,
-injured person).
+---
 
-### CALLing for help: Guidelines for evacuation
-- evacuate rapidly—GO FAST—anyone who has been struck by lightning.
-- even if the person seems to have recovered soon after the injury, serious
-problems can develop later so you must still evacuate rapidly.
+## Reaching Safety During a Lightning Storm
+
+### Safe Actions During a Lightning Storm
+
+- Move downhill immediately
+- Leave all meadows and wide-open spaces
+- Seek uniform low cover — low rolling hills or trees of similar height
+- Take shelter in a steel-framed building or hard-topped motor vehicle — keep vehicle windows closed
+- Boating or swimming: Get to land and move away from shore immediately
+- Separate group members by at least 100 feet — keep all individuals in sight if possible
+
+### What to Avoid During a Lightning Storm
+
+- All metal objects
+- Anything connected to electrical power
+- High ground and tall objects (e.g., tall trees)
+- Open spaces
+- Damp, shallow caves and tunnels
+- Rock overhangs
+- Flood zones
+- Locations with visible prior lightning strikes
+- Long conductors (e.g., wire fences)
+
+### Safe Outdoor Body Position During Lightning Threat
+
+1. Remove all metal-framed packs; throw hiking poles well away from the group
+2. Squat or sit in a tight, compact body position on insulating material (e.g., sleeping pad, life jacket)
+3. Do not lie down
+4. Hair standing on end or skin tingling — imminent strike warning: Cover ears with hands, close eyes, bring head close to knees immediately
+
+---
+
+## Lightning Strike Injuries — Assessment and Care
+
+Lightning can cause cardiac arrest, pulmonary arrest, neurological damage, blindness, deafness, burns, and trauma.
+
+### Signs and Symptoms of Lightning Strike Injury
+
+- Burn marks on skin — entry and exit points of current
+- Unconsciousness
+- Trauma — fractures or dislocations from blast or fall
+- Dazed or confused behaviour
+- Trouble breathing
+- Weak, irregular, or absent pulse
+
+### Care and Management for Lightning Strike Injuries
+
+1. Confirm scene safety before approaching — lightning can strike the same area repeatedly
+2. Unresponsive with absent pulse or breathing: Begin CPR immediately
+3. Treat all identified injuries (fractures, burns, trauma) as indicated
+4. Anticipate and treat secondary problems — hypothermia is common in wet, injured patients
+
+### Evacuation Criteria for Lightning Strike
+
+- Any person struck by lightning: Evacuate rapidly (GO FAST) — without exception
+- Person appears to have recovered quickly: Evacuate rapidly (GO FAST) regardless — serious delayed complications can develop after apparent recovery

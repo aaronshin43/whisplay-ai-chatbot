@@ -1,410 +1,290 @@
-# Red Cross Wilderness First Aid — Bites, Stings, and Allergic Reactions
+---
+tags: [snakebite, venomous_snake, bee_sting, wasp_sting, tick_bite, tick_removal, spider_bite, scorpion_sting, jellyfish_sting, marine_life, anaphylaxis, allergic_reaction, epinephrine, wilderness, envenomation, antivenin, wound_infection, poisonous_plants, seizure, snow_blindness, stroke]
+source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
+standard: "American Red Cross / SOLO Wilderness Medicine"
+---
 
-**Source:** American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide
-**Standard:** American Red Cross / SOLO Wilderness Medicine
+# Bites, Stings, Allergic Reactions, and Related Wilderness Emergencies
+
 **Applies to:** All ages; field settings without rapid EMS access
-
-[DOMAIN_TAGS: snakebite, venomous_snake, bee_sting, wasp_sting, tick_bite, tick_removal, spider_bite, scorpion_sting, jellyfish_sting, marine_life, anaphylaxis, allergic_reaction, epinephrine, wilderness, envenomation, antivenin]
 
 ---
 
-## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+## Allergic Reactions
 
-> **During active convulsions:**
-> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
-> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
-> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+### Signs and Symptoms of Non-Life-Threatening Allergic Reaction
 
+- Hives or rash
+- Itching
+- Nausea or gastrointestinal complaints (common in food allergies)
 
-### Allergies and Anaphylaxis
-when the body recognizes an allergen, a foreign substance that causes an
-allergic reaction, its immune system releases histamines and other chemicals
-for protection. an allergic reaction happens when the body produces too much
-of these substances. allergic reactions can be mild and non-life-threatening,
-such as itchy skin and a stuffy nose. However, a severe allergic reaction, called
-anaphylaxis, is life threatening and must be treated immediately or the person
-will die.
+### Care and Management for Non-Life-Threatening Allergic Reaction
 
-### Non-life-Threatening Allergic Reactions
-When CHECKing the person, look, listen and feel for:
-- Hives or rash.
-- itching.
-- gastrointestinal complaints, such
-as nausea (in individuals with food
-allergies).
+- Remove the allergen or move the person away from it (e.g., remove bee stinger, eliminate food source)
+- Patient able to swallow and no contraindications: Assist in self-administering an antihistamine per label instructions
 
+---
 
-### To give CARE:
-- remove the allergen (e.g., bees, food) or move the person away from the allergen.
-- if the person can swallow and has no known contraindications, help the person
-self-administer an antihistamine.
-NOTE the person should only take medication if he or she can swallow and has
-no known contraindications. individuals should read and follow all label
-or health care provider instructions. check state and local regulations
-regarding use of prescription and over-the-counter medications.
-Anaphylaxis
-it is important to know the signs and symptoms and be able to differentiate
-between a mild allergic reaction and a severe reaction (anaphylaxis). anaphylaxis
-requires special care. the only way to reverse anaphylaxis is by immediately
-injecting the person with epinephrine, which
-reverses the overproduction of histamines.
-injectable epinephrine systems are available
-by prescription only, in spring-loaded syringes
-that function when pressed in the thigh. two
-systems widely available are the epiPen®
-and auvi-Q®.
-When CHECKing the person, look, listen and feel for:
-- any of the following three scenarios:
- a specific combination of signs and symptoms. first, look for any skin symptom,
-such as hives, itchiness or a red or flushed face, or look for swollen lips. then,
-check for trouble breathing or signs of shock, such as pale, cool and sweaty skin;
-lightheadedness; weakness; or anxiety.
- when you suspect someone has come into contact with an allergen, look for
-at least two of the following signs and symptoms: a skin symptom or swollen lips;
-difficulty breathing; signs of shock; or nausea, vomiting or cramping.
- you know someone has come into contact with an allergen and shows any
-signs or symptoms of shock.
+## Anaphylaxis (Severe Allergic Reaction)
 
+Anaphylaxis is life-threatening. Epinephrine injection is the only way to reverse it — act immediately.
 
-### To give CARE:
-- Keep everyone calm.
-- look for a medical identification
-(id) tag or bracelet that may warn
-of a severe allergy or indicate that
-the person has been prescribed an
-auto-injector.
-- try to determine whether the
-substance that triggered the
-allergic reaction is still present
-and if the reaction is likely to
-happen again.
- remove the allergen or move the
-person away from the allergen.
-- Help the person self-administer an injection of epinephrine, if necessary.
-- a second dose should only be given when advanced medical help is delayed
-and symptoms do not improve or improve and get worse again.
-NOTE n the person should only take medication if he or she can swallow
-and has no known contraindications. individuals should read and
-follow all label or health care provider instructions. check state and
-local regulations regarding use of prescription and over-the-counter
-medications.
-- make sure you and any others in the group know if a person in the
-group has allergies and carries an epinephrine auto-injector and where
-the person carries his or her epinephrine auto-injector.
-- if using an epiPen®:
- check the label to confirm that the prescription of the auto-injector is for
-this person.
- check the expiration date of the auto-injector. if it has expired, do not use it.
-if the medication is visible, confirm that the liquid is clear and not cloudy. if it is
-cloudy, do not use it.
+### Signs and Symptoms of Anaphylaxis
 
- locate the outside middle of one
-thigh to use as the injection site.
- grasp the auto-injector firmly in
-your fist, and pull off the safety cap
-with your other hand.
- Hold the tip (needle end) near the
-person's outer thigh so that the
-auto-injector is at a
-90-degree angle to the thigh. do
-not place your thumb over the end.
- Quickly and firmly push the tip
-straight into the outer thigh (it will
-go through light clothing). you will hear a click.
- Hold the auto-injector firmly in place
-for 10 seconds, then remove it from
-the thigh and massage the injection
-site for several seconds.
- Handle the auto-injector carefully,
-placing it in a safe container.
-give the used
-auto-injector to more advanced
-medical personnel when they arrive.
+Anaphylaxis is present in any of the following three scenarios:
+- **Scenario 1:** Any skin symptom (hives, itching, flushed face, swollen lips) PLUS trouble breathing or signs of shock (pale, cool, sweaty skin; lightheadedness; weakness; anxiety)
+- **Scenario 2:** Known or suspected allergen exposure PLUS at least two of: skin symptom or swollen lips; difficulty breathing; signs of shock; nausea, vomiting, or cramping
+- **Scenario 3:** Known allergen exposure PLUS any sign or symptom of shock
 
-NOTE n recheck the person's airway, breathing and circulation and observe
-his or her response to the epinephrine.
-- a person's breathing and heart rate are typically higher after a dose of
-epinephrine and the person may also be restless.
-- Be aware that epiPen® and auvi-Q® auto-injectors only provide one dose.
+### Care and Management for Anaphylaxis
 
-### CALLing for help: Guidelines for evacuation
-- non-life-threatening reactions that can be managed in the field do not
-require evacuation.
-- evacuate rapidly—GO FAST—anyone treated for or suffering from anaphylaxis.
-during evacuation, the person should be well hydrated and kept on a regimen
-of oral antihistamines.
+1. Keep everyone calm
+2. Check for medical ID tag or bracelet indicating severe allergy or prescribed auto-injector
+3. Remove the allergen or move the person away from it
+4. Assist the person in self-administering epinephrine auto-injector (EpiPen® or Auvi-Q®)
+5. Second dose: Administer only if advanced medical help is delayed AND symptoms do not improve, or improve then worsen again
+6. Recheck airway, breathing, and circulation after each epinephrine dose
+   - Expected post-epinephrine effects: Elevated heart rate, elevated breathing rate, restlessness — these are normal
+7. Evacuate immediately (GO FAST) after any epinephrine administration
 
-### Mosquito Bites
+### EpiPen® Administration Procedure
 
-### To give CARE:
-- care for with topical over-the-counter agents.
-- to avoid creating open wounds that can become infected, do not scratch.
-- if flu-like symptoms develop within 2 weeks of a mosquito bite, see a health
-care provider for evaluation.
+1. Confirm the prescription is for this person
+2. Check expiration date — do not use if expired
+3. If liquid is visible, confirm it is clear — do not use if cloudy
+4. Locate the outer middle thigh as injection site
+5. Grasp auto-injector firmly; pull off safety cap with other hand
+6. Hold tip (needle end) at 90-degree angle to outer thigh — do not place thumb over end
+7. Push tip quickly and firmly straight into outer thigh (penetrates through light clothing) — a click confirms activation
+8. Hold firmly in place for 10 seconds; remove and massage injection site for several seconds
+9. Place used auto-injector in a safe container; give to advanced medical personnel on arrival
 
-### Tick Bites
+### Evacuation Criteria for Allergic Reactions
 
-### To give CARE:
-- remove the tick immediately.
- grasp the tick as close to the skin as possible, perpendicular to its long axis and
-pull it out slowly using tweezers or gloved fingers.
-- wash the bite area and apply wound gel to prevent infection.
-- wash your hands.
-- if flu-like symptoms develop within 2 weeks of a tick bite, see a health care
-provider for evaluation.
-- if the tick was attached for longer than 48 to 72 hours, the person should see
-a health care provider upon returning home.
+- Non-life-threatening reaction manageable in the field: No evacuation required
+- Anaphylaxis or any person treated with epinephrine: Evacuate rapidly (GO FAST); maintain hydration and oral antihistamine regimen during evacuation
 
-### Bee or Wasp Stings
+---
 
-### To give CARE:
-- carefully remove the stinger with tweezers or scrape it away from the skin
-using your fingernail or a plastic card (e.g., a credit card). wasps do not lose
-their stinger. if you use tweezers, grasp the stinger, not the venom sac.
-- wash the site and cover it to keep the site clean.
-- apply cold to the area.
+## Mosquito Bites — Care and Management
 
+- Treat with topical over-the-counter agents
+- Do not scratch — open wounds risk infection
+- Flu-like symptoms within 2 weeks of bite: Seek healthcare provider evaluation
 
-### Venomous Snakebites
-When CHECKing the person, look, listen and feel for:
-- one or more fang marks, with or without bleeding.
-- localized pain.
-- swelling, possibly of the entire limb.
-- nausea, vomiting and tingling (signs of moderate envenomation [poisoning]).
-- shock, coma and paralysis (signs of severe poisoning).
-- necrosis (tissue death) at site.
+---
 
-### To give CARE:
-- Keep the person physically and emotionally calm.
-- gently wash the bite site.
-- apply an elastic (pressure immobilization) bandage to slow the spread of
-venom from the lymph nodes. you should still be able to slip a finger between
-the bandage and skin.
-- Keep the bite site lower than the person's heart.
-- do not cut the wound. do not apply ice, suction or a tourniquet.
-- go for help.
-- unless it is unavoidable, do not allow the person to walk.
-- Have the snakebite evaluated by a health care provider.
-NOTE care for snakebites as puncture wounds that might cause infections,
-including tetanus.
+## Tick Bites — Care and Management
 
-### Wound Infection
-When CHECKing the person, look, listen and feel for:
-In mild infections:
-- Pain, redness and swelling.
-- small amount of light-colored pus.
-In serious infections:
-- increasing pain, redness and swelling.
-- increasing heat at the site.
-- foul-smelling pus that increases and grows darker in color.
-- appearance of red streaks just under the skin near the wound.
-- systemic fever.
+1. Remove tick immediately: Grasp as close to skin as possible, perpendicular to its long axis; pull out slowly with tweezers or gloved fingers
+2. Wash bite area and apply wound gel to prevent infection
+3. Wash hands after removal
+4. Flu-like symptoms within 2 weeks of bite: Seek healthcare provider evaluation
+5. Tick attached > 48–72 hours: See a healthcare provider upon returning home
 
+---
 
-### To give CARE:
-For mild infections:
-- re-clean with soap and water and re-dress the wound.
-- apply wound gel.
-- monitor for signs of serious infection. for any large bruised areas, bites or
-poisoning incidences, outline the affected area in pen and indicate the time
-that the wound occurred to help you determine if the area is growing over
-time. act early if signs of infection are seen.
-For serious infections:
-- re-clean the wound with water and apply wound gel.
-- allow the wound to re-open and let it drain. soak the wound in water as hot as
-the person can tolerate.
-- Pack the wound with moist, sterile gauze to keep it draining.
-- dress the surface of the wound with dry, sterile gauze.
-- re-clean and repack the wound twice a day during an extended evacuation.
-- monitor the wound closely.
+## Bee and Wasp Stings — Care and Management
 
-### CALLing for help: Guidelines for evacuation
-- evacuate slowly—GO SLOW—anyone with a wound that cannot be closed in
-the field.
-- evacuate rapidly—GO FAST—anyone with a wound that:
- is heavily contaminated.
- opens a joint space or body cavity.
- involves tendons or ligaments.
- was caused by an animal bite.
- is deep and on the face.
- involves an impalement.
- was caused by a crushing injury.
-- evacuate rapidly—GO FAST—anyone with an infected wound or skin infection
-that does not improve within 12 hours of care or that spreads to other parts of
-the body.
-- evacuate rapidly—GO FAST—anyone with signs and symptoms of a
-serious infection.
-- if more than one person breaks out in skin boils or abscesses, evacuate all
-rapidly and immediately seek advanced medical care. this may be a sign
-of group contamination with methicillin-resistant Staphylococcus aureus
-(mrsa), a serious staphylococcal infection.
+1. Remove stinger: Use tweezers grasping the stinger (not the venom sac), or scrape away with a fingernail or card edge — wasps do not leave a stinger
+2. Wash the site and cover to keep clean
+3. Apply cold pack to the area
+4. Signs of allergic reaction or anaphylaxis: See Anaphylaxis section above
 
-### Poisonous Plants
+---
 
-### To give CARE:
-- reassure the person that you are going to help.
-- if skin is exposed, immediately wash the affected area thoroughly with soap and
-water (wear disposable gloves).
-- if a rash or open sores develop, apply a paste of baking soda and water several
-times a day to reduce discomfort.
-- apply lotions (e.g., caladryl™) which may help soothe the area, if the person has
-no known contraindications.
-- wash clothing exposed to plant oils with soap. wash your hands thoroughly after
-handling exposed clothing.
+## Venomous Snakebite
 
-### Scorpion Stings and Spider Bites
+### Signs and Symptoms of Venomous Snakebite
 
-### To give CARE:
-if someone has been stung by a scorpion or bitten by a black widow spider or
-brown recluse spider:
-- wash the wound.
-- apply wound gel.
-- Bandage the wound.
-- apply a cold pack to the site.
+- One or more fang marks, with or without bleeding
+- Localised pain
+- Swelling, possibly involving the entire limb
+- Nausea, vomiting, and tingling = signs of moderate envenomation
+- Shock, coma, and paralysis = signs of severe envenomation
+- Necrosis (tissue death) at bite site
 
-- if it is available, give the person antivenin (a medication that blocks the effects of
-poisonous venom).
-- if signs of allergic reaction or anaphylaxis develop, treat with antihistamines
-or epinephrine, if the person has an auto-injector. life-threatening signs and
-symptoms require evacuation to advanced medical care. see allergies and
-anaphylaxis.
+### Care and Management for Venomous Snakebite
 
-### Animal Bites
+1. Keep the person physically and emotionally calm
+2. Gently wash the bite site
+3. Apply an elastic pressure-immobilisation bandage to slow lymphatic spread of venom — a finger must still fit between bandage and skin
+4. Keep the bite site lower than the person's heart
+5. Do not allow the person to walk unless absolutely unavoidable
+6. Go for help; arrange healthcare provider evaluation
+7. **Do not:** Cut the wound, apply ice, use suction, or apply a tourniquet
+8. Treat as a puncture wound with tetanus and infection risk
 
-### To give CARE:
-- control bleeding first if the wound is bleeding seriously.
-- do not clean serious wounds; the wound will be cleaned at a medical facility.
-- wash minor wounds with soap and water. then, irrigate with large amounts of
-clean running water.
-- control any bleeding.
-- apply wound gel and a dressing.
-- watch for signs of infection.
+---
 
-### Marine Life Stings
+## Scorpion Stings and Spider Bites (Black Widow, Brown Recluse)
 
-### To give CARE:
-- if signs of allergic reaction or anaphylaxis develop, treat with antihistamines, or
-if the person has an auto-injector, treat with epinephrine. life-threatening signs
-and symptoms require evacuation to advanced medical care. see allergies and
-anaphylaxis.
-For a jellyfish sting:
-- irrigate the injured part with vinegar for at least 30 seconds. if vinegar is not
-available, use a baking soda slurry.
-- when stinging stops, care for pain with hot water immersion.
-NOTE for a portuguese man-of-war sting, flush with ocean water instead of vinegar.
+### Care and Management for Scorpion Stings and Spider Bites
 
-For a stingray sting:
-- flush the wound with tap water or ocean water.
-- immobilize the area.
-- soak the area in non-scalding hot water until pain goes away.
-- clean and bandage the wound.
-- watch for signs of infection.
+1. Wash the wound
+2. Apply wound gel
+3. Bandage the wound
+4. Apply cold pack to the site
+5. If antivenin is available: Administer per instructions
+6. Signs of allergic reaction or anaphylaxis: Treat with antihistamines or epinephrine auto-injector — see Anaphylaxis section
 
-### CALLing for Help: Guidelines for Evacuation
-- evacuate slowly—GO SLOW—anyone with conditions that are worsening or
-affect large areas of the body or face.
-- evacuate rapidly—GO FAST—anyone who is unconscious, or if there is a change
-in the level of consciousness (loc) or another life-threatening condition is
-present. care for any life-threatening conditions, if found.
-- evacuate rapidly—GO FAST—anyone who exhibits a severe reaction to a sting
-or bite by bugs or marine life.
-- evacuate rapidly—GO FAST—anyone with a wound that is bleeding seriously
-from an animal bite or if you suspect the animal might have rabies.
-Seizures
-when the normal functions of the brain are disrupted by injury, disease, fever,
-poisoning or infection, the electrical activity of the brain becomes irregular. the
-irregularity can cause a loss of body control, known as seizure.
-seizures may be caused by a condition called epilepsy, which is usually
-controllable with medication. some children and infants have seizures that are
-caused by a sudden high fever.
-When CHECKing the person, look, listen and feel for:
-- unusual sensation or feeling such as a visual hallucination (person is
-experiencing an aura).
-- irregular or no breathing.
-- drooling.
-- upward rolling of the eyes.
-- rigid body.
+---
 
-- sudden, uncontrollable, rhythmic
-muscle contractions (convulsions).
-- decreased level of consciousness
-(loc).
-- loss of bladder or bowel control.
+## Animal Bites — Care and Management
 
-### To give CARE:
-- reassure the person that you are
-going to help.
-- remove nearby objects that might
-cause injury.
-- protect the person's head by placing
-a thinly folded towel or clothing
-beneath it. do not
-restrict the airway doing so.
-- do not hold or restrain the person.
-- do not place anything between the
-person's teeth.
-- place the person on his or her side to drain fluids from the mouth.
-- if the seizure was caused by a sudden rise in body temperature, loosen
-clothing and fan the person. do not immerse in cold water or use rubbing
-alcohol to cool.
-- when the seizure is over, be sure that the person's airway is open and check for
-breathing and injuries.
-- comfort and stay with the person until he or she is fully conscious.
+- Serious bleeding: Control bleeding first before any other action
+- Serious wounds: Do not clean in the field — wound will be cleaned at a medical facility
+- Minor wounds: Wash with soap and water; irrigate with large amounts of clean running water
+- Control any remaining bleeding
+- Apply wound gel and a dressing
+- Monitor for signs of infection
 
-### CALLing for Help: Guidelines for Evacuation
-- evacuate rapidly—GO FAST—anyone who has a seizure that lasts more than a
-few minutes or has repeated seizures.
-- evacuate rapidly—GO FAST—anyone who is pregnant or has diabetes and has
-a seizure.
-- evacuate rapidly—GO FAST—anyone who has a seizure in the water or who
-does not regain consciousness following a seizure.
+---
 
+## Wound Infection
 
-### Snow Blindness
-snow blindness is a radiation burn (sunburn) of the eye. it is named for the
-reflection off snow, but can also happen due to bright sunlight. after giving care,
-the person may be able to self-evacuate with help. improvised sunglasses (e.g.,
-cardboard with narrow slit) may aid the person.
+### Signs and Symptoms of Mild Wound Infection
 
-### To give CARE:
-- stop the burning by wearing sunglasses or covering eyes.
-- Have the person remove contact lenses and rest.
-- if the person can swallow and has no known contraindications, the person can
-self-administer aspirin.
-NOTE the person should only take medication if he or she can swallow and has
-no known contraindications. individuals should read and follow all label
-or health care provider instructions. check state and local regulations
-regarding use of prescription and over-the-counter medications.
+- Pain, redness, and swelling
+- Small amount of light-coloured pus
 
-Stroke
-internal injury to the brain can be a stroke—with catastrophic results. a stroke is
-caused when blood flow to a part of the brain is cut off or when there is bleeding
-into the brain.
+### Signs and Symptoms of Serious Wound Infection
 
-### When CHECKing the person:
-- use fast to determine if the person is having a stroke:
- Face—weakness on one side of the face
- ask the person to smile.
- Arm—weakness or numbness of
-one arm
- ask the person to raise both
-arms.
- SpeecH—slurred speech or
-trouble getting words out
- ask the person to speak a
-simple sentence.
- Time—note the time that the signs
-and symptoms were first observed.
-if the person shows one sign or
-symptom, he or she is having a
-stroke.
+- Increasing pain, redness, and swelling
+- Increasing heat at the site
+- Foul-smelling pus that increases and darkens in colour
+- Red streaks visible just under the skin near the wound
+- Systemic fever
 
-### To give CARE:
-- note the time that the signs and
-symptoms began.
-- monitor and care for the aBcdes.
- if the person is unconscious, make sure he or she has an open airway and care for
-life-threatening conditions.
- if fluid or vomit is in the person's mouth, turn him or her on one side to allow fluids
-to drain.
-NOTE evacuate the person rapidly—GO FAST—as this is a life-threatening condition.
+### Care and Management for Mild Wound Infection
+
+1. Re-clean wound with soap and water; re-dress
+2. Apply wound gel
+3. Monitor closely for progression to serious infection
+4. For bites, large bruised areas, or envenomation sites: Outline the affected area in pen with the time noted — re-assess to determine if area is expanding
+
+### Care and Management for Serious Wound Infection
+
+1. Re-clean wound with water; apply wound gel
+2. Allow the wound to re-open and drain; soak in water as hot as the person can tolerate
+3. Pack wound with moist sterile gauze to maintain drainage
+4. Dress surface with dry sterile gauze
+5. Re-clean and repack wound twice daily during extended evacuation
+6. Monitor wound closely
+
+### Evacuation Criteria for Wounds and Infections
+
+- Wound not closeable in the field: Evacuate slowly (GO SLOW)
+- Evacuate rapidly (GO FAST) for wounds that are:
+  - Heavily contaminated
+  - Opening a joint space or body cavity
+  - Involving tendons or ligaments
+  - Caused by an animal bite
+  - Deep and located on the face
+  - Impalement injuries
+  - Caused by crushing injury
+- Infected wound not improving within 12 hours of care, or spreading: Evacuate rapidly (GO FAST)
+- Any signs of serious infection: Evacuate rapidly (GO FAST)
+- Multiple persons with skin boils or abscesses: Evacuate all immediately (GO FAST) — may indicate group MRSA contamination
+
+---
+
+## Poisonous Plant Exposure — Care and Management
+
+1. Wash affected skin immediately and thoroughly with soap and water (wear disposable gloves)
+2. Baking soda paste applied to rash or open sores several times daily reduces discomfort
+3. Apply soothing lotion (e.g., Caladryl™) if no known contraindications
+4. Wash exposed clothing with soap; wash hands thoroughly after handling exposed clothing
+
+---
+
+## Marine Life Stings
+
+### Jellyfish Sting — Care and Management
+
+1. Signs of allergic reaction or anaphylaxis: Treat with antihistamines or epinephrine auto-injector — see Anaphylaxis section
+2. Irrigate injured area with vinegar for at least 30 seconds; if vinegar unavailable, use baking soda slurry
+3. Portuguese Man-of-War sting: Flush with ocean water — do not use vinegar
+4. When stinging stops: Immerse in hot water for pain relief
+
+### Stingray Sting — Care and Management
+
+1. Flush wound with tap water or ocean water
+2. Immobilise the affected area
+3. Soak in non-scalding hot water until pain resolves
+4. Clean and bandage the wound
+5. Monitor for signs of infection
+
+### Evacuation Criteria for Bites and Stings
+
+- Condition worsening or affecting large areas of body or face: Evacuate slowly (GO SLOW)
+- Unconscious, altered level of consciousness, or other life-threatening condition: Evacuate rapidly (GO FAST); treat life-threatening conditions immediately
+- Severe reaction to insect or marine life sting: Evacuate rapidly (GO FAST)
+- Serious bleeding from animal bite or suspected rabid animal: Evacuate rapidly (GO FAST)
+
+---
+
+## Seizure
+
+### Signs and Symptoms of Seizure
+
+- Unusual sensation or visual hallucination (aura) preceding seizure
+- Irregular or absent breathing
+- Drooling
+- Upward rolling of the eyes
+- Rigid body
+- Sudden, uncontrollable, rhythmic muscle contractions (convulsions)
+- Decreased level of consciousness
+- Loss of bladder or bowel control
+
+### Care and Management for Seizure
+
+1. Remove nearby objects that could cause injury
+2. Protect head: Place thinly folded towel or clothing beneath it — do not restrict the airway
+3. Do not hold or restrain the person
+4. Do not place anything between the person's teeth
+5. Place person on their side to allow fluids to drain from the mouth
+6. Fever-triggered seizure: Loosen clothing and fan the person — do not immerse in cold water or use rubbing alcohol
+7. After seizure ends: Confirm airway is open; check for breathing and injuries
+8. Stay with and comfort the person until fully conscious
+
+### Evacuation Criteria for Seizure
+
+- Seizure lasting more than a few minutes, or repeated seizures: Evacuate rapidly (GO FAST)
+- Person is pregnant or diabetic and has a seizure: Evacuate rapidly (GO FAST)
+- Seizure occurs in water: Evacuate rapidly (GO FAST)
+- Person does not regain consciousness after seizure: Evacuate rapidly (GO FAST)
+
+---
+
+## Snow Blindness — Care and Management
+
+Snow blindness is a radiation burn (sunburn) of the cornea caused by UV reflection off snow or intense sunlight.
+
+1. Stop ongoing UV exposure: Apply sunglasses or cover both eyes completely
+2. Have person remove contact lenses and rest
+3. Pain relief: Assist in self-administering aspirin if able to swallow and no contraindications
+4. Improvised sunglasses (e.g., cardboard with narrow horizontal slit) may allow assisted self-evacuation
+
+---
+
+## Stroke — Recognition and Emergency Management
+
+A stroke occurs when blood flow to part of the brain is cut off or bleeding occurs into the brain.
+
+### Signs and Symptoms of Stroke — Use FAST Assessment
+
+- **F — Face:** Weakness on one side of the face — ask person to smile
+- **A — Arm:** Weakness or numbness in one arm — ask person to raise both arms
+- **S — Speech:** Slurred speech or difficulty producing words — ask person to repeat a simple sentence
+- **T — Time:** Note the exact time signs and symptoms were first observed
+
+One or more FAST signs present = stroke — treat as emergency.
+
+### Care and Management for Stroke
+
+1. Note the exact time symptoms began
+2. Monitor and support airway, breathing, and circulation
+3. Unconscious person: Confirm open airway; treat any life-threatening conditions
+4. Fluid or vomit in mouth: Turn person onto their side to allow drainage
+5. Evacuate immediately (GO FAST) — stroke is a life-threatening emergency

@@ -2,9 +2,9 @@
   {
     "id": "EDG-001",
     "passed": true,
-    "note": "패닉 상태에서도 출혈 관련 정보 반환 | score=0.6114",
+    "note": "패닉 상태에서도 출혈 관련 정보 반환 | score=0.6156",
     "details": {
-      "score": 0.6114047339088038,
+      "score": 0.6156025340682582,
       "has_context": true,
       "missing": []
     }
@@ -12,9 +12,9 @@
   {
     "id": "EDG-002",
     "passed": true,
-    "note": "응답이 비어있으면 안 됨 | score=0.6016",
+    "note": "응답이 비어있으면 안 됨 | score=0.6060",
     "details": {
-      "score": 0.6015830880717227,
+      "score": 0.6059916383341739,
       "has_context": true,
       "missing": []
     }
@@ -22,9 +22,9 @@
   {
     "id": "EDG-003",
     "passed": true,
-    "note": "반복적 패닉 입력 처리 | score=0.5594",
+    "note": "반복적 패닉 입력 처리 | score=0.5604",
     "details": {
-      "score": 0.5593575716018677,
+      "score": 0.560402774810791,
       "has_context": true,
       "missing": []
     }
@@ -32,25 +32,25 @@
   {
     "id": "EDG-004",
     "passed": true,
-    "note": "비의료 질문은 낮은 점수여야 함 | score=0.4737 (max=0.5)",
+    "note": "비의료 질문은 낮은 점수여야 함 | score=0.4695 (max=0.5)",
     "details": {
-      "score": 0.47365983724594113
+      "score": 0.4695189714431762
     }
   },
   {
     "id": "EDG-005",
     "passed": true,
-    "note": "비의료 질문은 낮은 점수여야 함 | score=0.4776 (max=0.5)",
+    "note": "비의료 질문은 낮은 점수여야 함 | score=0.4755 (max=0.5)",
     "details": {
-      "score": 0.4776352643966675
+      "score": 0.47547351121902465
     }
   },
   {
     "id": "EDG-006",
     "passed": true,
-    "note": "단일 단어 쿼리도 처리 | score=0.6284",
+    "note": "단일 단어 쿼리도 처리 | score=0.6245",
     "details": {
-      "score": 0.628436636280369,
+      "score": 0.6245498650782817,
       "has_context": true,
       "missing": []
     }
@@ -58,9 +58,9 @@
   {
     "id": "EDG-007",
     "passed": true,
-    "note": "가장 짧은 도움 요청 | score=0.4989",
+    "note": "가장 짧은 도움 요청 | score=0.4974",
     "details": {
-      "score": 0.4988585829734802,
+      "score": 0.4973855137825012,
       "has_context": true,
       "missing": []
     }
@@ -68,9 +68,9 @@
   {
     "id": "EDG-008",
     "passed": true,
-    "note": "오타 포함 입력 — bleeding, neck | score=0.4998",
+    "note": "오타 포함 입력 — bleeding, neck | score=0.5016",
     "details": {
-      "score": 0.49983372688293454,
+      "score": 0.5015776634216308,
       "has_context": true,
       "missing": []
     }
@@ -78,9 +78,9 @@
   {
     "id": "EDG-009",
     "passed": true,
-    "note": "비표준 영어 입력 | score=0.5060",
+    "note": "비표준 영어 입력 | score=0.5101",
     "details": {
-      "score": 0.5060176134109496,
+      "score": 0.5101448893547058,
       "has_context": true,
       "missing": []
     }
@@ -88,9 +88,9 @@
   {
     "id": "EDG-010",
     "passed": true,
-    "note": "다중 부상 — 가장 위험한 것 우선 반환되는지 | score=0.6012",
+    "note": "다중 부상 — 가장 위험한 것 우선 반환되는지 | score=0.6037",
     "details": {
-      "score": 0.6012365334742777,
+      "score": 0.6036606066935771,
       "has_context": true,
       "missing": []
     }
@@ -100,15 +100,15 @@
     "passed": true,
     "note": "no exception, context empty=False",
     "details": {
-      "context_len": 5436
+      "context_len": 4648
     }
   },
   {
     "id": "EDG-012",
     "passed": true,
-    "note": "긴 자연어 입력 — 핵심 정보 추출 가능한지 | score=0.5702",
+    "note": "긴 자연어 입력 — 핵심 정보 추출 가능한지 | score=0.5731",
     "details": {
-      "score": 0.5702419214434438,
+      "score": 0.5731358048203704,
       "has_context": true,
       "missing": []
     }

@@ -1,126 +1,97 @@
-# Red Cross Wilderness First Aid — Altitude Illnesses
+---
+tags: [altitude, altitude_sickness, acute_mountain_sickness, AMS, HAPE, HACE, high_altitude, acclimatization, descent, headache, nausea, ataxia, mountain, wilderness]
+source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
+standard: "American Red Cross / SOLO Wilderness Medicine"
+---
 
-**Source:** American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide
-**Standard:** American Red Cross / SOLO Wilderness Medicine
+# Altitude Illnesses — Wilderness First Aid Reference
+
 **Applies to:** All ages; field settings without rapid EMS access
-
-[DOMAIN_TAGS: altitude, altitude_sickness, acute_mountain_sickness, AMS, HAPE, HACE, high_altitude, acclimatization, descent, headache, nausea, ataxia, mountain, wilderness]
 
 ---
 
-## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+## Overview of Altitude Illnesses
 
-> **During active convulsions:**
-> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
-> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
-> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+Altitude illnesses occur when insufficient oxygen reaches the blood due to low air pressure at high elevation. The three altitude illnesses most likely in wilderness settings are:
+- Acute Mountain Sickness (AMS)
+- High Altitude Cerebral Oedema (HACE)
+- High Altitude Pulmonary Oedema (HAPE)
 
+---
 
-### Altitude Illnesses
-altitude illnesses occur when people at a high altitude do not have enough
-oxygen in their blood because the air pressure is too low. the three altitude
-illnesses most likely to develop in the wilderness are acute mountain sickness
-(ams), high altitude cerebral edema (Hace) and high altitude pulmonary
-edema (HaPe).
+## Acute Mountain Sickness (AMS)
 
-### Acute Mountain Sickness
-ams commonly occurs in a person who has recently reached an altitude of
-around 6500 to 8000 feet. if signs and symptoms of ams appear at lower
-altitudes, they are probably the result of another condition, such as dehydration
-or heat illness. if untreated, ams may progress to Hace or HaPe, which is more
-severe.
-When CHECKing the person, look, listen and feel for:
-- someone who has recently arrived at an altitude of around 6500 to 8000 feet
-or more.
-- Headache.
-- loss of normal appetite.
-- nausea, with or without vomiting.
-- insomnia.
-- lassitude (unusual weariness or exhaustion).
+### Signs and Symptoms of AMS
 
+- Recent arrival at altitude of 6,500–8,000 feet or higher
+- Headache
+- Loss of normal appetite
+- Nausea, with or without vomiting
+- Insomnia
+- Unusual weariness or exhaustion (lassitude)
 
-### To give CARE:
-- descend (go down) to a lower altitude or stop ascending (going up) and wait
-for improvement before going higher.
-- administer oxygen if available and you are trained to do so. this is especially
-helpful during sleep.
-- Help the person self-administer recommended dosages of aspirin or
-acetaminophen for headaches (if the person is able to swallow and has no
-known contraindications).
-- care for the illness, not just the symptoms.
- if prescribed and recommended by the person's health care provider, help
-the person self-administer medication for altitude illness (e.g., acetazolamide,
-dexamethasone) based on label instructions.
- many persons with ams usually respond to these medications within 12 to
-24 hours.
-NOTE the person should only take medication if he or she can swallow and has
-no known contraindications. individuals should read and follow all label
-or health care provider instructions. check state and local regulations
-regarding use of prescription and over-the-counter medications. anyone
-going to an altitude greater than around 6500 to 8000 feet should
-discuss this with his or her personal health care provider.
-high Altitude Cerebral Edema
-Hace is caused by swelling of brain tissue, which increases pressure on the
-brain until it fails to function properly, eventually resulting in death.
-When CHECKing the person, look, listen and feel for:
-- loss of coordination (ataxia).
- inability to walk a straight line or stand straight with feet together and eyes closed
-- severe headache that is not relieved by rest and medication.
-- Bizarre changes in personality.
-- Possible seizures and/or coma.
+Note: Signs appearing at lower altitudes likely indicate another condition such as dehydration or heat illness. Untreated AMS may progress to HACE or HAPE.
 
+### Care and Management for AMS
 
-### To give CARE:
-- descend (go down) to a lower altitude as soon as possible.
-- administer oxygen if available and you are trained to do so.
-- Keep the person from getting chilled or overheated. cold temperatures put
-more pressure on the respiratory system.
-- if prescribed and recommended by the person's health care provider, help
-the person self-administer medication for altitude illness (e.g., acetazolamide,
-dexamethasone) based on label
-instructions.
-- use a portable hyperbaric chamber
-if available and you are trained to
-do so. do not use
-a portable hyperbaric chamber
-instead of descending. moving to a
-lower altitude is the only definitive
-care for the severely ill person.
-NOTE the person should only take medication if he or she can swallow and has
-no known contraindications. individuals should read and follow all label
-or health care provider instructions. check state and local regulations
-regarding use of prescription and over-the-counter medications. anyone
-going to an altitude greater than around 6500 to 8000 feet should
-discuss this with his or her personal health care provider.
+- Descend to a lower altitude, OR stop ascending and wait for symptoms to resolve before going higher
+- Administer oxygen if available and trained to do so — especially beneficial during sleep
+- Headache: Assist patient in self-administering aspirin or acetaminophen at recommended dosages (patient must be able to swallow and have no known contraindications)
+- If prescribed by the patient's healthcare provider: Assist in self-administering altitude illness medication (e.g., acetazolamide, dexamethasone) per label instructions — most patients respond within 12–24 hours
 
-### High Altitude Pulmonary Edema
-HaPe is caused by fluid collecting in the air spaces of the lungs. if enough fluid
-collects, the person cannot breathe adequately, and death may result.
-When CHECKing the person, look, listen and feel for:
-- dry cough, soon followed by shortness of breath, even at rest.
-- shortness of breath that becomes more pronounced.
-- Possible chest pain.
-- cough that becomes more productive, first producing frothy sputum, later
-producing reddish sputum.
+### Evacuation Criteria for AMS
 
+- AMS: Stop ascent until all signs and symptoms fully resolve
+- AMS not resolving or worsening: Descent is mandatory
+- Evacuation is not required if symptoms resolve with rest and treatment
 
-### To give CARE:
-- descend (go down) to a lower altitude as soon as possible. a descent of
-1000 to 1500 feet may produce remarkable results.
-- Keep the person from becoming chilled or overheated. cold temperatures put
-more pressure on the respiratory system, particularly in HaPe.
-- administer oxygen if available and you are trained to do so.
-- use a portable hyperbaric chamber, if available and you are trained to do
-so. do not use a portable hyperbaric chamber instead of descending.
-moving to a lower altitude is the only definitive care for a severely ill person.
+---
 
-### CALLing for help: Guidelines for evacuation
-- stopping the ascent, descending and evacuation must be considered.
-- a person with ams should stop ascending until the signs and
-symptoms resolve.
-- a person with ams does not need to evacuate unless the signs and symptoms do
-not resolve. if the illness does not resolve or it gets worse, descent is mandatory.
-- evacuate rapidly—GO FAST—to a lower altitude (descend at least 1000 to
-1500 feet) anyone with Hace or HaPe.
- anyone with Hace or HaPe must be evaluated as soon as possible by a health
-care provider once a lower altitude has been reached.
+## High Altitude Cerebral Oedema (HACE)
+
+HACE is caused by swelling of brain tissue, which increases intracranial pressure until brain function fails — resulting in death if untreated.
+
+### Signs and Symptoms of HACE
+
+- Loss of coordination (ataxia): Unable to walk a straight line or stand with feet together and eyes closed
+- Severe headache unrelieved by rest and medication
+- Bizarre personality changes
+- Possible seizures and/or coma
+
+### Care and Management for HACE
+
+- **Descend immediately** to a lower altitude — this is the only definitive treatment
+- Administer oxygen if available and trained to do so
+- Prevent chilling or overheating — cold temperatures increase respiratory strain
+- If prescribed by the patient's healthcare provider: Assist in self-administering altitude illness medication (e.g., acetazolamide, dexamethasone) per label instructions
+- Use a portable hyperbaric chamber if available and trained — **do not use as a substitute for descent**
+
+### Evacuation Criteria for HACE
+
+- HACE: Evacuate rapidly (GO FAST) — descend at least 1,000–1,500 feet immediately
+- Arrange evaluation by a healthcare provider as soon as a lower altitude is reached
+
+---
+
+## High Altitude Pulmonary Oedema (HAPE)
+
+HAPE is caused by fluid collecting in the air spaces of the lungs. Sufficient fluid accumulation prevents adequate breathing and may result in death.
+
+### Signs and Symptoms of HAPE
+
+- Dry cough, rapidly followed by shortness of breath even at rest
+- Progressively worsening shortness of breath
+- Possible chest pain
+- Cough becoming productive: first frothy sputum, later reddish sputum
+
+### Care and Management for HAPE
+
+- **Descend immediately** to a lower altitude — a descent of 1,000–1,500 feet may produce rapid improvement
+- Prevent chilling or overheating — cold temperatures place additional strain on the respiratory system
+- Administer oxygen if available and trained to do so
+- Use a portable hyperbaric chamber if available and trained — **do not use as a substitute for descent**
+
+### Evacuation Criteria for HAPE
+
+- HAPE: Evacuate rapidly (GO FAST) — descend at least 1,000–1,500 feet immediately
+- Arrange evaluation by a healthcare provider as soon as a lower altitude is reached

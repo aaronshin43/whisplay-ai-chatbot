@@ -1,96 +1,86 @@
-# WHO BEC Skills — Physical Assessment (GCS, AVPU, Head-to-Toe)
-
-**Source:** WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section
-**Standard:** WHO / ICRC 2018
-**Category:** Clinical Skills — Neurological Assessment, Secondary Survey
-
-[DOMAIN_TAGS: GCS, Glasgow_Coma_Scale, AVPU, head_injury, consciousness, neurological_exam, secondary_survey, head_to_toe, trauma_assessment, altered_mental_status]
-
+---
+tags: [GCS, Glasgow_Coma_Scale, AVPU, head_injury, consciousness, neurological_exam, secondary_survey, head_to_toe, trauma_assessment, altered_mental_status]
+source: "WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section"
+standard: "WHO / ICRC 2018"
+category: "Clinical Skills — Neurological Assessment, Secondary Survey"
 ---
 
-## Extended Physical Examination: Neurologic Exam
+# WHO BEC Skills Physical Assessment
 
-### Glasgow Coma Scale (GCS)
-A 15-point scale for assessing and monitoring people with head injury. Assesses eye opening, verbal response, and motor response. Lowest possible score: 3.
+## Extended Physical Examination for Neurologic Assessment
 
-| Category | Response | Score |
-|----------|----------|-------|
-| **Eyes (max 4)** | Open spontaneously | 4 |
-| | Open to command | 3 |
-| | Open to pain | 2 |
-| | None | 1 |
-| **Verbal (max 5)** | Normal | 5 |
-| | Confused talk | 4 |
-| | Inappropriate words | 3 |
-| | Inappropriate sounds | 2 |
-| | None | 1 |
-| **Motor (max 6)** | Obeys command | 6 |
-| | Localizes pain | 5 |
-| | Flexes limbs normally to pain | 4 |
-| | Flexes limbs abnormally to pain | 3 |
-| | Extends limbs to pain | 2 |
-| | None | 1 |
+### Glasgow Coma Scale (GCS) Assessment for Head Injury
+- Assessment requirement: Assess eye opening, verbal response, and motor response using a 15-point scale (minimum score 3).
+- Eye response is open spontaneously: Assign score 4.
+- Eye response is open to command: Assign score 3.
+- Eye response is open to pain: Assign score 2.
+- Eye response is absent: Assign score 1.
+- Verbal response is normal: Assign score 5.
+- Verbal response is confused talk: Assign score 4.
+- Verbal response is inappropriate words: Assign score 3.
+- Verbal response is inappropriate sounds: Assign score 2.
+- Verbal response is absent: Assign score 1.
+- Motor response obeys command: Assign score 6.
+- Motor response localizes pain: Assign score 5.
+- Motor response flexes limbs normally to pain: Assign score 4.
+- Motor response flexes limbs abnormally to pain: Assign score 3.
+- Motor response extends limbs to pain: Assign score 2.
+- Motor response is absent: Assign score 1.
+- Total GCS is 8 or less: Diagnose severe head injury.
+- Total GCS is 9 to 12: Diagnose moderate head injury.
+- Total GCS is 13 to 15: Diagnose mild head injury.
 
-**Severity:**
-- Severe head injury: GCS 8 or less
-- Moderate head injury: GCS 9–12
-- Mild head injury: GCS 13–15
+### AVPU Scale Assessment for Consciousness
+- Patient is fully awake and interactive: Assign AVPU score A (Alert).
+- Patient responds to voice with words, moaning, or movement: Assign AVPU score V (Voice).
+- Patient responds only to pain (sternal rub in adults, sole pinch in children, or nose bridge pinch for suspected spinal injury): Assign AVPU score P (Pain).
+- Patient has no movement or verbal response to painful stimuli: Assign AVPU score U (Unresponsive).
+- Patient scores P or U on AVPU scale: Stop assessment, return to ABCDE immediately, and provide rapid intervention to protect the airway.
 
-### AVPU Scale
-Simplified consciousness assessment — particularly useful for children and infants:
-- **A = Alert:** Fully awake and interactive.
-- **V = Voice:** Not fully alert, but responds to voice (words, moaning, or movement).
-- **P = Pain:** Does not respond to voice; responds to pain — sternal rub in adults, pinch to sole of foot in children, or pinch to bridge of nose in suspected spinal injury.
-- **U = Unresponsive:** No movement or verbal response to painful stimuli.
+## Secondary Survey Head-to-Toe Trauma Assessment
 
-**CRITICAL:** For any patient who is P or U on AVPU scale, stop and return to ABCDE — rapid intervention may be needed to protect airway.
+- Primary survey completion: Conduct secondary survey ONLY when ABCDE is completed and life-threatening complications are addressed. 
+- Secondary survey objective: Identify all injuries, plan ongoing management, and determine disposition.
+- Patient deteriorates during head-to-toe assessment: Stop assessment and reassess ABCDE immediately.
+- Patient requires physical exam exposure: Remove clothes to expose the body but keep the patient warm.
 
----
+### HEENT Examination for Secondary Survey Trauma Assessment
+- Visual HEENT assessment: Look at scalp, face, eyes, inside mouth, nose, and ears.
+- Auditory HEENT assessment: Listen for stridor, gurgling, or other abnormal airway sounds.
+- Palpation HEENT assessment: Feel for abnormal facial bone or jaw movement, loose teeth, or crepitus.
 
-## Extended Physical Exam: Secondary Survey — Head-to-Toe Trauma Assessment
+### Neck Examination for Secondary Survey Trauma Assessment
+- Visual neck assessment: Look for neck wounds, trauma, haematoma, or distended neck veins.
+- Palpation neck assessment: Feel for air in tissue, pain, and deformity of the cervical spine.
+- Mobility neck assessment: Check for reduced ability to move the neck or the presence of neck pain.
 
-A secondary survey is conducted ONLY when the ABCDE has been completed and life-threatening complications addressed. Purpose: identify all injuries, plan ongoing management, and determine disposition.
+### Chest Examination for Secondary Survey Trauma Assessment
+- Visual chest assessment: Look for bruising, uneven chest movement, and burns.
+- Auditory chest assessment: Listen for breath sounds and muffled heart sounds.
+- Palpation chest assessment: Feel for crepitus.
 
-**If patient deteriorates during head-to-toe: stop and reassess ABCDE immediately.**
-Remove clothes but keep patient warm.
+### Abdominal Examination for Secondary Survey Trauma Assessment
+- Visual abdominal assessment: Look for distension, wounds, bruising, and burns.
+- Palpation abdominal assessment: Feel for rebound tenderness, guarding, and exact location of pain.
 
-### Skill 1 — HEENT Examination
-- Look: scalp, face, eyes, inside mouth, nose, ears.
-- Listen: stridor, gurgling, or other airway sounds.
-- Feel: abnormal facial bone or jaw movement, loose teeth, or crepitus.
+### Pelvis and Genitourinary Examination for Secondary Survey Trauma Assessment
+- Visual pelvis and genitourinary assessment: Look for bruising, lacerations, blood, priapism, and abnormal urine colour.
+- Palpation pelvis assessment: Feel for pelvis instability or tenderness.
 
-### Skill 2 — Neck Examination
-- Look: neck wounds, trauma, haematoma, or distended neck veins.
-- Feel: air in tissue, pain/deformity of cervical spine.
-- Check: reduced ability to move neck or neck pain.
+### Extremity Examination for Secondary Survey Trauma Assessment
+- Visual extremity assessment: Look for swelling, bruising, deformity, open fractures, wounds, and pale extremities.
+- Palpation extremity assessment: Feel for pulses, cold extremities, tenderness, and firm or painful muscle compartments.
 
-### Skill 3 — Chest Examination
-- Look: bruising, uneven chest movement, burns.
-- Listen: breath sounds, muffled heart sounds.
-- Feel: crepitus.
+### Spine and Back Examination for Secondary Survey Trauma Assessment
+- Patient positioning for spine assessment: Log roll the patient with assistance.
+- Visual spine assessment: Look for bruising or deformity.
+- Palpation spine assessment: Feel for tenderness and deformity in the spine and scapulae.
 
-### Skill 4 — Abdominal Examination
-- Look: distension, wounds, bruising, burns.
-- Feel: rebound tenderness, guarding, location of pain.
+### Skin Examination for Secondary Survey Trauma Assessment
+- Visual skin assessment: Look for bruising, abrasions, lacerations, and burns.
 
-### Skill 5 — Pelvis and Genitourinary Examination
-- Look: bruising, lacerations, blood, priapism, urine colour.
-- Feel: pelvis instability or tenderness.
-
-### Skill 6 — Extremity Examination
-- Look: swelling, bruising, deformity, open fractures, wounds, pale extremity.
-- Feel: pulses, cold extremity, tenderness, firm/painful muscle compartments.
-
-### Skill 7 — Spine/Back Examination
-- Log roll patient with assistance.
-- Look: bruising or deformity.
-- Feel: tenderness, deformity in spine and scapulae.
-
-### Skill 8 — Skin Examination
-- Look: bruising, abrasions, lacerations, burns.
-
-### Skill 9 — Neurologic Examination
-- Check level of consciousness (AVPU or GCS).
-- Check movement and strength in each limb.
-- Check for priapism.
-- Check sensation on face, chest, limbs.
+### Neurologic Examination for Secondary Survey Trauma Assessment
+- Level of consciousness assessment: Check AVPU or GCS score.
+- Motor neurologic assessment: Check movement and strength in each limb.
+- Genitourinary neurologic assessment: Check for priapism.
+- Sensory neurologic assessment: Check sensation on the face, chest, and limbs.

@@ -1,329 +1,195 @@
-# Red Cross Wilderness First Aid — Wounds and Wound Infection
+---
+tags: [wound, wound_care, wound_infection, wound_cleaning, irrigation, impaled_object, wound_closure, blister, wound_dressing, infection_signs, wilderness, laceration, tourniquet, bleeding, nosebleed, ear_problems, dental_emergency]
+source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
+standard: "American Red Cross / SOLO Wilderness Medicine"
+---
 
-**Source:** American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide
-**Standard:** American Red Cross / SOLO Wilderness Medicine
+# Wounds, Bleeding, and Related Emergencies — Wilderness First Aid Reference
+
 **Applies to:** All ages; field settings without rapid EMS access
-
-[DOMAIN_TAGS: wound, wound_care, wound_infection, wound_cleaning, irrigation, impaled_object, wound_closure, blister, wound_dressing, infection_signs, wilderness, laceration]
 
 ---
 
-### Wounds and Wound Infection
-always follow standard precautions when dealing with bleeding to prevent the
-risk of disease transmission.
-Bleeding
-When CHECKing the person, look, listen and feel for:
-- Bleeding that spurts from the arteries each time the person’s heart beats.
-(this is life threatening.)
-- smooth and rapid bleeding from veins and at the surface. (this is
-also serious.)
-- signs of bruising. (this signals internal bleeding.)
+## Bleeding Assessment and Control
 
-### To give CARE:
-- look for serious bleeding with a
-quick visual scan (figure 1).
-- check for bleeding inside clothing
-if the person is wearing bulky winter
-or rain gear. Be sure to look for the
-site of the bleeding.
-- check for bleeding underneath the
-person if he or she is lying in sand,
-rocks, snow or other terrain that
-Figure 1
-could hide blood loss.
-- cover the wound with a sterile
-dressing and apply direct pressure
-to the bleeding wound with a barrier
-and your hand (figure 2).
- if there is no time to get a sterile
-dressing, grab anything absorbent
-to press into the wound.
- if bleeding is severe, initially
-pack the wound with your fingers
-and then switch to packing with Figure 2
-absorbent material.
+### Types of Bleeding
 
-- do not apply direct pressure to bleeding wounds of the head.
- For skull fractures: cover the wound with a bulky dressing and press lightly.
-- monitor the person for shock.
+- **Arterial bleeding:** Spurts with each heartbeat — life-threatening
+- **Venous bleeding:** Smooth and rapid flow — serious
+- **Internal bleeding:** Indicated by bruising — no external blood loss visible
 
-### Impaled Objects
+### Care and Management for External Bleeding
 
-### To give CARE:
-- do not remove an object unless it interferes with urgent first aid (e.g.,
-cardiopulmonary resuscitation [cPr]).
-- control severe bleeding by packing a bulky dressing around the object.
-- apply gentle pressure and
-immobilize the object by bandaging
-around it (figure 3).
-- reduce the size and weight of the
-object if possible (e.g., by cutting
-off a tree limb).
-- remove a small impaled object
-in the skin (e.g., a splinter) with
-tweezers or similar tool.
-Figure 3
-Tourniquets
-use a tourniquet on an arm or leg only if blood loss is uncontrolled by direct
-pressure or if direct pressure is not possible. situations might include:
-- a disaster scene with multiple persons and limited rescuers.
-- one person with multiple injuries and one first aid provider.
-- a person who needs to be moved quickly or who is trapped without access to
-the wound.
+1. Perform a quick visual scan for serious bleeding
+2. Check for bleeding inside bulky clothing (winter or rain gear)
+3. Check beneath the person — blood can be hidden by sand, rocks, or snow
+4. Cover wound with a sterile dressing; apply direct pressure using a barrier and hand
+   - No sterile dressing available: Use any absorbent material
+   - Severe bleeding: Pack the wound with fingers first, then switch to absorbent material
+5. **Skull fracture with head wound:** Do not apply direct pressure — cover with a bulky dressing and press lightly
+6. Monitor for shock throughout
 
-### To give CARE:
-- tie a band of soft material, about
-1 to 2 inches wide, approximately
-2 inches above the wound but not
-over the joint (figure 4). do not
-use anything narrow (e.g., rope
-or string).
-Figure 4
+---
 
-- tie a short, sturdy stick or another
-rigid object into the material
-and twist it (called the windlass
-technique) (figure 5).
-- tighten the tourniquet by twisting
-until bleeding stops, and no more.
-- in a non-delayed-help situation,
-continue to monitor and care for
-Figure 5
-shock and keep the tourniquet tight
-and in place until the person reaches advanced medical
-care (surgery will most likely be required).
-- note the time that you applied the tourniquet.
-- tag the person in an obvious place with information about when and where
-the tourniquet was placed.
-- do not cover the tourniquet with clothing.
-- do not remove the tourniquet unless advised to do so by a health care
-provider (by phone or radio while awaiting help).
-NOTE n commercial emergency tourniquets are available and recommended.
-follow manufacturer’s instructions.
-- if a tourniquet is required for a lower leg wound and bleeding is not
-stopped when a tourniquet is placed near the wound, relocate the
-tourniquet to just above the knee. (this may work better because it is
-easier to compress the artery against the femur.)
-- it is better to continuously use a tourniquet than to allow additional
-blood loss.
+## Impaled Objects — Care and Management
 
-### Wound Cleaning
-after bleeding is controlled, the wound should be properly cleaned, closed and
-dressed to prevent infection, promote healing and reduce scarring. this is often
-referred to as irrigating the wound.
+1. Do not remove the object unless it directly prevents CPR or other urgent first aid
+2. Control severe bleeding by packing a bulky dressing around the object
+3. Apply gentle pressure and immobilise the object by bandaging around it — do not compress the object into the wound
+4. Reduce the size and weight of the object if possible (e.g., cut off a protruding tree limb)
+5. Small superficial impaled object (e.g., splinter): Remove with tweezers or a similar tool
 
-### To give CARE:
-- wash your hands.
-- Put on clean, latex-free medical exam gloves.
-- remove any large materials with tweezers or gauze pads before washing
-the wound.
+---
 
-- Vigorously wash and rinse dirty wounds with large amounts (at least 1 quart)
-of disinfected water or water that is potable (safe to drink). disinfected water
-has been treated via boiling, chemicals or filtration—or some combination—to
-make it potable.
-- direct a high-pressure stream of
-water into the wound through an
-irrigation syringe, if available
-(figure 6).
- draw the water into the syringe,
-hold the syringe about 2 inches
-above and perpendicular to the
-wound and push down forcefully on
-Figure 6
-the plunger.
- Keep the wound tipped so the water runs out.
-- if no irrigation syringe is available, improvise by:
- using a biking water bottle.
- melting a pinhole in the center of the lid of a standard water bottle.
- Punching a pinhole in a clean plastic bag.
-- if the wound was initially washed using water that was not disinfected, follow
-up with a final flush of disinfected or potable water.
-- do not use hydrogen peroxide, rubbing alcohol or tincture of iodine, as
-these can further damage tissue.
-NOTE n flaps of skin may need to be held open while the wound is
-being washed.
-- skin around a laceration should be washed clean before irrigating
-the wound.
-- Puncture wounds need considerable irrigation because they are deep
-and have the potential for infection, especially with animal bites.
+## Tourniquet Application
 
-### Wound Dressing and
-Closing
-Lacerations
-lacerations are cuts through the skin
-that have even or ragged edges
-(figure 7).
-Figure 7
+Use a tourniquet on an arm or leg only when direct pressure fails to control bleeding, or direct pressure is not possible. Indicated situations:
+- Multiple casualties with limited rescuers
+- Single rescuer managing multiple injuries on one patient
+- Patient must be moved quickly or wound is inaccessible
 
+### Tourniquet Application Procedure
 
-### To give CARE:
-- if the wound is a laceration that you
-held open while cleaning, close the
-wound with wound closure strips or
-thin strips of tape (figure 8).
- if hair gets in the way of laceration
-closure, carefully clip it short. do
-not shave.
-Figure 8
- if using closure strips, apply one
-end of one strip to one side of the wound and another to the opposite side.
- using the opposing strips as handles, you can pull the wound edges together,
-pulling the skin in as close as possible to where it should lie naturally.
-- apply a thin layer of wound gel or a microthin (transparent) film dressing. do
-not use wound gel with a microthin film dressing.
-- cover the wound with a sterile dressing and bandage. if possible, the
-dressing should completely cover the wound and extend ½ inch beyond the
-wound’s edge.
-- remove rings or anything that could cut off circulation if swelling occurs.
-- check bandages often.
-- if possible, change the dressing daily. microthin film dressings may be left in
-place until healing is complete.
-NOTE n wounds gaping more than ½ inch should not be closed in the field but
-instead evacuated for closure by a health care provider.
-- large dirty wounds; wounds that expose bones, tendons or ligaments;
-and wounds caused by animal bites should be left open. these are
-difficult to clean well enough to prevent infection.
-- exceptionally dirty wounds should be packed open with sterile gauze
-and covered with dry gauze to allow them to drain until a health care
-provider can be consulted.
+1. Position a band of soft material 1–2 inches wide approximately 2 inches above the wound — not over a joint; do not use rope or string
+2. Tie a short sturdy stick or rigid object into the material; twist (windlass technique) until bleeding stops — do not overtighten
+3. Record and tag the exact time of tourniquet application in an obvious location on the person
+4. Do not cover the tourniquet with clothing
+5. Keep the tourniquet tight and in place until the person reaches advanced medical care — surgery will most likely be required
+6. Do not remove the tourniquet unless directed by a healthcare provider via phone or radio
+7. Lower leg wound not controlled by tourniquet near the wound: Relocate tourniquet to just above the knee — compression against the femur is more effective
+8. Commercial emergency tourniquets are recommended — follow manufacturer's instructions
 
-Abrasions
-abrasions are shallow and often dirty
-wounds that occur when some skin has
-been scraped away (figure 9). they
-are often infected and can be painful.
+---
 
-### To give CARE:
-- if cared for within 10 minutes,
-apply a thick layer of wound gel
-and cover with a sterile dressing,
-then bandage.
-- if cared for after 10 minutes or
-there are items (e.g., sand,
-Figure 9
-pebbles) in the wound:
- scrub the abrasion clean with a gauze pad or a clean, soft cloth and soap
-and water.
- follow scrubbing with irrigation or rinsing.
- apply a thin layer of wound gel and cover with a dressing and bandage.
+## Wound Cleaning (Irrigation)
 
-### Friction Blisters
+Clean all wounds after bleeding is controlled to prevent infection, promote healing, and reduce scarring.
 
-### To give CARE:
-- clean around the site thoroughly.
-- sterilize the point of a needle or knife to open the blister wide.
-- if possible, leave the roof (separated skin layer) of the blister intact to ease
-discomfort and speed healing.
-- wash with soap and water.
-- if the roof has been rubbed away, care for as an open wound.
+### Wound Irrigation Procedure
 
-- in all cases, apply a dressing that
-limits friction.
- if available, use a commercial
-product or improvise with duct tape
-and gauze.
- Building a “donut” by cutting a hole
-in the center of a rounded piece of
-moleskin (figure 10) or improvising
-Figure 10
-something similar separates
-irritated skin from friction.
- center the blister site in the hole
-and fill the hole with wound gel.
- tape the moleskin or put another
-strip of moleskin on top of the donut
-to keep the gel in place (figure 11).
-this also prevents the blister from
-refilling with liquid.
-Figure 11
-Chafing
-chafing occurs from excess friction, often in the groin area and between
-the thighs.
+1. Wash hands; apply clean latex-free medical exam gloves
+2. Remove large debris with tweezers or gauze pads before washing
+3. Wash the skin around the laceration clean before irrigating the wound interior
+4. Vigorously wash and rinse dirty wounds with at least 1 quart of potable (safe to drink) or disinfected water — disinfected water has been treated by boiling, chemicals, or filtration
+5. Use an irrigation syringe if available:
+   - Draw water into the syringe; hold 2 inches above and perpendicular to the wound
+   - Push down forcefully on the plunger; keep the wound tipped so water drains out
+6. No irrigation syringe available — improvise using:
+   - A biking water bottle
+   - A standard water bottle lid with a pinhole melted in the centre
+   - A clean plastic bag with a pinhole
+7. Initial wash performed with non-disinfected water: Follow up with a final flush of potable or disinfected water
+8. **Do not use** hydrogen peroxide, rubbing alcohol, or tincture of iodine — these damage tissue
+9. Flaps of skin may need to be held open during washing
+10. Puncture wounds require extensive irrigation — they are deep and carry high infection risk, especially animal bites
 
-### To give CARE:
-- apply a layer of lubricating oil or ointment (e.g., petroleum jelly or cooking oil)
-or fragrance-free baby powder or cornstarch.
+---
 
-### Ear Problems
+## Wound Closure and Dressing
 
-### To give CARE:
-For objects lodged in the ear:
-- do not use force to remove the object.
-- if it is small, attempt to rinse it out with water by flooding and draining the
-ear canal.
- for insects, use cooking oil instead of water.
+### Laceration Closure and Dressing
 
-For ear infections:
-When CHECKing the person, look, listen and feel for:
-- Pain when the ear is pulled on.
-- Vertigo (dizziness).
+- Wound gaping more than ½ inch: Do not close in the field — evacuate for closure by a healthcare provider
+- Large dirty wounds, wounds exposing bone/tendons/ligaments, and animal bite wounds: Leave open — too contaminated to close safely
+- Exceptionally dirty wounds: Pack open with sterile gauze; cover with dry gauze to allow drainage until healthcare provider is reached
 
-### To give CARE:
-- rinse the ear daily with a solution of 50 percent water and 50 percent alcohol
-or vinegar.
-- seek medical help if pain persists.
-Nosebleeds
+**Closing a laceration in the field:**
+1. Close wound using wound closure strips or thin tape strips
+   - Hair interfering with closure: Clip short — do not shave
+   - Apply one strip end to each side of the wound; pull edges together as close to natural position as possible
+2. Apply a thin layer of wound gel or a microthin (transparent) film dressing — do not use both together
+3. Cover with a sterile dressing and bandage extending at least ½ inch beyond the wound edge
+4. Remove rings or constricting items from the affected area — swelling can cut off circulation
+5. Check bandages frequently
+6. Change dressing daily if possible — microthin film dressings may remain until healing is complete
 
-### To give CARE:
-- Have the person sit down, lean
-forward and pinch the meaty part
-of the nose, just below the bridge,
-firmly shut (figure 12). you may
-have to do this if the person
-is unable.
-- Hold or have the person hold the
-nose shut for 10 minutes.
-Figure 12
-- if bleeding persists, have the
-person continue pinching the nose shut for another 10 minutes and repeat
-until bleeding stops.
-- care for continued bleeding by packing the nostrils gently with gauze soaked
-with a decongestant nasal spray.
-- if the person suffered a blow to the nose that caused a deformity, care for the
-injury with cold packs.
-- ask the person not to blow his or her nose for 10 days because this could
-restart bleeding.
-- Have the person seek professional help within 10 days if the nose was
-deformed by trauma.
-NOTE Blood running down the throat when leaning forward may indicate a
-serious nosebleed. the person will need rapid evacuation and a health
-care provider’s attention.
+### Abrasion Cleaning and Dressing
 
+- Within 10 minutes of injury: Apply thick layer of wound gel; cover with sterile dressing and bandage
+- After 10 minutes, or debris (sand, pebbles) present in wound:
+  1. Scrub clean with gauze pad or clean soft cloth and soap and water
+  2. Follow with irrigation or rinsing
+  3. Apply thin layer of wound gel; cover with dressing and bandage
 
-### Teeth Problems
+---
 
-### To give CARE:
-For a cavity or missing filling:
-- rinse the area clean.
-- make a temporary filling by mixing zinc powder oxide and eugenol or use
-candle wax, ski wax or sugarless gum.
-- to hold a dislodged crown back in place, use temporary filling material or a
-commercial dental adhesive product (e.g., fixadent®).
-For a knocked-out tooth:
-- Bleeding can be controlled by biting down on a rolled gauze pad. Have the
-person rinse his or her mouth out.
-- Hold the tooth by the crown and avoid touching the root.
-- rinse the tooth with clean water. do not scrub.
-- gently press the tooth back in the socket.
-- if the tooth will not go back in, save it until the person can get to a dentist.
-- to store the loose tooth, have the person hold it in his or her mouth, taking
-care not to swallow it.
-- if the person cannot hold the tooth in his or her mouth, ideally store the tooth
-in milk or a 0.9 percent saline solution.
-For an infected tooth:
-When CHECKing the person, look, listen and feel for:
-- Pain and swelling in the gum and cheek near the tooth.
-- Possible discoloration of the gum.
+## Friction Blisters — Care and Management
 
-### To give CARE:
-- Place cold packs on the cheek.
-- if evacuation is delayed, have the person rinse out his or her mouth several
-times a day with warm, salty water.
-- aspirin may help alleviate pain.
-NOTE evacuate the person rapidly—GO FAST.
+1. Clean thoroughly around the blister site
+2. Sterilise a needle or knife tip; open the blister with a wide puncture
+3. Leave the blister roof (separated skin layer) intact if possible — reduces discomfort and speeds healing
+4. Wash with soap and water
+5. Blister roof rubbed away: Treat as an open wound
+6. Apply a friction-limiting dressing in all cases:
+   - Use a commercial blister product, or improvise with duct tape and gauze
+   - Build a donut dressing: Cut a hole in the centre of a rounded piece of moleskin; centre the blister in the hole; fill the hole with wound gel; cover with a second strip of moleskin to seal — prevents blister refilling and reduces friction
 
-NOTE the person should only take medication if he or she can swallow and has
-no known contraindications. individuals should read and follow all label
-or health care provider instructions. check state and local regulations
-regarding use of prescription and over-the-counter medications.
+---
+
+## Chafing — Care and Management
+
+- Apply lubricating oil or ointment (petroleum jelly or cooking oil), or fragrance-free baby powder or cornstarch to the affected area
+
+---
+
+## Ear Problems
+
+### Foreign Object in the Ear — Care and Management
+
+1. Do not use force to remove the object
+2. Small object: Attempt to rinse out by flooding and draining the ear canal with water
+3. Insect in the ear: Use cooking oil instead of water to flood the canal
+
+### Ear Infection — Signs and Care
+
+**Signs:** Pain when the ear is pulled; vertigo (dizziness)
+
+**Care:**
+1. Rinse the ear daily with a 50/50 solution of water and alcohol, or water and vinegar
+2. Pain persisting: Seek medical help
+
+---
+
+## Nosebleeds — Care and Management
+
+1. Have the person sit down, lean forward, and pinch the soft fleshy part of the nose firmly shut just below the bridge — apply this yourself if the person is unable
+2. Hold continuously for 10 minutes
+3. Bleeding persists: Continue pinching for another 10 minutes — repeat until bleeding stops
+4. Continued bleeding after sustained pressure: Pack nostrils gently with gauze soaked in decongestant nasal spray
+5. Nose deformed by a blow: Apply cold packs
+6. Instruct the person not to blow their nose for 10 days — this can restart bleeding
+7. Nose deformed by trauma: Seek professional care within 10 days
+
+**Blood running down the throat while leaning forward = serious nosebleed:** Evacuate rapidly (GO FAST) — healthcare provider evaluation required.
+
+---
+
+## Dental Emergencies
+
+### Cavity or Missing Filling — Care and Management
+
+1. Rinse the area clean
+2. Make a temporary filling: Mix zinc powder oxide and eugenol, or use candle wax, ski wax, or sugarless gum
+3. Dislodged crown: Reattach using temporary filling material or commercial dental adhesive (e.g., Fixodent®)
+
+### Knocked-Out Tooth — Care and Management
+
+1. Control bleeding by biting down on a rolled gauze pad; have the person rinse their mouth
+2. Hold the tooth by the crown only — do not touch the root
+3. Rinse the tooth with clean water — do not scrub
+4. Gently press the tooth back into the socket
+5. Tooth will not re-implant: Save it for a dentist
+6. Storage — in order of preference:
+   - In the person's own mouth (taking care not to swallow it)
+   - In milk
+   - In 0.9% saline solution
+
+### Infected Tooth — Signs and Care
+
+**Signs:** Pain and swelling in the gum and cheek near the tooth; possible gum discolouration
+
+**Care:**
+1. Apply cold packs to the cheek
+2. Evacuation delayed: Have the person rinse their mouth several times daily with warm salt water
+3. Aspirin may help alleviate pain if the person can swallow and has no contraindications
+4. Evacuate rapidly (GO FAST)

@@ -1,33 +1,24 @@
+---
+tags: [paediatric, pediatric, child, infant, neonate, baby, toddler, child_assessment, paediatric_vitals, paediatric_shock, paediatric_CPR, infant_CPR, child_breathing, paediatric_fever, febrile_seizure, child_airway, paediatric_fluids, glucose_child, hypoglycaemia_child, danger_signs_child, paediatric_sepsis, meningitis_child, paediatric_trauma, child_burn, child_drowning]
+source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
+standard: "WHO / ICRC 2018"
+category: "Paediatric Emergencies — All Ages (Neonate to Adolescent)"
+---
+
 # Paediatric Emergency — Consolidated Reference
-
-**Source:** WHO Basic Emergency Care (BEC) — Participant Workbook
-**Standard:** WHO / ICRC 2018
-**Category:** Paediatric Emergencies — All Ages (Neonate to Adolescent)
-
-[DOMAIN_TAGS: paediatric, pediatric, child, infant, neonate, baby, toddler, child_assessment, paediatric_vitals, paediatric_shock, paediatric_CPR, infant_CPR, child_breathing, paediatric_fever, febrile_seizure, child_airway, paediatric_fluids, glucose_child, hypoglycaemia_child, danger_signs_child, paediatric_sepsis, meningitis_child, paediatric_trauma, child_burn, child_drowning]
 
 ---
 
-## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+## Paediatric Vital Signs — Normal Ranges by Age
 
-> **During active convulsions:**
-> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
-> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
-> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+- Neonate (0–1 mo): HR 100–160 bpm, RR 40–60/min, Systolic BP 60–90 mmHg
+- Infant (1–12 mo): HR 100–150 bpm, RR 30–60/min, Systolic BP 70–100 mmHg
+- Toddler (1–3 yr): HR 90–150 bpm, RR 24–40/min, Systolic BP 80–110 mmHg
+- Pre-school (3–5 yr): HR 80–140 bpm, RR 22–34/min, Systolic BP 80–110 mmHg
+- School age (6–12 yr): HR 70–120 bpm, RR 18–30/min, Systolic BP 90–120 mmHg
+- Adolescent (12–18 yr): HR 60–100 bpm, RR 12–20/min, Systolic BP 100–130 mmHg
 
-
-## Paediatric Vital Signs — Normal Ranges
-
-| Age | Heart Rate (bpm) | Respiratory Rate (/min) | Systolic BP (mmHg) |
-|-----|-----------------|------------------------|-------------------|
-| Neonate (0–1 mo) | 100–160 | 40–60 | 60–90 |
-| Infant (1–12 mo) | 100–150 | 30–60 | 70–100 |
-| Toddler (1–3 yr) | 90–150 | 24–40 | 80–110 |
-| Pre-school (3–5 yr) | 80–140 | 22–34 | 80–110 |
-| School age (6–12 yr) | 70–120 | 18–30 | 90–120 |
-| Adolescent (12–18 yr) | 60–100 | 12–20 | 100–130 |
-
-**Minimum systolic BP by age:** 70 + (2 × age in years) mmHg
+**Minimum acceptable systolic BP by age:** 70 + (2 × age in years) mmHg
 
 ---
 
@@ -35,284 +26,310 @@
 
 ### Paediatric Assessment Triangle (PAT) — First 30 Seconds
 
-Assess from a distance before touching:
-1. **Appearance:** Tone, interactiveness, consolability, look/gaze, speech/cry
-2. **Work of Breathing:** Abnormal sounds (stridor, grunting), abnormal position (tripod, sniffing), visible retractions
-3. **Circulation to Skin:** Pallor, mottling, cyanosis
+Assess from a distance before touching the child:
+- **Appearance:** Tone, interactiveness, consolability, look/gaze, speech/cry
+- **Work of Breathing:** Abnormal sounds (stridor, grunting), abnormal position (tripod, sniffing), visible retractions
+- **Circulation to Skin:** Pallor, mottling, cyanosis
 
-### AVPU / Disability
+### AVPU Disability Scale for Paediatric Assessment
 
-- **Alert:** Awake, appropriate for age
+- **Alert:** Awake and appropriate for age
 - **Voice:** Responds to verbal stimulus
-- **Pain:** Responds to painful stimulus
-- **Unresponsive**
+- **Pain:** Responds only to painful stimulus
+- **Unresponsive:** No response to any stimulus
 
 ### WHO Danger Signs in Children (IMCI)
 
-Any one of these = emergency:
+Any single sign below = treat as emergency:
 - Unable to drink or breastfeed
 - Vomiting everything
-- Convulsions (seizures) — current or recent
+- Convulsions — current or recent
 - Lethargic or unconscious
 - Severe respiratory distress
-- Severe dehydration (sunken eyes, poor skin turgor, no tears)
-- Stiff neck (meningitis)
+- Severe dehydration: sunken eyes, poor skin turgor, no tears
+- Stiff neck (meningitis indicator)
 - Bulging fontanelle (infant)
-- Petechial / purpuric rash (meningococcal)
+- Petechial or purpuric rash (meningococcal indicator)
 
 ---
 
-## Paediatric Airway
+## Paediatric Airway Assessment and Management
 
-### Key Differences from Adult
+### Anatomical Differences Affecting Paediatric Airway
 
-- Larger tongue relative to oral cavity → more easily obstructed
-- Shorter, narrower airway (cricoid is narrowest point, not glottis)
-- Softer, more compliant trachea
+- Larger tongue relative to oral cavity → obstruction risk is higher than in adults
+- Shorter, narrower airway; cricoid is narrowest point (not glottis as in adults)
+- Softer, more compliant trachea — prone to collapse with over-extension
 - Epiglottis is omega-shaped and floppy
-- Infants are obligate nasal breathers — clear nasal passages
+- Infants are obligate nasal breathers — nasal passages must be kept clear
 
-### Airway Opening
+### Airway Opening Technique by Age
 
-- **Infant/toddler:** Neutral or slight "sniffing" position — avoid over-extension (collapses trachea)
-- **Child > 2 years:** Head-tilt chin-lift as adults
-- **Jaw thrust** if spinal injury suspected (any age)
+- **Infant/Toddler:** Use neutral or slight "sniffing" position — avoid over-extension (collapses trachea)
+- **Child > 2 years:** Head-tilt chin-lift, same as adults
+- **Any age with suspected spinal injury:** Use jaw thrust only
 
-### Airway Obstruction Signs
+### Airway Obstruction Signs in Children
 
 - Stridor (inspiratory) = upper airway obstruction
-- Grunting = lower airway/alveolar disease (auto-PEEP)
+- Grunting = lower airway or alveolar disease (auto-PEEP mechanism)
 - Wheezing = lower airway obstruction (asthma, bronchiolitis)
 - Retractions (intercostal, subcostal, sternal) = increased work of breathing
-- Nasal flaring
-- Head bobbing (infants)
-- Cyanosis = late and pre-terminal sign
+- Nasal flaring = increased work of breathing
+- Head bobbing (infants) = severe respiratory effort
+- Cyanosis = late and pre-terminal sign — act immediately
 
-### Foreign Body Airway Obstruction (FBAO)
+### Foreign Body Airway Obstruction (FBAO) in Infants Under 1 Year
 
-**Infant (< 1 year):**
-1. 5 back blows (firm, between shoulder blades, head-down)
-2. 5 chest thrusts (2 fingers on centre of chest, lower sternum)
-3. Look in mouth; remove only if visible
-4. Repeat cycle; call EMS if not resolved within 1 minute
+1. Deliver 5 back blows — firm strikes between shoulder blades, infant held head-down
+2. Deliver 5 chest thrusts — 2 fingers on centre of chest, lower sternum
+3. Look in mouth; remove object only if clearly visible
+4. Repeat cycle
+5. Call EMS if not resolved within 1 minute
 
-**Child (> 1 year):**
-1. 5 back blows
-2. 5 abdominal thrusts (Heimlich)
-3. Look in mouth; remove only if visible
-4. Repeat; call EMS
+### Foreign Body Airway Obstruction (FBAO) in Children Over 1 Year
 
-**If child becomes unconscious:** Start CPR (chest compressions may dislodge object).
+1. Deliver 5 back blows
+2. Deliver 5 abdominal thrusts (Heimlich manoeuvre)
+3. Look in mouth; remove object only if clearly visible
+4. Repeat cycle; call EMS
+5. Child becomes unconscious: Start CPR immediately — chest compressions may dislodge the object
 
 ---
 
-## Paediatric Breathing
+## Paediatric Breathing Assessment and Oxygen Delivery
 
-### Respiratory Rate Assessment
+### Respiratory Rate Assessment in Children
 
-Count for full 60 seconds — respiratory rate is variable in children. Classify:
-- **Tachypnoea** = RR above normal for age
-- **Bradypnoea** = RR below normal = pre-arrest sign
-- Apnoea = no breathing
+- Count for a full 60 seconds — respiratory rate is highly variable in children
+- **Tachypnoea:** RR above normal range for age
+- **Bradypnoea:** RR below normal range = pre-arrest sign — act immediately
+- **Apnoea:** No breathing — initiate BVM ventilation immediately
 
-### Oxygen Delivery
+### Oxygen Delivery Thresholds for Children
 
-| SpO₂ | Action |
-|------|--------|
-| ≥ 94% | No O₂ needed (unless respiratory distress) |
-| 90–93% | Low-flow O₂ (nasal cannula 1–2 L/min) |
-| < 90% | High-flow O₂ (face mask, 6–10 L/min) |
-| Apnoea | BVM ventilation (15 L/min O₂) |
+- SpO₂ ≥ 94%: No supplemental O₂ required (unless signs of respiratory distress present)
+- SpO₂ 90–93%: Low-flow O₂ via nasal cannula at 1–2 L/min
+- SpO₂ < 90%: High-flow O₂ via face mask at 6–10 L/min
+- Apnoea: BVM ventilation with O₂ at 15 L/min
 
 ---
 
 ## Paediatric Circulation and Shock
 
-### Signs of Shock in Children
+### Signs of Compensated (Early) Shock in Children
 
-**Early (compensated):**
-- Tachycardia (most sensitive sign)
+- Tachycardia — most sensitive early sign
 - Pale skin
 - Cool peripheries
-- Prolonged capillary refill > 2 seconds
-- Normal BP (children maintain BP until decompensated)
+- Capillary refill > 2 seconds
+- Blood pressure remains normal — children compensate until decompensation
 
-**Late (decompensated):**
-- Hypotension — sign of late/pre-arrest shock
-- Altered mental status (agitation → lethargy)
-- Mottled, cyanotic skin
-- Weak/absent peripheral pulses
-- Bradycardia — **pre-arrest sign in children** (not compensatory as in adults)
+### Signs of Decompensated (Late) Shock in Children
 
-### Capillary Refill Time (CRT)
+- Hypotension — indicates late or pre-arrest shock
+- Altered mental status: agitation progressing to lethargy
+- Mottled or cyanotic skin
+- Weak or absent peripheral pulses
+- Bradycardia — **pre-arrest sign in children** (unlike adults where bradycardia can be compensatory)
 
-Press nail bed for 5 seconds; release; count seconds to blanch returns to pink.
-- Normal: ≤ 2 seconds (warm environment)
-- Prolonged: > 2 seconds = reduced perfusion
+### Capillary Refill Time (CRT) Assessment
 
-### IV/IO Access
+- Press nail bed firmly for 5 seconds; release; count seconds until colour returns to pink
+- Normal: ≤ 2 seconds in a warm environment
+- Prolonged: > 2 seconds = reduced peripheral perfusion
 
-- Establish IV access in 2 attempts maximum; if failed → intraosseous (IO) insertion
-- IO acceptable at any age; preferred sites: proximal tibia, distal femur
-- All resuscitation drugs and fluids can be given IO
+### IV and IO Access in Children
 
-### Fluid Resuscitation
+- Attempt IV access maximum 2 times; failed attempts → proceed to intraosseous (IO) insertion
+- IO access is appropriate at any age
+- Preferred IO sites: proximal tibia, distal femur
+- All resuscitation drugs and fluids can be administered via IO route
 
-- **Isotonic crystalloid** (0.9% NaCl or Ringer's lactate)
-- Bolus: **10–20 mL/kg** over 15–30 minutes; reassess after each bolus
-- Septic shock: up to 60 mL/kg in first hour (reassess frequently)
-- **DO NOT** use hypotonic fluids (0.45% NaCl, 5% dextrose) for resuscitation
-- **Blood** (10 mL/kg): Use early in haemorrhagic shock when available
+### Fluid Resuscitation in Paediatric Shock
+
+- Fluid choice: Isotonic crystalloid — 0.9% NaCl or Ringer's lactate
+- Bolus dose: 10–20 mL/kg over 15–30 minutes; reassess after each bolus
+- Septic shock: Up to 60 mL/kg in the first hour — reassess frequently
+- **Do not use** hypotonic fluids (0.45% NaCl, 5% dextrose) for resuscitation
+- Haemorrhagic shock: Use blood (10 mL/kg) early when available
 
 ---
 
-## Paediatric Glucose Management
+## Hypoglycaemia Recognition and Treatment in Children
 
-### Hypoglycaemia (Low Blood Sugar)
+### Blood Glucose Thresholds for Treatment
 
-**Threshold for treatment:**
 - Neonate: BG < 2.5 mmol/L (< 45 mg/dL)
-- Infant/child: BG < 3.0 mmol/L (< 54 mg/dL)
+- Infant/Child: BG < 3.0 mmol/L (< 54 mg/dL)
 
-**Signs:** Irritability, poor feeding, jitteriness (neonate); altered mental status, sweating, pallor, seizure (child)
+### Signs of Hypoglycaemia by Age
 
-**Treatment:**
-- Conscious child: Oral glucose (juice, sugar water, dextrose gel)
-- Impaired consciousness: **10% dextrose 2–4 mL/kg IV** (= 0.2–0.4 g/kg glucose)
-  - Avoid 50% dextrose in children — hyperosmolar, vein damage
-- Recheck glucose 15–30 minutes after treatment
-- Identify and treat underlying cause
+- Neonate: Irritability, poor feeding, jitteriness
+- Child: Altered mental status, sweating, pallor, seizure
+
+### Hypoglycaemia Treatment in Children
+
+- Conscious child: Give oral glucose — juice, sugar water, or dextrose gel
+- Impaired consciousness: Give **10% dextrose 2–4 mL/kg IV** (= 0.2–0.4 g/kg glucose)
+  - **Do not use 50% dextrose in children** — hyperosmolar, causes vein damage
+- Recheck blood glucose 15–30 minutes after treatment
+- Identify and treat the underlying cause
 
 ---
 
 ## Paediatric CPR
 
-### Infant CPR (< 1 year)
+### Infant CPR — Under 1 Year
 
-1. **Check responsiveness:** Tap foot; shout.
-2. **Call EMS** (or send helper).
-3. **Open airway:** Neutral "sniffing" position.
-4. **Check breathing:** 10 seconds. Gasping = not breathing.
-5. **Give 2 rescue breaths FIRST** (mouth-to-mouth-and-nose for infants):
-   - Puff only enough air to see chest rise (small lungs)
-   - 1 second each
-6. **Chest compressions:**
-   - 2 fingers on centre of chest, just below nipple line
-   - Depth: ~4 cm (about 1.5 inches), or one-third chest depth
+1. Check responsiveness: Tap foot and shout
+2. Call EMS or send a bystander to call
+3. Open airway: Neutral "sniffing" position
+4. Check breathing for 10 seconds — gasping counts as not breathing
+5. **Give 2 rescue breaths first** (mouth-to-mouth-and-nose for infants):
+   - Use only enough air to see chest rise — infant lungs are small
+   - 1 second per breath
+6. Begin chest compressions:
+   - Position: 2 fingers on centre of chest, just below nipple line
+   - Depth: ~4 cm (~1.5 inches), or one-third of chest depth
    - Rate: 100–120/min
-   - **Ratio: 30:2** (one rescuer); **15:2** (two trained rescuers)
-7. Continue; check every 2 minutes for signs of life.
+   - Ratio: 30:2 (one rescuer); 15:2 (two trained rescuers)
+7. Continue CPR; reassess every 2 minutes for signs of life
 
-### Child CPR (1 year to puberty)
+### Child CPR — 1 Year to Puberty
 
-Same as adult with modifications:
-- **Start with 2 rescue breaths** if cause is respiratory (drowning, choking)
-- **One hand** for compressions (or two hands if child is large)
-- **Depth: 5 cm** (~2 inches, one-third chest depth)
-- **Rate: 100–120/min**
-- **Ratio: 30:2** (one rescuer); **15:2** (two trained rescuers)
-- AED: Use paediatric pads/mode if available for children < 8 years; adult pads acceptable if paediatric unavailable
+- **Give 2 rescue breaths first** if cause is respiratory (drowning, choking)
+- Use one hand for compressions; two hands if child is large
+- Compression depth: 5 cm (~2 inches, one-third of chest depth)
+- Rate: 100–120/min
+- Ratio: 30:2 (one rescuer); 15:2 (two trained rescuers)
+- AED: Use paediatric pads or paediatric mode for children < 8 years; adult pads are acceptable if paediatric pads are unavailable
 
-### CPR — Key Differences: Child vs Adult
+### CPR Technique Differences — Infant vs Child vs Adult
 
-| Feature | Adult | Child | Infant |
-|---------|-------|-------|--------|
-| First action after unresponsiveness | Compressions → breaths | Breaths first if respiratory cause | Breaths first |
-| Compression technique | 2 hands | 1 or 2 hands | 2 fingers or 2-thumb encircling |
-| Compression depth | 5–6 cm | ~5 cm | ~4 cm |
-| Rescue breaths first | No (cardiac arrest adult) | Yes (if drowning/respiratory) | Yes |
-| AED age limit | All ages | < 8 yr use paediatric | < 8 yr use paediatric |
+- **Rescue breaths first:**
+  - Adult: No (compressions first in cardiac arrest)
+  - Child: Yes, if cause is respiratory (drowning, choking)
+  - Infant: Yes, always
+- **Compression technique:**
+  - Adult: 2 hands
+  - Child: 1 or 2 hands
+  - Infant: 2 fingers, or 2-thumb encircling method (2 rescuers)
+- **Compression depth:**
+  - Adult: 5–6 cm
+  - Child: ~5 cm
+  - Infant: ~4 cm
+- **AED:**
+  - Adult: Standard pads, all ages
+  - Child < 8 yr: Paediatric pads/mode preferred; adult pads acceptable if unavailable
+  - Infant < 8 yr: Paediatric pads/mode preferred; adult pads acceptable if unavailable
 
 ---
 
 ## Paediatric Fever and Febrile Seizure
 
-### Fever in Children
+### Fever Assessment in Children
 
-- **Fever** = rectal/core temperature ≥ 38.0°C (100.4°F)
-- **High fever** = ≥ 39.5°C; **Hyperpyrexia** = ≥ 41°C
+- **Fever:** Rectal/core temperature ≥ 38.0°C (100.4°F)
+- **High fever:** ≥ 39.5°C
+- **Hyperpyrexia:** ≥ 41°C
 
-**Assessment:** Is the child toxic-appearing? Signs: lethargy, poor perfusion, bulging fontanelle, petechiae = emergency.
+Toxic-appearing child (any of the following) = treat as emergency:
+- Lethargy
+- Poor perfusion
+- Bulging fontanelle
+- Petechiae
 
-**Cooling:**
+### Fever Cooling and Treatment in Children
+
 - Remove excess clothing
 - Tepid (not cold) sponging if temperature > 40°C
-- Paracetamol/acetaminophen (15 mg/kg per dose, 4–6 hourly)
-- Ibuprofen (10 mg/kg per dose) for children > 3 months
-- Do NOT use aspirin in children (Reye's syndrome risk)
+- Paracetamol/acetaminophen: 15 mg/kg per dose, every 4–6 hours
+- Ibuprofen: 10 mg/kg per dose — use only in children > 3 months
+- **Do not use aspirin in children** — risk of Reye's syndrome
 
-### Febrile Seizure
+### Simple Febrile Seizure — Recognition Criteria
 
-**Simple febrile seizure:**
+All of the following must be present:
 - Duration < 15 minutes
 - Generalised (not focal)
-- One episode in 24 hours
-- Child 6 months – 5 years
+- Single episode within 24 hours
+- Child aged 6 months to 5 years
 - No residual neurological deficit
 
-**Management:**
-1. Position: Side-lying (recovery position) to protect airway
-2. Time the seizure
-3. Do NOT restrain; do NOT put anything in mouth
-4. O₂ if available
-5. If seizure > 5 minutes → benzodiazepine (diazepam rectal 0.5 mg/kg; midazolam buccal/intranasal 0.2 mg/kg)
-6. After seizure: Check blood glucose; assess for serious bacterial infection
-7. Seek medical evaluation for first febrile seizure
+### Simple Febrile Seizure Management
 
-**Complex febrile seizure** (duration > 15 min, focal, or > 1 episode/24 h) → urgent hospital evaluation.
+1. Place child in side-lying (recovery) position to protect airway
+2. Time the seizure from onset
+3. Do not restrain; do not place anything in the mouth
+4. Apply O₂ if available
+5. Seizure lasting > 5 minutes: Give benzodiazepine — diazepam rectal 0.5 mg/kg, or midazolam buccal/intranasal 0.2 mg/kg
+6. After seizure resolves: Check blood glucose; assess for serious bacterial infection
+7. First febrile seizure: Always seek medical evaluation
+
+### Complex Febrile Seizure — Criteria Requiring Urgent Hospital Transfer
+
+Any one of the following = complex febrile seizure → urgent hospital evaluation:
+- Duration > 15 minutes
+- Focal features
+- More than 1 episode within 24 hours
 
 ---
 
-## Paediatric Meningitis
+## Paediatric Meningitis — Recognition and Emergency Action
 
-### Recognition
+### Signs of Meningitis in Older Children and Adolescents
 
-**Older child/adolescent:**
 - Severe headache
 - Stiff neck (nuchal rigidity)
 - Photophobia
 - Fever
 - Vomiting
 - Altered mental status
-- Petechial/purpuric rash (meningococcal — non-blanching)
+- Petechial or purpuric rash — non-blanching, indicates meningococcal disease
 
-**Infant:**
+### Signs of Meningitis in Infants
+
 - Bulging fontanelle
 - High-pitched cry
 - Refusal to feed
 - Lethargic or very irritable
-- Fever (may be hypothermia in neonate)
+- Fever — note: neonate may present with hypothermia instead
 - Seizures
 
-### Emergency Action
+### Emergency Management of Suspected Paediatric Meningitis
 
-1. **Activate EMS immediately** — bacterial meningitis is rapidly fatal.
-2. Protect airway; supplemental O₂.
-3. IV/IO access; fluid bolus if signs of shock.
-4. Antibiotics (if trained and available) — do NOT delay hospital transfer for lumbar puncture.
-5. If meningococcal septicaemia suspected (petechiae + shock): **give IM/IV benzylpenicillin** before transfer if available.
-6. Handle gently; reduce stimulation; dim lights.
+1. Activate EMS immediately — bacterial meningitis is rapidly fatal
+2. Protect airway; apply supplemental O₂
+3. Establish IV/IO access; give fluid bolus if signs of shock are present
+4. Administer antibiotics if trained and available — do not delay hospital transfer to perform lumbar puncture
+5. Suspected meningococcal septicaemia (petechiae + shock): Give IM/IV benzylpenicillin before transfer if available
+6. Handle gently; reduce stimulation; dim lights
 
 ---
 
-## Paediatric Burns
+## Paediatric Burns — Assessment and Management
 
-### Estimation of Burn Size in Children
+### Estimating Burn Size in Children
 
-Use the **Rule of Nines modified for age** or the **Lund and Browder chart**:
-- Child's palm (including fingers) ≈ 1% BSA — use patient's own palm
-- Head is larger proportion in infants (up to 18% at birth vs 9% in adults)
-- Legs smaller proportion in infants
+- Use the modified Rule of Nines (age-adjusted) or Lund and Browder chart
+- Child's own palm including fingers ≈ 1% BSA — use patient's palm as reference
+- Head proportion is larger in infants: up to 18% BSA at birth vs 9% in adults
+- Leg proportion is smaller in infants than in adults
 
-### Management
+### Paediatric Burns Management
 
-- **Cool** with cool running water 20 minutes (not ice)
-- **Cover** with clean, dry dressing (cling film acceptable)
-- **Fluid resuscitation:** Burns > 10% BSA in children require IV fluids (Parkland formula: 4 mL × kg × % burn; give half in first 8 h)
-- **Pain relief:** Paracetamol; morphine for moderate/severe burns
-- **Activate EMS** for:
-  - Burns > 10% BSA
-  - Face, hands, genitalia, feet, major joints
-  - Circumferential burns
-  - Electrical or chemical burns
-  - Inhalation injury
+- **Cool:** Run cool water over burn for 20 minutes — do not use ice
+- **Cover:** Apply clean, dry dressing — cling film is acceptable
+- **Fluid resuscitation:** Burns > 10% BSA require IV fluids
+  - Parkland formula: 4 mL × kg × % burn; give half the calculated volume in the first 8 hours
+- **Pain relief:** Paracetamol for mild burns; morphine for moderate or severe burns
+
+### Criteria for EMS Activation in Paediatric Burns
+
+Activate EMS for any of the following:
+- Burns > 10% BSA
+- Burns involving face, hands, genitalia, feet, or major joints
+- Circumferential burns
+- Electrical or chemical burns
+- Suspected inhalation injury

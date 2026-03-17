@@ -1,104 +1,80 @@
-# WHO BEC Skills — Burn Management
-
-**Source:** WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section
-**Standard:** WHO / ICRC 2018
-**Category:** Clinical Skills — Burns
-
-[DOMAIN_TAGS: burn, burns, thermal_burn, burn_management, TBSA, total_body_surface_area, Parkland_formula, burn_depth, superficial_burn, partial_thickness, full_thickness, fluid_resuscitation_burn, burn_dressing, scald, blistering]
-
+---
+tags: [burn, burns, thermal_burn, burn_management, TBSA, total_body_surface_area, Parkland_formula, burn_depth, superficial_burn, partial_thickness, full_thickness, fluid_resuscitation_burn, burn_dressing, scald, blistering]
+source: "WHO Basic Emergency Care (BEC)"
+standard: "WHO / ICRC 2018"
+category: "Clinical Skills — Burns"
 ---
 
-## Wound Management: Burn Management
+# WHO BEC Skills Burn Management
 
-Cover burns early to keep area moist and reduce infection risk. Burns are very painful — ensure pain relief.
+## Burn Wound Management and Care
 
-### Burn Wound Care
-1. Use sterile technique and normal saline to clean the burn.
-2. Carefully remove any loose, dead skin and broken, tense, or infected blisters.
-3. Apply a non-adherent dressing to provide a moist healing environment. Clean clear plastic wrap can be used as interim measure if transferring to surgical unit shortly.
-4. Ensure the entire burn is covered with the dressing.
-5. If old burn that is now infected: apply topical antibiotic (bacitracin or silver sulfadiazine). May also require IV or intramuscular antibiotics.
-6. If delay in transfer: change dressings daily. Always give pain control with dressing changes.
+- Burn wound exposure: Cover burns early to keep the area moist and reduce infection risk.
+- Burn pain management: Ensure pain relief is provided, as burns are highly painful.
 
----
+### Burn Wound Cleaning and Dressing Application
+- Burn cleaning requirement: Use sterile technique and normal saline to clean the burn.
+- Burn debridement requirement: Carefully remove any loose, dead skin and broken, tense, or infected blisters.
+- Burn dressing application: Apply a non-adherent dressing to provide a moist healing environment. 
+- Interim burn dressing for rapid transfer: Use clean, clear plastic wrap as an interim measure if transferring to a surgical unit shortly.
+- Burn coverage requirement: Ensure the entire burn is completely covered with the dressing.
+- Infected old burn condition: Apply a topical antibiotic (bacitracin or silver sulfadiazine). Administer IV or intramuscular antibiotics if required.
+- Delayed transfer condition: Change dressings daily and always administer pain control before and during dressing changes.
 
-## Burn Management: Determine Total Body Surface Area (TBSA)
+## Total Body Surface Area (TBSA) Calculation for Burn Fluid Resuscitation
 
-Used to calculate fluids needed using the Parkland Formula.
+### Rule of Nines TBSA Estimation for Adults
+- Adult head burn: Assign 9% TBSA.
+- Adult arm burn (each): Assign 9% TBSA.
+- Adult front chest burn: Assign 9% TBSA.
+- Adult front abdomen burn: Assign 9% TBSA.
+- Adult upper back burn: Assign 9% TBSA.
+- Adult lower back burn: Assign 9% TBSA.
+- Adult thigh burn (each): Assign 9% TBSA.
+- Adult lower leg burn (each): Assign 9% TBSA.
+- Adult genital burn: Assign 1% TBSA.
 
-### Rule of Nines (Adults)
-Each body part represents 9% of TBSA:
-- Head: 9%
-- Each arm: 9%
-- Chest (front): 9%, Abdomen (front): 9%
-- Upper back: 9%, Lower back: 9%
-- Each thigh: 9%, Each lower leg: 9%
-- Genitals: 1%
+### TBSA Estimation for Children and Infants
+- Child Age 0 head burn: Assign 10% TBSA.
+- Child Age 1 head burn: Assign 9% TBSA.
+- Child Age 5 head burn: Assign 7% TBSA.
+- Child Age 10 head burn: Assign 6% TBSA.
+- Child Age 0 to 1 thigh burn: Assign 3% TBSA.
+- Child Age 5 thigh burn: Assign 4% TBSA.
+- Child Age 10 thigh burn: Assign 5% TBSA.
+- Child Age 0 leg burn: Assign 2% TBSA.
+- Child Age 1 to 10 leg burn: Assign 3% TBSA.
 
-**Children have different proportions** — larger head, smaller limbs:
-| Area | Age 0 | Age 1 | Age 5 | Age 10 |
-|------|-------|-------|-------|--------|
-| Head (A/D) | 10% | 9% | 7% | 6% |
-| Thigh (B/E) | 3% | 3% | 4% | 5% |
-| Leg (C/F) | 2% | 3% | 3% | 3% |
+### Procedure for Calculating Total Burn Surface Area (TBSA)
+- TBSA assessment step 1: Assess the patient using the body surface area diagram.
+- TBSA assessment step 2: Note and explicitly shade the areas of the burn.
+- TBSA assessment step 3: Write the estimated burn depth next to each shaded area.
+- TBSA calculation: Add all percentages (front and back) together to determine the total burn surface area (TBSA).
 
-### How to Calculate TBSA
-1. Assess the person using the body surface area diagram.
-2. Note and shade areas of burn.
-3. Next to each shaded area, write the burn depth.
-4. Add all percentages (front and back). This gives total burn surface area (TBSA).
+## Burn Depth Estimation and Assessment
 
----
+- Burn depth assessment method: Gently press two fingers onto the burn to assess capillary refill.
+- Superficial burn (first degree) presentation: Identify by red or pink color, pain, intact skin, absence of blisters, and quick capillary refill when pressed.
+- Partial thickness burn (second degree) presentation: Identify by red or mottled red color, intact or broken blisters, wetness, pain, and temporary whitening when pressed.
+- Full thickness burn (third degree) presentation: Identify by white or black color, leathery and dry texture, lack of sensation, and no color change when pressed.
 
-## Burn Management: Estimate Depth of Burn
+## Fluid Resuscitation Management for Burn Injuries
 
-Best method: gently press two fingers onto the burn to assess capillary refill.
+### Indications for Burn Fluid Resuscitation
+- Adult burn fluid resuscitation indication: Initiate fluid resuscitation for full or partial thickness burns equal to or greater than 15% TBSA in adults.
+- Child burn fluid resuscitation indication: Initiate fluid resuscitation for full or partial thickness burns equal to or greater than 10% TBSA in children.
+- Superficial burn calculation rule: Do not include superficial burn areas in the TBSA calculation for fluid resuscitation.
 
-| Burn Type | Skin Findings |
-|-----------|---------------|
-| **Superficial** (formerly first degree) | Red or pink; painful; skin intact, no blisters; quick capillary refill when pressed |
-| **Partial thickness** (formerly second degree) | Red or mottled red; intact or broken blisters; wet; painful; may temporarily turn white when pressed |
-| **Full thickness** (formerly third degree) | White or black; leathery and dry; no sensation; no colour change when pressed |
+### Parkland Formula Calculation and Administration for First 24 Hours
+- Parkland formula calculation: Calculate 24-hour fluid volume as 4 ml IV fluid multiplied by patient weight in kg multiplied by % TBSA (partial and full thickness only).
+- First fluid administration phase: Administer the first half of the calculated fluid volume within the first 8 hours after the actual time of the burn incident (not the time of arrival to care).
+- Second fluid administration phase: Administer the second half of the calculated fluid volume over the subsequent 16 hours.
+- Adult fluid selection: Administer normal saline or Ringer's Lactate.
+- Child fluid selection: Administer a dextrose-containing fluid (Ringer's Lactate plus 5% dextrose, or normal saline plus 5% dextrose).
+- Unavailable child IV fluid condition: Give IV or oral dextrose alongside standard IV fluids if pre-mixed dextrose-containing IV fluids are unavailable.
+- Fluid resuscitation beyond 24 hours: Do not use the Parkland Formula beyond 24 hours post-burn.
 
----
-
-## Burn Management: Fluid Resuscitation in Burn Injury
-
-### Indications for Fluid Resuscitation
-- Full or partial thickness burns **≥ 15% TBSA in adults**
-- Full or partial thickness burns **≥ 10% TBSA in children**
-- (Superficial burn area is NOT used in calculation)
-
-### Parkland Formula (First 24 Hours)
-**4 ml IV fluid × weight (kg) × % TBSA (partial + full thickness)**
-
-- First half of fluid: given within first **8 hours after the burn** (NOT after arrival to care).
-- Second half: given over subsequent **16 hours**.
-- Adults: normal saline or Ringer's Lactate.
-- Children: dextrose-containing fluid (Ringer's Lactate + 5% dextrose, or normal saline + 5% dextrose). If unavailable: give IV or oral dextrose with IV fluids.
-- Parkland Formula is NOT used beyond 24 hours after burn.
-
-### Transfer Criteria
-Transfer/handover for specialized care if:
-- Burns > 15% TBSA
-- Burns involving hand, face, groin area, or joints
-- Burns that go completely around body or a body part (circumferential burns)
-
----
-
-## Skill Assessment: Burn Management
-
-**Skill 2 — Burn wound management:**
-- Sterile technique; normal saline cleansing
-- Remove loose dead skin and broken/infected blisters
-- Apply non-adherent dressing; ensure entire burn covered
-- Consider antibiotics for infected old burns
-- State transfer/handover plan
-
-**Skill 3 — Fluid resuscitation in burns:**
-- Indications: partial/full thickness ≥ 15% TBSA (adult) or ≥ 10% TBSA (children)
-- Estimate burn depth
-- Determine TBSA
-- Calculate Parkland Formula
-- Deliver: first half in first 8 hours; second half in next 16 hours
-- Correct fluid: adults (normal saline or Ringer's Lactate); children < 20 kg (Ringer's Lactate + 5% dextrose)
+### Specialized Care Transfer Criteria for Burn Patients
+- Extensive burn transfer condition: Transfer or handover for specialized care if burns are greater than 15% TBSA.
+- Specific location burn transfer condition: Transfer or handover for specialized care if burns involve the hands, face, groin area, or joints.
+- Circumferential burn transfer condition: Transfer or handover for specialized care if burns go completely around the body or a body part (circumferential burns).

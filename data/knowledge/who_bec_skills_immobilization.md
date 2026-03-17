@@ -1,143 +1,95 @@
-# WHO BEC Skills — Immobilization (Spinal, Fractures, Pelvic)
-
-**Source:** WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section
-**Standard:** WHO / ICRC 2018
-**Category:** Clinical Skills — Spinal Immobilization, Fracture Management, Pelvic Binder
-
-[DOMAIN_TAGS: spinal_immobilization, cervical_spine, log_roll, fracture, splinting, pelvic_binder, spinal_injury, neck_injury, spine, backboard, recovery_position, immobilization]
-
+---
+tags: [spinal_immobilization, cervical_spine, log_roll, fracture, splinting, pelvic_binder, spinal_injury, neck_injury, spine, backboard, recovery_position, immobilization]
+source: "WHO Basic Emergency Care (BEC)"
+standard: "WHO / ICRC 2018"
+category: "Clinical Skills — Spinal Immobilization, Fracture Management, Pelvic Binder"
 ---
 
-## Approach to Spinal Immobilization
+# WHO BEC Skills Immobilization for Spinal, Fractures, and Pelvic Injuries
 
-There are two types of spinal immobilization: cervical spine and thoracic/lumbar spine (together: full spine immobilization). Provide spinal immobilization to any person with:
-- History of polytrauma who is unconscious, OR
-- Conscious with neck pain, spine tenderness, numbness, or weakness.
+## Patient Assessment and Approach to Spinal Immobilization
+- Unconscious polytrauma patient condition: Provide full spine immobilization (cervical and thoracic/lumbar) to any person with a history of polytrauma who is unconscious.
+- Conscious trauma patient condition: Provide full spine immobilization if the patient is conscious with neck pain, spine tenderness, numbness, or weakness.
+- Immobilized patient complication risk: Monitor closely as immobilized patients cannot move normally and have a higher risk of airway blockage from secretions or vomit, as well as pressure sores.
 
-**Caution:** Immobilized patients cannot move normally — higher risk of airway blockage (secretions/vomit) and pressure sores. Monitor closely.
+### Cervical Spine Immobilization Procedure
+- Patient positioning: Keep the patient flat on their back, face up on a level surface.
+- Patient communication: Tell the patient what you are doing.
+- Head stabilization execution: Hold the patient's head in line with the spine using two hands on either side of the head.
+- Neck movement prevention: Prevent the neck from moving using locally available materials such as towel rolls, newspaper, sandbags, bags of IV fluids, or a cervical collar.
+- Head securing step: Secure the immobilization materials to the head with tape.
+- Bed securing restriction: NEVER secure the tape or patient's head to the bed to prevent cervical spine injury if the patient falls, and to allow for turning if the patient vomits.
+- Patient vomiting condition: Use the log-roll technique to turn the whole patient to the side while keeping the head in line with the body.
+- Airway monitoring requirement: Keep someone with the patient at all times to continuously watch the airway.
+- Distracting injury consideration: Suspect a cervical spine fracture based on a concerning mechanism of injury, as severe pain elsewhere may prevent the patient from feeling neck pain.
 
----
+### Log Roll Technique for Spinal Immobilization
+- Log roll indication: Use for any immobilized patient or patient with a suspected spine injury requiring movement (e.g., for vomiting or transfer).
+- Personnel requirement: Ask for assistance, ideally utilizing one person at the head, one or two for the body, and one for the legs.
+- Head provider positioning: Place forearms tightly alongside the head with hands gripping the shoulders to keep the head, neck, and torso aligned with the rest of the spine.
+- Team coordination: Ensure the provider controlling the head and neck leads the team and uses the "1–2–3 roll" command to guide timing.
+- Rolling execution: Work together to roll the patient onto their side while keeping the spine perfectly in line.
+- Spinal alignment maintenance: Ensure the cervical spine stays aligned with the rest of the spine and the rest of the spine stays as straight as possible during the entire roll.
+- Side-lying action opportunities: Examine the back, place or remove a backboard, or manage back wounds when the patient is on their side.
+- Returning patient to flat position: Use the "1–2–3 roll" command again to return the patient flat.
+- Backboard removal requirement: Remove the backboard as soon as possible to decrease pressure sore risk and check pressure areas frequently.
 
-## Immobilization Skill Station: Cervical Spine Immobilization
+### Full Spinal Immobilization Procedure
+- Cervical immobilization requirement: Immobilize the cervical spine prior to initiating full spinal immobilization.
+- Patient positioning instructions: Keep the person on a flat surface and explicitly instruct them to lie flat and not move.
+- Transport preparation: Log roll the patient onto a flat surface (backboard) to prevent spine movement during transport.
+- Bed attachment restriction: Do not attach the backboard to the bed.
+- Pre-immobilization sweep: Check for glass or debris on or under the patient's back using a log roll before immobilizing.
+- Vomiting patient on backboard condition: Log roll the entire patient and board to the side so vomit does not enter the airway.
+- Backboard usage limitation: Use spine boards ONLY to move patients and remove the patient from the board immediately upon arrival at the facility.
 
-1. Keep patient flat on back, face up on level surface.
-2. Tell the patient what you are doing.
-3. Hold patient's head in line with the spine using two hands on either side of the head.
-4. Prevent neck from moving with locally available materials: towel rolls, newspaper, sandbags, bags of IV fluids, or cervical collar.
-5. Secure to head with tape — but NEVER secure to the bed (if patient falls, tape could cause cervical spine injury; if patient vomits, you cannot turn them).
-6. If patient vomits: use log-roll technique to turn the whole patient to the side, keeping head in line with body.
-7. Keep someone with the patient at all times to watch the airway.
-8. Remember: severe pain elsewhere may prevent patient from feeling neck pain even with a fracture. A concerning mechanism should raise suspicion.
+### Spinal Immobilization Positioning for Pregnant Patients
+- Pregnant patient over 20 weeks condition: Immobilize the spine using standard procedures, THEN place padding under the side of the board near the back and hips to tilt the patient onto their left side.
+- Left-side tilt rationale: Prevent compression of large internal blood vessels by the pregnant uterus, which could otherwise decrease blood returning to the heart.
 
----
+### Recovery Position for Non-Trauma Patients
+- Recovery position indication: Use for an unconscious or semiconscious patient with absolutely NO trauma history.
+- Positioning execution: Place the patient on their left side.
+- Leg stabilization step: Stabilize the patient by bending the top leg forward.
+- Arm and head positioning step: Keep the left arm straight and rest the patient's head on the arm to elevate the head and position the mouth downward.
+- Position rationale: Allow vomit and secretions to drain from the mouth with a significantly reduced risk of airway obstruction.
 
-## Immobilization Skill Station: Log Roll
+## Fracture Assessment and Immobilization Management
+- Pre- and post-splinting assessment requirement: Always assess and record perfusion (pulses, capillary refill, sensation) before and after splinting.
+- Absent perfusion condition (cold, pale limb, no pulse): Perform rapid re-alignment (reduction) to restore circulation.
+- Absent perfusion post-reduction condition: Splint the limb and plan for rapid handover or transfer to a specialist unit.
+- Inability to re-align condition: Rapidly handover or transfer the patient to an advanced provider.
 
-Use for any immobilized patient or patient with suspected spine injury (e.g. for vomiting or transfer):
-1. Ask for assistance: ideally one person at head, one or two for body, one for legs.
-2. Provider at head keeps head, neck and torso aligned with rest of spine. Place forearms tightly alongside head with hands gripping shoulders.
-3. Provider controlling head and neck **leads the team** and says "1–2–3 roll" to guide timing.
-4. Working together, roll patient onto side keeping spine in line.
-5. During roll: cervical spine must stay aligned with rest of spine; rest of spine stays as straight as possible.
-6. When on side: examine back, place or remove backboard, or manage back wounds.
-7. To return patient flat: "1–2–3 roll" command.
-8. **Remove backboard as soon as possible** — time on backboard increases pressure sore risk. Check pressure areas frequently.
+### Fracture Splint Application Procedure
+- Pain management step: Give pain relief before applying a splint.
+- Clothing removal step: Remove clothing and all jewelry from the affected limb.
+- Perfusion documentation step: Check pulses, capillary refill, sensation, and movement, and explicitly document the findings before and after splint application.
+- Splint sizing requirement: Size the splint to completely immobilize the joint ABOVE and the joint BELOW the fracture site.
+- Visible deformity with weak or absent pulses condition: Straighten (reduce) the fracture before splinting.
+- Limb with good pulse condition: Do NOT force re-alignment if the limb has a strong pulse.
+- Joint and digit positioning step: Position the joint appropriately and place padding between involved toes or fingers.
+- Stockinette gauze application: Place stockinette gauze over the limb without wrinkles if available.
+- Splint padding step: Pad the side of the splint contacting the skin, specifically padding bony protrusions like the elbow.
+- Splint securing step: Wrap the limb and splint with a bandage and ask the patient how it feels to ensure it is not too tight, accounting for future swelling.
+- Continuous monitoring requirement: Recheck pulses, sensation, and movement immediately after application and every hour thereafter.
 
----
+### Open Fracture Immobilization and Management
+- Open fracture definition: Identify an open fracture by a wound near the fracture site, which is strictly considered contaminated and requires surgical debridement.
+- Pain management step: Give pain relief.
+- Haemorrhage control step: Control haemorrhage with direct pressure.
+- Limb amputation with uncontrolled bleeding condition: Apply a tourniquet, commence fluid resuscitation, and plan for rapid handover.
+- Poor perfusion or absent pulses condition: Straighten the limb.
+- Wound cleaning step: Remove dirt, glass, and debris from the wound, and irrigate with 2 litres of normal saline.
+- Wound dressing step: Cover the wound with saline-soaked gauze.
+- Splint application step: Splint using the standard procedure but leave a window to visibly monitor the wound.
+- Amputation wound care: Cover the amputation wound with sterile saline-soaked gauze or a towel.
+- Medical prophylaxis step: Administer a tetanus vaccination and begin IV antibiotics.
 
-## Immobilization Skill Station: Full Spinal Immobilization
-
-1. Immobilize cervical spine as above.
-2. Keep person on flat surface; instruct to lie flat and not move.
-3. For transport: log roll patient onto flat surface (backboard) to prevent spine movement. Do not attach backboard to bed.
-4. Before immobilizing: check for glass or debris on/under patient's back using log roll.
-5. If person needs to vomit: log roll to side so vomit does not enter airway.
-6. Spine boards are used ONLY to move patients — remove patient from board as soon as they arrive at facility.
-
----
-
-## Immobilization Skill Station: Positioning of the Pregnant Patient
-
-- If > 20 weeks pregnant and needs spinal immobilization: immobilize spine as above, THEN place padding under the side of the board near the back and hips to tilt patient onto **left side**.
-- Purpose: prevents compression of large internal blood vessels by pregnant uterus, which could decrease blood returning to the heart.
-
----
-
-## Immobilization Skill Station: Recovery Position
-
-Indication: unconscious or semiconscious patient **with NO TRAUMA**.
-1. Place patient on left side.
-2. Stabilize by bending the top leg forward.
-3. Left arm straight; patient's head resting on arm to elevate head and position mouth downward.
-4. This allows vomit and secretions to drain from mouth with less risk of airway obstruction.
-
----
-
-## Immobilization Skill Station: Fracture Immobilization
-
-Splints prevent pain from movement, minimize further bleeding and damage. Always assess and record perfusion (pulses, capillary refill, sensation) before AND after splinting.
-
-- If no perfusion (limb cold, pale, no pulse): rapid re-alignment (reduction) required to restore circulation.
-- If no perfusion after re-alignment: splint and plan rapid handover/transfer to specialist unit.
-- If cannot re-align: rapidly handover/transfer to advanced provider.
-
-### Goals of fracture management
-- Restore circulation
-- Treat and reduce pain
-- Prevent further injury and bleeding
-- Re-align bony fragments for healing
-
-### Applying a Splint
-1. Give pain relief before splinting.
-2. Remove clothing and all jewelry.
-3. Check pulses, capillary refill, sensation, and movement — document before and after splint application.
-4. Size splint to immobilize joint ABOVE and BELOW fracture site.
-5. If visibly deformed with weak/absent pulses: straighten (reduce) fracture before splinting. Do NOT force re-alignment if limb has good pulse.
-6. Position joint; pad between toes/fingers if involved.
-7. If stockinette gauze available: place over limb without wrinkles.
-8. Pad side of splint contacting skin; especially pad bony protrusions (e.g. elbow).
-9. Wrap limb and splint with bandage. Ask patient how it feels — not too tight (limb will swell).
-10. Recheck pulses, sensation, and movement after application and every hour.
-
-### Fracture Immobilization: Open Fracture
-Open fracture: wound near fracture site — contaminated; requires surgical debridement.
-1. Give pain relief.
-2. Control haemorrhage with direct pressure. In limb amputation with uncontrolled bleeding: apply tourniquet; commence fluid resuscitation; plan rapid handover.
-3. Straighten limb if signs of poor perfusion or absent pulses.
-4. Remove dirt, glass, debris from wound; irrigate with 2 litres of normal saline.
-5. Cover wound with saline-soaked gauze.
-6. Splint as above; leave window to monitor wound.
-7. In amputation: cover wound with sterile saline-soaked gauze or towel.
-8. Give tetanus vaccination.
-9. Begin IV antibiotics.
-
----
-
-## Immobilization Skill Station: Applying a Pelvic Binder
-
-Pelvic fractures can cause life-threatening haemorrhage by damaging adjacent blood vessels. Signs: pain or abnormal movement of pelvis; bruising around hips, top of legs, or genitals; signs of shock.
-
-1. Place bed sheet or similar under the pelvis (fold if wide so it spans from lower back to end of buttocks).
-2. May need to log roll patient to get binder in position.
-3. Centre sheet over **greater trochanters (hip bones)** and firmly cross over at front.
-4. Pull firmly and tie — firm but not causing undue pain.
-5. Document time pelvic binder was applied.
-6. Check binder each hour: confirm pressure is maintained; ensure skin is intact under binder and around genitals.
-
----
-
-## Skill Assessment: Immobilization
-
-**Skill 1 — Cervical spinal immobilization:** flat; head in line with spine using two hands; rolled sheets/IV bags on sides; secured with tape but NOT to the bed; log roll if vomits
-
-**Skill 2 — Log roll:** one person at head, one/two at body, one at legs; head controller leads with "1–2–3 roll"; cervical spine aligned throughout; remove backboard as soon as possible
-
-**Skill 3 — Full spine immobilization:** log roll onto backboard for transfer; do NOT attach to bed; remove from board promptly
-
-**Skill 4 — Pregnant patient positioning:** > 20 weeks; left lateral with padding under backboard/bed
-
-**Skill 5 — Recovery position:** no trauma; left lateral; top leg bent forward; mouth downward
-
-**Skill 6 — Fracture immobilization:** remove clothing and jewelry; check pulses/sensation/movement before and after; size splint above and below; straighten if poor perfusion; pad prominences; not too tight; open fracture → tetanus + antibiotics
-
-**Skill 7 — Pelvic binder:** identify pelvic pain post-trauma; centre over greater trochanters; firm cross-over; document time; check hourly
+## Pelvic Binder Application for Pelvic Fractures
+- Pelvic fracture indication: Suspect a pelvic fracture if there is pain or abnormal movement of the pelvis, bruising around the hips, top of legs, or genitals, or signs of shock.
+- Binder positioning step: Place a bed sheet or similar material under the pelvis, folding it if wide so it spans precisely from the lower back to the end of the buttocks.
+- Patient movement requirement: Use a coordinated log roll to get the binder in position under the patient.
+- Binder alignment step: Centre the sheet over the greater trochanters (hip bones) and firmly cross it over at the front.
+- Binder securing step: Pull the sheet firmly and tie it, ensuring it is firm but not causing undue pain to the patient.
+- Documentation step: Document the exact time the pelvic binder was applied.
+- Continuous monitoring requirement: Check the binder each hour to confirm pressure is maintained and ensure the skin is intact under the binder and around the genitals.

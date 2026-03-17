@@ -1,52 +1,32 @@
-# WHO BEC Skills — Snake Bite Bandaging and Immobilization
-
-**Source:** WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section
-**Standard:** WHO / ICRC 2018
-**Category:** Clinical Skills — Envenomation / Snake Bite Management
-
-[DOMAIN_TAGS: snake_bite, snakebite, envenomation, venom, pressure_immobilization, snake_bandaging, bite_wound, immobilization_snakebite, antivenom, snake_bit, bitten_by_snake]
-
+---
+tags: [snake_bite, snakebite, envenomation, venom, pressure_immobilization, snake_bandaging, bite_wound, immobilization_snakebite, antivenom, snake_bit, bitten_by_snake]
+source: "WHO Basic Emergency Care (BEC)"
+standard: "WHO / ICRC 2018"
+category: "Clinical Skills — Envenomation / Snake Bite Management"
 ---
 
-## Wound Management: Snake Bite Bandaging and Immobilization
+# WHO BEC Skills Snake Bite Bandaging and Immobilization
 
-Immobilizing a limb after a snake bite is important to **reduce movement and absorption of venom**.
+## Initial Assessment and General Management for Snake Bites
+- Snake bite injury identification: Immobilize the limb after a snake bite to strictly reduce movement and the systemic absorption of venom.
+- Snake identification requirement: Take a photograph of the snake when safely possible and send it to the medical facility with the patient.
+- Patient psychological management: Reassure and calm the patient to prevent anxiety, as an increased heart rate accelerates venom absorption.
+- Constricting item removal requirement: Remove rings, watches, and all tight items from the bitten limb immediately before swelling begins.
+- Limb positioning requirement: Keep the bitten extremity strictly at or slightly below heart level.
+- Medical transport requirement: Transport the patient to a medical facility as quickly as possible for antivenom assessment.
+- Systemic envenomation monitoring requirement: Continuously monitor for progressive swelling, coagulopathy, neurological symptoms (such as drooping eyelids or difficulty swallowing), and haemotoxic signs.
 
-**Note:** When possible, take a photograph of the snake and send with the patient.
+## Bandaging and Immobilization Procedure for Snake Bites
+- Perfusion assessment requirement: Always assess and document pulses, capillary refill, and sensation immediately before and after dressing or splinting the snake bite wound.
+- Neurotoxic or systemic snake venom condition (paralysis, severe systemic illness, or prolonged transport): Apply a broad pressure immobilization bandage.
+- Cytotoxic or local tissue damage snake venom condition (no body-wide symptoms): Do strictly NOT apply a pressure immobilization bandage.
+- Pressure immobilization bandage application step: Wrap the broad pressure bandage upwards starting directly from the lower portion of the bite and extending as high up the limb as possible.
+- Bandage pressure constraint: Ensure the bandage is firm but strictly does NOT cut off distal pulses in the limb.
+- Splint application step: Bind a rigid splint to the limb to immobilize as much of the affected limb as possible.
+- Documentation requirement: Explicitly note and document the exact time the pressure bandage was placed.
+- Patient movement restriction: Keep the person entirely still and strictly in a lying down position.
 
-### Steps
-1. Always assess pulses, capillary refill and sensation **before and after** dressing or splinting any wound.
-2. **Optional pressure immobilization bandage:** apply a broad pressure bandage, wrapping upwards from the lower portion of the bite. The bandage should be **firm but should NOT cut off pulses** in the limb. Extend the bandage as high up the limb as possible.
-   - **Recommended** if the snakes in your area produce a toxin that damages the nerves, causes paralysis, causes the person to become very ill, or if there will be prolonged transport time.
-   - **NOT recommended** if the snakes in your area produce toxins that primarily cause tissue damage near the wound and do not cause body-wide symptoms.
-3. Bind a splint to the limb to immobilize as much of the limb as possible.
-4. Note the time the bandage was placed.
-5. Keep the person still and lying down.
-
-### CRITICAL: What NOT to do
-- **DO NOT** put a tourniquet around the snake bite or limb.
-- **DO NOT** cut the bite out — this will lead to unnecessary bleeding.
-- **DO NOT** suck on the bite to remove the venom.
-
----
-
-## Skill Assessment: Snake Bite
-
-**Skill 4 — Snake bite bandaging and immobilization:**
-- Apply broad pressure bandage wrapping upwards from lower portion of bite
-- Extend bandage as high up the limb as possible
-- Immobilize limb with splint
-- Note time the bandage was placed
-- Keep person still
-- State: DO NOT put a tourniquet around the snake bite or limb
-- State: DO NOT cut or suck on the bite wound
-
----
-
-## Additional Context: Snake Bite Management
-
-- Transport patient to medical facility as quickly as possible for antivenom assessment.
-- Monitor for systemic envenomation signs: progressive swelling, coagulopathy, neurological symptoms (drooping eyelids, difficulty swallowing), haemotoxic signs.
-- Keep bitten extremity at or slightly below heart level.
-- Remove rings, watches, and tight items from the bitten limb before swelling begins.
-- Reassure and calm the patient — anxiety increases heart rate and venom absorption.
+## Prohibited Actions During Snake Bite Management
+- Tourniquet application restriction: DO NOT put a tourniquet around the snake bite or the affected limb under any circumstances.
+- Wound excision restriction: DO NOT cut the bite wound out, as this will lead to unnecessary bleeding and further tissue damage.
+- Venom extraction restriction: DO NOT attempt to suck on the bite wound to remove the venom.

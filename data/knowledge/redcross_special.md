@@ -1,624 +1,400 @@
-# Red Cross Wilderness First Aid — Special Situations
+---
+tags: [diabetic_emergency, hypoglycemia, insulin, blood_sugar, asthma_attack, seizure, stroke, abdominal_injury, eye_injury, poisonous_plants, childbirth, CPR, check_call_care, SAMPLE_history, evacuation, wilderness, poisoning, wound_care, amputation, avulsion, patient_moves, stretcher]
+source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
+standard: "American Red Cross / SOLO Wilderness Medicine"
+---
 
-**Source:** American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide
-**Standard:** American Red Cross / SOLO Wilderness Medicine
+# Special Situations — Wilderness First Aid Reference
+
 **Applies to:** All ages; field settings without rapid EMS access
-
-[DOMAIN_TAGS: diabetic_emergency, hypoglycemia, insulin, blood_sugar, asthma_attack, seizure, stroke, abdominal_injury, eye_injury, poisonous_plants, confined_space, childbirth, CPR, check_call_care, SAMPLE_history, evacuation, wilderness]
 
 ---
 
-## ⚠️ SEIZURE — Absolute Contraindications (DO NOT DO)
+## Wilderness Primary Assessment — ABCDE Framework
 
-> **During active convulsions:**
-> 1. Do NOT restrain or hold down the person — allow movement to prevent fractures.
-> 2. Do NOT put anything in the mouth — risk of broken teeth, jaw injury, and aspiration.
-> 3. Do NOT attempt pulse or breathing checks while convulsing — wait until shaking stops.
+### A — Airway
 
+- Unconscious person: Open airway using head-tilt/chin-lift technique
+- Speaking or breathing person: Airway is open — ask if breathing feels difficult
 
-### ChECK CAll CARE
-for the Wilderness
-if you find yourself in an emergency, you should follow three basic emergency
-action principles: CHECK—CALL—CARE. these principles will help guide you in
-caring for the injured or ill person and will help ensure your own safety.
-ChECK:
-CheCk the Scene, the Resources and the Person
+### B — Breathing
 
-### CHECK the Scene
-- establish control and recognize the emergency.
-- cHecK the scene before you approach to make sure it is safe for you, the
-person, other members of the group and any bystanders.
-- follow standard precautions to prevent disease transmission.
-- obtain consent from a conscious person or, if a minor, from the parent or
-guardian. if the person is unconscious, consent is implied.
-- cHecK for clues about the mechanism of injury (moi) or nature of the illness.
-- move the person only if necessary to prevent additional harm.
-NOTE if the scene is not safe and there is a way to call for additional help, do
-so quickly. Be ready to continue checking and caring for the person if the
-scene becomes safe.
+- Look, listen, and feel for movement and normal breathing — assess for no more than 10 seconds
+- Unconscious adult not breathing or not breathing normally: Assume cardiac emergency — begin CPR immediately
+- Child, or known drowning or respiratory emergency: Give 2 rescue breaths before starting CPR
 
-### CHECK the Resources
-- identify available resources, including materials and additional
-trained responders.
+### C — Circulation
 
+- Scan entire body for severe bleeding
+- Severe bleeding identified: Apply direct pressure immediately
 
-### CHECK the Person
+### D — Disability
 
-### Primary (Initial) Assessment
-use the aBcdes to assess life-threatening
-conditions.
-- A = if the person is unconscious,
-use the head-tilt/chin-lift technique
-to open the airway.
-a person who is speaking or
-breathing has an open airway, but
-ask if he or she is having problems
-breathing.
-- B = look, listen and feel for
-movement, normal breathing
-and quality of breathing (for
-no more than 10 seconds).
-if an unconscious
-adult is not breathing or is not
-breathing normally, assume a
-cardiac emergency and begin
-cardiopulmonary resuscitation
-(cPr). for a child or a known
-drowning or respiratory emergency,
-give 2 rescue breaths before
-starting cPr.
-- C = assess the person's circulation by
-scanning the body for severe bleeding. if severely bleeding, use direct pressure to
-control the bleeding.
+- Assess for spinal cord damage
+- Suspected spinal injury: Minimise all movement of head, neck, and spine — manually support the head in the position found
 
-- D = look for any disability as a result of damage to the spinal cord. if you
-suspect a spinal injury, minimize movement of the head, neck and spine.
-manually support the head in the position found.
-- E = assess the threat of the environment and expose any injuries. look
-for signs and symptoms of exposure to extreme environmental conditions,
-especially extreme heat and cold weather, which can cause changes to the
-body's temperature and threaten a person's life. it is important to protect the
-person from extreme conditions, but if necessary, you may expose part of the
-person's skin to assess the damage and to give care.
-if you find a life-threatening condition during the primary assessment, call for
-help if possible and give care for the condition found. the caller should be
-prepared with information about the person, location/environment and resources
-(people and materials). if you do not find a life-threatening condition, continue to
-the secondary assessment and samPle history before giving specific care for an
-injury or illness.
+### E — Environment / Expose
 
-### Secondary (Focused) Assessment
+- Assess for threats from the environment — extreme heat or cold can be life-threatening
+- Expose relevant skin areas to assess injury and provide care — protect from extreme conditions throughout
 
-### Hands-On Physical Exam
-check the person head to toe during the hands-on physical exam, going in the
-following order: head, face, ears, neck, chest, abdomen, pelvis, genitalia, each
-arm, each leg and back.
-- look for dots:
- D = Deformity
- O = Open injuries
- T = Tenderness
- S = Swelling
-- check circulation, sensation and motion (csm) at each extremity.
-- assess skin color, temperature and moisture.
+---
 
-### Level of Consciousness
-use aVPu to describe the person's level of consciousness (loc).
-- A = Alert and able to answer orientation questions
- A+O×4: knows who (name), where (current location), when (day) and
-what happened
- A+O×3: knows who, where and when
- A+O×2: knows only who and where
- A+O×1: knows only who
+## Wilderness Secondary Assessment
 
-- V = responds only to verbal stimuli (e.g., by grimacing or rolling away from
-your voice when you speak or shout)
-- P = responds only to painful stimuli (e.g., pinch)
-- U = Unresponsive to any stimuli
+### Head-to-Toe Physical Exam — Assessment Order
 
-### Normal Vital Signs for an Adult
-- respiratory rate (breath): 12 to 20 breaths per minute; regular and
-unlabored pace
-- Heart rate (pulse): 60 to 100 beats per minute; strong and regular
-- skin color, temperature and moisture: pink, warm and dry to the touch
+Assess in this sequence: head → face → ears → neck → chest → abdomen → pelvis → genitalia → each arm → each leg → back
 
-### SAMPLE History
-use the samPle history to gain essential information about the person's medical
-history. ask the person questions, such as those listed below, and record the
-answers on the wilderness and remote first aid report form/rescue request:
-- S = Signs and symptoms. what are your signs and symptoms (i.e., what
-hurts)? How do you feel? are you experiencing any pain, nausea, light-
-headedness or other things that are not visible?
-- A = Allergies. do you have any known allergies or allergic reactions? what
-happens? Has there been any recent exposure?
-- M = Medications. what medications are you taking? are they over-the-
-counter or prescription? what is the medication for? when was it last taken?
-can you tell me where the medication is so we can keep it with you?
-- P = Pertinent past medical history. Has anything like this happened before?
-are you currently under a health care provider's care for anything? could you
-be pregnant (if a woman)?
-- L = Last intake and output. when did you last eat or drink? How much?
-are you cold, hungry or exhausted? when did you last urinate and defecate?
-were they normal?
-- E = Events leading up to the injury or illness. what led up to the incident?
-when did it happen? How did it happen, in order of occurrence?
-it is often appropriate for the leader of a wilderness group to travel with a health
-history for each participant. those forms, frequently combined with consent for
-treatment, may provide useful information to emergency response personnel and
-aid in collecting the samPle history. However, each step in the samPle history
-still must be asked, even if such forms are available for reference.
+At each area assess for **DOTS:**
+- **D** — Deformity
+- **O** — Open injuries
+- **T** — Tenderness
+- **S** — Swelling
 
+Also assess at each extremity:
+- Circulation, Sensation, and Motion (CSM)
+- Skin colour, temperature, and moisture
 
-### CAlling for help:
+### Level of Consciousness — AVPU Scale
 
-### Stay or Go, Fast or Slow
-Being in the wilderness or remote setting makes calling important to everyone
-involved. ideally, immediate verbal communication is available by phone or radio
-to predetermined emergency agencies. Primary and backup communication
-procedures should be established prior to a remote trip. such procedures could
-include sending members of the party to the closest area where a signal can be
-established or to the closest phone.
-if advanced care is delayed, a decision to stay or to evacuate must be made. if
-the decision is to stay, continue care as trained and as needed. if evacuation is
-necessary, determine if it should be fast or slow. implement a pre-trip plan using
-available resources. throughout the evacuation, continue care as trained until
-the injury or illness is resolved or other help arrives.
+- **A — Alert:** Awake and oriented
+  - A+O×4: Knows name, location, time, and what happened
+  - A+O×3: Knows name, location, and time
+  - A+O×2: Knows name and location only
+  - A+O×1: Knows name only
+- **V — Voice:** Responds only to verbal stimuli (grimacing, moving away)
+- **P — Pain:** Responds only to painful stimuli (pinch)
+- **U — Unresponsive:** No response to any stimuli
 
-## Care
-care for the conditions found, prioritizing care by the severity of the injury
-or illness.
-NOTE for more information on evacuation guidelines and care, go to the
-specific injury or illness in this guide.
+### Normal Adult Vital Signs
 
+- Respiratory rate: 12–20 breaths per minute — regular and unlaboured
+- Heart rate: 60–100 beats per minute — strong and regular
+- Skin: Pink, warm, and dry
 
-### Abdominal Problems
-abdominal pain and discomfort is a common problem in the wilderness. it ranges
-from mild to life threatening. you may never know the source of the problem, but
-you must be able to manage mild situations and know when a problem is serious
-### Abdominal Injuries
-and Illnesses
+### SAMPLE History — Questions to Ask
 
-### Giardia (Parasite)
-When CHECKing the person, look, listen and feel for:
-With acute infection:
-- diarrhea lasting 10 days or more.
-- foul-smelling stools and gas.
-- fatigue.
-- abdominal distention (swelling).
-With chronic infection:
-- intermittent episodes of:
- mushy, foul-smelling stools.
- abdominal pain and distention.
- gas.
- loss of appetite.
- weight loss.
- fatigue.
+- **S — Signs and Symptoms:** What hurts? How do you feel? Any pain, nausea, or light-headedness?
+- **A — Allergies:** Any known allergies? What reaction occurs? Any recent exposure?
+- **M — Medications:** What medications are you taking (prescription or OTC)? What are they for? When last taken? Where are they?
+- **P — Past Medical History:** Has this happened before? Under a healthcare provider's care for anything? Could you be pregnant?
+- **L — Last Intake and Output:** When did you last eat or drink, and how much? When did you last urinate and defecate? Were they normal?
+- **E — Events Leading Up:** What led to this? When and how did it happen, in order?
 
-### To give CARE:
-- care for persistent diarrhea. see diarrhea.
-- Have the person examined by a health care provider as soon as possible.
+---
 
-### Open Abdominal Injuries
-When CHECKing the person, look, listen and feel for:
-- Visible or protruding intestines.
+## Abdominal Emergencies
 
+### Giardia (Intestinal Parasite)
 
-### To give CARE:
-- do not apply direct pressure.
-- do not attempt to push intestines
-back into the cavity.
-- remove clothing from around
-the wound.
-- apply moist, sterile dressings
-loosely over the wound.
-- cover dressings loosely with plastic
-wrap, if available. foil or a plastic
-bag will also work.
-- give nothing by mouth.
+**Signs and Symptoms — Acute Infection:**
+- Diarrhoea lasting 10 days or more
+- Foul-smelling stools and gas
+- Fatigue
+- Abdominal distension
 
-### Closed Abdominal Injuries
-When CHECKing the person, look, listen and feel for:
-- mechanism of injury (e.g., blunt force) associated with closed
-abdominal injuries.
-- signs and symptoms of shock.
-- Bruising.
-- abdominal rigidity or tenderness.
-- gradually increasing pulse.
-- pale skin.
-- nausea.
+**Signs and Symptoms — Chronic Infection:**
+- Intermittent mushy, foul-smelling stools
+- Abdominal pain and distension
+- Gas
+- Loss of appetite
+- Weight loss
+- Fatigue
 
-### To give CARE:
-- closely observe the person.
-- carefully position the person on his
-or her back with the knees bent, if it
-does not cause more pain.
-- care for shock.
-- evacuate as soon as possible.
-- note quadrant of pain and
-describe it on report form.
+**Care and Management for Giardia:**
+1. Manage persistent diarrhoea symptomatically
+2. Arrange healthcare provider evaluation as soon as possible
 
+---
 
-### Asthma Attack
-asthma is a condition that narrows the air passages in the lungs and makes
-breathing difficult.
-When CHECKing the person, look, listen and feel for:
-- coughing or wheezing.
-- trouble breathing.
-- shortness of breath.
-- rapid, shallow breathing.
-- inability to talk without stopping for a breath.
-- tightness in the chest.
-- feelings of fear or confusion.
-- sweating.
+### Open Abdominal Injury (Evisceration)
 
-### To give CARE:
-- reassure the person that you are
-going to help.
-- Have the person rest in a
-comfortable position.
-- administer oxygen, if trained.
-- assist the person with or have the
-person self-administer a prescribed
-inhaler.
-NOTE the person should only take medication if he or she has no known
-contraindications. individuals should read and follow all label or health
-care provider instructions. check state and local regulations regarding
-use of prescription and over-the-counter medications.
- Help the person sit up and rest in a position comfortable for breathing.
- ensure that the prescription is in the person's name and is prescribed for "quick
-relief" or "acute" attacks.
-NOTE some inhalers contain long-acting, preventive medication that should not
-be used in an emergency.
+**Signs:** Visible or protruding intestines
 
- ensure that the expiration date of the medication has not passed.
- read and follow all instructions
-printed on the inhaler prior to
-administering the medication to
-the person.
- shake the inhaler.
- remove the cover from the inhaler
-mouthpiece. some inhalers have
-extension or spacer tubes that fit
-between the mouthpiece and the
-medication canister. if
-present, attach and use.
- tell the person to breathe out as much as possible.
- Have the person place his or her lips tightly around the mouthpiece. the person
-may use different techniques.
- as the person breathes in slowly, administer the medication by quickly pressing
-down on the inhaler canister, or the person may self-administer the medication.
- the person should continue a full, deep breath.
- tell the person to try to hold his or her breath for a count of 10. when using
-an extension tube, have the person take 5 to 6 deep breaths through the tube
-without holding his or her breath.
- note the time of administration and any change in the person's condition.
- the medication may be repeated once after 1 to 2 minutes.
-NOTE the medication may be repeated every 5 to 10 minutes thereafter
-as needed. these medications might take 5 to 15 minutes to reach
-full effectiveness.
- stay with the person and monitor his or her condition and give care for any other
-injuries. Have the person rinse his or her mouth out with water.
- care for shock. Keep the person from getting chilled or overheated.
-NOTE if a person has an inhaler, you may assist with administration if it you are
-trained to do so and local and state protocols allow.
+**Care and Management for Open Abdominal Injury:**
+1. Do not apply direct pressure to the wound
+2. Do not attempt to push intestines back into the abdominal cavity
+3. Remove clothing from around the wound
+4. Apply moist sterile dressings loosely over the wound
+5. Cover dressings loosely with plastic wrap, foil, or a plastic bag if available
+6. Give nothing by mouth
 
-### CALLing for Help: Guidelines for Evacuation
-- evacuate rapidly—GO FAST—if breathing does not improve within
-15 minutes.
+---
 
+### Closed Abdominal Injury
 
-### Diabetic Emergency
-people with diabetes sometimes become ill because there is too much or too little
-sugar in their blood.
-When CHECKing the person, look, listen and feel for:
-- a medical identification (id) tag, bracelet or necklace.
-- light-headedness, dizziness, confusion or weakness.
-- irregular breathing.
-- irregular pulse (rapid or weak).
-- feeling or looking ill.
-- changes in levels of consciousness (loc).
-- gradual or rapid onset of confusion or disorientation.
-- dry, red skin.
-- pale, moist skin.
+**Signs and Symptoms of Closed Abdominal Injury:**
+- Blunt force mechanism of injury
+- Signs and symptoms of shock
+- Bruising
+- Abdominal rigidity or tenderness
+- Gradually increasing pulse rate
+- Pale skin
+- Nausea
 
-### To give CARE:
-- reassure the person that you are going to help.
-- if the person is alert and can safely swallow food or fluids and is known to have
-diabetes, give sugar (e.g., fruit juices, non-diet soft drinks, sugar packets, cake
-decorating gel, candy, oral glucose).
-- monitor the person for changes in consciousness.
-- Have the person check his or her own sugar level, if he or she knows how.
+**Care and Management for Closed Abdominal Injury:**
+1. Monitor the person closely
+2. Position on back with knees bent if this does not cause additional pain
+3. Treat for shock
+4. Note the quadrant of pain and record on the report form
+5. Evacuate as soon as possible
 
-- if the person has insulin, you can get it for the person. the person must
-self-administer the insulin.
-- if the person is unconscious:
- do not give anything to eat or drink.
- care for the conditions you find.
+---
 
-### CALLing for Help: Guidelines for Evacuation
-- evacuate rapidly—GO FAST—anyone who does not feel better in about
-5 minutes.
-- evacuate rapidly—GO FAST—anyone who is unconscious.
-Emergency and
+## Asthma Attack
 
-### Non-Emergency Moves
-one of the most dangerous threats to a seriously injured person is unnecessary
-movement. moving a seriously injured person can cause additional injury and
-pain and make the recovery more difficult. you should move a person only in the
-following three situations:
-- when you are faced with immediate danger (e.g., fire).
-- when you must get to another person who may have a more serious injury
-or illness.
-- when you must move the person to give proper care.
-if you must move the person for one of these reasons, you must quickly decide
-how to do so. carefully consider your safety and the safety of the injured person.
-to avoid hurting yourself or the injured person, use your legs, not your back,
-when you bend. Bend at the knees and hips and avoid twisting your body. walk
-forward when possible, taking small steps and looking where you are going. avoid
-twisting or bending anyone who you think has a possible head, neck or back
-injury. if you cannot move a person safely, do not move the person.
+### Signs and Symptoms of Asthma Attack
 
+- Coughing or wheezing
+- Trouble breathing or shortness of breath
+- Rapid, shallow breathing
+- Unable to speak without stopping for breath
+- Chest tightness
+- Fear or confusion
+- Sweating
+
+### Care and Management for Asthma Attack
+
+1. Reassure the person
+2. Position in a comfortable upright posture to optimise breathing
+3. Administer supplemental oxygen if trained to do so
+4. Assist the person in self-administering their prescribed quick-relief inhaler:
+   - Confirm: Prescription is in the person's name and labelled for "quick relief" or "acute" attacks — do not use long-acting preventive inhalers in an emergency
+   - Confirm: Medication has not expired
+   - Shake the inhaler
+   - Remove mouthpiece cover; attach spacer/extension tube if present
+   - Instruct the person to breathe out fully
+   - Person places lips tightly around mouthpiece; press canister as the person begins to breathe in slowly
+   - Person takes a full, deep breath
+   - Hold breath for a count of 10 — if using extension tube, take 5–6 deep breaths without breath-holding
+   - Record time of administration and any change in condition
+   - Dose may be repeated once after 1–2 minutes; repeat every 5–10 minutes as needed — full effect takes 5–15 minutes
+5. Have the person rinse mouth with water after use
+6. Monitor continuously; treat for shock; prevent chilling or overheating
+
+### Evacuation Criteria for Asthma Attack
+
+- Breathing not improved within 15 minutes: Evacuate rapidly (GO FAST)
+
+---
+
+## Diabetic Emergency
+
+### Signs and Symptoms of Diabetic Emergency
+
+- Medical ID tag, bracelet, or necklace present
+- Light-headedness, dizziness, confusion, or weakness
+- Irregular breathing
+- Rapid or weak pulse
+- Feeling or appearing generally unwell
+- Altered or changing level of consciousness
+- Gradual or rapid onset of confusion or disorientation
+- Dry, red skin (high blood sugar indicator)
+- Pale, moist skin (low blood sugar indicator)
+
+### Care and Management for Diabetic Emergency
+
+1. Reassure the person
+2. Person alert and able to swallow safely, and known to have diabetes: Give sugar immediately — fruit juice, non-diet soft drink, sugar packets, cake decorating gel, candy, or oral glucose
+3. Monitor for changes in consciousness
+4. Have the person check their own blood sugar level if they know how
+5. Insulin available: Retrieve it for the person — the person must self-administer insulin
+6. Person unconscious: Give nothing by mouth — treat conditions found
+
+### Evacuation Criteria for Diabetic Emergency
+
+- No improvement within approximately 5 minutes: Evacuate rapidly (GO FAST)
+- Unconscious person: Evacuate rapidly (GO FAST)
+
+---
+
+## Emergency Patient Moves
+
+Move a person only when:
+- Immediate danger is present (e.g., fire)
+- Another person with more serious injuries needs to be reached
+- Movement is required to provide necessary care
+
+Use legs — not the back — when lifting. Bend at knees and hips; avoid twisting. Walk forward in small steps. Do not twist or bend anyone with a suspected head, neck, or back injury.
 
 ### Walking Assist
-to help a person who needs help
-walking to safety:
-1. place the person's arm around your
-shoulders or waist, depending on his
-or her size, and hold it in place with
-one hand.
-2. support the person with your other
-hand around the person's waist.
-3. move the person to safety.
-another person, if present, can support
-the person in the same way on the
-other side.
 
-### Pack-Strap Carry
-to move either a conscious or an
-unconscious person when you do not
-suspect a head, neck or back injury:
-1. position yourself in front of the
-person with your back to the
-person's front.
-2. place the person's arms over your
-shoulders and cross them in front of
-your neck, then grasp the person's
-wrists.
-3. lean forward slightly and pull the
-person onto your back. to
-do this, you may have to kneel close
-to the ground. then, when you lift,
-use the power in your legs to get up
-and move.
-4. move the person to safety.
+1. Place the person's arm around your shoulders or waist; hold it in place with one hand
+2. Support the person with your other arm around their waist
+3. Move to safety — a second rescuer can support the opposite side simultaneously
 
+### Pack-Strap Carry (No Suspected Spinal Injury)
 
-### Two-Person Seat Carry
-to carry a person who cannot walk and
-who you do not think has a head, neck
-or back injury:
-1. put one arm under the person's
-thighs and the other across the
-person's back, under his or her arms.
-2. interlock your arms with another
-person's arms under the person's
-legs and across the person's back.
-3. lift the person in the "seat" formed
-by your interlocked arms.
-4. move the person to safety.
+1. Stand in front of the person with your back to their front
+2. Place the person's arms over your shoulders and cross them in front of your neck; grasp the person's wrists
+3. Lean forward slightly; pull the person onto your back using leg strength to rise
+4. Move to safety
 
-### Clothes Drag
-to move a person who may have a
-head, neck or back injury:
-1. gather the person's clothing behind
-his or her neck. while moving the
-person, cradle the head with his or
-her clothes and your hands.
-2. pull the person to safety.
+### Two-Person Seat Carry (No Suspected Spinal Injury)
 
-### Blanket Drag
-to move a person in an emergency
-situation when equipment is limited:
-1. Keep the person between you and
-the blanket.
-2. gather half the blanket and place it
-against the person's side.
-3. roll the person toward you as a unit.
-4. reach over the person and place the
-blanket under the person.
-5. roll the person onto the blanket.
-6. gather the blanket at the head and move the person to safety.
+1. One rescuer places one arm under the person's thighs and the other across the person's back under their arms
+2. Second rescuer interlocks arms with the first rescuer under the legs and across the back
+3. Lift the person in the seat formed by interlocked arms; move to safety
 
+### Clothes Drag (Suspected Spinal Injury)
 
-### Foot Drag
-to move a person who is too large to
-carry or otherwise move:
-1. firmly grasp the person's ankles and
-move backward.
-2. pull the person in a straight line and
-be careful not to bump his or her
-head.
-Stretchers
-a stretcher (litter) can be used to move a person a short distance to a better site
-for giving care. a stretcher can also be used to transport an injured or ill person
-a longer distance. choose one of the following methods based on the person's
-injuries:
-- Blanket stretcher
-- rope stretcher
-- coat stretcher
-- improvised sled
-- pack frame stretcher
-assess what equipment you have to improvise a stretcher.
-- rope
-- Backpack
-- pack frame and pole
-- tent fly
-- webbing band
-- tent poles or wooden poles
-- toboggan or ski sled
-- plastic tarp
-a good stretcher:
-- is stable.
-- can be tipped over without the person falling out.
-- Keeps the person safe and does not make the person's injuries worse.
-- will not injure the person carrying it.
-- is strong enough to deal with the terrain.
+1. Gather the person's clothing behind their neck
+2. Cradle the head with the clothing and your hands throughout the move
+3. Pull the person to safety in a straight line
 
-- is strong enough to deal with the movement it will be subjected to.
-- makes the person feel safe and comfortable (within reason).
-- can be controlled from both ends at the same time.
-when carrying a stretcher, make sure:
-- the person in the stretcher is wearing eye protection so debris does not get
-into his or her eyes.
-- the person's head is pointing uphill.
-- there are three people on each side to carry the stretcher over rough or
-steep terrain, plus one leader and two people with ropes to control the rate of
-descent or uphill movement.
+### Blanket Drag (Limited Equipment)
 
-### Emergency Childbirth
+1. Keep the person between you and the blanket
+2. Gather half the blanket and place it against the person's side
+3. Roll the person toward you as a unit
+4. Reach over and place the blanket underneath
+5. Roll the person onto the blanket
+6. Gather the blanket at the head; pull to safety
 
-### To give CARE:
-if a woman is giving birth:
-- talk with the woman to help her stay calm.
-- place layers of newspaper covered with layers of linens, towels or blankets
-under the woman.
-- control the scene so that the woman will have privacy.
-- position her on her back with knees bent, feet flat and legs spread wide apart.
-- remember, the woman delivers the baby, so be patient and let it
-happen naturally.
-- Keep the baby warm.
-Caution:
-- do not let the woman get up or leave to find a bathroom. (most women have a
-desire to use the restroom.)
-- do not hold her knees together; this will not slow the birth process and may
-complicate the birth or harm the baby.
-- do not place your fingers in the vagina for any reason.
-- do not pull on the baby.
+### Foot Drag (Person Too Large to Carry)
 
-### CALLing for Help: Guidelines for Evacuation
-- evacuate slowly—GO SLOW—if possible. give advanced medical personnel
-the woman's name, age, expected due date, how long she has been having
-labor pains and if this is her first child.
+1. Firmly grasp the person's ankles; move backward
+2. Pull in a straight line — avoid bumping the head
 
+---
 
-### Eye, Mouth and Lip Injuries
+## Improvised Stretcher — Principles and Use
 
-### Eye Injuries
+A good stretcher must be:
+- Stable and controllable from both ends simultaneously
+- Tippable without the person falling out
+- Strong enough for the terrain and movement involved
+- Free of features that could worsen the person's injuries or injure carriers
 
-### To give CARE:
-- if an eye is burned by a chemical, flush the affected eye with large amounts of
-water for at least 20 minutes.
-- care for open and closed wounds around the eye as you would for any other
-soft tissue injury.
-- do not put direct pressure on the eyeball.
-- remember that all eye injuries should be examined by a health care provider.
-- if foreign bodies get in the eye (e.g., dust), tell the person not to rub the eyes.
-do not touch the eye.
- Have the person blink several times.
- if the object is visible on the lower eyelid, pull the eyelid down and try to
-remove the object with the corner of a sterile gauze pad. Be careful not to touch
-the eyeball.
- gently flush the eye with irrigation, saline solution or water.
- after irrigating, if the object is visible on the upper eyelid, gently roll the upper
-eyelid back over a cotton swab and attempt to remove the object with the corner
-of a sterile gauze pad, being careful not to touch the eyeball.
- if the object remains, the person should receive advanced medical care.
- cover the injured eye with an eye pad/shield.
-- if an object is impaled in the eye, do not attempt to remove it.
- Keep the person on his or her back and have someone perform
-manual stabilization.
- stabilize the object by encircling the eye with a gauze dressing or soft sterile cloth,
-being careful not to apply any pressure to the area.
- position bulky dressings around the impaled object (e.g., roller gauze) and then
-cover it with a shield (e.g., a paper cup). do not use styrofoam®-type materials,
-as small particles can break off and get into the eye. the shield should not touch
-the object.
+**Improvised materials:** Rope, backpack, pack frame and pole, tent fly, webbing, tent poles or wooden poles, toboggan, ski sled, plastic tarp
 
- Bandage the shield and dressing in place with a self-adhering bandage and
-roller bandage covering the person's injured eye to keep the object stable and
-minimize movement.
- comfort and reassure the person.
- do not leave the person unattended.
+**Carrying a stretcher:**
+- Provide eye protection for the person being carried to prevent debris injury
+- Position with the person's head pointing uphill
+- Use three people per side over rough or steep terrain, plus one leader and two rope handlers to control descent or ascent speed
 
-### Mouth Injuries
+---
 
-### To give CARE:
-- make sure the person is able to breathe as injuries to the mouth may cause
-breathing problems if blood or loose teeth obstruct the airway.
-- if the person is bleeding from the mouth and you do not suspect a serious
-head, neck or spinal injury, place the person in a seated position with the head
-tilted slightly forward.
-- if this position is not possible, place the person on his or her side in the
-recovery position to allow blood to drain from the mouth.
+## Emergency Childbirth
 
-### Lip Injuries
+### Care and Management for Emergency Childbirth
 
-### To give CARE:
-- place a rolled dressing between the lip and the gum.
-- place another dressing on the outer surface of the lip.
-- if the tongue is bleeding, apply a dressing and direct pressure.
-- apply cold to the lips or tongue to reduce swelling and ease pain.
+1. Keep the woman calm — talk to her throughout
+2. Place layers of newspaper covered with linens, towels, or blankets under her
+3. Ensure privacy
+4. Position her on her back — knees bent, feet flat, legs spread wide
+5. Be patient — the woman delivers the baby; allow it to happen naturally
+6. Keep the baby warm immediately after delivery
 
-Poisoning
-a poison is any substance that causes injury, illness or death if it enters the
-body. a person can be poisoned by swallowing poison, breathing it, absorbing it
-through the skin and having it injected into the body.
-When CHECKing the person, look, listen and feel for:
-- trouble breathing.
-- nausea, vomiting and/or diarrhea.
-- chest or stomach pain.
-- sweating.
-- changes in alertness.
-- seizures.
-- Burns around the lips or tongue or on
-the skin.
-- open or spilled containers.
-- overturned or damaged plants.
-- unusual odors, flames and/or smoke.
-- Headache.
-- dizziness.
-- exposure to plants, such as poison
-ivy, poison sumac or poison oak.
+**Do not:**
+- Allow the woman to leave to find a bathroom — the urge is normal but must be resisted
+- Hold her knees together — this does not slow labour and may harm the baby
+- Place fingers in the vagina for any reason
+- Pull on the baby
 
+### Evacuation Criteria for Emergency Childbirth
 
-### To give CARE:
-- look for any containers that may contain a harmful or poisonous substance.
-- if necessary, move the person to safety, away from the source of the poison.
-- check the person's level of consciousness (loc), movement and breathing.
-- reassure the person that you are going to help.
-- if you suspect a conscious person has been poisoned and no immediate life-
-threatening condition is found and you have access to a phone, call the national
-poison control center (pcc) hotline at 800-222-1222.
-- do not give the person anything to eat or drink and do not induce vomiting
-unless directed to do so by pcc or emergency medical services (ems) personnel.
-- if you suspect a person has swallowed a poison, try to find out the type of poison,
-how much was taken and when it was taken.
-- if the person vomits, position him or her in a recovery position.
+- Evacuate slowly (GO SLOW) if possible — provide advanced personnel with: woman's name, age, expected due date, duration of labour pains, and whether this is her first child
 
-### Wound Care
-Avulsion
-avulsion is an injury in which a portion of the skin, and sometimes other soft
-tissue, is partially or completely torn away.
+---
 
-### To give CARE:
-- control external bleeding.
-- never remove the portion of the skin or soft tissue.
-- care for it as you would an open wound, stabilizing the part.
-Amputation
-amputation is the complete removal or severing of an external body part.
+## Eye Injuries
 
-### To give CARE:
-- control external bleeding.
-- if the amputation is incomplete, never remove the portion of the skin or
-soft tissue.
-- if the body part is completely severed, once it has been found, wrap it in
-sterile gauze, moistened in sterile saline if available.
-- place it in a plastic bag and label it with the person's name and the time and
-date it was placed in the bag.
-- Keep the bag cool by placing it in a larger bag or container of an ice and water
-slurry, not on ice alone and not on dry ice.
-- transfer the bag to the advanced medical care transporting the person to
-the hospital.
+### Care and Management for Chemical Burn to the Eye
 
-### CALLing for Help: Guidelines for Evacuation
-- evacuate slowly—GO SLOW—anyone with an avulsion.
-- evacuate rapidly—GO FAST—anyone with an amputation.
+1. Flush the affected eye with large amounts of water for at least 20 minutes
+
+### Care and Management for Foreign Body in the Eye
+
+1. Tell the person not to rub the eye; do not touch the eye
+2. Have the person blink several times
+3. Object visible on lower eyelid: Pull eyelid down; remove with corner of sterile gauze pad — avoid touching the eyeball
+4. Flush gently with irrigation solution, saline, or water
+5. Object visible on upper eyelid after flushing: Gently roll upper eyelid back over a cotton swab; remove with corner of sterile gauze pad — avoid touching the eyeball
+6. Object remains after irrigation: Cover with eye pad or shield; arrange advanced medical care
+
+### Care and Management for Impaled Object in the Eye
+
+1. Do not remove the object
+2. Keep the person on their back; maintain manual stabilisation
+3. Encircle the eye with gauze dressing or soft sterile cloth — apply zero pressure to the area
+4. Build up bulky dressings (e.g., roller gauze) around the object
+5. Cover with a rigid shield (e.g., a paper cup) — do not use polystyrene (small particles can enter the eye); shield must not contact the object
+6. Bandage shield and dressing in place with self-adhering and roller bandage over the injured eye
+7. Reassure the person; do not leave unattended
+8. All eye injuries: Arrange healthcare provider evaluation
+
+---
+
+## Mouth and Lip Injuries
+
+### Care and Management for Mouth Injuries
+
+1. Confirm airway is clear — blood or loose teeth can obstruct breathing
+2. Bleeding from mouth, no suspected spinal injury: Seat the person with head tilted slightly forward
+3. Seated position not possible: Place in recovery position (on side) to allow blood to drain
+
+### Care and Management for Lip Injuries
+
+1. Place a rolled dressing between the lip and gum
+2. Place a second dressing on the outer surface of the lip
+3. Bleeding tongue: Apply a dressing and direct pressure
+4. Apply cold to lips or tongue to reduce swelling and ease pain
+
+---
+
+## Poisoning
+
+### Signs and Symptoms of Poisoning
+
+- Trouble breathing
+- Nausea, vomiting, and/or diarrhoea
+- Chest or stomach pain
+- Sweating
+- Changes in alertness
+- Seizures
+- Burns around the lips, tongue, or on skin
+- Open or spilled containers nearby
+- Overturned or damaged plants
+- Unusual odours, flames, or smoke
+- Headache and/or dizziness
+
+### Care and Management for Poisoning
+
+1. Identify any containers that may hold the poisonous substance
+2. Move the person away from the poison source if necessary
+3. Assess level of consciousness, movement, and breathing
+4. Reassure the person
+5. Conscious person with suspected poisoning and no immediate life-threatening condition: Call the National Poison Control Center (PCC) at 800-222-1222 if phone access is available
+6. Do not give food or drink; do not induce vomiting unless specifically directed by PCC or EMS
+7. Swallowed poison: Determine the type of poison, amount taken, and time of ingestion
+8. Person vomits: Place in recovery position immediately
+
+---
+
+## Wound Care
+
+### Avulsion (Partial or Complete Skin Tear)
+
+**Care and Management for Avulsion:**
+1. Control external bleeding
+2. Never remove the partially torn skin or soft tissue
+3. Treat as an open wound — stabilise the tissue in place
+
+**Evacuation:** Evacuate slowly (GO SLOW)
+
+---
+
+### Amputation (Complete Severance of a Body Part)
+
+**Care and Management for Amputation:**
+1. Control external bleeding
+2. Incomplete amputation: Do not remove any partially attached skin or soft tissue
+3. Complete amputation — care for the severed part:
+   - Wrap in sterile gauze moistened with sterile saline if available
+   - Place in a labelled plastic bag — include the person's name, and the time and date placed in the bag
+   - Keep cool by placing the bag in a larger container of ice-and-water slurry — do not place on ice alone or on dry ice
+   - Transfer the bag with the person to the receiving medical facility
+
+**Evacuation:** Evacuate rapidly (GO FAST)
