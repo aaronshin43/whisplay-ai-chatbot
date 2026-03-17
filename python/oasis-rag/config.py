@@ -29,7 +29,7 @@ EMBEDDING_DIM:   int = 384   # gte-small output dimension
 # ─────────────────────────────────────────────────────────────
 # Chunking (must match values used during indexing)
 # ─────────────────────────────────────────────────────────────
-CHUNK_SIZE:    int = 300
+CHUNK_SIZE:    int = 500
 CHUNK_OVERLAP: int = 50
 
 # ─────────────────────────────────────────────────────────────
@@ -43,13 +43,13 @@ LEXICAL_CANDIDATE_POOL: int = 50   # max candidates forwarded to Stage 2
 # ─────────────────────────────────────────────────────────────
 ALPHA:           float = 0.6   # semantic weight
 SCORE_THRESHOLD: float = 0.10  # min hybrid score to pass through
-TOP_K:           int   = 3     # final chunks returned to LLM (was 2 — 3 gives richer context)
-MAX_PER_SOURCE:  int   = 2     # max chunks from the same source document (was 1)
+TOP_K:           int   = 1     # final chunks returned to LLM (was 2 — 3 gives richer context)
+MAX_PER_SOURCE:  int   = 1     # max chunks from the same source document (was 1)
 
 # ─────────────────────────────────────────────────────────────
 # Stage 3 — Selective Context Compression
 # ─────────────────────────────────────────────────────────────
-COMPRESS_ENABLED:          bool  = True
+COMPRESS_ENABLED:          bool  = False
 COMPRESS_MIN_SENTENCES:    int   = 2      # never compress below this
 COMPRESS_KEYWORD_WEIGHT:   float = 1.0   # score per keyword hit in sentence
 COMPRESS_POSITION_DECAY:   float = 0.05  # small bonus for early sentences

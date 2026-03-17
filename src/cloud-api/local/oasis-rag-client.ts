@@ -38,6 +38,7 @@ export interface RagChunk {
 
 export interface RagRetrieveResponse {
     context:           string;
+    system_prompt:     string;
     chunks:            RagChunk[];
     stage1_candidates: number;
     stage2_passing:    number;
@@ -55,11 +56,14 @@ export interface RagHealthResponse {
 // ── Client ───────────────────────────────────────────────────────────────────
 
 /**
- * Retrieve compressed medical context for a user query.
+ * Retrieve the ready-to-use system prompt from the RAG service.
+ *
+ * The RAG service builds the prompt from a single template (prompt.py),
+ * so both this Node.js client and the Python CLI get the exact same prompt.
  *
  * @param query   The user's raw utterance / question.
- * @param topK    Optional override for number of chunks to return (default: 3).
- * @returns       Compressed context string, or empty string on failure.
+ * @param topK    Optional override for number of chunks to return.
+ * @returns       Formatted system prompt string, or empty string on failure.
  */
 export async function ragRetrieve(
     query: string,
@@ -75,14 +79,14 @@ export async function ragRetrieve(
             { timeout: TIMEOUT_MS },
         );
 
-        const context = res.data?.context ?? "";
+        const systemPrompt = res.data?.system_prompt ?? "";
         const latency = res.data?.latency_ms ?? 0;
 
         console.log(
             `[RAG] Retrieved ${res.data?.chunks?.length ?? 0} chunks in ${latency.toFixed(1)} ms`,
         );
 
-        return context;
+        return systemPrompt;
     } catch (err) {
         _logError("ragRetrieve", err);
         return "";   // caller treats empty string as "no context available"

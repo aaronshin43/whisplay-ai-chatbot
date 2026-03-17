@@ -29,55 +29,30 @@ RAG_URL    = "http://localhost:5001/retrieve"
 OLLAMA_URL = "http://localhost:11434/api/chat"
 DEFAULT_MODEL = "gemma3:1b"
 
-# ── System prompt ─────────────────────────────────────────────────────────────
-SYSTEM_PROMPT_TEMPLATE = """\
-You are OASIS, a critical first aid AI. A person needs first aid RIGHT NOW. Provide immediate, life-saving instructions based ONLY on the REFERENCE.
-
-RULES YOU MUST STRICTLY FOLLOW:
-- Output the required actions as a numbered list starting with "1.".
-- Provide ONLY the necessary steps. Stop writing when the required steps are complete (maximum 7 steps).
-- If the REFERENCE states an absolute restriction (e.g., "Do not give water"), make it step "1.".
-- Each step must be ONE short sentence, maximum 12 words.
-- Use plain text only. No markdown, no bolding, no headers.
-- Use direct command verbs (e.g., "Apply firm pressure", "Call emergency services").
-- Start directly with step 1. No introductions, no greetings, no conclusions.
-
-REFERENCE:
-{context}
-
-YOUR RESPONSE:\
-"""
-
-SAFE_FALLBACK_PROMPT = """\
-You are OASIS, an offline first-aid assistant.
-The medical knowledge base is currently unavailable.
-Tell the user clearly and calmly:
-1. Call emergency services immediately (local emergency number).
-2. Stay on the line with the dispatcher — they will guide you.
-3. Do not leave the person alone.
-Do not provide any specific medical instructions without the knowledge base.\
-"""
+# ── System prompt (loaded from RAG service — single source: prompt.py) ───────
+from prompt import SAFE_FALLBACK_PROMPT
 
 
 # ── RAG retrieval ─────────────────────────────────────────────────────────────
-def retrieve(query: str) -> tuple[str, list[dict], float]:
+def retrieve(query: str) -> tuple[str, str, list[dict], float]:
     """
-    Returns (context_str, chunks, rag_latency_ms).
-    context_str is empty string if service is down.
+    Returns (system_prompt, context_str, chunks, rag_latency_ms).
+    system_prompt is built by the RAG service from prompt.py (single source of truth).
     """
     try:
         resp = requests.post(RAG_URL, json={"query": query}, timeout=10)
         resp.raise_for_status()
-        data      = resp.json()
-        context   = data.get("context", "")
-        chunks    = data.get("chunks", [])
-        latency   = data.get("latency_ms", 0.0)
-        return context, chunks, latency
+        data          = resp.json()
+        system_prompt = data.get("system_prompt", "")
+        context       = data.get("context", "")
+        chunks        = data.get("chunks", [])
+        latency       = data.get("latency_ms", 0.0)
+        return system_prompt, context, chunks, latency
     except requests.exceptions.ConnectionError:
-        return "", [], 0.0
+        return "", "", [], 0.0
     except Exception as e:
         print(f"  [RAG ERROR] {e}")
-        return "", [], 0.0
+        return "", "", [], 0.0
 
 
 # ── Thinking-mode stripping ────────────────────────────────────────────────────
@@ -186,11 +161,9 @@ def main() -> None:
         print()
 
         # ── Stage 1: RAG retrieval ────────────────────────────────────────────
-        context, chunks, rag_ms = retrieve(query)
+        system_prompt, context, chunks, rag_ms = retrieve(query)
 
-        if context:
-            # Context injection is applied server-side by context_injector.py via service.py
-
+        if system_prompt:
             top       = chunks[0] if chunks else {}
             top_src   = top.get("source", "?")
             top_score = top.get("hybrid_score", 0.0)
@@ -198,7 +171,6 @@ def main() -> None:
                 f"  [RAG] {len(chunks)} chunk(s) found ({rag_ms:.0f}ms)"
                 f" | top: {top_src} ({top_score:.2f})"
             )
-            # All sources
             if len(chunks) > 1:
                 others = ", ".join(
                     f"{c.get('source','?')} ({c.get('hybrid_score',0):.2f})"
@@ -206,7 +178,7 @@ def main() -> None:
                 )
                 print(f"        also: {others}")
 
-            system = SYSTEM_PROMPT_TEMPLATE.format(context=context)
+            system = system_prompt
         else:
             print("  [RAG] unavailable — using safe fallback")
             system = SAFE_FALLBACK_PROMPT
