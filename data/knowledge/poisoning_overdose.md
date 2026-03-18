@@ -1,8 +1,5 @@
 ---
-tags: [poisoning, overdose, opioid, opioid_overdose, naloxone, organophosphate, pesticide, SLUDGE, atropine, carbon_monoxide, CO_poisoning, alcohol_withdrawal, toxicology, antidote, unconscious_poisoning, pinpoint_pupils, respiratory_depression, seizure_poisoning, activated_charcoal, decontamination]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
-standard: "WHO / ICRC 2018"
-category: "Toxicological Emergencies — Poisoning, Overdose, Envenomation"
+tags: [poisoning, overdose, toxins, ingestion, activated_charcoal, naloxone]
 ---
 
 # Poisoning and Overdose — WHO BEC Reference

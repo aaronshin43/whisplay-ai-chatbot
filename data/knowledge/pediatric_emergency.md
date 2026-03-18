@@ -1,8 +1,5 @@
 ---
-tags: [paediatric, pediatric, child, infant, neonate, baby, toddler, child_assessment, paediatric_vitals, paediatric_shock, paediatric_CPR, infant_CPR, child_breathing, paediatric_fever, febrile_seizure, child_airway, paediatric_fluids, glucose_child, hypoglycaemia_child, danger_signs_child, paediatric_sepsis, meningitis_child, paediatric_trauma, child_burn, child_drowning]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
-standard: "WHO / ICRC 2018"
-category: "Paediatric Emergencies — All Ages (Neonate to Adolescent)"
+tags: [pediatric, child, infant, PAT, pediatric_cpr, febrile_seizure, neonate]
 ---
 
 # Paediatric Emergency — Consolidated Reference

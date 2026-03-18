@@ -1,8 +1,5 @@
 ---
-tags: [altered_mental_status, AMS, seizure, stroke, hypoglycemia, meningitis, GCS, AVPU, coma, encephalopathy, intracranial_pressure, confusion, unresponsive, eclampsia, opioid_overdose, DKA, rabies, pesticide_poisoning, paediatric_AMS]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
-standard: "WHO / ICRC 2018"
-category: "Neurological Emergency — AMS, Seizure, Stroke, Hypoglycemia, Meningitis"
+tags: [mental_status, AVPU, altered_mental_status, confusion, unresponsiveness]
 ---
 
 # Approach to Altered Mental Status (AMS) — WHO BEC Reference

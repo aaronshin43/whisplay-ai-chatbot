@@ -1,7 +1,5 @@
 ---
-tags: [lightning, lightning_strike, lightning_storm, thunder, 30_30_rule, cardiac_arrest, CPR, lightning_injuries, wilderness, shelter, storm_safety]
-source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
-standard: "American Red Cross / SOLO Wilderness Medicine"
+tags: [lightning, reverse_triage, cpr, safety, burns]
 ---
 
 # Lightning Safety and Injuries — Wilderness First Aid Reference

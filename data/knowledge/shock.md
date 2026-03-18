@@ -1,8 +1,5 @@
 ---
-tags: [shock, hypovolemic_shock, septic_shock, anaphylactic_shock, cardiogenic_shock, IV_fluids, blood_pressure, perfusion, vasopressors, fluid_resuscitation, tachycardia, hypotension, postpartum_haemorrhage, ectopic_pregnancy, dehydration_child, paediatric_shock]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
-standard: "WHO / ICRC 2018"
-category: "Shock — Hypovolemic, Distributive, Obstructive, Cardiogenic"
+tags: [shock, hypovolemic, anaphylactic, cardiogenic, septic, perfusion, fluids]
 ---
 
 # Approach to Shock — WHO BEC Reference

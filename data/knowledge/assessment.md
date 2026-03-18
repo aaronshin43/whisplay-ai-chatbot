@@ -1,8 +1,5 @@
 ---
-tags: [GCS, Glasgow_Coma_Scale, AVPU, head_injury, consciousness, neurological_exam, secondary_survey, head_to_toe, trauma_assessment, altered_mental_status]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section"
-standard: "WHO / ICRC 2018"
-category: "Clinical Skills — Neurological Assessment, Secondary Survey"
+tags: [assessment, secondary_survey, vital_signs, SAMPLE, DOTS, physical_exam]
 ---
 
 # WHO BEC Skills Physical Assessment

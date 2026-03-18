@@ -1,3 +1,7 @@
+---
+tags: [stroke, FAST, CVA, brain_attack, weakness, speech_difficulty, TIA]
+---
+
 # Stroke — Recognition and First Aid Response
 
 Source: WHO Basic Emergency Care 2018, American Stroke Association, IFRC Guidelines

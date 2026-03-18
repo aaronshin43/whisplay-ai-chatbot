@@ -1,3 +1,7 @@
+---
+tags: [seizure, epilepsy, convulsions, postictal, protection, recovery_position]
+---
+
 # Seizure and Epilepsy — First Aid Response
 
 Source: WHO Basic Emergency Care 2018 (Module 5), IFRC First Aid Guidelines

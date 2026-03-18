@@ -1,8 +1,5 @@
 ---
-tags: [medications, adrenaline, epinephrine, aspirin, antibiotics, diazepam, benzodiazepine, glucose, dextrose, magnesium_sulphate, naloxone, oxytocin, paracetamol, salbutamol, tetanus, emergency_drugs]
-source: "WHO Basic Emergency Care (BEC)"
-standard: "WHO / ICRC 2018"
-category: "Clinical Skills — Emergency Medications"
+tags: [medications, drug_dosages, pharmacology, epinephrine, pain_relief, antibiotics]
 ---
 
 # WHO BEC Skills Emergency Medications Reference

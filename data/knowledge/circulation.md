@@ -1,8 +1,5 @@
 ---
-tags: [IV_access, IV_cannulation, fluid_resuscitation, shock, hypovolemic_shock, IV_fluids, normal_saline, Ringers_Lactate, postpartum_haemorrhage, uterine_massage, malnutrition, anaemia, fluid_overload]
-source: "WHO Basic Emergency Care (BEC)"
-standard: "WHO / ICRC 2018"
-category: "Clinical Skills — Circulation, IV Cannulation, Fluid Resuscitation"
+tags: [circulation, bleeding, hemorrhage, tourniquet, pressure, pulse, perfusion]
 ---
 
 # WHO BEC Skills Circulation IV Access and Fluid Resuscitation

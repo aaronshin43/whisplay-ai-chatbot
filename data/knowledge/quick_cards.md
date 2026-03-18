@@ -1,8 +1,5 @@
 ---
 tags: [quick_reference, critical_actions, drug_dosages, medications, ABCDE, trauma_protocol, shock_protocol, AMS_protocol, pediatric, handover, transfer, epinephrine, dextrose, adrenaline, salbutamol, diazepam, naloxone, magnesium_sulphate, oxytocin, paracetamol, tetanus]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook, Quick Cards"
-standard: "WHO / ICRC 2018"
-category: "Quick Reference — Critical Actions and Drug Dosages"
 ---
 
 # WHO BEC Quick Reference — Critical Actions, Drug Dosages, and Transfer

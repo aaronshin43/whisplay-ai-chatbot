@@ -1,8 +1,5 @@
 ---
-tags: [chest_pain, cardiac, heart_attack, myocardial_infarction, ACS, acute_coronary_syndrome, heart_failure, pericardial_tamponade, cardiac_arrest, CPR, AED, defibrillator, chest_tightness, jaw_pain, left_arm_pain, sweating, aspirin, nitroglycerine, pulseless, not_breathing, resuscitation]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
-standard: "WHO / ICRC 2018"
-category: "Cardiac Emergencies — Chest Pain, Heart Attack, Cardiac Arrest"
+tags: [chest_pain, heart_attack, myocardial_infarction, angina, cardiac, aspirin, nitroglycerin]
 ---
 
 # Chest Pain and Cardiac Emergencies — WHO BEC Reference

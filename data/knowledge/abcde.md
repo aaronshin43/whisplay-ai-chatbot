@@ -1,8 +1,5 @@
 ---
-tags: [ABCDE, primary_survey, airway, breathing, circulation, disability, exposure, SAMPLE_history, vital_signs, triage, assessment, unconscious, responsiveness, paediatric_assessment, paediatric_danger_signs]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
-standard: "WHO / ICRC 2018"
-category: "Primary Survey — ABCDE Assessment Framework"
+tags: [ABCDE, primary_survey, rapid_assessment, primary_assessment, emergency, resuscitation]
 ---
 
 # ABCDE Primary Survey and SAMPLE History — WHO BEC Reference

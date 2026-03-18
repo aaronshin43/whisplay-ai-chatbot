@@ -1,8 +1,5 @@
 ---
-tags: [transfer, handover, SBAR, transport, destination_planning, clinical_communication, patient_handover, emergency_transfer]
-source: "WHO Basic Emergency Care (BEC)"
-standard: "WHO / ICRC 2018"
-category: "Clinical Skills — Patient Transfer and Clinical Handover"
+tags: [transfer, handover, evacuation, transport, communication, SBAR, documentation]
 ---
 
 # WHO BEC Skills Patient Transfer and Clinical Handover

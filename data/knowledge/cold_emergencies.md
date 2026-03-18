@@ -1,7 +1,5 @@
 ---
-tags: [hypothermia, frostbite, cold_exposure, shivering, stopped_shivering, hypothermia_wrap, rewarming, immersion_foot, trench_foot, cold_injury, wilderness, core_temperature, confined_space]
-source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
-standard: "American Red Cross / SOLO Wilderness Medicine"
+tags: [hypothermia, frostbite, cold_exposure, rewarming, shivering]
 ---
 
 # Cold-Related Emergencies and Confined Space Rescue — Wilderness First Aid Reference

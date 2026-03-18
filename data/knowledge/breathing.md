@@ -1,8 +1,5 @@
 ---
-tags: [breathing, dyspnea, asthma, pneumonia, tension_pneumothorax, COPD, respiratory_failure, oxygen_therapy, nebulizer, chest_decompression, wheeze, stridor, difficulty_in_breathing, anaphylaxis_airway, pleural_effusion, haemothorax, opioid_overdose, diabetic_ketoacidosis, anaemia, acute_chest_syndrome]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
-standard: "WHO / ICRC 2018"
-category: "Respiratory Emergency — Dyspnea, Asthma, Pneumonia, Tension Pneumothorax"
+tags: [breathing, asthma, respiratory_distress, flail_chest, sucking_chest_wound, ventilation]
 ---
 
 # Approach to Difficulty in Breathing (DIB) — WHO BEC Reference

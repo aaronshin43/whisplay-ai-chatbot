@@ -1,8 +1,5 @@
 ---
-tags: [airway_management, choking, suctioning, OPA, NPA, jaw_thrust, head_tilt, chin_lift, bag_valve_mask, BVM, oxygen_delivery, needle_decompression, pneumothorax, sucking_chest_wound, respiratory, spacer]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook, Skills Section"
-standard: "WHO / ICRC 2018"
-category: "Clinical Skills — Airway Management and Breathing"
+tags: [airway, choking, obstruction, airway_management, FBAO, head_tilt, jaw_thrust]
 ---
 
 # Clinical Skills — Airway Management and Breathing — WHO BEC

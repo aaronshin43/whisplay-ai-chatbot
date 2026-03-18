@@ -1,7 +1,5 @@
 ---
-tags: [diabetic_emergency, hypoglycemia, insulin, blood_sugar, asthma_attack, seizure, stroke, abdominal_injury, eye_injury, poisonous_plants, childbirth, CPR, check_call_care, SAMPLE_history, evacuation, wilderness, poisoning, wound_care, amputation, avulsion, patient_moves, stretcher]
-source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
-standard: "American Red Cross / SOLO Wilderness Medicine"
+tags: [special_situations, childbirth, eye_injuries, dental_injuries, triage, poisoning, evisceration]
 ---
 
 # Special Situations — Wilderness First Aid Reference

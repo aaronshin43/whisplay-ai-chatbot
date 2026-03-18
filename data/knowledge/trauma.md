@@ -1,8 +1,5 @@
 ---
-tags: [trauma, hemorrhage, bleeding, fracture, head_injury, spinal_injury, burns, wound_care, tourniquet, C-spine, immobilization, penetrating_trauma, blunt_trauma, hypovolaemic_shock, pelvic_fracture, crush_injury, blast_injury, trauma_pregnancy, paediatric_trauma]
-source: "WHO Basic Emergency Care (BEC) — Participant Workbook"
-standard: "WHO / ICRC 2018"
-category: "Trauma — Haemorrhage, Fractures, Head Injury, Burns"
+tags: [trauma, injury, kinematics, crush_injury, blast_injury, amputation, spinal_injury]
 ---
 
 # Approach to Trauma — WHO BEC Reference

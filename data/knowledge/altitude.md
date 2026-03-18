@@ -1,7 +1,5 @@
 ---
-tags: [altitude, altitude_sickness, acute_mountain_sickness, AMS, HAPE, HACE, high_altitude, acclimatization, descent, headache, nausea, ataxia, mountain, wilderness]
-source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
-standard: "American Red Cross / SOLO Wilderness Medicine"
+tags: [altitude, mountain_sickness, AMS, HACE, HAPE, acclimatization]
 ---
 
 # Altitude Illnesses — Wilderness First Aid Reference

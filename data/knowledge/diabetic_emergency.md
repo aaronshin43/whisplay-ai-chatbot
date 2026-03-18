@@ -1,3 +1,7 @@
+---
+tags: [diabetes, hypoglycemia, hyperglycemia, sugar, insulin, altered_mental_status]
+---
+
 # Diabetic Emergency — First Aid Response
 
 Source: WHO Basic Emergency Care 2018 (Module 5), IFRC First Aid Guidelines

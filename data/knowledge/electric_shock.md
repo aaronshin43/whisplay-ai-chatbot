@@ -1,3 +1,7 @@
+---
+tags: [electric_shock, electrocution, burns, cardiac_arrest, safety]
+---
+
 # Electric Shock — First Aid Response
 
 Source: American Red Cross First Aid Guidelines, WHO BEC 2018

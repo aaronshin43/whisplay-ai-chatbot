@@ -1,7 +1,5 @@
 ---
-tags: [drowning, submersion, near_drowning, water_rescue, reach_throw_row_go, CPR, rescue_breathing, swimmer_distress, wilderness, aquatic_emergency]
-source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
-standard: "American Red Cross / SOLO Wilderness Medicine"
+tags: [submersion, drowning, water_rescue, hypoxia, cpr, hypothermia]
 ---
 
 # Submersion Incidents (Drowning) — Wilderness First Aid Reference

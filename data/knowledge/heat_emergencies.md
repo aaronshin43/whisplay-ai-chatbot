@@ -1,7 +1,5 @@
 ---
-tags: [heat_stroke, heat_exhaustion, heat_cramps, hyperthermia, hyponatremia, dehydration, hot_skin, sweating, cooling, wilderness, environmental_heat]
-source: "American Red Cross — Wilderness and Remote First Aid Emergency Reference Guide"
-standard: "American Red Cross / SOLO Wilderness Medicine"
+tags: [heat_exhaustion, heat_stroke, hyperthermia, dehydration, cooling]
 ---
 
 # Heat-Related Emergencies — Wilderness First Aid Reference
