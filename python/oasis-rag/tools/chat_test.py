@@ -30,6 +30,10 @@ OLLAMA_URL = "http://localhost:11434/api/chat"
 DEFAULT_MODEL = "gemma3:1b"
 
 # ── System prompt (loaded from RAG service — single source: prompt.py) ───────
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from prompt import SAFE_FALLBACK_PROMPT
 
 
