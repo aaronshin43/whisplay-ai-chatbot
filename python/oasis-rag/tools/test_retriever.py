@@ -10,19 +10,23 @@ Runs 5 realistic emergency queries and prints a structured report for each:
   - Final context preview (first 300 chars)
 
 Usage:
-    python python/oasis-rag/test_retriever.py
-    python python/oasis-rag/test_retriever.py --verbose   (full context)
+    python tools/test_retriever.py
+    python tools/test_retriever.py --verbose   (full context)
 """
 
 from __future__ import annotations
 
+import os
 import sys
 import time
 import textwrap
 from pathlib import Path
 
-# ── path setup so we can run from project root ────────────────────────────
-sys.path.insert(0, str(Path(__file__).parent))
+# ── path setup so we can run from python/oasis-rag/ ──────────────────────────
+_TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
+_RAG_DIR   = os.path.dirname(_TOOLS_DIR)
+if _RAG_DIR not in sys.path:
+    sys.path.insert(0, _RAG_DIR)
 
 from indexer   import load_index
 from retriever import Retriever, RetrievalResult
@@ -215,7 +219,7 @@ if __name__ == "__main__":
         store = load_index()
     except FileNotFoundError as e:
         print(f"\n[ERROR] {e}")
-        print("Run `python python/oasis-rag/indexer.py` first.")
+        print("Run `bash index_knowledge.sh` first.")
         sys.exit(1)
 
     retriever = Retriever(store)

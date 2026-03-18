@@ -19,19 +19,23 @@ Each test: PASS / FAIL
 FAIL reasons: missing must_contain term | forbidden must_not_contain term | empty context
 
 Usage:
-    python python/oasis-rag/test_accuracy.py
-    python python/oasis-rag/test_accuracy.py --verbose
+    python tools/test_accuracy.py
+    python tools/test_accuracy.py --verbose
 """
 
 from __future__ import annotations
 
+import os
 import sys
 import time
 import textwrap
 from dataclasses import dataclass, field
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+_TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
+_RAG_DIR   = os.path.dirname(_TOOLS_DIR)
+if _RAG_DIR not in sys.path:
+    sys.path.insert(0, _RAG_DIR)
 
 from indexer   import load_index
 from retriever import Retriever, RetrievalResult
@@ -414,7 +418,7 @@ if __name__ == "__main__":
         store = load_index()
     except FileNotFoundError as e:
         print(f"\n[ERROR] {e}")
-        print("Run `python python/oasis-rag/indexer.py` first.")
+        print("Run `bash index_knowledge.sh` first.")
         sys.exit(1)
 
     retriever = Retriever(store)

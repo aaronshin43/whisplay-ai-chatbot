@@ -12,19 +12,26 @@ Each stage runs in-process (no subprocess), sharing the loaded index
 so the model is loaded only once.
 
 Usage:
-    python python/oasis-rag/run_all_tests.py
-    python python/oasis-rag/run_all_tests.py --skip-index   (use existing index)
-    python python/oasis-rag/run_all_tests.py --skip-bench   (skip latency benchmark)
-    python python/oasis-rag/run_all_tests.py --iterations 5 (benchmark iterations)
+    python tools/run_all_tests.py
+    python tools/run_all_tests.py --skip-index   (use existing index)
+    python tools/run_all_tests.py --skip-bench   (skip latency benchmark)
+    python tools/run_all_tests.py --iterations 5 (benchmark iterations)
 """
 
 from __future__ import annotations
 
+import os
 import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+_TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
+_RAG_DIR   = os.path.dirname(_TOOLS_DIR)
+if _RAG_DIR not in sys.path:
+    sys.path.insert(0, _RAG_DIR)
+# Also ensure tools/ is on path so sibling imports work
+if _TOOLS_DIR not in sys.path:
+    sys.path.insert(0, _TOOLS_DIR)
 
 SKIP_INDEX = "--skip-index" in sys.argv
 SKIP_BENCH = "--skip-bench" in sys.argv

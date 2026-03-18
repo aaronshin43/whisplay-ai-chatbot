@@ -2,9 +2,9 @@
 chat_test.py — O.A.S.I.S. Interactive CLI
 
 Usage:
-    python chat_test.py                      # default: gemma3:1b
-    python chat_test.py --model qwen3.5:0.8b
-    python chat_test.py --model gemma3:4b
+    python tools/chat_test.py                      # default: gemma3:1b
+    python tools/chat_test.py --model qwen3.5:0.8b
+    python tools/chat_test.py --model gemma3:4b
 
 Requires:
     - RAG service running on localhost:5001  (python service.py)

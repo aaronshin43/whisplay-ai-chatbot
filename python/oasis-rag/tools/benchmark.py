@@ -15,19 +15,23 @@ Stage targets (PC / CUDA baseline):
 Pi 5 (CPU-only) will be ~3-8x slower.
 
 Usage:
-    python python/oasis-rag/benchmark.py
-    python python/oasis-rag/benchmark.py --iterations 20
-    python python/oasis-rag/benchmark.py --quiet
+    python tools/benchmark.py
+    python tools/benchmark.py --iterations 20
+    python tools/benchmark.py --quiet
 """
 
 from __future__ import annotations
 
+import os
 import statistics
 import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+_TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
+_RAG_DIR   = os.path.dirname(_TOOLS_DIR)
+if _RAG_DIR not in sys.path:
+    sys.path.insert(0, _RAG_DIR)
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
