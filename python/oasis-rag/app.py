@@ -27,6 +27,7 @@ from flask import Flask, jsonify, request
 
 import config
 from context_injector import inject_context
+from prompt import build_system_prompt
 
 logging.basicConfig(
     level=logging.INFO,
@@ -190,9 +191,11 @@ def retrieve():
         return jsonify({"error": str(e)}), 500
 
     enriched_context = inject_context(result.context, query)
+    system_prompt = build_system_prompt(enriched_context, query)
 
     return jsonify({
         "context": enriched_context,
+        "system_prompt": system_prompt,
         "chunks": [
             {
                 "source":          c.source,
