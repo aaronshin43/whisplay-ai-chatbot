@@ -33,29 +33,35 @@ Quick reference for every Python file in the RAG service. Load only the files re
 | File | Role |
 |------|------|
 | `tools/chat_test.py` | Interactive CLI — connects to `localhost:5001` (RAG) and `localhost:11434` (Ollama) for end-to-end manual testing. Run: `python tools/chat_test.py` |
-| `tools/benchmark.py` | Latency benchmark — measures per-stage and total pipeline latency over N iterations, flags stages exceeding targets (Stage 2 target: <200 ms PC). Run: `python tools/benchmark.py` |
 | `tools/test_retriever.py` | Retriever integration test — runs 5 realistic emergency queries, prints Stage 1/2/3 stats and context preview. Run: `python tools/test_retriever.py` |
-| `tools/test_accuracy.py` | Content-accuracy suite — 30 cases (physical first-aid, safety, panic queries). Checks must_contain / must_not_contain keywords in context. |
-| `tools/run_all_tests.py` | Full integration runner — Stage 0 (index rebuild) → Stage 1 (retriever) → Stage 2 (accuracy) → Stage 3 (benchmark). Loads index once. |
+| `tools/_utils.py` | Shared utilities for tools scripts: `SEP`, `SEP2` separators, `_safe()` (ASCII-safe Windows output), `_token_count()`, `_stats()` (mean/p95/min/max). |
 
 ---
 
-## Validation Suite (`validation/`)
+## Test Suite (`tests/`)
 
-> **Primary gate:** `python validation/run_all.py` — must stay **109/109 PASS**
+> **Primary gate:** `python tests/run_all.py` — must stay **117/117 PASS**
 
 | File | Test IDs | Role |
 |------|----------|------|
-| `validation/run_all.py` | — | **Main validation runner**. Discovers and runs all suites below. No Flask required. |
-| `validation/_shared.py` | — | Shared helpers: `TestResult`, `get_context_text()`, `context_contains()`, `top_score()`, `top_source()`. Imported by every test file. |
-| `validation/test_retrieval_accuracy.py` | BLD-, FRX-, BRN-, CHK-, ANA-, TMP-, POI-, ELC-, DRW-, MIX- | 47-case retrieval accuracy suite across 10 emergency categories. |
-| `validation/test_safety.py` | SAF- | Safety guardrails — dangerous content (specific drug names, harmful advice) must NOT appear in context. |
-| `validation/test_coverage.py` | COV- | Scenario coverage — every emergency scenario must return cosine_score ≥ 0.75. |
-| `validation/test_edge_cases.py` | EDG- | Edge cases — panic input (all-caps), typos, empty queries, very long queries. |
-| `validation/test_source_quality.py` | MED- | Medical fact verification — specific procedural facts (CPR depth, tourniquet placement) must be present in context. |
-| `validation/test_latency.py` | LAT- | Latency benchmark — 20 repeats per query, target <200 ms (PC/CUDA). |
-| `validation/test_llm_response.py` | LLM- | RAG + LLM integration — requires Flask on :5001 and Ollama on :11434. Evaluates response format, content correctness, safety. |
-| `validation/compare_models.py` | — | LLM model comparison tool — runs N models × N iterations, produces side-by-side table with latency estimates. |
+| `tests/run_all.py` | — | **Main validation runner**. Discovers and runs all suites below. No Flask required. |
+| `tests/_shared.py` | — | Shared helpers: `TestResult`, `get_context_text()`, `context_contains()`, `top_score()`, `top_source()`. Imported by every test file. |
+| `tests/test_retrieval.py` | BLD-, CPR-, CHK-, ANA-, SHK-, TRM-, BRN-, BRT-, AMS-, WLD- | 47-case retrieval precision suite — checks must_contain keywords **and** expected source document across 10 emergency categories. |
+| `tests/test_safety.py` | SAF- | Safety guardrails — dangerous content (specific drug names, harmful advice) must NOT appear in context. |
+| `tests/test_edge_cases.py` | EDG- | Edge cases — panic input (all-caps), typos, empty queries, very long queries. |
+| `tests/test_latency.py` | LAT-, LAT-S- | E2E latency (4 queries × 20 runs) + per-stage benchmarks (Stage 1/2/3). |
+| `tests/unit/test_context_injector.py` | CI- | Unit tests for `context_injector.py` — 22 signals + 3 special cases (25 total). No model required. |
+| `tests/unit/test_compressor.py` | COMP- | Unit tests for `compressor.py` — safety prefix, section anchor, min_sentences, token ratio (10 total). No model required. |
+| `tests/unit/test_medical_keywords.py` | MKW- | Unit tests for `medical_keywords.py` — detect, expand, get_category, frozenset (8 total). No model required. |
+
+## Validation Utilities (`validation/`)
+
+| File | Role |
+|------|------|
+| `validation/run_all.py` | Backward-compatibility stub — delegates to `tests/run_all.py`. `python validation/run_all.py` still works. |
+| `validation/test_llm_response.py` | RAG + LLM integration — requires Flask on :5001 and Ollama on :11434. Evaluates response format, content correctness, safety. |
+| `validation/compare_models.py` | LLM model comparison tool — runs N models × N iterations, produces side-by-side table with latency estimates. |
+| `validation/results/` | JSON result files from both `tests/run_all.py` and `test_llm_response.py`. |
 
 ---
 

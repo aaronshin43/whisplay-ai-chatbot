@@ -112,6 +112,53 @@ Key decisions made during O.A.S.I.S. development. Each entry records what was de
 
 ---
 
+## DEC-011: Test suite restructured into tests/ with unit/ tier
+
+**Decision:** Consolidated all test files under `python/oasis-rag/tests/`, with a dedicated `tests/unit/` subdirectory for model-free unit tests. The old `validation/` directory retains only LLM-gate tests and utilities; `tools/` retains only manual development helpers.
+
+**Previous state:** Tests were scattered across three locations — `validation/` (integration), `tools/` (overlap with validation), and no unit tests existed. Four files tested the same "keyword in context" condition (test_retrieval_accuracy, test_coverage, test_source_quality, test_context_quality), and two files measured latency (test_latency + benchmark.py).
+
+**Rejected alternative:** Keep dual `validation/` + `tools/` structure — rejected because redundant files caused maintenance drift (fixing a test failure required updating multiple files) and the absence of unit tests made it hard to isolate which pipeline stage was responsible for a failure.
+
+**Why this structure:** Clear tier separation — unit tests (no model, fast), integration tests (model required, no Flask), LLM gate (model + Flask). Deleting 5 redundant files (test_coverage, test_source_quality, test_context_quality, benchmark, run_all_tests) reduced total test count from ~180 cases across files to 117 canonical cases with no duplication. `test_retrieval_accuracy.py` was the strictest (checks both keywords AND source document) so it was kept as the authority; the others were subsets.
+
+---
+
+## DEC-012: Unit tests added for context_injector, compressor, medical_keywords
+
+**Decision:** Added three unit test files (CI × 25, COMP × 10, MKW × 8) that test pipeline components in isolation — no embedding model or FAISS index required.
+
+**Why these three modules:** They contain non-trivial logic that was previously only verified indirectly through integration tests. Failures in integration tests (e.g., a wrong keyword in context) were ambiguous: was it a retrieval failure, a compression failure, or a signal injection failure? Unit tests provide the missing signal.
+
+**Key design choices:**
+- `test_context_injector.py`: one test per signal (CI-001..022) so a regression pinpoints exactly which signal broke, plus three special-case tests (mutual exclusion, append-at-end, empty query)
+- `test_compressor.py`: explicitly tests safety-critical invariants — "Do not" / "Never" sentences must survive compression regardless of relevance score
+- `test_medical_keywords.py`: MKW-007 uses "programming syntax errors in javascript code" (not a weather/temperature query) because terms like "warm" exist in the temperature_emergencies taxonomy and would produce a false positive
+
+---
+
+## DEC-013: Per-stage latency tests absorbed into test_latency.py
+
+**Decision:** Merged `tools/benchmark.py` per-stage timing into `tests/test_latency.py` as LAT-S1/S2/S3 test cases. benchmark.py was deleted.
+
+**Stage targets:** S1 (lexical filter) < 5ms, S2 (semantic rerank) < 500ms, S3 (compression) < 50ms.
+
+**Why merged:** benchmark.py and test_latency.py both measured retrieval latency with different methodologies. Having them separate meant a latency regression might be caught in one but not tracked in the CI gate. Merging makes per-stage timing part of the 117-test suite so it is always run and always enforced.
+
+**Implementation:** `test_latency.run(retriever, store)` accepts an optional `store` parameter. If provided, `_bench_stages(store)` runs isolated Stage 1/2/3 timing (5 queries × 5 warmup runs). If omitted, only E2E tests run — backward compatible with any caller that passes only `retriever`.
+
+---
+
+## DEC-014: validation/run_all.py kept as backward-compat stub
+
+**Decision:** After moving the test suite to `tests/run_all.py`, `validation/run_all.py` was replaced with a two-line stub using `runpy.run_path` that delegates to the new location.
+
+**Why not delete it:** The old path (`python validation/run_all.py`) is in shell history, CI scripts, and developer muscle memory. A stub costs nothing and prevents silent failures for anyone using the old path.
+
+**Why runpy over a shell alias or symlink:** Works cross-platform (Windows + Linux/Pi5) without filesystem-level tricks, and preserves `__main__` semantics so `sys.exit()` in the real runner propagates correctly.
+
+---
+
 ## DEC-009: text_with_prefix embedding format
 
 **Decision:** Index chunks using `text_with_prefix` (heading breadcrumb + content) rather than raw content only.

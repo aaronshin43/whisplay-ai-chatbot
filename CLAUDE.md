@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **`context_injector.py` is the single source of truth** for emergency signal injection — never duplicate signal logic elsewhere.
 - **Pi5 memory budget: total pipeline ≤ 4.5 GB** — do not introduce models or dependencies that exceed this.
 - **Do not modify `data/rag_index/`** — it is a build artifact; regenerate via `bash index_knowledge.sh`.
-- **Validation must stay 109/109 PASS** — run `python validation/run_all.py` after any RAG change.
+- **Validation must stay 117/117 PASS** — run `python tests/run_all.py` after any RAG change.
 
 ---
 
@@ -51,7 +51,7 @@ bash build.sh                          # TypeScript: rm -rf dist && tsc
 bash index_knowledge.sh                # Rebuild FAISS index after KB changes
 
 # Test
-cd python/oasis-rag && python validation/run_all.py   # 109 tests, no Flask needed
+cd python/oasis-rag && python tests/run_all.py   # 117 tests, no Flask needed
 yarn test:oasis                                        # TypeScript integration
 ```
 
@@ -67,7 +67,7 @@ O.A.S.I.S. (Offline AI Survival & first-aid kIt System) — Whisplay chatbot for
 - **Context Injection** — protocol directives prepended to RAG context so the LLM reads them before retrieved chunks (`context_injector.py`)
 - **3-tier fallback** — RAG Flask → embedded matcher (`oasis-matcher-node.ts`) → empty prompt
 
-**Targets:** RAG latency PC < 200ms · Pi5 < 2000ms · memory ≤ 4.5 GB · validation 109/109
+**Targets:** RAG latency PC < 200ms · Pi5 < 2000ms · memory ≤ 4.5 GB · validation 117/117
 
 ---
 

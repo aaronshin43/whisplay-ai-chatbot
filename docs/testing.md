@@ -4,20 +4,20 @@ Tests are split into two layers.
 
 | Layer | Count | Scope | Runner |
 |-------|:---:|---|---|
-| RAG pipeline | 109 | Retrieval accuracy, safety, latency | `validation/run_all.py` |
+| RAG pipeline | 117 | Unit, retrieval accuracy, safety, edge cases, latency | `tests/run_all.py` |
 | LLM+RAG integration | 35 | Real LLM response quality | `validation/test_llm_response.py` |
 
 ---
 
-## Layer 1: RAG Pipeline (109 tests)
+## Layer 1: RAG Pipeline (117 tests)
 
 **Requires:** Python only — no Flask server, no Ollama.
 
 ```bash
-cd python/oasis-rag && python validation/run_all.py
+cd python/oasis-rag && python tests/run_all.py
 ```
 
-**Current result: 109/109 PASS (100%)**
+**Current result: 117/117 PASS (100%)**
 
 ### Test breakdown
 
@@ -45,10 +45,7 @@ Verifies dangerous content is NOT returned:
 - "Loosen the tourniquet"
 - "Pull the knife out"
 
-**Part 3 — Scenario coverage (30 tests)**
-Verifies every major emergency scenario returns context with cosine ≥ 0.75.
-
-**Part 4 — Edge cases (12 tests)**
+**Part 3 — Edge cases (12 tests)**
 - Panic input: "HELP THERE IS SO MUCH BLOOD OH GOD"
 - Typos: "hes bledding from the nek real bad"
 - Single word: "bleeding", "help"
@@ -56,15 +53,34 @@ Verifies every major emergency scenario returns context with cosine ≥ 0.75.
 - Empty query → no crash
 - Very long natural language input
 
-**Part 5 — Medical source quality (8 tests)**
-Verifies factual accuracy in retrieved content:
-- CPR: 5cm depth, 100–120/min rate, 30:2 ratio
-- Burns: cool with water, no ice, no blisters
-- Stroke: face drooping + arm weakness + speech
+**Part 4 — Latency (4 E2E × 20 runs + 3 per-stage)**
 
-**Part 6 — Latency (4 queries × 20 runs)**
-- PC target: avg < 200ms — **current avg: ~25ms, p95: ~40ms**
-- Pi5 target: avg < 2000ms
+| ID | Type | Target |
+|----|------|--------|
+| LAT-01..04 | E2E pipeline | PC avg < 200ms, Pi5 avg < 2000ms |
+| LAT-S1 | Stage 1 lexical filter | < 5ms |
+| LAT-S2 | Stage 2 semantic rerank | < 500ms |
+| LAT-S3 | Stage 3 compression | < 50ms |
+
+**Part 5 — Unit: Context Injector (25 tests)**
+- CI-001..022: one test per injection signal (22 signals)
+- CI-023: burn blocked by eye-chemical mutual-exclusion rule
+- CI-024: lightning reminder appended at END of context
+- CI-025: empty query → context unchanged
+
+**Part 6 — Unit: Compressor (10 tests)**
+- COMP-001..002: "Do not" / "Never" safety prefix preserved
+- COMP-003: section anchor prepended
+- COMP-004: empty chunk returns unchanged
+- COMP-005..008: min_sentences, query-term retention, token count, min_ratio
+- COMP-009..010: compress_chunks() key handling
+
+**Part 7 — Unit: Medical Keywords (8 tests)**
+- MKW-001..003: detect_keywords for cardiac arrest, bleeding, choking
+- MKW-004: get_category("tourniquet") → "hemorrhage_control"
+- MKW-005..006: expand_query includes related category terms
+- MKW-007: non-medical text → empty hits
+- MKW-008: MEDICAL_KEYWORDS frozenset contains critical terms
 
 ---
 
@@ -131,6 +147,22 @@ Seizure, stroke, child drowning, shock, compound fracture, poisoning, asthma, el
 
 ---
 
+## Development tools (`tools/`)
+
+Not part of the 117-test CI gate. Run manually during development.
+
+```bash
+cd python/oasis-rag
+
+# 5 retriever functional tests (Stage 1/2/3 stats per query)
+python tools/test_retriever.py
+
+# Interactive end-to-end manual test
+python tools/chat_test.py
+```
+
+---
+
 ## Model comparison tool
 
 ```bash
@@ -158,6 +190,27 @@ python validation/compare_models.py --models gemma3:1b qwen3:0.6b qwen3.5:0.8b -
 ---
 
 ## Test authoring notes
+
+### Adding a new context injection signal (test_llm_response.py)
+
+Signal injection in `test_llm_response.py` is data-driven via `_SIGNAL_TABLE`. To add a new signal:
+
+1. Define the signal list near the other signal constants (lines ~76–207):
+   ```python
+   _MY_SIGNALS = ["keyword one", "keyword two"]
+   ```
+
+2. Add an entry to `_SIGNAL_TABLE`:
+   ```python
+   (_MY_SIGNALS,
+    "MY PROTOCOL:\n1. Step one.\n2. Step two.\n\n",
+    "",      # append_text — leave empty unless reminder needed after context
+    []),     # exclude_if_any — list signals that should suppress this entry
+   ```
+
+3. Add a corresponding test case in `make_tests()`.
+
+> Note: `context_injector.py` is the production source of truth for signal injection in the live pipeline. The `_SIGNAL_TABLE` in `test_llm_response.py` is test-only — it validates that the LLM responds correctly when given the right context. Keep both in sync when adding new emergency scenarios.
 
 ### Negation false-negative pattern
 
@@ -191,13 +244,15 @@ all_keywords(response, ["compress", "chest"])
 
 ```
 python/oasis-rag/validation/results/
-├── summary.json                  ← 109-test aggregate
+├── summary.json                       ← 117-test aggregate
 ├── part1_retrieval_accuracy.json
 ├── part2_safety.json
-├── part3_coverage.json
-├── part4_edge_cases.json
-├── part6_latency.json
-├── llm_response_test.json        ← 35-test LLM integration results
-├── llm_qwen3.5_0.8b.json        ← per-model response logs
+├── part3_edge_cases.json
+├── part4_latency.json
+├── part5_unit_context_injector.json
+├── part6_unit_compressor.json
+├── part7_unit_medical_keywords.json
+├── llm_response_test.json             ← 35-test LLM integration results
+├── llm_qwen3.5_0.8b.json             ← per-model response logs
 └── model_comparison.json
 ```

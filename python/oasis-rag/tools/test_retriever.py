@@ -21,6 +21,7 @@ import sys
 import time
 import textwrap
 from pathlib import Path
+# ── shared tools utilities ────────────────────────────────────────────────────
 
 # ── path setup so we can run from python/oasis-rag/ ──────────────────────────
 _TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -30,6 +31,7 @@ if _RAG_DIR not in sys.path:
 
 from indexer   import load_index
 from retriever import Retriever, RetrievalResult
+from _utils    import SEP, SEP2, _safe, _token_count
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Test cases
@@ -49,7 +51,7 @@ TEST_QUERIES: list[tuple[str, str, str]] = [
     (
         "Anaphylaxis - Bee Sting",
         "throat is swelling after bee sting",
-        "anaphylaxis.md",
+        "bites_and_stings.md",
     ),
     (
         "Choking",
@@ -64,15 +66,6 @@ TEST_QUERIES: list[tuple[str, str, str]] = [
 ]
 
 VERBOSE = "--verbose" in sys.argv or "-v" in sys.argv
-SEPARATOR = "=" * 70
-
-
-# ─────────────────────────────────────────────────────────────────────────────
-# Helpers
-# ─────────────────────────────────────────────────────────────────────────────
-
-def _token_count(text: str) -> int:
-    return len(text.split())
 
 
 def _compression_ratio(original: str, compressed: str) -> float:
@@ -81,12 +74,6 @@ def _compression_ratio(original: str, compressed: str) -> float:
     if orig_tok == 0:
         return 1.0
     return comp_tok / orig_tok
-
-
-def _safe(s: str, width: int = 0) -> str:
-    """ASCII-safe string for Windows cp949 console."""
-    out = s.encode("ascii", errors="replace").decode("ascii")
-    return textwrap.shorten(out, width=width, placeholder="...") if width else out
 
 
 def _check_expected(result: RetrievalResult, expected_doc: str) -> str:
@@ -103,10 +90,10 @@ def run_tests(retriever: Retriever) -> list[dict]:
     results: list[dict] = []
 
     for label, query, expected_doc in TEST_QUERIES:
-        print(f"\n{SEPARATOR}")
+        print(f"\n{SEP}")
         print(f"  TEST: {label}")
         print(f"  Query: {_safe(query)!r}")
-        print(SEPARATOR)
+        print(SEP)
 
         t0 = time.perf_counter()
         result = retriever.retrieve(query)
@@ -174,9 +161,9 @@ def run_tests(retriever: Retriever) -> list[dict]:
 
 
 def print_summary(records: list[dict]) -> None:
-    print(f"\n{SEPARATOR}")
+    print(f"\n{SEP}")
     print("  SUMMARY")
-    print(SEPARATOR)
+    print(SEP)
 
     passed = sum(1 for r in records if r["status"] == "PASS")
     total  = len(records)
@@ -199,12 +186,12 @@ def print_summary(records: list[dict]) -> None:
             f"{r['context_tokens']:>6}"
         )
 
-    print(SEPARATOR)
+    print(SEP)
     if passed == total:
         print("  ALL TESTS PASSED")
     else:
         print(f"  {total - passed} TEST(S) FAILED — check expected_doc mapping")
-    print(SEPARATOR)
+    print(SEP)
 
 
 if __name__ == "__main__":
