@@ -77,6 +77,7 @@ Load only the relevant doc — do not read all by default.
 
 | File | Read when... |
 |------|-------------|
+| `docs/entrypoints.md` | Looking up what any Python file in `python/oasis-rag/` does, or finding which file to edit for a given task |
 | `docs/architecture.md` | Modifying RAG stages, Context Injection signals, Flask API, KB document format, or LLM prompt |
 | `docs/testing.md` | Writing/debugging tests; looking up test IDs; authoring SAFE checks |
 | `docs/roadmap.md` | Investigating known bugs (BUG-001 lightning), planning Phase 2–6, choosing LLM upgrade |
