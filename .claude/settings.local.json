@@ -1,28 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cd:*)",
-      "Bash(pip install:*)",
-      "Bash(sleep:*)",
-      "Bash(curl:*)",
-      "Bash(kill:*)",
-      "Bash(cat:*)",
-      "Bash(python3:*)",
-      "Bash(python:*)",
-      "Bash(/tmp/tree_output.txt:*)",
-      "Read(//tmp/**)",
-      "Bash(grep:*)",
-      "Bash(find:*)",
-      "Bash(cmd /c \"dir D:\\\\GitHub\\\\whisplay-ai-chatbot-1\\\\python\\\\oasis-rag\\\\data /b 2>&1\")",
-      "Bash(cmd /c \"dir D:\\\\GitHub\\\\whisplay-ai-chatbot-1\\\\python\\\\oasis-rag /b /s 2>&1\" | head -40)",
-      "Bash(cmd /c \"dir /b /s \\\\\"D:\\\\GitHub\\\\whisplay-ai-chatbot-1\\\\python\\\\oasis-rag\\\\\"\" 2>&1 | head -60)",
-      "Bash(cmd /c \"taskkill /F /PID 24064 2>&1\"\ncmd /c \"taskkill /F /PID 3396 2>&1\"\ncmd /c \"taskkill /F /PID 21704 2>&1\"\nsleep 3\nnetstat -ano 2>/dev/null | grep \":5001\" | head -3\necho \"Done\")",
-      "Bash(wmic process:*)",
-      "Bash(cmd /c \"taskkill /F /T /PID 3396 & taskkill /F /T /PID 21704 & taskkill /F /T /PID 24064\"\nsleep 3\nnetstat -ano 2>/dev/null | grep \":5001\"\necho \"Port clear check done\")",
-      "Bash(powershell -Command \"Stop-Process -Id 3396,21704,24064 -Force -ErrorAction SilentlyContinue\"\nsleep 3\nnetstat -ano 2>/dev/null | grep \":5001\"\necho \"Done\")",
-      "Bash(for q:*)",
-      "Bash(python -c \":*)",
-      "Bash(npx tsc:*)"
+      "Bash(cd:*)"
     ]
   }
 }
