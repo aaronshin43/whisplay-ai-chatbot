@@ -31,3 +31,8 @@ use_ollama
 use_npm
 docker/volume
 *.pdf
+
+# validation results
+python/oasis-rag/validation/results/
+
+settings.local.json
