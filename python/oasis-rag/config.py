@@ -42,7 +42,8 @@ LEXICAL_CANDIDATE_POOL: int = 50   # max candidates forwarded to Stage 2
 # hybrid_score = ALPHA * cosine_sim + (1-ALPHA) * lexical_score
 # ─────────────────────────────────────────────────────────────
 ALPHA:           float = 0.6   # semantic weight
-SCORE_THRESHOLD: float = 0.10  # min hybrid score to pass through
+SCORE_THRESHOLD:      float = 0.10  # min hybrid score to pass through
+CONFIDENCE_THRESHOLD: float = 0.35  # below this → LOW_CONFIDENCE_PROMPT instead of full template
 TOP_K:           int   = 1     # final chunks returned to LLM (was 2 — 3 gives richer context)
 MAX_PER_SOURCE:  int   = 1     # max chunks from the same source document (was 1)
 

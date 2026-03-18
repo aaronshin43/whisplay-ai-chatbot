@@ -66,17 +66,31 @@ Tell the user clearly and calmly:
 Do not provide any specific medical instructions without the knowledge base.\
 """
 
+LOW_CONFIDENCE_PROMPT = """\
+You are OASIS, an offline first-aid assistant.
+No specific first-aid information was found for this query in the knowledge base.
+Tell the user clearly and calmly:
+1. Call emergency services immediately (local emergency number).
+2. Describe the situation clearly to the dispatcher — they will guide you step by step.
+3. Do not leave the person alone.
+Do not attempt to provide specific medical instructions without a reliable reference.\
+"""
+
 
 # ── Builder ───────────────────────────────────────────────────────────────────
 
-def build_system_prompt(context: str, query: str) -> str:
+def build_system_prompt(context: str, query: str, low_confidence: bool = False) -> str:
     """
     Format the system prompt with RAG context and user query.
     Applies markdown stripping to the context before insertion.
-    Returns the safe fallback prompt if context is empty.
+    Returns SAFE_FALLBACK_PROMPT if context is empty (infra/KB failure).
+    Returns LOW_CONFIDENCE_PROMPT if chunks exist but best score is below CONFIDENCE_THRESHOLD.
     """
     if not context or not context.strip():
         return SAFE_FALLBACK_PROMPT
+
+    if low_confidence:
+        return LOW_CONFIDENCE_PROMPT
 
     clean_context = strip_markdown(context)
     return SYSTEM_PROMPT_TEMPLATE.format(context=clean_context, query=query)

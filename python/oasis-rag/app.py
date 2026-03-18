@@ -190,12 +190,17 @@ def retrieve():
         log.exception("Retrieval error")
         return jsonify({"error": str(e)}), 500
 
+    best_score = result.chunks[0].hybrid_score if result.chunks else 0.0
+    low_confidence = bool(result.chunks) and best_score < config.CONFIDENCE_THRESHOLD
+
     enriched_context = inject_context(result.context, query)
-    system_prompt = build_system_prompt(enriched_context, query)
+    system_prompt = build_system_prompt(enriched_context, query, low_confidence=low_confidence)
 
     return jsonify({
-        "context": enriched_context,
-        "system_prompt": system_prompt,
+        "context":        enriched_context,
+        "system_prompt":  system_prompt,
+        "low_confidence": low_confidence,
+        "best_score":     round(best_score, 4),
         "chunks": [
             {
                 "source":          c.source,
