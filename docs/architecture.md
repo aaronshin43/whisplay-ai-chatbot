@@ -23,7 +23,15 @@ Query
 │  Stage 2: Hybrid Semantic Re-ranking          │
 │  hybrid_score = 0.6×cosine + 0.4×lexical     │
 │  gte-small (384-dim) vector similarity        │
-│  → top-4 chunks above threshold (0.10)       │
+│  → top-4 chunks above SCORE_THRESHOLD (0.10) │
+└──────────────────┬───────────────────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────────────┐
+│  Confidence Gate (app.py)                     │
+│  best_score = chunks[0].hybrid_score          │
+│  if best_score < CONFIDENCE_THRESHOLD (0.35) │
+│  → LOW_CONFIDENCE_PROMPT delivered to LLM    │
 └──────────────────┬───────────────────────────┘
                    │
                    ▼
@@ -54,7 +62,9 @@ hybrid_score = 0.6 * cosine_similarity + 0.4 * lexical_overlap
 - `cosine`: gte-small embedding similarity (384-dim L2-normalized → `IndexFlatIP`)
 - `lexical`: query-chunk keyword overlap ratio (query-specific, not global density)
 - Body-part mismatch penalty applied to reduce cross-anatomy false positives
-- Threshold 0.10, top-4 selected
+- `SCORE_THRESHOLD = 0.10` — structural noise floor; chunks below this are discarded
+- `CONFIDENCE_THRESHOLD = 0.35` — applied in `app.py` after retrieval; if the best chunk's score falls below this, `LOW_CONFIDENCE_PROMPT` is used instead of the normal template (see Section 6)
+- Top-4 selected
 
 **Stage 3 — Context Compression**
 - Sentence-level scoring: keyword hits × 1.0 + position bonus (0.05/position)
@@ -147,7 +157,7 @@ data/knowledge/*.md
 - Adding keywords to `medical_keywords.py`
 
 **No rebuild needed for:**
-- Changing `ALPHA`, `SCORE_THRESHOLD`, `TOP_K` in `config.py`
+- Changing `ALPHA`, `SCORE_THRESHOLD`, `CONFIDENCE_THRESHOLD`, `TOP_K` in `config.py`
 - Changing context injection signals in `context_injector.py`
 
 ---
@@ -219,6 +229,9 @@ Response:
 ```json
 {
   "context": "[Source 1: who_bec_skills_bleeding.md]\n...",
+  "system_prompt": "You are OASIS...\n\nREFERENCE:\n...\n\nTASK: ...",
+  "low_confidence": false,
+  "best_score": 0.72,
   "chunks": [
     {
       "source": "who_bec_skills_bleeding.md",
@@ -235,6 +248,8 @@ Response:
 }
 ```
 
+`low_confidence` is `true` when chunks were returned but the best hybrid score is below `CONFIDENCE_THRESHOLD` (0.35). In this case `system_prompt` contains `LOW_CONFIDENCE_PROMPT` instead of the full context-based template. The TypeScript client uses `system_prompt` directly and is unaffected by this distinction.
+
 ### POST /index
 
 Rebuild the knowledge index from `data/knowledge/`. Run after adding or editing documents.
@@ -247,25 +262,17 @@ curl -X POST http://localhost:5001/index
 
 ## 6. LLM System Prompt
 
-The system prompt injected into every LLM call:
+`prompt.py` is the single source of truth for all prompt templates. `app.py` selects which template to use based on retrieval confidence.
 
-```
-You are OASIS. A person needs first aid RIGHT NOW.
+### Three-state prompt matrix
 
-RULES YOU MUST FOLLOW:
-- Your response is ONLY numbered steps 1 through 7 maximum.
-- Do NOT write anything before "1."
-- Each step is ONE sentence, maximum 12 words.
-- Do NOT use asterisks, bold, markdown, or headers.
-- Do NOT ask questions. Give commands only.
+| Condition | Template used |
+|---|---|
+| Chunks exist AND `best_score ≥ 0.35` | `SYSTEM_PROMPT_TEMPLATE` — full RAG context delivered |
+| Chunks exist BUT `best_score < 0.35` | `LOW_CONFIDENCE_PROMPT` — "no specific info found" |
+| Zero chunks (all below `SCORE_THRESHOLD`) | `SAFE_FALLBACK_PROMPT` — "knowledge base unavailable" |
 
-REFERENCE:
-{RAG context + context injections}
-
-YOUR RESPONSE MUST START WITH "1."
-```
-
-**Design rationale:** 5–7 steps covers all critical protocols. Plain text is required because TTS reads markdown symbols aloud. Strict format constraint compensates for small model (1b) tendency to add unnecessary explanation.
+The distinction matters: `LOW_CONFIDENCE_PROMPT` indicates a **query-match failure** (the KB exists but has no relevant answer), while `SAFE_FALLBACK_PROMPT` indicates an **infrastructure failure** (the KB itself is empty or unreachable).
 
 ---
 

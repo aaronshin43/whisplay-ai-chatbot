@@ -48,6 +48,12 @@ LLM step 1: "Move downhill to a low rolling hill or tree."  ← dangerous
 
 **Goal:** RAG retrieval works correctly without context injection for all scenarios.
 
+### 2.0 Confidence threshold ✅
+- `CONFIDENCE_THRESHOLD = 0.35` added to `config.py`
+- `app.py`: if `best_score < 0.35`, delivers `LOW_CONFIDENCE_PROMPT` ("no specific info found") instead of the full RAG template
+- Distinct from `SAFE_FALLBACK_PROMPT` (infrastructure failure) — see `docs/architecture.md §6`
+- Zero test changes required — the 109 tests call `Retriever` directly and are unaffected
+
 ### 2.1 Query classifier (planned)
 - New file: `python/oasis-rag/query_classifier.py`
 - Output: `QueryClassification(emergency_type, body_part, severity, confidence)`
@@ -149,7 +155,7 @@ Additional test areas:
 
 - **Safety matrix:** all supported scenarios → source document + test ID mapping (auditable artifact)
 - **Red-team tests:** 50 adversarial queries (mixed states, typos, harmful advice elicitation)
-- **Out-of-scope detection:** cosine < 0.5 → "Please call emergency services"
+- **Out-of-scope detection:** hybrid score < 0.35 (`CONFIDENCE_THRESHOLD`) → `LOW_CONFIDENCE_PROMPT` (implemented in Phase 2.0)
 - **Post-deployment monitoring:** all queries/responses logged locally, weekly review
 
 ---

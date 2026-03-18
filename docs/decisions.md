@@ -96,6 +96,22 @@ Key decisions made during O.A.S.I.S. development. Each entry records what was de
 
 ---
 
+## DEC-010: Two-threshold retrieval confidence gate
+
+**Decision:** Use two separate thresholds with different semantics:
+- `SCORE_THRESHOLD = 0.10` — structural noise floor in `retriever.py`; chunks below this are discarded entirely during Stage 2
+- `CONFIDENCE_THRESHOLD = 0.35` — service-layer confidence gate in `app.py`; if the best returned chunk's score is below this, `LOW_CONFIDENCE_PROMPT` is delivered to the LLM instead of the full RAG template
+
+**Why two thresholds, not one:** The structural threshold is a retrieval concern (discard noise); the confidence threshold is a prompt-selection concern (decide what to tell the LLM). Merging them into one would conflate retrieval mechanics with service behaviour, and would also break the 109 validation tests which test `Retriever` directly.
+
+**Why the check is in `app.py`, not `retriever.py`:** `retriever.py` is a pure retrieval engine. Confidence evaluation — determining what to tell the LLM — is a service-layer decision. This keeps the retriever testable in isolation and the 109 tests unchanged.
+
+**Why `LOW_CONFIDENCE_PROMPT` instead of empty context:** Returning empty context silently to `build_system_prompt` would produce `SAFE_FALLBACK_PROMPT` ("KB unavailable"), which is misleading when the KB is healthy but has no relevant answer. A distinct prompt is more honest and more useful to the user.
+
+**Threshold value rationale:** 0.35 sits between the noise floor (0.10) and well-matched medical chunks (typically 0.60+). EDG-004/005 (off-topic queries) score below 0.50 in validation, confirming off-topic queries will trigger the gate. Tune via `config.py` — no index rebuild required.
+
+---
+
 ## DEC-009: text_with_prefix embedding format
 
 **Decision:** Index chunks using `text_with_prefix` (heading breadcrumb + content) rather than raw content only.
