@@ -68,7 +68,10 @@ class MainWindow(QMainWindow):
         view.setInteractive(False)  # kiosk — no mouse needed
 
         # Portrait content widget (pw × ph)
+        # Stylesheet must be applied directly — QGraphicsProxyWidget does not
+        # inherit the parent QMainWindow's stylesheet.
         self.content = ContentWidget(pw, ph)
+        self.content.setStyleSheet(DARK_THEME)
         proxy = view.scene().addWidget(self.content)
 
         # Rotate -90° (CCW) so portrait content fits landscape screen.
