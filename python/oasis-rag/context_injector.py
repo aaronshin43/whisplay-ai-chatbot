@@ -127,6 +127,13 @@ _EYE_CHEMICAL_SIGNALS = [
     "chemical eye", "burning eyes", "chemical splash",
 ]
 
+_IMPALED_OBJECT_SIGNALS = [
+    "impaled", "object stuck in", "something stuck in",
+    "knife in", "rod in", "stick in his", "stick in her",
+    "should i pull", "pull it out", "pull the object",
+    "remove the object", "take it out", "embedded in",
+]
+
 
 # ── Protocol texts ────────────────────────────────────────────────────────────
 
@@ -327,6 +334,16 @@ _EYE_CHEMICAL_PROTOCOL = (
     "5. Identify the chemical — bring the container to hospital.\n\n"
 )
 
+_IMPALED_OBJECT_PROTOCOL = (
+    "PENETRATING / IMPALED OBJECT — CRITICAL:\n"
+    "DO NOT remove the object — removal can cause massive, fatal bleeding.\n"
+    "1. Leave the object exactly in place.\n"
+    "2. Pad around the object with dressings to stabilise it — do NOT press on the object itself.\n"
+    "3. Control bleeding around the object with gentle pressure on the surrounding skin only.\n"
+    "4. CALL emergency services (911/999/112) immediately.\n"
+    "5. Keep the person still and calm until help arrives.\n\n"
+)
+
 
 # ── Public API ────────────────────────────────────────────────────────────────
 
@@ -405,5 +422,8 @@ def inject_context(context: str, query: str) -> str:
 
     if any(sig in q for sig in _EYE_CHEMICAL_SIGNALS):
         context = _EYE_CHEMICAL_PROTOCOL + context
+
+    if any(sig in q for sig in _IMPALED_OBJECT_SIGNALS):
+        context = _IMPALED_OBJECT_PROTOCOL + context
 
     return context

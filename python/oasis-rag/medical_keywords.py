@@ -75,9 +75,9 @@ _TAXONOMY: dict[str, list[str]] = {
         "cyanosis", "hypoxia", "oxygen saturation", "SpO2",
         "asthma", "asthma attack", "bronchospasm", "anaphylaxis",
         # ── Penetrating chest trauma ───────────────────────────────────────
-        "knife", "stab", "stabbing", "stabbed", "impaled", "impalement",
+        "knife", "stab", "stabbing", "stabbed",
         "penetrating", "object in chest", "chest wound",
-        "pull out", "remove object", "pull the knife", "knife in chest",
+        "pull the knife", "knife in chest",
     ],
 
     # ── 4a. Cardiac Arrest / CPR ──────────────────────────────────────────
@@ -150,6 +150,11 @@ _TAXONOMY: dict[str, list[str]] = {
         # ── Trauma mechanism / colloquial triggers ────────────────────────
         "fell from height", "fell from", "fall from height", "fell off",
         "hit head", "head trauma",          # biases toward trauma.md head injury section
+        # ── Impaled / penetrating object (non-chest) ─────────────────────
+        "impaled", "impalement",            # moved from respiratory — routes to trauma.md
+        "object impaled", "object stuck in leg", "object stuck in arm",
+        "should i pull", "pull it out", "pull out the object",
+        "remove the object", "take it out",
     ],
 
     # ── 7. Neurological / Head Trauma ─────────────────────────────────────
@@ -332,9 +337,13 @@ _COLLOQUIAL_TERMS: frozenset[str] = frozenset({
     "hit head", "head trauma",
     # poisoning_tox colloquial
     "snake bit", "bit by snake", "bitten by snake", "bitten",
-    # respiratory / penetrating trauma colloquial
-    "pull out", "remove object", "pull the knife", "knife in chest",
+    # respiratory / penetrating chest trauma colloquial
+    "pull the knife", "knife in chest",
     "object in chest",
+    # fractures_ortho / impaled object colloquial
+    "object impaled", "object stuck in leg", "object stuck in arm",
+    "should i pull", "pull it out", "pull out the object",
+    "remove the object", "take it out",
 })
 
 # ─────────────────────────────────────────────────────────────────────────────
