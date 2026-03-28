@@ -10,6 +10,10 @@ data/tts/
 data/asr/
 data/images/
 data/camera/
+data/oasis_logs/
+
+# rag index (build artifact — regenerate via index_knowledge.sh)
+data/rag_index/
 
 # logs
 chatbot.log
@@ -19,6 +23,10 @@ oasis-rag.log
 **/__pycache__/
 *.pyc
 venv/
+
+# Python Caches
+__pycache__/
+*.py[cod]
 
 # other
 tts_temp

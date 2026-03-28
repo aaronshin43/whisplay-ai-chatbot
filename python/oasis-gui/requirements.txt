@@ -1,0 +1,6 @@
+# Via apt on Pi OS (do NOT pip install these):
+#   sudo apt install python3-pyqt5 sox
+
+# Via pip:
+httpx
+python-dotenv
