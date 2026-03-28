@@ -4,19 +4,6 @@ tags: [altitude, mountain_sickness, AMS, HACE, HAPE, acclimatization]
 
 # Altitude Illnesses — Wilderness First Aid Reference
 
-**Applies to:** All ages; field settings without rapid EMS access
-
----
-
-## Overview of Altitude Illnesses
-
-Altitude illnesses occur when insufficient oxygen reaches the blood due to low air pressure at high elevation. The three altitude illnesses most likely in wilderness settings are:
-- Acute Mountain Sickness (AMS)
-- High Altitude Cerebral Oedema (HACE)
-- High Altitude Pulmonary Oedema (HAPE)
-
----
-
 ## Acute Mountain Sickness (AMS)
 
 ### Signs and Symptoms of AMS

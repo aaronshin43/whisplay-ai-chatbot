@@ -4,10 +4,6 @@ tags: [hypothermia, frostbite, cold_exposure, rewarming, shivering]
 
 # Cold-Related Emergencies and Confined Space Rescue — Wilderness First Aid Reference
 
-**Applies to:** All ages; field settings without rapid EMS access
-
----
-
 ## Hypothermia
 
 Hypothermia is a lowering of the body's core temperature to the point where normal brain and/or muscle function is impaired. It ranges from mild to life-threatening.

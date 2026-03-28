@@ -4,18 +4,6 @@ tags: [diabetes, hypoglycemia, hyperglycemia, sugar, insulin, altered_mental_sta
 
 # Diabetic Emergency — First Aid Response
 
-Source: WHO Basic Emergency Care 2018 (Module 5), IFRC First Aid Guidelines
-
----
-
-## Overview
-
-People with diabetes can develop dangerous blood sugar emergencies in either direction:
-- **Hypoglycaemia** (low blood sugar) — most common and most immediately dangerous
-- **Hyperglycaemia / DKA** (high blood sugar / diabetic ketoacidosis) — develops over hours to days
-
----
-
 ## Hypoglycaemia (Low Blood Sugar)
 
 ### Definition

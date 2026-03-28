@@ -4,8 +4,6 @@ tags: [breathing, asthma, respiratory_distress, flail_chest, sucking_chest_wound
 
 # Approach to Difficulty in Breathing (DIB) — WHO BEC Reference
 
----
-
 ## Overview of Difficulty in Breathing (DIB)
 
 DIB ranges from subjective shortness of breath to visibly abnormal breathing or increased breathing effort. Causes include:

@@ -4,10 +4,6 @@ tags: [lightning, reverse_triage, cpr, safety, burns]
 
 # Lightning Safety and Injuries — Wilderness First Aid Reference
 
-**Applies to:** All ages; field settings without rapid EMS access
-
----
-
 ## Lightning Storm Prevention and Preparedness
 
 ### Pre-Storm Planning

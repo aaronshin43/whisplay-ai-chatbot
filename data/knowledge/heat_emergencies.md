@@ -4,10 +4,6 @@ tags: [heat_exhaustion, heat_stroke, hyperthermia, dehydration, cooling]
 
 # Heat-Related Emergencies — Wilderness First Aid Reference
 
-**Applies to:** All ages; field settings without rapid EMS access
-
----
-
 ## Heat Cramps
 
 Heat cramps are muscle cramps caused by fluid and electrolyte loss during exertion in heat.

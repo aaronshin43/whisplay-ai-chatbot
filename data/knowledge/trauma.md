@@ -4,19 +4,6 @@ tags: [trauma, injury, kinematics, crush_injury, blast_injury, amputation, spina
 
 # Approach to Trauma — WHO BEC Reference
 
----
-
-## Overview of Trauma Assessment
-
-Approach every trauma patient using three sequential phases:
-1. **Trauma Primary Survey:** ABCDE approach — identify and treat immediately life-threatening injuries
-2. **SAMPLE History:** Gather key history relevant to the injury
-3. **Trauma Secondary Survey:** Complete head-to-toe examination for injuries not found on primary survey
-
-Stop and manage any life-threatening problem immediately when found — do not continue to the next step until the problem is addressed.
-
----
-
 ## Trauma Primary Survey — ABCDE
 
 ### A — Airway with Cervical Spine Immobilisation

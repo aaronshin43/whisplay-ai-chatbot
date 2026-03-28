@@ -4,27 +4,6 @@ tags: [mental_status, AVPU, altered_mental_status, confusion, unresponsiveness]
 
 # Approach to Altered Mental Status (AMS) — WHO BEC Reference
 
----
-
-## Overview of Altered Mental Status (AMS)
-
-AMS ranges from sudden or gradual behavioural changes to disorientation, confusion, and coma. It may result from:
-- Conditions that affect the brain indirectly: hypoxia, hypoglycaemia, or shock causing reduced perfusion
-- Problems within the brain itself: infection, inflammation, or injury
-- Delirium — a rapidly changing state of confusion with agitation, loss of focus, and inability to interact appropriately — always requires full assessment
-
-Chronic psychiatric problems and dementia can cause AMS, but all life-threatening causes must be considered first.
-
-Always ask family or friends about the patient's baseline mental status.
-
-**Initial assessment goal:** Identify rapidly reversible causes; recognise dangerous conditions requiring transfer.
-
-**Acute management goal:** Ensure blood, oxygen, and glucose reach the brain; protect the brain from additional injury.
-
-Always perform ABCDE first, then SAMPLE history, then secondary examination.
-
----
-
 ## ABCDE Key Elements in Altered Mental Status
 
 ### A — Airway in AMS

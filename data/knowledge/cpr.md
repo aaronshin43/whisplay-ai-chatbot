@@ -12,7 +12,7 @@ Start CPR IMMEDIATELY if the patient is:
 
 *Delaying CPR reduces survival by 7-10% per minute.*
 
-## Adult CPR Protocol
+### Adult CPR Protocol
 1. **Scene Safety:** Ensure the area is safe.
 2. **Call for Help:** Call emergency services and explicitly delegate a bystander to get an AED.
 3. **Open Airway:** Use head-tilt/chin-lift (if suspected spine injury, use jaw-thrust ONLY).
@@ -30,19 +30,19 @@ Start CPR IMMEDIATELY if the patient is:
 7. **CPR Cycle:** **30 Compressions followed by 2 Rescue Breaths.** Do not pause.
 8. **Rescuer Fatigue:** Switch active compressor every 2 minutes. If you are untrained or unwilling to give breaths, deliver *compression-only CPR*.
 
-## Child CPR (1 Year to Puberty)
+### Child CPR (1 Year to Puberty)
 - Use the same 30:2 ratio (30 compressions, 2 rescue breaths).
 - Depth: Push down approx. 5 cm (about 1/3 of the chest depth).
 - Hand placement: Use only one hand (or two fingers for an infant).
 - **Special Case:** If drowning or known respiratory arrest, deliver 2 rescue breaths *immediately before* starting compressions.
 
-## AED Protocol
+### AED Protocol
 - Turn on immediately when available. Follow audio prompts.
 - Attach to bare chest (one pad below right collarbone, one under left armpit).
 - Do NOT touch the patient during analysis or shock delivery.
 - Resume compressions *immediately* after the shock is delivered.
 
-## Prohibited Actions
+### Prohibited Actions
 - DO NOT stop to check a pulse (except during 2-minute rescuer swaps).
 - DO NOT compress slower than 100 or faster than 120 beats per minute.
 - DO NOT compress shallower than 5 cm.

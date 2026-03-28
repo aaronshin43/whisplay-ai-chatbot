@@ -4,8 +4,6 @@ tags: [pediatric, child, infant, PAT, pediatric_cpr, febrile_seizure, neonate]
 
 # Paediatric Emergency — Consolidated Reference
 
----
-
 ## Paediatric Vital Signs — Normal Ranges by Age
 
 - Neonate (0–1 mo): HR 100–160 bpm, RR 40–60/min, Systolic BP 60–90 mmHg

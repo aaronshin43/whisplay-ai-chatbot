@@ -4,25 +4,6 @@ tags: [seizure, epilepsy, convulsions, postictal, protection, recovery_position]
 
 # Seizure and Epilepsy — First Aid Response
 
-Source: WHO Basic Emergency Care 2018 (Module 5), IFRC First Aid Guidelines
-
----
-
-## Overview of Seizures
-
-A seizure is a sudden, uncontrolled burst of electrical activity in the brain. It may cause changes in behaviour, movement, feeling, or consciousness.
-
-**Common causes include:**
-- Epilepsy (recurrent seizures)
-- Febrile seizure (high fever in children)
-- Head injury or brain trauma
-- Low blood sugar (hypoglycaemia)
-- Stroke or cerebrovascular event
-- Drug or alcohol toxicity
-- Electrolyte imbalance
-
----
-
 ## Assessment — Recognising a Seizure
 
 ### Signs and Symptoms of Generalised Tonic-Clonic Seizure
@@ -96,28 +77,6 @@ A seizure is a sudden, uncontrolled burst of electrical activity in the brain. I
 - The person is **pregnant**
 - The person has **diabetes**
 - This is the person's **first known seizure**
-
----
-
-## Febrile Seizure (Children)
-
-Febrile seizures occur in children aged 6 months to 5 years with high fever.
-
-### Assessment
-- Usually brief (less than 5 minutes)
-- Child stiffens, then jerks rhythmically
-- Eyes may roll back
-- Child may lose consciousness briefly
-
-### Management
-
-1. Place child on a safe surface; clear the area of hazards.
-2. Do NOT restrain the child.
-3. Do NOT put anything in the mouth.
-4. Time the seizure.
-5. After the seizure: place child in recovery position (on side).
-6. Cool the child if fever is high — remove excess clothing, apply cool (not cold) cloths.
-7. **Seek medical evaluation** after any febrile seizure.
 
 ---
 

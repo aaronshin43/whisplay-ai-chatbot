@@ -4,8 +4,6 @@ tags: [poisoning, overdose, toxins, ingestion, activated_charcoal, naloxone]
 
 # Poisoning and Overdose — WHO BEC Reference
 
----
-
 ## General Approach to Poisoning
 
 ### ABCDE in Poisoning

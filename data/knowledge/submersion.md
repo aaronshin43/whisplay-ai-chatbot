@@ -4,10 +4,6 @@ tags: [submersion, drowning, water_rescue, hypoxia, cpr, hypothermia]
 
 # Submersion Incidents (Drowning) — Wilderness First Aid Reference
 
-**Applies to:** All ages; field settings without rapid EMS access
-
----
-
 ## Recognising a Person in Trouble in the Water
 
 ### Distressed Swimmer

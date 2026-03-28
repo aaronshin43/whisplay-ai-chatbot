@@ -4,22 +4,6 @@ tags: [stroke, FAST, CVA, brain_attack, weakness, speech_difficulty, TIA]
 
 # Stroke — Recognition and First Aid Response
 
-Source: WHO Basic Emergency Care 2018, American Stroke Association, IFRC Guidelines
-
----
-
-## Overview
-
-A stroke occurs when blood supply to part of the brain is cut off. Brain cells begin to die within minutes without oxygen.
-
-**Two types:**
-- **Ischaemic stroke** (most common, ~85%): blood clot blocks an artery
-- **Haemorrhagic stroke** (~15%): blood vessel ruptures and bleeds into the brain
-
-**Critical principle:** "Time is brain." Every minute of delay causes the death of approximately 1.9 million brain cells. Rapid recognition and emergency response saves lives and reduces disability.
-
----
-
 ## Recognition — The FAST Assessment
 
 ### FAST Check
