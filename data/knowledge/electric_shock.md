@@ -39,10 +39,8 @@ tags: [electric_shock, electrocution, burns, cardiac_arrest, safety]
 
 ### If Not Breathing — Begin CPR
 
-4. If the person is not breathing, begin CPR immediately.
-5. Give 30 chest compressions followed by 2 rescue breaths.
-6. Continue until emergency services arrive or the person breathes normally.
-7. Use an AED (automated external defibrillator) if available — electric shock frequently causes cardiac arrhythmia or cardiac arrest.
+4. If the person is not breathing, begin CPR immediately — follow standard CPR protocol.
+5. Use an AED (automated external defibrillator) if available — electric shock frequently causes cardiac arrhythmia or cardiac arrest.
 
 ### If Breathing — Treat for Shock
 
