@@ -16,7 +16,7 @@ class FooterWidget(QWidget):
         self._label.setObjectName("footer_text")
         self._label.setAlignment(Qt.AlignCenter)
         font = self._label.font()
-        font.setPointSize(get_font_size(10))
+        font.setPointSize(get_font_size(14))
         self._label.setFont(font)
 
         layout.addWidget(self._label)

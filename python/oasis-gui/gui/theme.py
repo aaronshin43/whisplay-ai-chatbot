@@ -1,30 +1,20 @@
-from PyQt5.QtWidgets import QApplication
-
-
-def screen_width() -> int:
-    return QApplication.primaryScreen().size().width()
-
-
-def screen_height() -> int:
-    return QApplication.primaryScreen().size().height()
+# Set by main.py before any widget is created.
+# Pi 800×480: min side = 480. PC simulation: same 480.
+EFFECTIVE_PORTRAIT_WIDTH = 480
 
 
 def get_font_size(base: int) -> int:
     """Scale font size for portrait orientation.
-
-    Base sizes are calibrated for 480px width (Pi 7" held portrait).
-    Scale is clamped so fonts stay readable across display sizes.
+    Base sizes are calibrated for 480px portrait width (Pi 4.3" display).
     """
-    w = screen_width()
-    scale = max(0.85, min(w / 480.0, 2.5))
+    scale = max(0.85, min(EFFECTIVE_PORTRAIT_WIDTH / 480.0, 2.5))
     return max(base, int(base * scale))
 
 
-# Portrait-specific layout constants (px)
-HEADER_HEIGHT = 56
-FOOTER_HEIGHT = 48
-CHAT_SIDE_PADDING = 16   # px left/right padding in chat area
-CHAT_LINE_SPACING = 140  # % of font height (QTextDocument blockFormat)
+# Portrait-specific layout constants (px, at 480px width)
+HEADER_HEIGHT = 72
+FOOTER_HEIGHT = 58
+CHAT_LINE_SPACING = 150  # % of font height
 
 
 DARK_THEME = """

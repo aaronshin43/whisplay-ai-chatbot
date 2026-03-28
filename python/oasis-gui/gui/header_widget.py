@@ -17,15 +17,15 @@ class HeaderWidget(QWidget):
         self._dot = QLabel("●")
         self._dot.setObjectName("dot")
         dot_font = self._dot.font()
-        dot_font.setPointSize(get_font_size(9))
+        dot_font.setPointSize(get_font_size(13))
         self._dot.setFont(dot_font)
-        self._dot.setFixedWidth(get_font_size(14))
+        self._dot.setFixedWidth(get_font_size(20))
 
         # Title
         self._title = QLabel("OASIS")
         self._title.setObjectName("title")
         title_font = self._title.font()
-        title_font.setPointSize(get_font_size(16))
+        title_font.setPointSize(get_font_size(22))
         title_font.setBold(True)
         self._title.setFont(title_font)
 
@@ -33,7 +33,7 @@ class HeaderWidget(QWidget):
         self._status = QLabel("Starting...")
         self._status.setObjectName("status")
         status_font = self._status.font()
-        status_font.setPointSize(get_font_size(11))
+        status_font.setPointSize(get_font_size(16))
         self._status.setFont(status_font)
         self._status.setAlignment(Qt.AlignRight | Qt.AlignVCenter)
 

@@ -1,6 +1,22 @@
 import sys
+import platform
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt, QTimer, QThread, QObject, QEvent, pyqtSignal
+import gui.theme as theme
+
+IS_PI = platform.machine().startswith("aarch")
+
+# PC: simulate Pi 800×480 screen. Pi: use actual screen size.
+if IS_PI:
+    _app_tmp = QApplication.instance() or QApplication(sys.argv)
+    _s = _app_tmp.primaryScreen().size()
+    SCREEN_SIZE = (_s.width(), _s.height())
+else:
+    SCREEN_SIZE = (800, 480)
+
+# Set portrait width BEFORE any widget imports use get_font_size()
+theme.EFFECTIVE_PORTRAIT_WIDTH = min(SCREEN_SIZE)
+
 from gui.main_window import MainWindow
 from gui.chat_widget import ROLE_USER
 from core.state_machine import StateMachine, State, STATE_UI
@@ -34,8 +50,8 @@ class KeyFilter(QObject):
 
 class OasisApp:
     def __init__(self):
-        self.app = QApplication(sys.argv)
-        self.window = MainWindow()
+        self.app = QApplication.instance() or QApplication(sys.argv)
+        self.window = MainWindow(screen_size=None if IS_PI else SCREEN_SIZE)
         self.sm = StateMachine()
         self.worker = PipelineWorker()
         self._prewarm_thread = PrewarmThread()
@@ -62,12 +78,12 @@ class OasisApp:
         self.window.set_status("Warming up...")
         self.window.set_footer("Loading model, please wait...")
 
-        # On Pi: fullscreen. On PC: 480x800 portrait window for accurate preview.
-        import platform
-        if platform.machine().startswith("aarch"):
+        # Pi: fullscreen (800×480, content rotated inside).
+        # PC: 800×480 window simulating the Pi screen.
+        if IS_PI:
             self.window.showFullScreen()
         else:
-            self.window.resize(480, 800)
+            self.window.resize(800, 480)
             self.window.show()
 
         self._prewarm_thread.start()

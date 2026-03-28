@@ -10,6 +10,10 @@ data/tts/
 data/asr/
 data/images/
 data/camera/
+data/oasis_logs/
+
+# rag index (build artifact — regenerate via index_knowledge.sh)
+data/rag_index/
 
 # logs
 chatbot.log
