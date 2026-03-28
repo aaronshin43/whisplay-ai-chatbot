@@ -1,0 +1,77 @@
+# Tier 0A — keyword match
+cpr
+bleeding
+choking
+help
+911
+seizure
+stroke
+
+# Tier 0B — sentence match
+how do i stop the bleeding
+someone is not breathing
+what do i do for a bad burn
+should i pull the object out
+
+# High confidence — llm_prompt
+my friend collapsed and has no pulse
+there is so much blood coming from her leg
+he swallowed something and is turning blue
+she ate peanuts and her throat is swelling
+he was electrocuted by a power line
+the baby is limp and not responding
+she took too many pills and wont wake up
+his face is drooping on one side and arm is weak
+she fell off a ladder and might have a broken leg
+he has a knife stuck in his side
+his shoulder popped out of the socket
+she spilled boiling water on her arm
+chemical splashed into his eye
+he was outside in freezing weather for hours and is confused
+she collapsed in the heat and her skin is hot and dry
+he got very sick at high altitude with a splitting headache
+she is diabetic and shaking and barely conscious
+he is wheezing badly and his inhaler is not working
+
+# Triage triggers
+she is not responding
+he is breathing strangely
+something is wrong with my friend
+she just fell down
+he has a lot of pain
+there is blood
+i need help
+
+# OOD — everyday situations
+what is the weather today
+how do i boil pasta
+tell me a joke
+set a timer for 5 minutes
+play some music
+what time is it
+asdfghjkl qwerty
+the meeting is at 3pm tomorrow
+can you order pizza
+
+# ASR noise
+strock
+heeelp
+heart tack
+sieze
+call nine one one
+she is sieezing on the floor
+
+# Multi-label
+bleeding from a broken leg
+baby not breathing after being pulled from water
+she had a seizure and hit her head hard
+he is in shock from severe bleeding
+
+# Boundary / ambiguous
+he has chest pain
+she is unconscious
+his hands are numb and white
+she took too many pills
+not breathing
+very pale
+no pulse
