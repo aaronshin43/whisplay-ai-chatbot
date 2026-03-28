@@ -21,6 +21,10 @@ oasis-rag.log
 *.pyc
 venv/
 
+# Python Caches
+__pycache__/
+*.py[cod]
+
 # other
 tts_temp
 emoji_svg
