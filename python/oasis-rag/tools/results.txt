@@ -1,0 +1,1841 @@
+
+  O.A.S.I.S. Interactive Test CLI
+  ─────────────────────────────────────────────
+  [OK] RAG service  →  localhost:5001
+  [OK] Ollama       →  localhost:11434  (gemma3:1b)
+  [LOG] Saving output to: edge_results.txt
+
+  Type your query below. Enter "quit" or Ctrl-C to exit.
+
+OASIS> HELP THERE IS SO MUCH BLOOD OH GOD PLEASE HELP
+
+  [RAG] 1 chunk(s) found (28ms) | top: trauma.md (0.57)
+  [REF] EMERGENCY BLEEDING PROTOCOL:
+- CALL EMERGENCY SERVICES immediately.
+- Apply direct PRESSURE to the wound with your hands.
+- Use cloth, shirt or any fabric and press firmly.
+
+[Source 1: trauma.md]
+### C — Circulation
+
+**Assessment:**
+- Capillary refill > 3 seconds
+- Pale extremities
+- Distended neck veins
+- Identify both external and internal bleeding sources:
+  - Chest injuries
+  - Abdominal injuries
+  - Pelvic fractures
+  - Femur fractures
+  - Amputations or large external wounds
+  - Burns — assess size and depth
+- Feel for cold extremities, weak pulse, or tachycardia
+
+**Management:**
+- Active bleeding: Apply direct pressure; use deep wound packing for large or gaping wounds
+- Amputated limbs or uncontrolled bleeding: Apply tourniquet — document time of application; start IV fluids; arrange urgent surgical transfer
+- Ongoing blood loss or poor perfusion: Establish two large-bore IV lines; give IV fluids; reassess
+- Burns: Start IV fluids calculated by burn size
+- Suspected femur fracture: Splint immediately
+- Pelvic fracture: Apply pelvic binder
+- Penetrating objects: Leave in place and stabilise for surgical team
+- Pregnant patient: Position on left side while maintaining spinal immobilisation
+
+---
+  [LLM] gemma3:1b (6.0s)
+
+1.  Call emergency services immediately.
+2.  Apply direct PRESSURE to the wound with your hands.
+3.  Use cloth, shirt or any fabric and press firmly.
+
+OASIS> HE IS DYING WHAT DO I DO HE IS NOT MOVING
+
+  [RAG] 1 chunk(s) found (25ms) | top: electric_shock.md (0.57)
+  [REF] [Source 1: electric_shock.md]
+### Immediate Assessment
+
+1. Call emergency services (911/999/112) immediately.
+2. Check if the person is conscious and breathing.
+3. Do not move the person unnecessarily — electrical injuries may involve spinal cord damage.
+
+### If Not Breathing — Begin CPR
+
+4. If the person is not breathing, begin CPR immediately.
+5. Give 30 chest compressions followed by 2 rescue breaths.
+6. Continue until emergency services arrive or the person breathes normally.
+7. Use an AED (automated external defibrillator) if available — electric shock frequently causes cardiac arrhythmia or cardiac arrest.
+  [LLM] gemma3:1b (3.0s)
+
+1.  Ensure the person is safe from further harm.
+2.  Check for any obvious signs of distress, such as gagging or difficulty breathing.
+3.  If they are unresponsive, check for breathing and a pulse.
+4.  If they are breathing, check for a pulse.
+5.  If they are not breathing, begin CPR immediately.
+6.  If they are not breathing, use an AED (automated external defibrillator) if available.
+7.  Continuously monitor their breathing and pulse.
+
+OASIS> oh no oh no oh no shes not breathing help
+
+  [RAG] 1 chunk(s) found (28ms) | top: trauma.md (0.56)
+  [REF] [Source 1: trauma.md]
+### B — Breathing
+
+**Assessment:**
+- Look for increased work of breathing
+- Assess for abnormal or asymmetric chest wall movement (flail chest indicator)
+- Check for tracheal shift
+- Identify sucking chest wounds
+- Look for cyanosis at lips and fingertips
+- Check for chest abrasions, bruising, or other injury signs
+- Look for circumferential burns to chest or abdomen
+- Listen: Absent or decreased breath sounds; dull or hyperresonant percussion
+- Feel for crepitus
+
+**Management:**
+- Give oxygen
+- Tension pneumothorax confirmed: Perform needle decompression immediately; give oxygen and IV fluids; arrange urgent transfer for chest tube
+- Sucking chest wound: Place three-sided dressing
+- Breathing inadequate or persistent hypoxia on oxygen: Assist with BVM ventilation
+- Circumferential chest or abdominal burns restricting breathing: Arrange transfer for escharotomy
+
+---
+  [LLM] gemma3:1b (2.8s)
+
+1.  Check for chest abrasions, bruising, or other injury signs.
+2.  Listen: Absent or decreased breath sounds; dull or hyperresonant percussion.
+3.  Feel for crepitus.
+4.  Give oxygen.
+5.  Assist with BVM ventilation.
+6.  Arrange transfer for escharotomy.
+
+OASIS> what is the weather today
+
+  [RAG] 1 chunk(s) found (15ms) | top: heat_emergencies.md (0.48)
+  [REF] [Source 1: heat_emergencies.md]
+---
+tags: [heat_exhaustion, heat_stroke, hyperthermia, dehydration, cooling]
+---
+
+# Heat-Related Emergencies — Wilderness First Aid Reference
+  [LLM] gemma3:1b (2.9s)
+
+Reference: Weather Today - Mountain View, CA
+Weather Today - Mountain View, CA: Partly cloudy with a high of 65°F and a low of 45°F. There is a slight chance of rain.
+
+OASIS> tell me a joke
+
+  [RAG] 1 chunk(s) found (13ms) | top: bites_and_stings.md (0.48)
+  [REF] [Source 1: bites_and_stings.md]
+---
+tags: [bites, stings, snakebite, insect_sting, envenomation, rabies, spider, anaphylaxis]
+---
+
+# Bites, Stings, and Allergic Reactions
+  [LLM] gemma3:1b (2.7s)
+
+Reference: Jokes 1: A man walks into a library and asks for a book about paranoia. The librarian whispers, "It's right this way."  Response: 1. The man walks away.
+
+OASIS> bleeding
+
+  [RAG] 1 chunk(s) found (16ms) | top: trauma.md (0.58)
+  [REF] [Source 1: trauma.md]
+### C — Circulation
+
+**Assessment:**
+- Capillary refill > 3 seconds
+- Pale extremities
+- Distended neck veins
+- Identify both external and internal bleeding sources:
+  - Chest injuries
+  - Abdominal injuries
+  - Pelvic fractures
+  - Femur fractures
+  - Amputations or large external wounds
+  - Burns — assess size and depth
+- Feel for cold extremities, weak pulse, or tachycardia
+
+**Management:**
+- Active bleeding: Apply direct pressure; use deep wound packing for large or gaping wounds
+- Amputated limbs or uncontrolled bleeding: Apply tourniquet — document time of application; start IV fluids; arrange urgent surgical transfer
+- Ongoing blood loss or poor perfusion: Establish two large-bore IV lines; give IV fluids; reassess
+- Burns: Start IV fluids calculated by burn size
+- Suspected femur fracture: Splint immediately
+- Pelvic fracture: Apply pelvic binder
+- Penetrating objects: Leave in place and stabilise for surgical team
+- Pregnant patient: Position on left side while maintaining spinal immobilisation
+
+---
+  [LLM] gemma3:1b (3.1s)
+
+1.  Apply direct pressure; use deep wound packing for large or gaping wounds.
+2.  Establish two large-bore IV lines; give IV fluids; reassess.
+3.  Start IV fluids calculated by burn size.
+4.  Leave in place and stabilise for surgical team.
+5.  Arrange urgent surgical transfer.
+6.  Start IV fluids calculated by burn size.
+7.  Give IV fluids calculated by burn size.
+8.  Reassess.
+
+OASIS> help
+
+  [RAG] 1 chunk(s) found (12ms) | top: mental_status.md (0.50)
+  [REF] [Source 1: mental_status.md]
+---
+tags: [mental_status, AVPU, altered_mental_status, confusion, unresponsiveness]
+---
+
+# Approach to Altered Mental Status (AMS) — WHO BEC Reference
+  [LLM] gemma3:1b (2.8s)
+
+1.  Assess the patient’s current state.
+2.  Check for AVPU reflexes.
+3.  Evaluate for altered mental status.
+4.  Assess for confusion and unresponsiveness.
+
+OASIS> hes bledding from the nek real bad
+
+  [RAG] 1 chunk(s) found (17ms) | top: stroke.md (0.50)
+  [REF] [Source 1: stroke.md]
+## Haemorrhagic Stroke (Brain Bleed)
+
+If the stroke is haemorrhagic (bleeding into brain):
+- Aspirin and blood thinners are **contraindicated** (worsen outcome)
+- Patient may have severe headache and vomiting
+- Blood pressure is often very elevated
+- Management is supportive until emergency care — no first aid intervention changes this
+
+---
+
+## Recovery Position for Unconscious Stroke Patient
+
+1. Kneel beside the person.
+2. Place the arm nearest to you at a right angle to their body.
+3. Bring the far arm across their chest; hold back of their hand against their cheek.
+4. With your other hand, pull the far knee up.
+5. Roll the person towards you onto their side.
+6. Tilt head back to keep airway open.
+7. Monitor breathing continuously.
+  [LLM] gemma3:1b (2.9s)
+
+1.  Assess the patient’s level of consciousness.
+2.  Check for breathing and pulse.
+3.  Provide oxygen if needed.
+4.  Monitor vital signs.
+5.  Provide reassurance and comfort.
+6.  Do not attempt to force any interventions.
+7.  Ensure airway is maintained.
+
+OASIS> she done fell and her arm look broke
+
+  [RAG] 1 chunk(s) found (20ms) | top: bone_and_joint.md (0.49)
+  [REF] [Source 1: bone_and_joint.md]
+## General Assessment and Care
+**Types:** Strain (muscle/tendon), Sprain (ligament), Fracture (broken bone), Dislocation (bone out of joint).
+**Signs (DOTS):** Deformity, Open injuries, Tenderness, Swelling. Loss of circulation, sensation, or motion (CSM) beyond the injury is a serious complication.
+**Management (RICE protocol):**
+- **Rest:** Avoid painful movement.
+- **Immobilize:** Stabilize the injured part.
+- **Cold:** Apply cold pack (20 mins), avoiding direct contact with open fractures.
+- **Elevate:** Raise above heart level unless it causes pain or a fracture is suspected.
+  [LLM] gemma3:1b (2.9s)
+
+1.  Do not force re-alignment.
+2.  Stabilize the injured part.
+3.  Apply cold pack (20 mins), avoiding direct contact with open fractures.
+4.  Elevate the arm above heart level unless it causes pain or a fracture is suspected.
+
+OASIS> car accident bleeding from head and leg looks broken
+
+  [RAG] 1 chunk(s) found (21ms) | top: trauma.md (0.57)
+  [REF] [Source 1: trauma.md]
+### C — Circulation
+
+**Assessment:**
+- Capillary refill > 3 seconds
+- Pale extremities
+- Distended neck veins
+- Identify both external and internal bleeding sources:
+  - Chest injuries
+  - Abdominal injuries
+  - Pelvic fractures
+  - Femur fractures
+  - Amputations or large external wounds
+  - Burns — assess size and depth
+- Feel for cold extremities, weak pulse, or tachycardia
+
+**Management:**
+- Active bleeding: Apply direct pressure; use deep wound packing for large or gaping wounds
+- Amputated limbs or uncontrolled bleeding: Apply tourniquet — document time of application; start IV fluids; arrange urgent surgical transfer
+- Ongoing blood loss or poor perfusion: Establish two large-bore IV lines; give IV fluids; reassess
+- Burns: Start IV fluids calculated by burn size
+- Suspected femur fracture: Splint immediately
+- Pelvic fracture: Apply pelvic binder
+- Penetrating objects: Leave in place and stabilise for surgical team
+- Pregnant patient: Position on left side while maintaining spinal immobilisation
+
+---
+  [LLM] gemma3:1b (2.9s)
+
+1.  Assess for severe bleeding from the head and leg.
+2.  Apply direct pressure to the wound.
+3.  Secure the wound with a bandage.
+4.  Monitor for signs of shock.
+5.  Provide immediate transport to a medical facility.
+
+OASIS> so we were hiking in the mountains and my friend slipped on a rock and fell about ten feet down and now he is lying on the ground and his leg is bent at a weird angle and there is blood coming from a cut on his head and he says he cant feel his toes and I dont know what to do please help me
+
+  [RAG] 1 chunk(s) found (80ms) | top: trauma.md (0.56)
+  [REF] SPINAL CORD INJURY — MANDATORY PROTOCOL:
+1. Do NOT move this person — keep head, neck, and spine completely still.
+2. CALL emergency services IMMEDIATELY (911/999/112).
+3. Apply gentle pressure to bleeding without moving the head or spine.
+4. Keep the person still and calm. Do NOT tilt, roll, or sit them up.
+5. Continue stabilizing spine until emergency services arrive.
+
+[Source 1: trauma.md]
+### C — Circulation
+
+**Assessment:**
+- Capillary refill > 3 seconds
+- Pale extremities
+- Distended neck veins
+- Identify both external and internal bleeding sources:
+  - Chest injuries
+  - Abdominal injuries
+  - Pelvic fractures
+  - Femur fractures
+  - Amputations or large external wounds
+  - Burns — assess size and depth
+- Feel for cold extremities, weak pulse, or tachycardia
+
+**Management:**
+- Active bleeding: Apply direct pressure; use deep wound packing for large or gaping wounds
+- Amputated limbs or uncontrolled bleeding: Apply tourniquet — document time of application; start IV fluids; arrange urgent surgical transfer
+- Ongoing blood loss or poor perfusion: Establish two large-bore IV lines; give IV fluids; reassess
+- Burns: Start IV fluids calculated by burn size
+- Suspected femur fracture: Splint immediately
+- Pelvic fracture: Apply pelvic binder
+- Penetrating objects: Leave in place and stabilise for surgical team
+- Pregnant patient: Position on left side while maintaining spinal immobilisation
+
+---
+  [LLM] gemma3:1b (3.5s)
+
+1.  Ensure the person is safe from further injury.
+2.  Call emergency services immediately (911/999/112).
+3.  Assess the person’s breathing and level of consciousness.
+4.  Control any bleeding from the cut on his head. Apply direct pressure with a clean cloth.
+5.  Keep the person warm and comfortable.
+6.  Do not move the person unless absolutely necessary to prevent further harm.
+7.  Keep the person still and calm.
+8.  Do not tilt, roll, or sit them up.
+9.  Monitor their breathing and pulse.
+10. Provide reassurance and stay with them until emergency services arrive.
+
+OASIS> there is blood everywhere from his arm
+
+  [RAG] 1 chunk(s) found (18ms) | top: trauma.md (0.56)
+  [REF] [Source 1: trauma.md]
+### Open Wound
+
+- Signs: Laceration, abrasion; wounds in axilla, genitals, buttocks, or back are easily missed; pumping or spurting blood indicates arterial bleeding
+- Management: Stop bleeding; clean wound thoroughly with soap and clean water or antiseptic to remove dirt, foreign bodies, and devitalised tissue — give local anaesthetic before cleaning if available; dress with sterile gauze; check perfusion beyond the wound before and after dressing; splint extremities with large lacerations; stabilise but do not remove penetrating objects; for animal bites — consult advanced provider for rabies risk assessment (time-sensitive); give tetanus vaccination if needed
+
+---
+  [LLM] gemma3:1b (3.2s)
+
+1. Stop bleeding.
+2. Clean the wound thoroughly with soap and clean water or antiseptic.
+3. Remove dirt, foreign bodies, and devitalised tissue.
+4. Give local anaesthetic if available.
+5. Dress with sterile gauze.
+6. Check perfusion beyond the wound before and after dressing.
+7. Splint extremities with large lacerations.
+8. Stabilize but do not remove penetrating objects.
+9. Consult advanced provider for rabies risk assessment (time-sensitive).
+
+OASIS> she cut her hand deeply and bleeding wont stop
+
+  [RAG] 1 chunk(s) found (20ms) | top: trauma.md (0.57)
+  [REF] [Source 1: trauma.md]
+### C — Circulation
+
+**Assessment:**
+- Capillary refill > 3 seconds
+- Pale extremities
+- Distended neck veins
+- Identify both external and internal bleeding sources:
+  - Chest injuries
+  - Abdominal injuries
+  - Pelvic fractures
+  - Femur fractures
+  - Amputations or large external wounds
+  - Burns — assess size and depth
+- Feel for cold extremities, weak pulse, or tachycardia
+
+**Management:**
+- Active bleeding: Apply direct pressure; use deep wound packing for large or gaping wounds
+- Amputated limbs or uncontrolled bleeding: Apply tourniquet — document time of application; start IV fluids; arrange urgent surgical transfer
+- Ongoing blood loss or poor perfusion: Establish two large-bore IV lines; give IV fluids; reassess
+- Burns: Start IV fluids calculated by burn size
+- Suspected femur fracture: Splint immediately
+- Pelvic fracture: Apply pelvic binder
+- Penetrating objects: Leave in place and stabilise for surgical team
+- Pregnant patient: Position on left side while maintaining spinal immobilisation
+
+---
+  [LLM] gemma3:1b (3.1s)
+
+1.  Apply direct pressure to the wound with a sterile dressing.
+2.  Apply a pressure bandage to control the bleeding.
+3.  Elevate the hand above the heart to help reduce blood flow.
+4.  Apply a tourniquet if bleeding is severe and not controlled by direct pressure.
+5.  Monitor vital signs, including pulse and blood pressure.
+6.  Ensure adequate IV fluids are administered.
+7.  Call for emergency medical assistance.
+
+OASIS> blood is soaking through the cloth what do i do
+
+  [RAG] 1 chunk(s) found (21ms) | top: trauma.md (0.58)
+  [REF] [Source 1: trauma.md]
+### C — Circulation
+
+**Assessment:**
+- Capillary refill > 3 seconds
+- Pale extremities
+- Distended neck veins
+- Identify both external and internal bleeding sources:
+  - Chest injuries
+  - Abdominal injuries
+  - Pelvic fractures
+  - Femur fractures
+  - Amputations or large external wounds
+  - Burns — assess size and depth
+- Feel for cold extremities, weak pulse, or tachycardia
+
+**Management:**
+- Active bleeding: Apply direct pressure; use deep wound packing for large or gaping wounds
+- Amputated limbs or uncontrolled bleeding: Apply tourniquet — document time of application; start IV fluids; arrange urgent surgical transfer
+- Ongoing blood loss or poor perfusion: Establish two large-bore IV lines; give IV fluids; reassess
+- Burns: Start IV fluids calculated by burn size
+- Suspected femur fracture: Splint immediately
+- Pelvic fracture: Apply pelvic binder
+- Penetrating objects: Leave in place and stabilise for surgical team
+- Pregnant patient: Position on left side while maintaining spinal immobilisation
+
+---
+  [LLM] gemma3:1b (2.8s)
+
+1.  Assess the area for additional pressure.
+2.  Apply additional pressure with a clean cloth.
+3.  If the bleeding continues, apply more pressure.
+4.  Consider using a sterile dressing.
+
+OASIS> when should I use a tourniquet
+
+  [RAG] 1 chunk(s) found (16ms) | top: wounds_and_bleeding.md (0.58)
+  [REF] [Source 1: wounds_and_bleeding.md]
+## Bleeding Control
+**Types:** Arterial (spurting, life-threatening), Venous (smooth flow), Internal (bruising). 
+**Management Steps:**
+1. **Direct Pressure:** Apply firm pressure directly to the source using gauze or a clean pad (2-3 fingers). If blood-soaked, add another pad on top; do not remove the original.
+2. **Deep Wound Packing:** If simple pressure fails on a deep/gaping wound, pack the wound completely with clean material/gauze, then apply pressure over it. *Do not leave packing >24 hours.*
+3. **Tourniquet Application:** Use ONLY if other measures fail and bleeding is life-threatening. Apply on extremities only, above the bleeding site (prefer upper arm/leg), using a wide band. Tighten until bleeding stops. **Record exact application time.** *Never loosen a tourniquet in the pre-hospital setting.*
+  [LLM] gemma3:1b (2.7s)
+
+1. When bleeding is life-threatening.
+2. If direct pressure and deep wound packing fail.
+3. When other measures fail to control bleeding.
+
+OASIS> arterial bleeding bright red spurting
+
+  [RAG] 1 chunk(s) found (20ms) | top: trauma.md (0.57)
+  [REF] [Source 1: trauma.md]
+### C — Circulation
+
+**Assessment:**
+- Capillary refill > 3 seconds
+- Pale extremities
+- Distended neck veins
+- Identify both external and internal bleeding sources:
+  - Chest injuries
+  - Abdominal injuries
+  - Pelvic fractures
+  - Femur fractures
+  - Amputations or large external wounds
+  - Burns — assess size and depth
+- Feel for cold extremities, weak pulse, or tachycardia
+
+**Management:**
+- Active bleeding: Apply direct pressure; use deep wound packing for large or gaping wounds
+- Amputated limbs or uncontrolled bleeding: Apply tourniquet — document time of application; start IV fluids; arrange urgent surgical transfer
+- Ongoing blood loss or poor perfusion: Establish two large-bore IV lines; give IV fluids; reassess
+- Burns: Start IV fluids calculated by burn size
+- Suspected femur fracture: Splint immediately
+- Pelvic fracture: Apply pelvic binder
+- Penetrating objects: Leave in place and stabilise for surgical team
+- Pregnant patient: Position on left side while maintaining spinal immobilisation
+
+---
+  [LLM] gemma3:1b (2.9s)
+
+1.  Apply direct pressure to the bleeding site.
+2.  Apply a sterile dressing to the bleeding site.
+3.  Elevate the affected limb.
+4.  Apply a pressure bandage.
+5.  Monitor for signs of shock.
+
+OASIS> she collapsed and is not breathing
+
+  [RAG] 1 chunk(s) found (28ms) | top: trauma.md (0.55)
+  [REF] [Source 1: trauma.md]
+### B — Breathing
+
+**Assessment:**
+- Look for increased work of breathing
+- Assess for abnormal or asymmetric chest wall movement (flail chest indicator)
+- Check for tracheal shift
+- Identify sucking chest wounds
+- Look for cyanosis at lips and fingertips
+- Check for chest abrasions, bruising, or other injury signs
+- Look for circumferential burns to chest or abdomen
+- Listen: Absent or decreased breath sounds; dull or hyperresonant percussion
+- Feel for crepitus
+
+**Management:**
+- Give oxygen
+- Tension pneumothorax confirmed: Perform needle decompression immediately; give oxygen and IV fluids; arrange urgent transfer for chest tube
+- Sucking chest wound: Place three-sided dressing
+- Breathing inadequate or persistent hypoxia on oxygen: Assist with BVM ventilation
+- Circumferential chest or abdominal burns restricting breathing: Arrange transfer for escharotomy
+
+---
+  [LLM] gemma3:1b (3.5s)
+
+1.  Check for chest abrasions, bruising, or other injury signs.
+2.  Listen: Absent or decreased breath sounds; dull or hyperresonant percussion.
+3.  Feel for crepitus.
+4.  Assess for cyanosis at lips and fingertips.
+5.  Check for chest abrasions, bruising, or other injury signs.
+6.  Listen: Absent or decreased breath sounds; dull or hyperresonant percussion.
+7.  Feel for crepitus.
+8.  Assess for cyanosis at lips and fingertips.
+9.  Check for chest abrasions, bruising, or other injury signs.
+10. Arrange transfer for escharotomy.
+
+OASIS> how do I do chest compressions
+
+  [RAG] 1 chunk(s) found (23ms) | top: electric_shock.md (0.58)
+  [REF] [Source 1: electric_shock.md]
+### Immediate Assessment
+
+1. Call emergency services (911/999/112) immediately.
+2. Check if the person is conscious and breathing.
+3. Do not move the person unnecessarily — electrical injuries may involve spinal cord damage.
+
+### If Not Breathing — Begin CPR
+
+4. If the person is not breathing, begin CPR immediately.
+5. Give 30 chest compressions followed by 2 rescue breaths.
+6. Continue until emergency services arrive or the person breathes normally.
+7. Use an AED (automated external defibrillator) if available — electric shock frequently causes cardiac arrhythmia or cardiac arrest.
+  [LLM] gemma3:1b (3.3s)
+
+1.  Ensure the person is lying flat on their back.
+2.  Kneel beside the person’s chest.
+3.  Place the heel of one hand in the center of the person’s chest, on the lower half of the breastbone.
+4.  Position your other hand on top of the first hand.
+5.  Push down hard and straight down at the chest, compressing the chest about 2 inches.
+6.  Allow the chest to recoil completely before releasing.
+7.  Continue compressions until emergency services arrive or the person starts breathing normally.
+
+OASIS> what is the compression to breath ratio for CPR
+
+  [RAG] 1 chunk(s) found (23ms) | top: cpr.md (0.60)
+  [REF] [Source 1: cpr.md]
+## Initiation Criteria
+Start CPR IMMEDIATELY if the patient is:
+- Unresponsive (does not react to tapping shoulders and shouting)
+- Not breathing normally (or only gasping)
+- Lacks a clear pulse
+
+*Delaying CPR reduces survival by 7-10% per minute.*
+
+### Adult CPR Protocol
+1. **Scene Safety:** Ensure the area is safe.
+2. **Call for Help:** Call emergency services and explicitly delegate a bystander to get an AED.
+3. **Open Airway:** Use head-tilt/chin-lift (if suspected spine injury, use jaw-thrust ONLY).
+4. **Check Breathing:** Look, listen, and feel for normal breathing for NO MORE than 10 seconds. Gasping is abnormal—begin CPR if found.
+5. **Chest Compressions:**
+   - Kneel beside caller. Place heel of one hand on center of lower half of sternum, second hand interlocked on top.
+   - Posture: Arms perfectly straight, shoulders directly over hands.
+   - Depth: Push down firmly 5 to 6 cm (2 to 2.5 inches).
+   - Rate: 100 to 120 compressions per minute.
+   - Recoil: Allow full chest recoil between compressions. Do NOT lean on the chest.
+6. **Rescue Breaths:**
+   - Pinch nose, make an airtight seal over mouth.
+   - Blow for exactly 1 second, watch for chest rise. Remove mouth, let chest fall, deliver second breath.
+   - If chest doesn't rise, intuitively reposition the head and retry ONE time.
+7. **CPR Cycle:** **30 Compressions followed by 2 Rescue Breaths.** Do not pause.
+8. **Rescuer Fatigue:** Switch active compressor every 2 minutes. If you are untrained or unwilling to give breaths, deliver *compression-only CPR*.
+  [LLM] gemma3:1b (2.6s)
+
+RESPONSE: 30:2
+
+OASIS> he has no pulse what should I do
+
+  [RAG] 1 chunk(s) found (18ms) | top: electric_shock.md (0.58)
+  [REF] [Source 1: electric_shock.md]
+### Immediate Assessment
+
+1. Call emergency services (911/999/112) immediately.
+2. Check if the person is conscious and breathing.
+3. Do not move the person unnecessarily — electrical injuries may involve spinal cord damage.
+
+### If Not Breathing — Begin CPR
+
+4. If the person is not breathing, begin CPR immediately.
+5. Give 30 chest compressions followed by 2 rescue breaths.
+6. Continue until emergency services arrive or the person breathes normally.
+7. Use an AED (automated external defibrillator) if available — electric shock frequently causes cardiac arrhythmia or cardiac arrest.
+  [LLM] gemma3:1b (3.0s)
+
+1.  Check for a carotid pulse.
+2.  If no carotid pulse is found, proceed with CPR.
+3.  If the person is not breathing, begin CPR.
+4.  Use an AED (automated external defibrillator) if available.
+
+OASIS> how to use AED defibrillator
+
+  [RAG] 1 chunk(s) found (24ms) | top: electric_shock.md (0.59)
+  [REF] [Source 1: electric_shock.md]
+### Immediate Assessment
+
+1. Call emergency services (911/999/112) immediately.
+2. Check if the person is conscious and breathing.
+3. Do not move the person unnecessarily — electrical injuries may involve spinal cord damage.
+
+### If Not Breathing — Begin CPR
+
+4. If the person is not breathing, begin CPR immediately.
+5. Give 30 chest compressions followed by 2 rescue breaths.
+6. Continue until emergency services arrive or the person breathes normally.
+7. Use an AED (automated external defibrillator) if available — electric shock frequently causes cardiac arrhythmia or cardiac arrest.
+  [LLM] gemma3:1b (3.1s)
+
+1.  Ensure the AED is charged.
+2.  Turn on the AED and press the shock button.
+3.  Follow the AED’s voice prompts.
+4.  If the AED advises a shock, ensure everyone is clear of the person.
+5.  After the shock, immediately press the shock button again.
+6.  Continue following the AED’s instructions until emergency services arrive.
+
+OASIS> something stuck in his throat he cant breathe
+
+  [RAG] 1 chunk(s) found (22ms) | top: abcde.md (0.61)
+  [REF] [Source 1: abcde.md]
+### Airway Management
+
+- Unconscious patient, not breathing normally, no trauma: Open airway with head-tilt chin-lift
+- Unconscious patient, concern for trauma: Maintain cervical spine immobilisation; open airway with jaw thrust only
+- Place oropharyngeal (OPA) or nasopharyngeal (NPA) airway to maintain patency as needed
+- Foreign body visible: Remove carefully — do not push deeper
+- Patient able to cough or make sounds: Keep calm; encourage coughing
+- Patient choking (unable to cough, silent): Use age-appropriate chest thrusts, abdominal thrusts, or back blows
+- Patient loses consciousness while choking: Follow relevant CPR protocol
+- Secretions or vomit present: Suction if available; wipe clean; consider recovery position if ABCDE otherwise normal and no trauma suspected
+- Anaphylaxis suspected (stridor, hives, swelling): Give intramuscular adrenaline; allow position of comfort; prepare for rapid transfer
+- Partial obstruction: Reassess frequently — can progress to complete obstruction rapidly
+
+---
+  [LLM] gemma3:1b (3.1s)
+
+1.  Assess the patient’s breathing.
+2.  Check for obstruction.
+3.  Attempt to remove the obstruction.
+4.  If unable to remove, perform abdominal thrusts.
+5.  If unable to remove, perform chest thrusts.
+6.  Administer epinephrine if indicated.
+7.  Monitor vital signs.
+
+OASIS> adult choking on food turning blue
+
+  [RAG] 1 chunk(s) found (23ms) | top: abcde.md (0.64)
+  [REF] CHOKING PROTOCOL — PERFORM NOW:
+1. Give 5 firm BACK BLOWS between shoulder blades with heel of hand.
+2. Give 5 ABDOMINAL THRUSTS (Heimlich): stand behind, pull inward and upward.
+3. Alternate 5 back blows + 5 abdominal thrusts until object clears.
+4. If unconscious: lower to ground, call 911, begin CPR.
+5. Do NOT do a blind finger sweep.
+
+[Source 1: abcde.md]
+### Airway Management
+
+- Unconscious patient, not breathing normally, no trauma: Open airway with head-tilt chin-lift
+- Unconscious patient, concern for trauma: Maintain cervical spine immobilisation; open airway with jaw thrust only
+- Place oropharyngeal (OPA) or nasopharyngeal (NPA) airway to maintain patency as needed
+- Foreign body visible: Remove carefully — do not push deeper
+- Patient able to cough or make sounds: Keep calm; encourage coughing
+- Patient choking (unable to cough, silent): Use age-appropriate chest thrusts, abdominal thrusts, or back blows
+- Patient loses consciousness while choking: Follow relevant CPR protocol
+- Secretions or vomit present: Suction if available; wipe clean; consider recovery position if ABCDE otherwise normal and no trauma suspected
+- Anaphylaxis suspected (stridor, hives, swelling): Give intramuscular adrenaline; allow position of comfort; prepare for rapid transfer
+- Partial obstruction: Reassess frequently — can progress to complete obstruction rapidly
+
+---
+  [LLM] gemma3:1b (3.4s)
+
+1.  Assess the situation – is the patient conscious?
+2.  If conscious, ask them to speak.
+3.  If they cannot speak, ask them to cough forcefully.
+4.  If they cough forcefully, encourage them to continue.
+5.  If coughing doesn’t help, perform abdominal thrusts (Heimlich maneuver).
+6.  If abdominal thrusts are unsuccessful, perform chest thrusts.
+7.  If the patient becomes unresponsive, begin CPR.
+8.  If the patient is turning blue, it indicates a lack of oxygen.
+9.  Administer intramuscular adrenaline if available.
+10. Keep the patient warm and comfortable.
+
+OASIS> heimlich maneuver how to do it
+
+  [RAG] 1 chunk(s) found (20ms) | top: abcde.md (0.65)
+  [REF] [Source 1: abcde.md]
+### Airway Management
+
+- Unconscious patient, not breathing normally, no trauma: Open airway with head-tilt chin-lift
+- Unconscious patient, concern for trauma: Maintain cervical spine immobilisation; open airway with jaw thrust only
+- Place oropharyngeal (OPA) or nasopharyngeal (NPA) airway to maintain patency as needed
+- Foreign body visible: Remove carefully — do not push deeper
+- Patient able to cough or make sounds: Keep calm; encourage coughing
+- Patient choking (unable to cough, silent): Use age-appropriate chest thrusts, abdominal thrusts, or back blows
+- Patient loses consciousness while choking: Follow relevant CPR protocol
+- Secretions or vomit present: Suction if available; wipe clean; consider recovery position if ABCDE otherwise normal and no trauma suspected
+- Anaphylaxis suspected (stridor, hives, swelling): Give intramuscular adrenaline; allow position of comfort; prepare for rapid transfer
+- Partial obstruction: Reassess frequently — can progress to complete obstruction rapidly
+
+---
+  [LLM] gemma3:1b (3.2s)
+
+1.  Stand behind the patient.
+2.  Make a grab line with your fingers.
+3.  Locate the patient’s lips.
+4.  Gently tilt the head back.
+5.  Give 1 second thrust upward.
+6.  Repeat 5-10 times.
+7.  After the last thrust, allow the patient to exhale completely.
+8.  Check for breathing and a pulse.
+9.  If the patient is not breathing or has no pulse, begin rescue breaths.
+10. Continue rescue breaths until the patient starts breathing normally.
+
+OASIS> person is coughing but cannot get air
+
+  [RAG] 1 chunk(s) found (26ms) | top: abcde.md (0.66)
+  [REF] [Source 1: abcde.md]
+### Airway Management
+
+- Unconscious patient, not breathing normally, no trauma: Open airway with head-tilt chin-lift
+- Unconscious patient, concern for trauma: Maintain cervical spine immobilisation; open airway with jaw thrust only
+- Place oropharyngeal (OPA) or nasopharyngeal (NPA) airway to maintain patency as needed
+- Foreign body visible: Remove carefully — do not push deeper
+- Patient able to cough or make sounds: Keep calm; encourage coughing
+- Patient choking (unable to cough, silent): Use age-appropriate chest thrusts, abdominal thrusts, or back blows
+- Patient loses consciousness while choking: Follow relevant CPR protocol
+- Secretions or vomit present: Suction if available; wipe clean; consider recovery position if ABCDE otherwise normal and no trauma suspected
+- Anaphylaxis suspected (stridor, hives, swelling): Give intramuscular adrenaline; allow position of comfort; prepare for rapid transfer
+- Partial obstruction: Reassess frequently — can progress to complete obstruction rapidly
+
+---
+  [LLM] gemma3:1b (3.5s)
+
+1.  Assess the patient's breathing.
+2.  Check for chest rise.
+3.  If the patient is not breathing, initiate rescue breaths.
+4.  If the patient is breathing but not rising, perform rescue breaths.
+5.  If the patient is not breathing, begin rescue breaths.
+6.  If the patient is breathing but not rising, perform rescue breaths.
+7.  If the patient is not breathing, begin rescue breaths.
+8.  If the patient is breathing but not rising, perform rescue breaths.
+9.  If the patient is not breathing, begin rescue breaths.
+10. If the patient is breathing but not rising, perform rescue breaths.
+
+OASIS> throat is swelling after bee sting
+
+  [RAG] 1 chunk(s) found (17ms) | top: bites_and_stings.md (0.57)
+  [REF] [Source 1: bites_and_stings.md]
+## Insect & Arthropod Bites
+- **Tick Bites:** Remove immediately by grasping close to skin with tweezers and pulling slowly. Wash site. If flu-like symptoms occur within 2 weeks, seek medical evaluation.
+- **Bee/Wasp Stings:** Scrape away stinger or use tweezers (don't squeeze venom sac). Wash site, apply cold pack. Monitor for anaphylaxis.
+- **Spider (Black Widow/Brown Recluse) & Scorpion:** Wash, apply wound gel/bandage, apply cold pack. Use antivenin if available.
+
+## Animal & Marine Bites/Stings
+- **Animal Bites:** Control serious bleeding first. Wash minor wounds with soap/water and irrigate heavily. Leave serious wounds for a medical facility. Monitor for infection (rabies risk).
+- **Jellyfish Sting:** Irrigate with vinegar for at least 30 seconds (or baking soda slurry). After stinging stops, immerse in hot water. *Portuguese Man-of-War:* Use ocean water, NOT vinegar.
+- **Stingray:** Flush with water, soak in non-scalding hot water until pain resolves. Immobilize.
+  [LLM] gemma3:1b (2.8s)
+
+1.  Wash the area with soap and water.
+2.  Apply a cold compress to the swelling.
+3.  Seek medical evaluation if swelling is severe or doesn’t improve.
+
+OASIS> allergic reaction face is swelling cant breathe
+
+  [RAG] 1 chunk(s) found (18ms) | top: bites_and_stings.md (0.62)
+  [REF] [Source 1: bites_and_stings.md]
+## Allergic Reactions & Anaphylaxis
+**Non-Life-Threatening:** Hives, itching, nausea/GI issues. Remove the allergen (e.g., stinger). Assist in self-administering antihistamine if able.
+**Anaphylaxis (Severe):** Life-threatening. Present if skin symptoms occur with trouble breathing or shock (pale, cool, sweaty, lightheaded), or if known allergen exposure causes difficulty breathing or shock.
+- **Action:** Check for medical ID. Remove allergen. Assist with Epinephrine auto-injector (EpiPen®) straight into the outer thigh (hold 10s).
+- **Evacuation:** Evacuate immediately (GO FAST) after any epinephrine use.
+
+## Venomous Snakebites
+**Signs:** Fang marks, localized pain, swelling. Nausea/tingling (moderate), shock/coma (severe), tissue necrosis.
+**Care & Management:**
+1. Keep the person calm and still. Do NOT let them walk.
+2. Keep the bitten extremity at or slightly below heart level.
+3. Remove rings, watches, and tight items immediately before swelling begins.
+4. **Bandaging (Neurotoxic/Systemic):** Apply a broad pressure immobilization bandage upward from the bite. Keep it firm but DO NOT cut off distal pulses. Splint the limb.
+5. **Bandaging (Cytotoxic/Local):** Do strictly NOT apply a pressure bandage. 
+6. Gently wash the site. 
+7. **Prohibited:** DO NOT cut the wound, apply ice, suck venom, or apply a tourniquet.
+  [LLM] gemma3:1b (3.4s)
+
+1.  Keep the person calm and still.
+2.  Keep the person at or slightly below heart level.
+3.  Remove rings, watches, and tight items immediately before swelling begins.
+4.  Bandaging (Neurotoxic/Systemic): Apply a broad pressure immobilization bandage upward from the bite. Keep it firm but DO NOT cut off distal pulses. Splint the limb.
+5.  Bandaging (Cytotoxic/Local): Do strictly NOT apply a pressure bandage.
+6.  Gently wash the site.
+7.  Prohibited: DO NOT cut the wound, apply ice, suck venom, or apply a tourniquet.
+
+OASIS> how to use an epipen
+
+  [RAG] 1 chunk(s) found (22ms) | top: bites_and_stings.md (0.61)
+  [REF] [Source 1: bites_and_stings.md]
+## Allergic Reactions & Anaphylaxis
+**Non-Life-Threatening:** Hives, itching, nausea/GI issues. Remove the allergen (e.g., stinger). Assist in self-administering antihistamine if able.
+**Anaphylaxis (Severe):** Life-threatening. Present if skin symptoms occur with trouble breathing or shock (pale, cool, sweaty, lightheaded), or if known allergen exposure causes difficulty breathing or shock.
+- **Action:** Check for medical ID. Remove allergen. Assist with Epinephrine auto-injector (EpiPen®) straight into the outer thigh (hold 10s).
+- **Evacuation:** Evacuate immediately (GO FAST) after any epinephrine use.
+
+## Venomous Snakebites
+**Signs:** Fang marks, localized pain, swelling. Nausea/tingling (moderate), shock/coma (severe), tissue necrosis.
+**Care & Management:**
+1. Keep the person calm and still. Do NOT let them walk.
+2. Keep the bitten extremity at or slightly below heart level.
+3. Remove rings, watches, and tight items immediately before swelling begins.
+4. **Bandaging (Neurotoxic/Systemic):** Apply a broad pressure immobilization bandage upward from the bite. Keep it firm but DO NOT cut off distal pulses. Splint the limb.
+5. **Bandaging (Cytotoxic/Local):** Do strictly NOT apply a pressure bandage. 
+6. Gently wash the site. 
+7. **Prohibited:** DO NOT cut the wound, apply ice, suck venom, or apply a tourniquet.
+  [LLM] gemma3:1b (3.4s)
+
+1.  Keep the person calm and still.
+2.  Keep the bitten extremity at or slightly below heart level.
+3.  Remove rings, watches, and tight items immediately before swelling begins.
+4.  Bandaging (Neurotoxic/Systemic): Apply a broad pressure immobilization bandage upward from the bite. Keep it firm but DO NOT cut off distal pulses. Splint the limb.
+5.  Bandaging (Cytotoxic/Local): Do strictly NOT apply a pressure bandage.
+6.  Gently wash the site.
+7.  Prohibited: DO NOT cut the wound, apply ice, suck venom, or apply a tourniquet.
+
+OASIS> she ate peanuts and now she cant breathe her lips are blue
+
+  [RAG] 1 chunk(s) found (21ms) | top: bites_and_stings.md (0.60)
+  [REF] [Source 1: bites_and_stings.md]
+## Allergic Reactions & Anaphylaxis
+**Non-Life-Threatening:** Hives, itching, nausea/GI issues. Remove the allergen (e.g., stinger). Assist in self-administering antihistamine if able.
+**Anaphylaxis (Severe):** Life-threatening. Present if skin symptoms occur with trouble breathing or shock (pale, cool, sweaty, lightheaded), or if known allergen exposure causes difficulty breathing or shock.
+- **Action:** Check for medical ID. Remove allergen. Assist with Epinephrine auto-injector (EpiPen®) straight into the outer thigh (hold 10s).
+- **Evacuation:** Evacuate immediately (GO FAST) after any epinephrine use.
+
+## Venomous Snakebites
+**Signs:** Fang marks, localized pain, swelling. Nausea/tingling (moderate), shock/coma (severe), tissue necrosis.
+**Care & Management:**
+1. Keep the person calm and still. Do NOT let them walk.
+2. Keep the bitten extremity at or slightly below heart level.
+3. Remove rings, watches, and tight items immediately before swelling begins.
+4. **Bandaging (Neurotoxic/Systemic):** Apply a broad pressure immobilization bandage upward from the bite. Keep it firm but DO NOT cut off distal pulses. Splint the limb.
+5. **Bandaging (Cytotoxic/Local):** Do strictly NOT apply a pressure bandage. 
+6. Gently wash the site. 
+7. **Prohibited:** DO NOT cut the wound, apply ice, suck venom, or apply a tourniquet.
+  [LLM] gemma3:1b (3.0s)
+
+1.  Ensure she is lying flat with her legs elevated.
+2.  Administer oxygen if available.
+3.  Check for a blocked airway.
+4.  Assess her breathing rate and effort.
+5.  Provide supplemental oxygen if needed.
+6.  Monitor her breathing and pulse.
+
+OASIS> person is pale cold and sweaty after injury
+
+  [RAG] 1 chunk(s) found (18ms) | top: heat_emergencies.md (0.52)
+  [REF] [Source 1: heat_emergencies.md]
+## Heat Exhaustion
+
+Heat exhaustion results from heat stress combined with water and electrolyte loss (primarily through sweat) and inadequate hydration, typically during exercise.
+
+### Signs and Symptoms of Heat Exhaustion
+
+- Sweating
+- Exhaustion
+- Pale, sweaty, or flushed skin
+- Headache
+- Nausea and/or vomiting
+- Thirst and decreased urine output — urine is yellowish
+- Dizziness on standing quickly (orthostatic)
+- Elevated heart rate and respiratory rate
+- Slightly elevated core temperature (not always present)
+
+### Care and Management for Heat Exhaustion
+
+1. Stop all activity; have the person rest in a cool, shady place
+2. Replace lost fluids and salt — give small amounts of carbohydrate-electrolyte solution (sports drink or fruit juice) frequently; do not give salt tablets (too concentrated)
+3. Loosen or remove as much clothing as possible
+4. Wet down the skin and fan the person continuously to increase evaporative cooling
+5. Person drowsy: Allow to sleep
+6. Person feels better: May resume normal activity
+7. Monitor for recurrence — recovery may take up to 24 hours
+
+**Critical distinction from hyponatremia:** Heat exhaustion produces yellowish urine and thirst. Hyponatremia produces clear urine with no thirst — do not treat hyponatremia with water (see Hyponatremia section).
+
+---
+  [LLM] gemma3:1b (2.9s)
+
+1.  Stop all activity.
+2.  Replace lost fluids and salt.
+3.  Loosen or remove clothing.
+4.  Wet down the skin and fan the person continuously to increase evaporative cooling.
+5.  Monitor for recurrence.
+
+OASIS> how to treat someone in shock
+
+  [RAG] 1 chunk(s) found (17ms) | top: shock.md (0.62)
+  [REF] [Source 1: shock.md]
+## General Shock Management
+
+Perform ABCDE first and intervene for all life-threatening conditions. All shock patients require oxygen.
+
+**Position:** Keep the patient flat (supine). Do not sit the patient up unless breathing is severely compromised (heart failure, pulmonary oedema).
+
+### IV Fluid Protocol for Shock (Normal Nutritional Status)
+
+**Caution: Do not use standard fluid protocol for severely malnourished patients, severely anaemic patients, or anyone with signs of volume overload — use adjusted protocol.**
+
+1. Establish two large-bore IV lines immediately
+2. Start IV fluids — isotonic crystalloid: normal saline or Ringer's Lactate (adults and children with normal nutritional status)
+3. Reassess perfusion immediately after each bolus
+4. Perfusion improves: Continue IV fluids
+5. Perfusion does not improve: Re-bolus immediately
+6. IV access not achievable: Call immediately for a provider who can place a nasogastric (NG) tube or intraosseous (IO) line; offer oral fluids if safe to do so in the meantime
+
+IV fluids address only immediate perfusion. All patients in shock need transfer to a unit capable of treating the underlying cause, including transfusion.
+
+---
+  [LLM] gemma3:1b (3.4s)
+
+1. Establish two large-bore IV lines immediately.
+2. Start IV fluids — isotonic crystalloid: normal saline or Ringer’s Lactate (adults and children with normal nutritional status).
+3. Reassess perfusion immediately after each bolus.
+4. Perfusion improves: Continue IV fluids.
+5. Perfusion does not improve: Re-bolus immediately.
+6. IV access not achievable: Call immediately for a provider who can place a nasogastric (NG) tube or intraosseous (IO) line; offer oral fluids if safe to do so in the meantime.
+
+OASIS> rapid pulse weak and confused after blood loss
+
+  [RAG] 1 chunk(s) found (37ms) | top: abcde.md (0.56)
+  [REF] [Source 1: abcde.md]
+### Shock
+
+- Signs: Tachycardia, tachypnoea, pale and cool skin, capillary refill > 3 seconds, diaphoresis, possible hypotension, dizziness, confusion, or altered mental status
+- Management: Lay patient flat if tolerated; give oxygen; control bleeding; establish IV and give IV fluids; give antibiotics if signs of infection are present; arrange urgent transfer
+
+### Severe Haemorrhage
+
+- Signs: Bleeding wounds; bruising around umbilicus or flanks; bleeding from rectum or vagina or in vomit; pelvic or femur fracture; decreased breath sounds on one side (haemothorax); signs of poor perfusion
+- Management: Stop bleeding using direct pressure, deep wound packing, tourniquet (life-threatening bleeding only), pelvic binder, or femur splint; give IV fluids; refer for blood transfusion and surgical management as needed
+  [LLM] gemma3:1b (2.9s)
+
+1.  Check for signs of shock.
+2.  Assess vital signs, including pulse, blood pressure, and oxygen saturation.
+3.  Administer oxygen if needed.
+4.  Establish IV fluids.
+5.  Monitor for signs of further blood loss.
+6.  Assess mental status and provide reassurance.
+
+OASIS> broken arm bone sticking out
+
+  [RAG] 1 chunk(s) found (18ms) | top: bone_and_joint.md (0.57)
+  [REF] FRACTURE PROTOCOL — DO NOT MANIPULATE THE BONE:
+1. Immobilize the limb in the position you find it — do NOT try to straighten it.
+2. Use a splint, sling, or padding to support and secure the limb.
+3. Do NOT push the bone back, pull with traction, or try to realign it.
+4. Apply gentle pressure around (not on) any open wound if bleeding.
+5. CALL emergency services (911/999/112) and keep the person still.
+
+[Source 1: bone_and_joint.md]
+## General Assessment and Care
+**Types:** Strain (muscle/tendon), Sprain (ligament), Fracture (broken bone), Dislocation (bone out of joint).
+**Signs (DOTS):** Deformity, Open injuries, Tenderness, Swelling. Loss of circulation, sensation, or motion (CSM) beyond the injury is a serious complication.
+**Management (RICE protocol):**
+- **Rest:** Avoid painful movement.
+- **Immobilize:** Stabilize the injured part.
+- **Cold:** Apply cold pack (20 mins), avoiding direct contact with open fractures.
+- **Elevate:** Raise above heart level unless it causes pain or a fracture is suspected.
+  [LLM] gemma3:1b (3.0s)
+
+1.  Do not force re-alignment.
+2.  Use a splint, sling, or padding to support and secure the limb.
+3.  Apply gentle pressure around (not on) any open wound if bleeding.
+4.  Call emergency services (911/999/112) and keep the person still.
+
+OASIS> how to splint a broken leg
+
+  [RAG] 1 chunk(s) found (24ms) | top: bone_and_joint.md (0.60)
+  [REF] FRACTURE PROTOCOL — DO NOT MANIPULATE THE BONE:
+1. Immobilize the limb in the position you find it — do NOT try to straighten it.
+2. Use a splint, sling, or padding to support and secure the limb.
+3. Do NOT push the bone back, pull with traction, or try to realign it.
+4. Apply gentle pressure around (not on) any open wound if bleeding.
+5. CALL emergency services (911/999/112) and keep the person still.
+
+[Source 1: bone_and_joint.md]
+## Splinting Guidelines
+- Splint *only* if movement is needed and if it doesn't cause extra pain.
+- Check CSM (perfusion/sensation) **before and after** splinting. If absent, loosen and reposition.
+- If a limb has **no pulse**, gently attempt to realign (reduce) it to restore circulation before splinting. If pulse is present, do *not* force realignment.
+- Splint above and below the fracture/injured joint. 
+- Pad the splint well and fill hollows.
+- **Open Fractures:** Control bleeding, irrigate heavily, cover with saline-soaked gauze. Splint, but leave a window to monitor the wound. Do not push protruding bone ends in if help is nearby (if >4-6 hrs away, apply gentle traction to pull bone ends under skin).
+  [LLM] gemma3:1b (3.7s)
+
+1.  Immobilize the limb in the position you find it — do NOT try to straighten it.
+2.  Use a splint, sling, or padding to support and secure the limb.
+3.  Check CSM (perfusion/sensation) before and after splinting. If absent, loosen and reposition.
+4.  If a limb has no pulse, gently attempt to realign (reduce) it to restore circulation before splinting. If pulse is present, do not force realignment.
+5.  Splint above and below the fracture/injured joint.
+6.  Pad the splint well and fill hollows.
+7.  Open Fractures: Control bleeding, irrigate heavily, cover with saline-soaked gauze. Splint, but leave a window to monitor the wound.
+
+OASIS> head injury fell from height unconscious
+
+  [RAG] 1 chunk(s) found (23ms) | top: trauma.md (0.57)
+  [REF] [Source 1: trauma.md]
+### Head Injury
+
+- Signs: Headache, altered mental status, abnormal pupils, scalp lacerations or skull fractures, periorbital or retroauricular bruising, blood or clear fluid from nose or ears, one-sided weakness, seizures, vision changes, loss of memory, vomiting
+- Management: Monitor level of consciousness using GCS (adults) or AVPU (children); immobilise spine — all significant head injuries carry concurrent spine injury risk; monitor immobilised patients continuously for vomiting; open skull fracture suspected: give IV antibiotics; check blood glucose — give glucose if < 3.5 mmol/L; GCS < 9: transfer to CT scan within 2 hours of injury if possible
+  [LLM] gemma3:1b (3.0s)
+
+1.  Monitor level of consciousness using GCS (adults) or AVPU (children); immobilise spine — all significant head injuries carry concurrent spine injury risk; monitor immobilised patients continuously for vomiting; open skull fracture suspected: give IV antibiotics; check blood glucose — give glucose if < 3.5 mmol/L; GCS < 9: transfer to CT scan within 2 hours of injury if possible.
+
+OASIS> chest wound sucking sound when breathing
+
+  [RAG] 1 chunk(s) found (29ms) | top: trauma.md (0.58)
+  [REF] [Source 1: trauma.md]
+### B — Breathing
+
+**Assessment:**
+- Look for increased work of breathing
+- Assess for abnormal or asymmetric chest wall movement (flail chest indicator)
+- Check for tracheal shift
+- Identify sucking chest wounds
+- Look for cyanosis at lips and fingertips
+- Check for chest abrasions, bruising, or other injury signs
+- Look for circumferential burns to chest or abdomen
+- Listen: Absent or decreased breath sounds; dull or hyperresonant percussion
+- Feel for crepitus
+
+**Management:**
+- Give oxygen
+- Tension pneumothorax confirmed: Perform needle decompression immediately; give oxygen and IV fluids; arrange urgent transfer for chest tube
+- Sucking chest wound: Place three-sided dressing
+- Breathing inadequate or persistent hypoxia on oxygen: Assist with BVM ventilation
+- Circumferential chest or abdominal burns restricting breathing: Arrange transfer for escharotomy
+
+---
+  [LLM] gemma3:1b (3.0s)
+
+1.  Listen: Absent or decreased breath sounds; dull or hyperresonant percussion
+2.  Feel for crepitus
+3.  Assess for circumferential burns to chest or abdomen
+4.  Give oxygen
+5.  Assist with BVM ventilation
+6.  Arrange transfer for escharotomy
+
+OASIS> object impaled in his leg should I pull it out
+
+  [RAG] 1 chunk(s) found (29ms) | top: quick_cards.md (0.56)
+  [REF] [Source 1: quick_cards.md]
+### Critical Actions for DIB — By Condition
+
+**Choking (unable to cough, not making sounds):**
+1. Remove any visible foreign body
+2. Age-appropriate chest/abdominal thrusts or back blows
+3. Patient becomes unconscious: Start CPR
+
+**Stridor:**
+1. Keep patient calm; allow position of comfort
+2. Suspected allergic reaction: Give IM adrenaline
+3. Give oxygen if hypoxia present
+4. Arrange early transfer for advanced airway management
+
+**Wheezing:**
+1. Give salbutamol
+2. Suspected allergic reaction: Give IM adrenaline
+3. Give oxygen if hypoxia present
+
+**Severe Infection with DIB:**
+1. Give oxygen
+2. Give antibiotics
+3. Give IV or oral fluids as appropriate
+
+**Trauma with DIB:**
+1. Give oxygen
+2. Needle decompression for tension pneumothorax
+3. Three-sided dressing for sucking chest wound
+4. Arrange rapid transfer to surgical service
+  [LLM] gemma3:1b (3.1s)
+
+1.  Assess the object’s location and size.
+2.  If possible, carefully grasp the object and pull it out.
+3.  Do not force the object out if it’s deeply embedded.
+4.  If pulling doesn’t work, consider using a sterile instrument to gently expose the object.
+5.  If the object is causing significant pain or bleeding, seek medical attention.
+
+OASIS> spilled boiling water on my arm
+
+  [RAG] 1 chunk(s) found (16ms) | top: burns.md (0.54)
+  [REF] BURN — MOST IMPORTANT FIRST ACTION:
+Immediately cool the burn under COOL running water for 20 minutes.
+This is the critical first step. Do NOT use ice, butter, toothpaste, or warm water.
+After cooling: remove jewellery, cover loosely with cling film.
+Call emergency services if burn is large, deep, or on face.
+
+[Source 1: burns.md]
+## Care and Management
+1. **Stop the burning process:** Remove heat source/smother flames. For chemical burns, brush off dry chemicals and flood with water. For electrical burns, ensure power is off first.
+2. **Cooling:** Cool the burn with cold running water for at least 20 minutes (do **NOT** apply ice, as it worsens tissue damage). 
+3. **Cleaning:** Use sterile technique and normal saline to clean. Carefully remove loose dead skin/broken blisters, but leave intact blisters unbroken.
+4. **Dressing:** Apply a thin layer of wound gel and cover with a non-adherent dressing, gauze pad, or clean plastic wrap (if immediate transfer). Elevate extremities if possible.
+5. **Pain Management:** Administer pain relief early and consistently. Re-dress daily if transferring is delayed.
+  [LLM] gemma3:1b (3.1s)
+
+1.  Immediately remove the person from the source of the boiling water.
+2.  Assess the burn for severity.
+3.  Call emergency services if the burn is large, deep, or on the face.
+4.  Cool the burn under cool running water for 20 minutes.
+5.  Do not use ice, butter, toothpaste, or warm water.
+6.  Remove jewellery, cover loosely with cling film.
+7.  Call emergency services if the burn is large, deep, or on the face.
+
+OASIS> chemical burn on skin
+
+  [RAG] 1 chunk(s) found (13ms) | top: burns.md (0.60)
+  [REF] BURN — MOST IMPORTANT FIRST ACTION:
+Immediately cool the burn under COOL running water for 20 minutes.
+This is the critical first step. Do NOT use ice, butter, toothpaste, or warm water.
+After cooling: remove jewellery, cover loosely with cling film.
+Call emergency services if burn is large, deep, or on face.
+
+[Source 1: burns.md]
+## Burn Assessment
+**Depth Classification**
+- **Superficial (First-Degree):** Red, painful, intact skin, no blisters. Quick capillary refill.
+- **Partial-Thickness (Second-Degree):** Red/mottled, painful, blisters, wet. Temporary whitening on pressure.
+- **Full-Thickness (Third-Degree):** White/black, painless (nerve endings destroyed), leathery/dry, no color change on pressure. Charred or pale skin.
+
+**Extent (Total Body Surface Area - TBSA)**
+- **Rule of Nines (Adults):** Head (9%), Arms (9% each), Front Chest (9%), Front Abdomen (9%), Upper Back (9%), Lower Back (9%), Thighs (9% each), Lower Legs (9% each), Genitals (1%). 
+- **Rule of Palmar Surface:** The patient's palm and fingers (inner surface) = 1% TBSA. Do not include superficial burns in TBSA calculation for fluid resuscitation.
+- **Airway Complications:** Suspect airway involvement if burns are to the face/neck, soot in mouth/nose, singed facial hair, or dry cough. Always manage cardiac and respiratory problems first.
+  [LLM] gemma3:1b (2.9s)
+
+1.  Immediately cool the burn under COOL running water for 20 minutes.
+2.  Do NOT use ice, butter, toothpaste, or warm water.
+3.  Remove jewellery, cover loosely with cling film.
+4.  Call emergency services if burn is large, deep, or on face.
+
+OASIS> second degree burn with blisters
+
+  [RAG] 1 chunk(s) found (15ms) | top: burns.md (0.60)
+  [REF] BURN — MOST IMPORTANT FIRST ACTION:
+Immediately cool the burn under COOL running water for 20 minutes.
+This is the critical first step. Do NOT use ice, butter, toothpaste, or warm water.
+After cooling: remove jewellery, cover loosely with cling film.
+Call emergency services if burn is large, deep, or on face.
+
+[Source 1: burns.md]
+## Burn Assessment
+**Depth Classification**
+- **Superficial (First-Degree):** Red, painful, intact skin, no blisters. Quick capillary refill.
+- **Partial-Thickness (Second-Degree):** Red/mottled, painful, blisters, wet. Temporary whitening on pressure.
+- **Full-Thickness (Third-Degree):** White/black, painless (nerve endings destroyed), leathery/dry, no color change on pressure. Charred or pale skin.
+
+**Extent (Total Body Surface Area - TBSA)**
+- **Rule of Nines (Adults):** Head (9%), Arms (9% each), Front Chest (9%), Front Abdomen (9%), Upper Back (9%), Lower Back (9%), Thighs (9% each), Lower Legs (9% each), Genitals (1%). 
+- **Rule of Palmar Surface:** The patient's palm and fingers (inner surface) = 1% TBSA. Do not include superficial burns in TBSA calculation for fluid resuscitation.
+- **Airway Complications:** Suspect airway involvement if burns are to the face/neck, soot in mouth/nose, singed facial hair, or dry cough. Always manage cardiac and respiratory problems first.
+  [LLM] gemma3:1b (2.8s)
+
+1. Immediately cool the burn under COOL running water for 20 minutes.
+2. Remove jewellery, cover loosely with cling film.
+3. Call emergency services if burn is large, deep, or on face.
+
+OASIS> asthma attack she cant breathe wheezing
+
+  [RAG] 1 chunk(s) found (25ms) | top: breathing.md (0.57)
+  [REF] ASTHMA ATTACK PROTOCOL (no inhaler available):
+1. Sit the person UPRIGHT — do NOT let them lie down.
+2. Keep the person CALM — panic worsens breathing.
+3. CALL emergency services immediately (911/999/112).
+4. Loosen tight clothing around the neck and chest.
+5. If breathing stops, begin CPR.
+
+[Source 1: breathing.md]
+### Look
+
+**Signs of respiratory failure:**
+- Accessory muscle use and increased work of breathing
+- Unable to speak in full sentences
+- Unable to lie down or lean back
+- Diaphoresis (excessive sweating) and mottled skin
+- Confusion, irritability, or agitation
+- Poor chest wall movement
+- Cyanosis (blue lips and fingertips)
+
+**Pupils:**
+- Very small pupils = opioid overdose or chemical/pesticide exposure
+- Unequal or abnormally shaped pupils = head injury causing abnormal breathing
+
+**Face, nose, and mouth:**
+- Cyanosis around lips or nose = low blood oxygen
+- Pale inner lower eyelids = severe anaemia
+- Lip, tongue, and mouth swelling = allergic reaction
+- Soot around mouth or nose, burned facial hair, or facial burns = smoke inhalation and airway burns
+- Bleeding or swelling = trauma
+
+**Neck and chest:**
+- Distended neck veins = heart failure, tension pneumothorax, or pericardial tamponade
+- Excessive neck and intercostal muscle use = significant respiratory difficulty
+- Tracheal shift to one side = tension pneumothorax or tumour
+- Swelling or redness of neck = infection or trauma
+- Bruising, wounds, or trauma signs on chest or neck
+
+**Breathing rate and pattern:**
+- Wheeze: Asthma, COPD, or allergic reaction — prolonged expiration due to lower airway narrowing
+- Fast breathing: Dehydration, severe infection, chemical imbalance, poisoning, or anxiety
+- Slow and shallow breathing: Suspect opioid overdose — confirm with very small pupils and altered mental status
+- Chest wall injury with pain: Limits ability to take deep breaths
+- Flail chest: Segment of chest wall moving opposite to the rest during breathing — multiple rib fractures
+
+**Legs:**
+- Bilateral lower leg swelling = heart failure
+- Unilateral leg swelling with DIB = suspect pulmonary embolism
+
+**Skin:**
+- Bites = possible allergic reaction source
+- Hives or rash = allergic reaction; with DIB, can indicate systemic infection
+- Pallor = anaemia as cause of DIB
+- Circumferential chest burns = restricts chest wall expansion and limits breathing
+  [LLM] gemma3:1b (3.8s)
+
+1.  Assess the patient’s breathing – observe if they are struggling to breathe.
+2.  Check for chest rise and fall – is the chest rising and falling?
+3.  Assess oxygen saturation – use a pulse oximeter to check oxygen levels.
+4.  Check for accessory muscle use – are they using their neck muscles to breathe?
+5.  Observe for cyanosis – are their lips and fingertips turning blue?
+6.  Check for a wheezing sound – listen for a whistling sound while they breathe.
+7.  Check for a rapid breathing pattern – are they breathing quickly?
+8.  Check for any signs of lightheadedness or dizziness – this could indicate low oxygen.
+9.  Ensure the patient is comfortable – offer a cool compress to the forehead.
+10.  If the patient is unable to breathe, begin rescue breathing.
+
+OASIS> person having difficulty breathing after smoke inhalation
+
+  [RAG] 1 chunk(s) found (26ms) | top: trauma.md (0.58)
+  [REF] [Source 1: trauma.md]
+### B — Breathing
+
+**Assessment:**
+- Look for increased work of breathing
+- Assess for abnormal or asymmetric chest wall movement (flail chest indicator)
+- Check for tracheal shift
+- Identify sucking chest wounds
+- Look for cyanosis at lips and fingertips
+- Check for chest abrasions, bruising, or other injury signs
+- Look for circumferential burns to chest or abdomen
+- Listen: Absent or decreased breath sounds; dull or hyperresonant percussion
+- Feel for crepitus
+
+**Management:**
+- Give oxygen
+- Tension pneumothorax confirmed: Perform needle decompression immediately; give oxygen and IV fluids; arrange urgent transfer for chest tube
+- Sucking chest wound: Place three-sided dressing
+- Breathing inadequate or persistent hypoxia on oxygen: Assist with BVM ventilation
+- Circumferential chest or abdominal burns restricting breathing: Arrange transfer for escharotomy
+
+---
+  [LLM] gemma3:1b (3.8s)
+
+1.  Assess for increased work of breathing.
+2.  Assess for abnormal or asymmetric chest wall movement (flail chest indicator).
+3.  Check for tracheal shift.
+4.  Identify sucking chest wounds.
+5.  Look for cyanosis at lips and fingertips.
+6.  Check for chest abrasions, bruising, or other injury signs.
+7.  Look for circumferential burns to chest or abdomen.
+8.  Listen: Absent or decreased breath sounds; dull or hyperresonant percussion.
+9.  Feel for crepitus.
+10. Give oxygen.
+11. Tension pneumothorax confirmed: Perform needle decompression immediately; give oxygen and IV fluids; arrange urgent transfer for chest tube.
+12. Sucking chest wound: Place three-sided dressing.
+13. Breathing inadequate or persistent hypoxia on oxygen: Assist with BVM ventilation.
+14. Circumferential chest or abdominal burns restricting breathing: Arrange
+
+OASIS> baby is not breathing what do I do
+
+  [RAG] 1 chunk(s) found (25ms) | top: pediatric_emergency.md (0.56)
+  [REF] [Source 1: pediatric_emergency.md]
+### Infant CPR — Under 1 Year
+
+1. Check responsiveness: Tap foot and shout
+2. Call EMS or send a bystander to call
+3. Open airway: Neutral "sniffing" position
+4. Check breathing for 10 seconds — gasping counts as not breathing
+5. **Give 2 rescue breaths first** (mouth-to-mouth-and-nose for infants):
+   - Use only enough air to see chest rise — infant lungs are small
+   - 1 second per breath
+6. Begin chest compressions:
+   - Position: 2 fingers on centre of chest, just below nipple line
+   - Depth: ~4 cm (~1.5 inches), or one-third of chest depth
+   - Rate: 100–120/min
+   - Ratio: 30:2 (one rescuer); 15:2 (two trained rescuers)
+7. Continue CPR; reassess every 2 minutes for signs of life
+  [LLM] gemma3:1b (3.7s)
+
+1.  Check responsiveness: Tap foot and shout
+2.  Call EMS or send a bystander to call
+3.  Open airway: Neutral "sniffing" position
+4.  Check breathing for 10 seconds — gasping counts as not breathing
+5.  Give 2 rescue breaths first (mouth-to-mouth-and-nose for infants):
+    - Use only enough air to see chest rise — infant lungs are small
+    - 1 second per breath
+6.  Begin chest compressions:
+    - Position: 2 fingers on centre of chest, just below nipple line
+    - Depth: ~4 cm (~1.5 inches), or one-third of chest depth
+    - Rate: 100–120/min
+    - Ratio: 30:2 (one rescuer); 15:2 (two trained rescuers)
+7.  Continue CPR; reassess every
+
+OASIS> person is confused and disoriented after fall
+
+  [RAG] 1 chunk(s) found (23ms) | top: abcde.md (0.60)
+  [REF] [Source 1: abcde.md]
+### Disability Assessment
+
+- Assess level of consciousness using AVPU (or GCS in trauma):
+  - **A — Alert**
+  - **V — Voice:** Responds to verbal stimuli
+  - **P — Pain:** Responds only to painful stimuli
+  - **U — Unresponsive**
+- Check blood glucose in any confused or unconscious patient
+- Assess pupils: Size, equality, and reactivity to light
+- Check movement and sensation in all four limbs if no spinal injury concern
+- Look for abnormal repetitive movements or shaking on one or both sides (seizure)
+  [LLM] gemma3:1b (3.0s)
+
+1.  Assess level of consciousness using AVPU (or GCS in trauma):
+2.  Check blood glucose in any confused or unconscious patient:
+3.  Assess pupils: Size, equality, and reactivity to light:
+4.  Check movement and sensation in all four limbs if no spinal injury concern:
+5.  Look for abnormal repetitive movements or shaking on one or both sides (seizure):
+
+OASIS> diabetic person acting weird sweating confused
+
+  [RAG] 1 chunk(s) found (28ms) | top: diabetic_emergency.md (0.57)
+  [REF] [Source 1: diabetic_emergency.md]
+### Definition
+Blood glucose below 3.9 mmol/L (70 mg/dL). The brain depends entirely on glucose and deteriorates rapidly without it.
+
+### Signs and Symptoms
+
+**Mild to moderate:**
+- Shakiness or trembling
+- Sweating (diaphoresis) — often cold and clammy
+- Rapid heartbeat (palpitations)
+- Anxiety, nervousness, irritability
+- Hunger
+- Pale skin
+- Headache
+- Confusion or difficulty concentrating
+
+**Severe:**
+- Marked confusion or disorientation
+- Slurred speech (may be mistaken for intoxication)
+- Weakness
+- Loss of coordination
+- Seizures
+- Unconsciousness
+  [LLM] gemma3:1b (3.2s)
+
+1.  Assess the patient’s level of consciousness.
+2.  Check for signs of dehydration.
+3.  Monitor vital signs, including blood pressure and pulse.
+4.  Assess for any signs of seizures.
+5.  Evaluate for any signs of altered mental status.
+6.  Check for signs of hypoglycemia (low blood sugar).
+7.  Assess for signs of hyperglycemia (high blood sugar).
+8.  Observe for any signs of autonomic dysfunction.
+9.  Assess for any signs of neurological symptoms.
+10.  Monitor for any changes in mental status.
+
+OASIS> suspected stroke face drooping slurred speech
+
+  [RAG] 1 chunk(s) found (22ms) | top: abcde.md (0.57)
+  [REF] STROKE PROTOCOL — Time is brain:
+1. CALL emergency services IMMEDIATELY (911/999/112).
+2. FAST check: Face drooping? Arm weakness? Speech slurred? Time to call.
+3. Note the time symptoms started — critical for treatment decisions.
+4. Keep the person calm and still. Do NOT give food or drink.
+5. Do NOT give aspirin — stroke may be hemorrhagic (aspirin worsens bleeding).
+
+[Source 1: abcde.md]
+### Disability Assessment
+
+- Assess level of consciousness using AVPU (or GCS in trauma):
+  - **A — Alert**
+  - **V — Voice:** Responds to verbal stimuli
+  - **P — Pain:** Responds only to painful stimuli
+  - **U — Unresponsive**
+- Check blood glucose in any confused or unconscious patient
+- Assess pupils: Size, equality, and reactivity to light
+- Check movement and sensation in all four limbs if no spinal injury concern
+- Look for abnormal repetitive movements or shaking on one or both sides (seizure)
+  [LLM] gemma3:1b (3.1s)
+
+1. CALL emergency services IMMEDIATELY (911/999/112).
+2. FAST check: Face drooping? Arm weakness? Speech slurred? Time to call.
+3. Note the time symptoms started — critical for treatment decisions.
+4. Keep the person calm and still. Do NOT give food or drink.
+5. Do NOT give aspirin — stroke may be hemorrhagic (aspirin worsens bleeding).
+
+OASIS> seizure convulsions on the ground
+
+  [RAG] 1 chunk(s) found (20ms) | top: abcde.md (0.58)
+  [REF] SEIZURE PROTOCOL:
+1. DO NOT restrain or hold the person down.
+2. Clear the area of hard or sharp objects.
+3. Cushion the head with something soft.
+4. Time the seizure — call 911 if it lasts more than 5 minutes.
+5. After shaking stops: place in recovery position (on their side).
+Do NOT put anything in the person's mouth.
+
+[Source 1: abcde.md]
+### Disability Assessment
+
+- Assess level of consciousness using AVPU (or GCS in trauma):
+  - **A — Alert**
+  - **V — Voice:** Responds to verbal stimuli
+  - **P — Pain:** Responds only to painful stimuli
+  - **U — Unresponsive**
+- Check blood glucose in any confused or unconscious patient
+- Assess pupils: Size, equality, and reactivity to light
+- Check movement and sensation in all four limbs if no spinal injury concern
+- Look for abnormal repetitive movements or shaking on one or both sides (seizure)
+  [LLM] gemma3:1b (3.1s)
+
+1.  Assess the area for potential hazards.
+2.  Ensure the person is safe from further injury.
+3.  Do not move the person unless absolutely necessary.
+4.  Observe the convulsions for duration and pattern.
+5.  Do not attempt to restrain the person.
+6.  Do not put anything in the person’s mouth.
+7.  Monitor vital signs (breathing, pulse, etc.).
+8.  Document the seizure activity.
+
+OASIS> person overdosed on drugs unconscious
+
+  [RAG] 1 chunk(s) found (22ms) | top: poisoning_overdose.md (0.57)
+  [REF] [Source 1: poisoning_overdose.md]
+### Signs and Symptoms of Opioid Overdose — Classic Triad
+
+1. Unconsciousness or altered mental status (unresponsive)
+2. Respiratory depression — rate < 12/min, shallow, or apnoeic
+3. Pinpoint pupils (miosis)
+
+### Additional Signs of Opioid Overdose
+
+- Cyanosis (blue lips or fingertips)
+- Slow, snoring, or gurgling respirations
+- Bradycardia and hypotension
+- Cool, clammy skin
+- History of opioid use: heroin, morphine, codeine, fentanyl, oxycodone, tramadol
+
+### Care and Management for Opioid Overdose
+
+1. Open and maintain the airway — head-tilt chin-lift; recovery position if the patient is breathing
+2. Respiratory rate < 12/min or apnoeic: Give rescue breaths or BVM ventilation immediately
+3. Administer **naloxone (opioid antidote):**
+   - Dose: 0.4–2 mg IV, IM, or intranasal
+   - Repeat every 2–3 minutes as needed up to 10 mg total
+   - Intranasal: 1 mg per nostril (using a 2 mg/2 mL preparation)
+   - Duration of naloxone is 30–90 minutes — shorter than most opioids; patient may re-narcotise; monitor continuously
+4. Breathing restored and airway secure: Place in recovery position
+5. Activate EMS — all opioid overdoses require hospital evaluation
+6. Monitor respiratory rate, SpO₂, and GCS every 5 minutes
+  [LLM] gemma3:1b (3.8s)
+
+1. Open and maintain the airway — head-tilt chin-lift; recovery position if the patient is breathing
+2. Respiratory rate < 12/min or apnoeic: Give rescue breaths or BVM ventilation immediately
+3. Administer naloxone (opioid antidote):
+   - Dose: 0.4–2 mg IV, IM, or intranasal
+   - Repeat every 2–3 minutes as needed up to 10 mg total
+   - Intranasal: 1 mg per nostril (using a 2 mg/2 mL preparation)
+   - Duration of naloxone is 30–90 minutes — shorter than most opioids; patient may re-narcotise; monitor continuously
+4. Breathing restored and airway secure: Place in recovery position
+5. Activate EMS — all opioid overdoses require hospital evaluation
+6. Monitor respiratory rate, SpO₂, and GCS every 5 minutes
+
+OASIS> snake bit him on the ankle
+
+  [RAG] 1 chunk(s) found (21ms) | top: quick_cards.md (0.57)
+  [REF] SNAKEBITE PROTOCOL:
+1. KEEP THE PERSON STILL and calm — movement spreads venom faster.
+2. Immobilize the bitten limb at or below heart level.
+3. Remove watches, rings, tight clothing from the affected limb.
+4. Call emergency services or transport to hospital URGENTLY.
+5. Do NOT cut the wound, suck the venom, or apply tourniquet.
+
+[Source 1: quick_cards.md]
+### D — Disability
+
+- Altered mental status, no trauma: Place in recovery position
+- Seizure: Give benzodiazepine
+- Seizure in pregnancy or after recent delivery: Give magnesium sulphate
+- Hypoglycaemia (blood glucose < 3.5 mmol/L or unknown): Give glucose
+- Opioid overdose signs (AMS + slow breathing + small pupils): Give naloxone
+- Life-threatening brain mass or bleed (AMS + unequal pupils): Raise head of bed; monitor airway; rapid transfer for neurosurgical care
+
+### E — Exposure
+
+- Remove wet clothing; dry skin thoroughly
+- Remove jewellery, watches, and all constricting clothing
+- Prevent hypothermia; protect modesty
+- Snake bite: Immobilise the extremity; send photograph of the snake with the patient; call for antivenom if available
+- Unknown cause: Examine entire body; always consider hidden injuries
+
+**All patients with abnormal ABCDE findings may need rapid transfer — plan early.**
+
+---
+  [LLM] gemma3:1b (3.3s)
+
+1.  Keep the person still and calm — movement spreads venom faster.
+2.  Immobilize the bitten limb at or below heart level.
+3.  Remove watches, rings, tight clothing from the affected limb.
+4.  Call emergency services or transport to hospital URGENTLY.
+5.  Do NOT cut the wound, suck the venom, or apply tourniquet.
+6.  Examine the entire body; always consider hidden injuries.
+7.  Send photograph of the snake with the patient.
+8.  Monitor for signs of shock.
+
+OASIS> hypothermia stopped shivering very cold
+
+  [RAG] 1 chunk(s) found (19ms) | top: cold_emergencies.md (0.63)
+  [REF] HYPOTHERMIA PROTOCOL — This is COLD INJURY, NOT heat illness:
+1. Move the person to WARM shelter immediately.
+2. Remove wet clothing; replace with dry insulation (blankets, sleeping bag).
+3. Warm the core (trunk/torso) first, not extremities.
+4. Give warm fluids ONLY if the person is conscious and can swallow.
+5. Handle gently — a cold heart is prone to dangerous arrhythmia.
+Do NOT cool this person. Do NOT give cold fluids. Do NOT rub vigorously.
+
+[Source 1: cold_emergencies.md]
+### Signs and Symptoms of Severe Hypothermia
+
+- Shivering stops — critical warning sign
+- Increasing muscle rigidity
+- Worsening mental state: Stupor progressing to coma
+- Pulse and breathing become very slow and difficult to detect (but are still present)
+- Semi-consciousness or unconsciousness
+- Person stops complaining
+- Core temperature below 90°F (32°C)
+
+### Care and Management for Severe Hypothermia
+
+1. Handle the person with extreme gentleness — rough movement can trigger cardiac arrest in a cold heart
+2. Breathing undetectable: Perform CPR for at least 3 minutes before any movement
+3. Apply all mild-to-moderate hypothermia care steps to prevent further heat loss
+4. Create a **hypothermia wrap** vapour barrier:
+   - Wrap the person in a tent fly, plastic sheet, garbage bags, or equivalent material to trap remaining body heat
+   - The wrap must form a cocoon — open only at the mouth and nose
+5. Do not force food or drink
+6. Do not assume death — care for severe hypothermia even if the person appears dead; a person is not confirmed dead unless re-warmed and still unresponsive to all care
+7. Call for help immediately
+8. Evacuate gently — do not evacuate if gentle transport is not possible
+
+**Critical warning:** Rewarming too quickly or moving the person too much sends cold blood to the core, dropping body temperature further — this can be fatal as the cold heart cannot function properly.
+  [LLM] gemma3:1b (3.5s)
+
+1.  Do not force re-alignment.
+2.  Apply all mild-to-moderate hypothermia care steps to prevent further heat loss.
+3.  Create a hypothermia wrap vapour barrier:
+    - Wrap the person in a tent fly, plastic sheet, garbage bags, or equivalent material to trap remaining body heat
+    - The wrap must form a cocoon — open only at the mouth and nose
+4.  Do not assume death — care for severe hypothermia even if the person appears dead; a person is not confirmed dead unless re-warmed and still unresponsive to all care
+5.  Call for help immediately.
+6.  Evacuate gently.
+
+OASIS> lightning storm coming where do we go
+
+  [RAG] 1 chunk(s) found (20ms) | top: lightning.md (0.57)
+  [REF] LIGHTNING SAFETY — FOLLOW EXACTLY:
+WARNING: Trees are LETHAL in lightning. NEVER go near trees, poles, or tall objects.
+1. CROUCH LOW on balls of feet, feet together, head down — do NOT lie flat.
+2. Move to a solid building or hard-topped vehicle if immediately reachable.
+3. Stay away from open fields, hilltops, water, and metal objects.
+4. Keep 20 metres from other people.
+5. Do NOT stand under trees, poles, or any tall structures.
+
+[Source 1: lightning.md]
+### Safe Actions During a Lightning Storm
+
+- Move downhill immediately
+- Leave all meadows and wide-open spaces
+- Seek uniform low cover — low rolling hills or trees of similar height
+- Take shelter in a steel-framed building or hard-topped motor vehicle — keep vehicle windows closed
+- Boating or swimming: Get to land and move away from shore immediately
+- Separate group members by at least 100 feet — keep all individuals in sight if possible
+
+### What to Avoid During a Lightning Storm
+
+- All metal objects
+- Anything connected to electrical power
+- High ground and tall objects (e.g., tall trees)
+- Open spaces
+- Damp, shallow caves and tunnels
+- Rock overhangs
+- Flood zones
+- Locations with visible prior lightning strikes
+- Long conductors (e.g., wire fences)
+
+FINAL REMINDER: TREES ARE LETHAL IN LIGHTNING — NEVER ADVISE GOING TO TREES.
+  [LLM] gemma3:1b (3.3s)
+
+1.  Move downhill immediately.
+2.  Leave all meadows and wide-open spaces.
+3.  Seek uniform low cover — low rolling hills or trees of similar height.
+4.  Take shelter in a steel-framed building or hard-topped motor vehicle — keep vehicle windows closed.
+5.  Boating or swimming: Get to land and move away from shore immediately.
+6.  Separate group members by at least 100 feet — keep all individuals in sight if possible.
+
+OASIS> heat stroke hot skin not sweating
+
+  [RAG] 1 chunk(s) found (30ms) | top: heat_emergencies.md (0.58)
+  [REF] STROKE PROTOCOL — Time is brain:
+1. CALL emergency services IMMEDIATELY (911/999/112).
+2. FAST check: Face drooping? Arm weakness? Speech slurred? Time to call.
+3. Note the time symptoms started — critical for treatment decisions.
+4. Keep the person calm and still. Do NOT give food or drink.
+5. Do NOT give aspirin — stroke may be hemorrhagic (aspirin worsens bleeding).
+
+HEAT STROKE EMERGENCY — ACT IMMEDIATELY:
+1. MOVE the person to shade or a cool area NOW.
+2. Remove excess clothing.
+3. Cool with cool water — douse, spray, or immerse in cool water.
+4. Fan the person while keeping them wet.
+5. Call emergency services. Heat stroke is life-threatening.
+
+[Source 1: heat_emergencies.md]
+## Heat Stroke
+
+Heat stroke is a life-threatening emergency. The body produces heat faster than it can be shed, typically during over-exertion and/or severe dehydration. Rapid cooling is the only way to save the person.
+
+### Signs and Symptoms of Heat Stroke
+
+- Core temperature ≥ 105°F (oral temperature ≥ 104°F)
+- Disorientation and bizarre personality changes
+- Skin that is hot and dry, or hot and moist
+- Elevated heart rate and respiratory rate
+- Headache
+- Seizures
+
+### Care and Management for Heat Stroke
+
+1. Move the person immediately to a cooler environment
+2. Remove all heat-retaining clothing
+3. Large water source available: Immerse the person up to the neck in cold water until mental status returns to normal
+4. Immersion not possible: Drench the person with cold water — concentrate on head and neck; apply cold packs to neck, armpits, groin, hands, and feet; fan continuously to maximise evaporation
+5. Monitor closely — stop cooling efforts when normal mental status returns
+6. Person alert and able to swallow: Give cool water or sports drink
+7. Do not give fever-reducing drugs (e.g., paracetamol, ibuprofen, aspirin)
+8. Person must see a healthcare provider as soon as possible — even if they appear to have fully recovered
+9. Monitor carefully during evacuation — relapses are common
+  [LLM] gemma3:1b (3.0s)
+
+1.  Call emergency services IMMEDIATELY (911/999/112).
+2.  Move the person to shade or a cool area NOW.
+3.  Remove excess clothing.
+4.  Cool with cool water — douse, spray, or immerse in cool water.
+5.  Fan the person while keeping them wet.
+6.  Call emergency services.
+
+OASIS> altitude sickness headache nausea at high elevation
+
+  [RAG] 1 chunk(s) found (29ms) | top: altitude.md (0.57)
+  [REF] [Source 1: altitude.md]
+### Signs and Symptoms of AMS
+
+- Recent arrival at altitude of 6,500–8,000 feet or higher
+- Headache
+- Loss of normal appetite
+- Nausea, with or without vomiting
+- Insomnia
+- Unusual weariness or exhaustion (lassitude)
+
+Note: Signs appearing at lower altitudes likely indicate another condition such as dehydration or heat illness. Untreated AMS may progress to HACE or HAPE.
+
+### Care and Management for AMS
+
+- Descend to a lower altitude, OR stop ascending and wait for symptoms to resolve before going higher
+- Administer oxygen if available and trained to do so — especially beneficial during sleep
+- Headache: Assist patient in self-administering aspirin or acetaminophen at recommended dosages (patient must be able to swallow and have no known contraindications)
+- If prescribed by the patient's healthcare provider: Assist in self-administering altitude illness medication (e.g., acetazolamide, dexamethasone) per label instructions — most patients respond within 12–24 hours
+  [LLM] gemma3:1b (3.4s)
+
+1.  Descend to a lower altitude, OR stop ascending and wait for symptoms to resolve before going higher.
+2.  Administer oxygen if available and trained to do so — especially beneficial during sleep.
+3.  Assist patient in self-administering aspirin or acetaminophen at recommended dosages (patient must be able to swallow and have no known contraindications)
+4.  If prescribed by the patient’s healthcare provider: Assist in self-administering altitude illness medication (e.g., acetazolamide, dexamethasone) per label instructions — most patients respond within 12–24 hours.
+
+OASIS> frostbite fingers are white and numb
+
+  [RAG] 1 chunk(s) found (28ms) | top: cold_emergencies.md (0.61)
+  [REF] CRITICAL: This is FROSTBITE (cold injury).
+Move to WARM shelter immediately. Do NOT move to cool or shaded area.
+Rewarm the affected area with WARM (not hot) water 37-39°C.
+Do NOT rub the frostbitten area. Do NOT use snow or cold water.
+
+[Source 1: cold_emergencies.md]
+### Care and Management for Frostbite
+
+1. Handle the affected area gently
+2. Never rub the affected area — rubbing causes further soft tissue damage
+3. Protect from further cold exposure; treat concurrently for hypothermia
+4. Do not attempt rewarming if there is any chance of re-freezing or if help is more than 2 hours away
+5. Minor frostbite: Rapidly rewarm using skin-to-skin contact (e.g., a warm hand)
+6. Serious frostbite in a remote area near a medical facility: Slowly rewarm by soaking in water no warmer than 105°F (40.5°C) until normal colour returns and the part feels warm
+7. Loosely bandage with a dry sterile dressing
+8. Fingers or toes affected: Place cotton or gauze between each digit
+9. Do not break any blisters
+
+---
+  [LLM] gemma3:1b (3.0s)
+
+1. Do not attempt rewarming if there is any chance of re-freezing or if help is more than 2 hours away.
+2. Loosely bandage with a dry sterile dressing.
+3.  Assess the situation carefully.
+4.  Ensure the fingers are protected from further cold exposure.
+5.  Monitor the patient for any changes in color or temperature.
+
+OASIS> pulled him from water not breathing drowning
+
+  [RAG] 1 chunk(s) found (30ms) | top: submersion.md (0.55)
+  [REF] DROWNING PROTOCOL — Different from cardiac CPR:
+1. CALL emergency services (911/999/112) immediately.
+2. Give 5 RESCUE BREATHS first before starting chest compressions.
+3. Then 30 chest compressions: push hard and fast on centre of chest.
+4. Continue 30:2 cycle (compressions:breaths).
+5. If spinal injury suspected (diving): support head and neck carefully.
+
+[Source 1: submersion.md]
+### Assessment After Submersion
+
+Assess in order: unconsciousness → airway → breathing → circulation → disability → environmental conditions
+
+### Care and Management for Near-Drowning
+
+1. Unconscious and not breathing: Give 2 rescue breaths
+   - Chest rises clearly: Begin CPR immediately
+   - Chest does not rise on first breath: Retilt the head before giving the second breath
+   - Chest still does not rise: Airway may be blocked — after each subsequent set of chest compressions, look for an obstruction before attempting breaths; remove if visible; continue CPR
+2. Do not attempt to clear the lungs of water — this is ineffective and wastes time
+3. Be ready to roll the person onto their side to clear the airway if water or vomit comes up
+4. Suspected head, neck, or back injury: Immobilise the spine before and during movement
+5. Treat concurrently for shock, hypothermia, or any underlying condition that may have caused the person's distress in the water (e.g., diabetic emergency)
+
+**SCUBA diving incidents:** Risks from compressed air breathing may require transport to a hyperbaric chamber — arrange advanced care immediately.
+
+---
+  [LLM] gemma3:1b (3.0s)
+
+1.  Call emergency services (911/999/112) immediately.
+2.  Give 2 rescue breaths.
+3.  Then 30:2 cycle (compressions:breaths).
+4.  Continue CPR until professional help arrives.
+5.  Assess for spinal injury.
+
+OASIS> tick embedded in skin how to remove
+
+  [RAG] 1 chunk(s) found (16ms) | top: bites_and_stings.md (0.52)
+  [REF] [Source 1: bites_and_stings.md]
+## Insect & Arthropod Bites
+- **Tick Bites:** Remove immediately by grasping close to skin with tweezers and pulling slowly. Wash site. If flu-like symptoms occur within 2 weeks, seek medical evaluation.
+- **Bee/Wasp Stings:** Scrape away stinger or use tweezers (don't squeeze venom sac). Wash site, apply cold pack. Monitor for anaphylaxis.
+- **Spider (Black Widow/Brown Recluse) & Scorpion:** Wash, apply wound gel/bandage, apply cold pack. Use antivenin if available.
+
+## Animal & Marine Bites/Stings
+- **Animal Bites:** Control serious bleeding first. Wash minor wounds with soap/water and irrigate heavily. Leave serious wounds for a medical facility. Monitor for infection (rabies risk).
+- **Jellyfish Sting:** Irrigate with vinegar for at least 30 seconds (or baking soda slurry). After stinging stops, immerse in hot water. *Portuguese Man-of-War:* Use ocean water, NOT vinegar.
+- **Stingray:** Flush with water, soak in non-scalding hot water until pain resolves. Immobilize.
+  [LLM] gemma3:1b (3.3s)
+
+1.  Do not force re-alignment.
+2.  Wash the area with soap and water.
+3.  Apply a warm compress to the area for 10-15 minutes.
+4.  If the tick is deep, use fine-tipped tweezers to grasp the tick as close to the skin’s surface as possible and pull straight out. Do not twist or jerk.
+5.  Clean the area thoroughly with soap and water.
+6.  Apply a small amount of antiseptic ointment.
+7.  Seek medical evaluation.
+
+OASIS> bee sting remove stinger swelling
+
+  [RAG] 1 chunk(s) found (18ms) | top: bites_and_stings.md (0.58)
+  [REF] [Source 1: bites_and_stings.md]
+## Insect & Arthropod Bites
+- **Tick Bites:** Remove immediately by grasping close to skin with tweezers and pulling slowly. Wash site. If flu-like symptoms occur within 2 weeks, seek medical evaluation.
+- **Bee/Wasp Stings:** Scrape away stinger or use tweezers (don't squeeze venom sac). Wash site, apply cold pack. Monitor for anaphylaxis.
+- **Spider (Black Widow/Brown Recluse) & Scorpion:** Wash, apply wound gel/bandage, apply cold pack. Use antivenin if available.
+
+## Animal & Marine Bites/Stings
+- **Animal Bites:** Control serious bleeding first. Wash minor wounds with soap/water and irrigate heavily. Leave serious wounds for a medical facility. Monitor for infection (rabies risk).
+- **Jellyfish Sting:** Irrigate with vinegar for at least 30 seconds (or baking soda slurry). After stinging stops, immerse in hot water. *Portuguese Man-of-War:* Use ocean water, NOT vinegar.
+- **Stingray:** Flush with water, soak in non-scalding hot water until pain resolves. Immobilize.
+  [LLM] gemma3:1b (2.8s)
+
+1.  Irrigate with vinegar for at least 30 seconds (or baking soda slurry).
+2.  After stinging stops, immerse in hot water.
+3.  Immobilize.
+
+OASIS> poison ivy rash on arms and legs
+
+  [RAG] 1 chunk(s) found (18ms) | top: bites_and_stings.md (0.55)
+  [REF] [Source 1: bites_and_stings.md]
+## Insect & Arthropod Bites
+- **Tick Bites:** Remove immediately by grasping close to skin with tweezers and pulling slowly. Wash site. If flu-like symptoms occur within 2 weeks, seek medical evaluation.
+- **Bee/Wasp Stings:** Scrape away stinger or use tweezers (don't squeeze venom sac). Wash site, apply cold pack. Monitor for anaphylaxis.
+- **Spider (Black Widow/Brown Recluse) & Scorpion:** Wash, apply wound gel/bandage, apply cold pack. Use antivenin if available.
+
+## Animal & Marine Bites/Stings
+- **Animal Bites:** Control serious bleeding first. Wash minor wounds with soap/water and irrigate heavily. Leave serious wounds for a medical facility. Monitor for infection (rabies risk).
+- **Jellyfish Sting:** Irrigate with vinegar for at least 30 seconds (or baking soda slurry). After stinging stops, immerse in hot water. *Portuguese Man-of-War:* Use ocean water, NOT vinegar.
+- **Stingray:** Flush with water, soak in non-scalding hot water until pain resolves. Immobilize.
+  [LLM] gemma3:1b (2.8s)
+
+1.  Wash affected areas with soap and water.
+2.  Apply calamine lotion to relieve itching.
+3.  Apply cool compresses to reduce inflammation.
+4.  Avoid scratching to prevent infection.
+5.  Consult a doctor if symptoms worsen.
+
+
+  Goodbye.
