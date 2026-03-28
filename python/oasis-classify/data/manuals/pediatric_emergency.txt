@@ -1,7 +1,7 @@
 Category: Pediatric Emergency
 
 STEPS:
-1. Call emergency services (911/999/112) immediately.
+1. Call emergency services (911) immediately.
 2. Infant CPR (under 1 year): 2 fingers on center of chest, compress 4 cm deep at 100-120 per minute.
 3. Infant rescue breaths: tilt head only slightly, cover both mouth and nose, give small gentle puffs.
 4. Give 30 compressions then 2 breaths — same ratio as adult CPR.

@@ -1,7 +1,7 @@
 Category: Hypothermia
 
 STEPS:
-1. Call emergency services (911/999/112) if the person is severely hypothermic (rigid, unresponsive, or not breathing).
+1. Call emergency services (911) if the person is severely hypothermic (rigid, unresponsive, or not breathing).
 2. Move the person to a warm, dry location out of wind and cold immediately.
 3. Remove any wet clothing carefully and replace with dry insulating layers.
 4. Cover the person including the head with blankets to retain heat.
