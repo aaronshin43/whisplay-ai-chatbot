@@ -4,7 +4,6 @@ dist
 package-lock.json
 
 # data runtime directories
-data/rag_index/
 data/chat_history/
 data/recordings/
 data/tts/

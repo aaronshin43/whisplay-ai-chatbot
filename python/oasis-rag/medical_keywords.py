@@ -113,6 +113,10 @@ _TAXONOMY: dict[str, list[str]] = {
         "normal saline", "Ringer's lactate", "intraosseous", "IO access",
         "pale cold sweaty", "weak pulse", "rapid pulse", "low blood pressure",
         "in shock", "going into shock", "signs of shock",
+        # ── Trauma-shock colloquial triggers ──────────────────────────────
+        "pale", "cold and sweaty", "pale and cold",     # individual shock signs
+        "after injury", "after the injury",             # injury context → shock, not heat
+        "pale skin", "cold skin", "clammy",
     ],
 
     # ── 5. Burns ──────────────────────────────────────────────────────────
@@ -213,7 +217,9 @@ _TAXONOMY: dict[str, list[str]] = {
         # ── Colloquial user language ──────────────────────────────────────
         "throat swelling",                              # word-order fix: "throat swelling" ≠ "swelling throat"
         "face swelling", "face swollen",               # angioedema descriptors
-        "cant breathe", "can't breathe",               # anaphylaxis presentation
+        # "cant breathe" / "can't breathe" intentionally excluded:
+        # those map to airway_management, preventing asthma queries from
+        # expanding to allergy terms and routing to bites_and_stings.md.
         "throat closing", "closing throat",            # airway compromise
     ],
 
@@ -335,6 +341,10 @@ _COLLOQUIAL_TERMS: frozenset[str] = frozenset({
     # fractures_ortho mechanism triggers (not in medical doc text)
     "fell from height", "fell from", "fall from height", "fell off",
     "hit head", "head trauma",
+    # shock_management trauma-context triggers
+    "pale", "cold and sweaty", "pale and cold",
+    "after injury", "after the injury",
+    "pale skin", "cold skin", "clammy",
     # poisoning_tox colloquial
     "snake bit", "bit by snake", "bitten by snake", "bitten",
     # respiratory / penetrating chest trauma colloquial

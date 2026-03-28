@@ -37,7 +37,7 @@ tags: [electric_shock, electrocution, burns, cardiac_arrest, safety]
 2. Check if the person is conscious and breathing.
 3. Do not move the person unnecessarily — electrical injuries may involve spinal cord damage.
 
-### If Not Breathing — Begin CPR
+### If Not Breathing — Begin Resuscitation
 
 4. If the person is not breathing, begin CPR immediately — follow standard CPR protocol.
 5. Use an AED (automated external defibrillator) if available — electric shock frequently causes cardiac arrhythmia or cardiac arrest.

@@ -128,10 +128,16 @@ _EYE_CHEMICAL_SIGNALS = [
 ]
 
 _IMPALED_OBJECT_SIGNALS = [
-    "impaled", "object stuck in", "something stuck in",
-    "knife in", "rod in", "stick in his", "stick in her",
+    "impaled",
+    "object stuck in",          # object stuck in leg/arm — NOT "something stuck in throat"
+    "knife in", "rod in",
+    "stick in his", "stick in her",
     "should i pull", "pull it out", "pull the object",
-    "remove the object", "take it out", "embedded in",
+    "remove the object", "take it out",
+]
+# Contexts that must NOT trigger impaled protocol even if signal words match
+_IMPALED_OBJECT_EXCLUSIONS = _CHOKING_SIGNALS + [
+    "tick", "splinter", "thorn",   # minor embedded objects — not penetrating trauma
 ]
 
 
@@ -423,7 +429,8 @@ def inject_context(context: str, query: str) -> str:
     if any(sig in q for sig in _EYE_CHEMICAL_SIGNALS):
         context = _EYE_CHEMICAL_PROTOCOL + context
 
-    if any(sig in q for sig in _IMPALED_OBJECT_SIGNALS):
+    if (any(sig in q for sig in _IMPALED_OBJECT_SIGNALS)
+            and not any(ex in q for ex in _IMPALED_OBJECT_EXCLUSIONS)):
         context = _IMPALED_OBJECT_PROTOCOL + context
 
     return context
