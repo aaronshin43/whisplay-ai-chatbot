@@ -160,5 +160,35 @@
   "baby cpr": "pediatric_emergency",
   "child cpr": "pediatric_emergency",
   "baby choking": "pediatric_emergency",
-  "febrile seizure": "pediatric_emergency"
+  "febrile seizure": "pediatric_emergency",
+
+  "bear": "bear_encounter",
+  "bear attack": "bear_encounter",
+  "grizzly bear": "bear_encounter",
+  "black bear": "bear_encounter",
+
+  "mountain lion": "animal_attack",
+  "cougar attack": "animal_attack",
+  "wolf attack": "animal_attack",
+  "coyote attack": "animal_attack",
+
+  "lost": "lost_in_wilderness",
+  "lost hiking": "lost_in_wilderness",
+  "lost woods": "lost_in_wilderness",
+
+  "avalanche": "avalanche",
+  "snow slide": "avalanche",
+
+  "wildfire": "wildfire",
+  "forest fire": "wildfire",
+
+  "poison ivy": "poisonous_plant",
+  "poison oak": "poisonous_plant",
+  "toxic plant": "poisonous_plant",
+
+  "dehydration": "water_sourcing",
+  "no water": "water_sourcing",
+
+  "snake bite": "bites_and_stings",
+  "snakebite": "bites_and_stings"
 }

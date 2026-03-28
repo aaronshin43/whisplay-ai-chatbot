@@ -20,7 +20,7 @@ class Category:
 
 
 # ---------------------------------------------------------------------------
-# All 32 medical categories + out_of_domain
+# All 39 medical categories + out_of_domain
 # ---------------------------------------------------------------------------
 
 CATEGORIES: list[Category] = [
@@ -65,6 +65,15 @@ CATEGORIES: list[Category] = [
     # Other (2)
     Category("bites_and_stings", "Bites and Stings",                  "Snake, spider, scorpion, bee, tick, animal bites",     "bites_and_stings.md",       "standard"),
     Category("pediatric_emergency","Pediatric Emergency",             "Infant and child CPR, febrile seizure, child choking",  "pediatric_emergency.md",    "standard"),
+
+    # Wilderness & Outdoor Survival (7)
+    Category("bear_encounter",   "Bear Encounter / Bear Attack",      "Bear attack — play dead for grizzly, fight back for black bear, prevention", "wilderness.md", "urgent"),
+    Category("animal_attack",    "Wild Animal Attack",                "Mountain lion, wolf, coyote attack — make yourself large, fight back",       "wilderness.md", "urgent"),
+    Category("lost_in_wilderness","Lost in Wilderness",               "Wilderness rescue — STOP acronym, shelter priority, signaling for help",     "wilderness.md", "standard"),
+    Category("water_sourcing",   "Water Sourcing / Dehydration",      "Finding and purifying water in the wild, dehydration recognition",           "wilderness.md", "standard"),
+    Category("poisonous_plant",  "Poisonous Plant Exposure",          "Poison ivy/oak contact, toxic berry/plant ingestion",                        "wilderness.md", "standard"),
+    Category("avalanche",        "Avalanche Survival",                "Caught in avalanche — survival protocol, air pocket, staying calm",           "wilderness.md", "urgent"),
+    Category("wildfire",         "Wildfire Escape",                   "Wildfire escape routes, breathing protection, last-resort shelter",          "wilderness.md", "urgent"),
 
     # OOD cluster — must always exist
     Category("out_of_domain",    "Out of Domain",                     "Non-medical queries, casual chat, unrelated topics",    "",                          "ood"),

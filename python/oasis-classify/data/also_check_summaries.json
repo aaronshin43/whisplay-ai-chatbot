@@ -31,5 +31,12 @@
   "fainting": "Lay flat, elevate legs, and do not let them stand up until fully alert.",
   "bites_and_stings": "Immobilize a snakebite limb below heart level; do not cut or suck the wound.",
   "pediatric_emergency": "Use 2 fingers for infant CPR — back blows and chest thrusts only for infant choking.",
-  "out_of_domain": "This question is outside the scope of first-aid assistance."
+  "out_of_domain": "This question is outside the scope of first-aid assistance.",
+  "bear_encounter": "Do not run. Play dead for grizzlies; fight back against black bears.",
+  "animal_attack": "Do not run or turn your back. Make yourself large and fight back.",
+  "lost_in_wilderness": "Stop, stay calm, and signal for rescue — shelter before water before food.",
+  "water_sourcing": "Boil or purify all wild water. Dark urine and dizziness signal dehydration.",
+  "poisonous_plant": "Wash plant contact with soap and water within 10 minutes. Do not rub eyes.",
+  "avalanche": "Create an air pocket immediately and spit to find which way is down.",
+  "wildfire": "Move perpendicular to the fire, protect your airway, and never run uphill into flames."
 }
