@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QTextEdit
+from PyQt5.QtWidgets import QTextEdit, QScroller
 from PyQt5.QtGui import QTextCursor, QTextCharFormat, QColor, QFont, QTextBlockFormat
 from PyQt5.QtCore import Qt, pyqtSlot
 from .theme import get_font_size, CHAT_LINE_SPACING
@@ -19,6 +19,9 @@ class ChatWidget(QTextEdit):
         self.setReadOnly(True)
         self.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+
+        # Enable kinetic touch scrolling
+        QScroller.grabGesture(self.viewport(), QScroller.TouchGesture)
 
         font = QFont()
         font.setFamilies(["Noto Sans", "DejaVu Sans", "Helvetica Neue", "Arial"])
