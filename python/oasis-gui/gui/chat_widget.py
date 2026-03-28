@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QTextEdit, QScroller
+from PyQt5.QtWidgets import QTextEdit
 from PyQt5.QtGui import QTextCursor, QTextCharFormat, QColor, QFont, QTextBlockFormat
 from PyQt5.QtCore import Qt, pyqtSlot
 from .theme import get_font_size, CHAT_LINE_SPACING
@@ -20,8 +20,8 @@ class ChatWidget(QTextEdit):
         self.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
 
-        # Enable kinetic touch scrolling
-        QScroller.grabGesture(self.viewport(), QScroller.TouchGesture)
+        self._drag_start_y = None
+        self._drag_start_scroll = 0
 
         font = QFont()
         font.setFamilies(["Noto Sans", "DejaVu Sans", "Helvetica Neue", "Arial"])
@@ -35,6 +35,7 @@ class ChatWidget(QTextEdit):
         )
 
         self._streaming = False
+        self._auto_scroll = True  # follows new tokens unless user scrolled up
 
     # ── Format helpers ──────────────────────────────────────────────────────
 
@@ -98,8 +99,9 @@ class ChatWidget(QTextEdit):
         cursor = self.textCursor()
         cursor.movePosition(QTextCursor.End)
         cursor.insertText(token, self._body_fmt("#e0e0e0"))
-        self.setTextCursor(cursor)
-        self.ensureCursorVisible()
+        if self._auto_scroll:
+            self.setTextCursor(cursor)
+            self.ensureCursorVisible()
 
     def end_oasis_response(self):
         self._streaming = False
@@ -107,3 +109,22 @@ class ChatWidget(QTextEdit):
     def clear_chat(self):
         self.clear()
         self._streaming = False
+
+    # ── Touch / drag scroll ─────────────────────────────────────────────────
+
+    def mousePressEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self._drag_start_y = event.pos().y()
+            self._drag_start_scroll = self.verticalScrollBar().value()
+            self._auto_scroll = False  # freeze immediately on touch
+
+    def mouseMoveEvent(self, event):
+        if event.buttons() & Qt.LeftButton and self._drag_start_y is not None:
+            delta = event.pos().y() - self._drag_start_y
+            self.verticalScrollBar().setValue(self._drag_start_scroll - delta)
+
+    def mouseReleaseEvent(self, _event):
+        self._drag_start_y = None
+        # resume auto-scroll only if user dragged back to the bottom
+        sb = self.verticalScrollBar()
+        self._auto_scroll = sb.value() >= sb.maximum() - 4

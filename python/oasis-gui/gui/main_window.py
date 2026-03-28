@@ -65,7 +65,7 @@ class MainWindow(QMainWindow):
         view.setFrameShape(QGraphicsView.NoFrame)
         view.setBackgroundBrush(QBrush(QColor("#0d0d0d")))
         view.setScene(QGraphicsScene(0, 0, sw, sh))
-        view.setInteractive(False)  # kiosk — no mouse needed
+        view.setInteractive(True)
 
         # Portrait content widget (pw × ph)
         # Stylesheet must be applied directly — QGraphicsProxyWidget does not
