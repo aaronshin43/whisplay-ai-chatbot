@@ -1,0 +1,164 @@
+{
+  "__comment": "Tier 0A — exact match for normalized queries with <= 3 words. Values are category IDs or special response keys (GENERIC_HELP, CALL_911).",
+
+  "help": "GENERIC_HELP",
+  "sos": "GENERIC_HELP",
+  "emergency": "GENERIC_HELP",
+  "911": "CALL_911",
+  "999": "CALL_911",
+  "112": "CALL_911",
+  "call 911": "CALL_911",
+  "call 999": "CALL_911",
+  "call 112": "CALL_911",
+  "first aid": "GENERIC_HELP",
+
+  "cpr": "cpr",
+  "cardiac arrest": "cpr",
+  "not breathing": "cpr",
+  "no pulse": "cpr",
+  "chest compressions": "cpr",
+  "rescue breathing": "cpr",
+  "aed": "cpr",
+  "defibrillator": "cpr",
+
+  "choking": "choking",
+  "heimlich": "choking",
+  "heimlich maneuver": "choking",
+  "cant breathe": "choking",
+  "airway blocked": "choking",
+
+  "bleeding": "bleeding",
+  "hemorrhage": "bleeding",
+  "tourniquet": "bleeding",
+  "blood loss": "bleeding",
+  "deep cut": "bleeding",
+  "wound bleeding": "bleeding",
+
+  "anaphylaxis": "anaphylaxis",
+  "epipen": "anaphylaxis",
+  "allergic shock": "anaphylaxis",
+  "severe allergy": "anaphylaxis",
+  "throat swelling": "anaphylaxis",
+
+  "stroke": "stroke",
+  "fast stroke": "stroke",
+  "facial droop": "stroke",
+  "face drooping": "stroke",
+
+  "heart attack": "heart_attack",
+  "chest pain": "heart_attack",
+  "chest pressure": "heart_attack",
+
+  "drowning": "drowning",
+  "near drowning": "drowning",
+  "submersion": "drowning",
+
+  "electrocution": "electric_shock",
+  "electric shock": "electric_shock",
+  "live wire": "electric_shock",
+
+  "poisoning": "poisoning",
+  "toxic ingestion": "poisoning",
+  "swallowed poison": "poisoning",
+
+  "overdose": "opioid_overdose",
+  "narcan": "opioid_overdose",
+  "naloxone": "opioid_overdose",
+  "opioid overdose": "opioid_overdose",
+
+  "chest wound": "chest_wound",
+  "sucking chest": "chest_wound",
+  "pneumothorax": "chest_wound",
+
+  "spinal injury": "spinal_injury",
+  "neck injury": "spinal_injury",
+  "broken neck": "spinal_injury",
+
+  "fracture": "fracture",
+  "broken bone": "fracture",
+  "broken arm": "fracture",
+  "broken leg": "fracture",
+
+  "sprain": "sprain_dislocation",
+  "dislocation": "sprain_dislocation",
+  "dislocated shoulder": "sprain_dislocation",
+  "twisted ankle": "sprain_dislocation",
+
+  "concussion": "head_injury",
+  "head injury": "head_injury",
+  "head trauma": "head_injury",
+
+  "impaled": "impaled_object",
+  "knife stuck": "impaled_object",
+  "object stuck": "impaled_object",
+
+  "burns": "burns",
+  "burn": "burns",
+  "chemical burn": "burns",
+  "fire burn": "burns",
+
+  "eye injury": "eye_injury",
+  "chemical eye": "eye_injury",
+  "eye splash": "eye_injury",
+
+  "tooth out": "dental_injury",
+  "knocked tooth": "dental_injury",
+  "dental emergency": "dental_injury",
+
+  "hypothermia": "hypothermia",
+  "cold exposure": "hypothermia",
+  "freezing cold": "hypothermia",
+
+  "frostbite": "frostbite",
+  "frozen fingers": "frostbite",
+  "frozen toes": "frostbite",
+
+  "heat stroke": "heat_stroke",
+  "sunstroke": "heat_stroke",
+  "heat exhaustion": "heat_stroke",
+  "overheating": "heat_stroke",
+
+  "lightning": "lightning",
+  "lightning strike": "lightning",
+  "struck lightning": "lightning",
+
+  "altitude sickness": "altitude_sickness",
+  "mountain sickness": "altitude_sickness",
+  "ams": "altitude_sickness",
+
+  "seizure": "seizure",
+  "convulsions": "seizure",
+  "epileptic fit": "seizure",
+  "epilepsy": "seizure",
+
+  "low sugar": "diabetic",
+  "hypoglycemia": "diabetic",
+  "diabetic emergency": "diabetic",
+  "diabetic shock": "diabetic",
+
+  "asthma": "asthma",
+  "asthma attack": "asthma",
+  "no inhaler": "asthma",
+  "wheezing": "asthma",
+
+  "shock": "shock",
+  "in shock": "shock",
+
+  "fainted": "fainting",
+  "fainting": "fainting",
+  "passed out": "fainting",
+  "syncope": "fainting",
+
+  "snake bite": "bites_and_stings",
+  "snakebite": "bites_and_stings",
+  "spider bite": "bites_and_stings",
+  "bee sting": "bites_and_stings",
+  "tick bite": "bites_and_stings",
+  "dog bite": "bites_and_stings",
+
+  "infant cpr": "pediatric_emergency",
+  "baby cpr": "pediatric_emergency",
+  "child cpr": "pediatric_emergency",
+  "baby choking": "pediatric_emergency",
+  "febrile seizure": "pediatric_emergency"
+}
