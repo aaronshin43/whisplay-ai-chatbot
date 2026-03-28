@@ -6,13 +6,15 @@ import gui.theme as theme
 
 IS_PI = platform.machine().startswith("aarch")
 
-# PC: simulate Pi 800×480 screen. Pi: use actual screen size.
+# Pi display is always 800×480 (4.3" Whisplay HAT).
+# PC: simulate the same dimensions.
+SCREEN_SIZE = (800, 480)
 if IS_PI:
+    # Detect actual size in case a different display is attached.
     _app_tmp = QApplication.instance() or QApplication(sys.argv)
     _s = _app_tmp.primaryScreen().size()
-    SCREEN_SIZE = (_s.width(), _s.height())
-else:
-    SCREEN_SIZE = (800, 480)
+    _detected = (_s.width(), _s.height())
+    print(f"[oasis] detected screen: {_detected}, using: {SCREEN_SIZE}")
 
 # Set portrait width BEFORE any widget imports use get_font_size()
 theme.EFFECTIVE_PORTRAIT_WIDTH = min(SCREEN_SIZE)
@@ -51,7 +53,7 @@ class KeyFilter(QObject):
 class OasisApp:
     def __init__(self):
         self.app = QApplication.instance() or QApplication(sys.argv)
-        self.window = MainWindow(screen_size=None if IS_PI else SCREEN_SIZE)
+        self.window = MainWindow(screen_size=SCREEN_SIZE)
         self.sm = StateMachine()
         self.worker = PipelineWorker()
         self._prewarm_thread = PrewarmThread()
