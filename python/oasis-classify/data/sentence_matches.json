@@ -334,5 +334,37 @@
   "we are surrounded by fire what do i do": "wildfire",
   "how do i protect my breathing from wildfire smoke": "wildfire",
   "which direction do i run from a wildfire": "wildfire",
-  "the fire cut off our escape route what do i do": "wildfire"
+  "the fire cut off our escape route what do i do": "wildfire",
+
+  "she is having a panic attack": "panic_attack",
+  "he cant breathe and says he feels like he is dying": "panic_attack",
+  "someone is hyperventilating and shaking uncontrollably": "panic_attack",
+  "i need help with a panic attack right now": "panic_attack",
+  "how do i use the grounding technique for panic": "panic_attack",
+  "my friend is panicking and thinks they are having a heart attack": "panic_attack",
+  "they are trembling and say everything feels unreal": "panic_attack",
+
+  "my friend said they want to kill themselves": "suicidal_crisis",
+  "she told me she does not want to be alive anymore": "suicidal_crisis",
+  "someone is expressing suicidal thoughts and i dont know what to do": "suicidal_crisis",
+  "how do i help a person who is thinking about suicide": "suicidal_crisis",
+  "he is threatening to hurt himself right now": "suicidal_crisis",
+  "what do i say to someone who wants to end their life": "suicidal_crisis",
+  "she gave away her belongings and said her goodbyes": "suicidal_crisis",
+
+  "she is shaking and crying and wont talk after the accident": "acute_stress_reaction",
+  "he witnessed a death and is staring blankly": "acute_stress_reaction",
+  "someone is in psychological shock after a traumatic event": "acute_stress_reaction",
+  "my friend is dissociating after seeing something violent": "acute_stress_reaction",
+  "how do i help someone who just went through a trauma": "acute_stress_reaction",
+  "she is rocking back and forth and seems frozen": "acute_stress_reaction",
+  "person is unresponsive after witnessing a violent incident": "acute_stress_reaction",
+
+  "he is screaming and threatening to hurt people": "aggressive_outburst",
+  "someone is becoming physically aggressive during a crisis": "aggressive_outburst",
+  "she is throwing objects and yelling uncontrollably": "aggressive_outburst",
+  "how do i de-escalate someone who is violent": "aggressive_outburst",
+  "the person is out of control and threatening bystanders": "aggressive_outburst",
+  "he lunged at me and i do not know what to do": "aggressive_outburst",
+  "what do i do when someone becomes aggressive and violent": "aggressive_outburst"
 }

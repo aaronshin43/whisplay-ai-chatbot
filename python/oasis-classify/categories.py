@@ -1,5 +1,5 @@
 """
-categories.py — 32 medical category definitions + out_of_domain cluster.
+categories.py — 36 medical category definitions + out_of_domain cluster.
 
 Each entry: (id, human_name, description, kb_source, priority_level)
 priority_level: "critical" | "urgent" | "standard"
@@ -20,7 +20,7 @@ class Category:
 
 
 # ---------------------------------------------------------------------------
-# All 39 medical categories + out_of_domain
+# All 43 medical categories + out_of_domain
 # ---------------------------------------------------------------------------
 
 CATEGORIES: list[Category] = [
@@ -74,6 +74,12 @@ CATEGORIES: list[Category] = [
     Category("poisonous_plant",  "Poisonous Plant Exposure",          "Poison ivy/oak contact, toxic berry/plant ingestion",                        "wilderness.md", "standard"),
     Category("avalanche",        "Avalanche Survival",                "Caught in avalanche — survival protocol, air pocket, staying calm",           "wilderness.md", "urgent"),
     Category("wildfire",         "Wildfire Escape",                   "Wildfire escape routes, breathing protection, last-resort shelter",          "wilderness.md", "urgent"),
+
+    # Mental Health Emergencies (4)
+    Category("panic_attack",         "Panic Attack",                      "Panic attack, hyperventilation, grounding technique, box breathing",            "mental_health.md",  "standard"),
+    Category("suicidal_crisis",       "Suicidal Crisis",                   "Suicidal ideation, crisis intervention, 988 lifeline, immediate danger",        "mental_health.md",  "urgent"),
+    Category("acute_stress_reaction", "Acute Stress Reaction",             "Psychological shock after trauma, dissociation, psychological first aid",       "mental_health.md",  "standard"),
+    Category("aggressive_outburst",   "Aggressive Outburst",               "Aggressive or violent episode, de-escalation, when to call 911",                "mental_health.md",  "standard"),
 
     # OOD cluster — must always exist
     Category("out_of_domain",    "Out of Domain",                     "Non-medical queries, casual chat, unrelated topics",    "",                          "ood"),

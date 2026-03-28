@@ -190,5 +190,23 @@
   "no water": "water_sourcing",
 
   "snake bite": "bites_and_stings",
-  "snakebite": "bites_and_stings"
+  "snakebite": "bites_and_stings",
+
+  "panic attack": "panic_attack",
+  "hyperventilating help": "panic_attack",
+  "anxiety attack": "panic_attack",
+  "cant breathe panicking": "panic_attack",
+
+  "suicidal crisis": "suicidal_crisis",
+  "wants to die": "suicidal_crisis",
+  "suicide help": "suicidal_crisis",
+  "self harm threat": "suicidal_crisis",
+
+  "trauma shock": "acute_stress_reaction",
+  "psychological shock": "acute_stress_reaction",
+  "dissociation help": "acute_stress_reaction",
+
+  "aggressive person": "aggressive_outburst",
+  "violent outburst": "aggressive_outburst",
+  "person threatening": "aggressive_outburst"
 }
