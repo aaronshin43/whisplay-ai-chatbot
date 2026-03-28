@@ -24,12 +24,12 @@ from config import (
 # ---------------------------------------------------------------------------
 
 GENERIC_HELP_RESPONSE = (
-    "I am a first-aid assistant. Please describe the emergency and I will help you. "
-    "If this is life-threatening, call emergency services (911/999/112) immediately."
+    "Please describe the emergency and I will help you. "
+    "If this is life-threatening, call 911 immediately."
 )
 
 CALL_911_RESPONSE = (
-    "Call emergency services now: 911 (US/Canada), 999 (UK), or 112 (Europe/international). "
+    "Call 911 now. "
     "Stay on the line with the dispatcher — they will guide you."
 )
 
