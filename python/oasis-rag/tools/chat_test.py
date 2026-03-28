@@ -83,6 +83,7 @@ def call_llm(system: str, query: str, model: str = DEFAULT_MODEL) -> tuple[str, 
         "options": {
             "num_predict": 200,
             "temperature": 0.1,
+            "repeat_penalty": 1.3,
             "stop": ["**", "Okay", "Let's", "Here's"],
         },
         "messages": [
