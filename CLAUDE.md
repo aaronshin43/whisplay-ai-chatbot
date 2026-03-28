@@ -1,94 +1,71 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides top-level guidance for Claude Code when working in this repository.
+For subsystem-specific rules, navigate to the relevant subfolder — each has its own CLAUDE.md.
 
 ---
 
 ## Critical Rules
 
-- **All responses and code comments must be written in English.**
-- **Never generate medical advice directly** — only reference RAG-validated manuals from `data/knowledge/`.
-- **`context_injector.py` is the single source of truth** for emergency signal injection — never duplicate signal logic elsewhere.
+- **All code, comments, and commit messages must be written in English.**
+- **Never generate medical advice directly** — only reference validated manuals from `data/knowledge/`.
 - **Pi5 memory budget: total pipeline ≤ 4.5 GB** — do not introduce models or dependencies that exceed this.
 - **Do not modify `data/rag_index/`** — it is a build artifact; regenerate via `bash index_knowledge.sh`.
-- **Validation must stay 117/117 PASS** — run `python tests/run_all.py` after any RAG change.
 
 ---
 
-## Architecture
+## Project Overview
 
-**Stack:** Whisper STT → Python RAG Flask (:5001, FAISS + gte-small) → gemma3:1b (Ollama) → Piper TTS, running on Node.js + TypeScript chatbot layer. Hardware: Raspberry Pi 5 + Whisplay HAT.
+**O.A.S.I.S.** (Offline AI Survival & first-aid kIt System) — fully offline emergency first-aid assistant running on Raspberry Pi 5 + Whisplay HAT.
 
-**Key entry points:**
+**Stack:** Whisper STT → Python backend (:5001 / :5002) → gemma3:1b (Ollama) → Piper TTS, orchestrated by a Node.js + TypeScript chatbot layer.
+
+**Two independent Python backends — read the relevant CLAUDE.md before working in either:**
+
+| Folder | Purpose | Port | CLAUDE.md |
+|--------|---------|------|-----------|
+| `python/oasis-rag/` | 3-Stage Hybrid RAG pipeline (FAISS + gte-small) | :5001 | [`python/oasis-rag/CLAUDE.md`](python/oasis-rag/CLAUDE.md) |
+| `python/oasis-classify/` | Medical intent classifier + pre-generated manual dispatch | :5002 | [`python/oasis-classify/CLAUDE.md`](python/oasis-classify/CLAUDE.md) |
+
+---
+
+## TypeScript Layer Entry Points
 
 | File | Role |
 |------|------|
-| `src/core/ChatFlow.ts` | Main loop: button → STT → RAG → LLM → TTS |
-| `src/core/OasisAdapter.ts` | RAG result → LLM system prompt (3-tier fallback) |
+| `src/core/ChatFlow.ts` | Main loop: button → STT → backend → LLM → TTS |
+| `src/core/OasisAdapter.ts` | Backend result → LLM system prompt (fallback chain) |
 | `src/cloud-api/server.ts` | ASR/LLM/TTS provider router (reads `.env`) |
-| `src/cloud-api/local/oasis-rag-client.ts` | RAG HTTP client (primary path) |
-| `src/cloud-api/local/oasis-matcher-node.ts` | Embedded fallback matcher (no server needed) |
-| `python/oasis-rag/service.py` | Flask RAG server |
-| `python/oasis-rag/retriever.py` | 3-Stage Hybrid Retriever |
-| `python/oasis-rag/context_injector.py` | 22-signal context injection (single source) |
+| `src/cloud-api/local/oasis-rag-client.ts` | RAG HTTP client |
+| `src/cloud-api/local/oasis-matcher-node.ts` | Embedded fallback matcher (no server required) |
 
-**RAG pipeline:** Query → QueryClassifier → Stage 1 lexical filter (top-50) → Stage 2 hybrid rerank (cosine 0.6 + BM25 0.4, top-4) → Stage 3 compression → context_injector → OasisAdapter → LLM
-
-> For pipeline internals, Context Injection signal list, Flask API reference, and knowledge base document format → `docs/architecture.md`
+New ASR/LLM/TTS providers go in `src/cloud-api/local/` or a named subfolder — never in `server.ts` directly.
 
 ---
 
-## Build/Test
+## Build
 
 ```bash
-# Services (start in order)
-ollama serve
-cd python/oasis-rag && python app.py   # RAG Flask (:5001)
-npm start
-
-# Build
-bash build.sh                          # TypeScript: rm -rf dist && tsc
-bash index_knowledge.sh                # Rebuild FAISS index after KB changes
-
-# Test
-cd python/oasis-rag && python tests/run_all.py   # 117 tests, no Flask needed
-yarn test:oasis                                        # TypeScript integration
+bash build.sh           # TypeScript: rm -rf dist && tsc
+bash index_knowledge.sh # Rebuild FAISS index after knowledge base changes
 ```
-
-> For individual test suite commands, test IDs, and SAFE-check authoring patterns → `docs/testing.md`
-
----
-
-## Domain Context
-
-O.A.S.I.S. (Offline AI Survival & first-aid kIt System) — Whisplay chatbot fork implementing 3-Stage Hybrid RAG (Pocket RAG paper) for fully offline emergency first-aid on Raspberry Pi 5.
-
-**Non-obvious terms:**
-- **Context Injection** — protocol directives prepended to RAG context so the LLM reads them before retrieved chunks (`context_injector.py`)
-- **3-tier fallback** — RAG Flask → embedded matcher (`oasis-matcher-node.ts`) → empty prompt
-
-**Targets:** RAG latency PC < 200ms · Pi5 < 2000ms · memory ≤ 4.5 GB · validation 117/117
-
----
-
-## Reference Docs
-
-Load only the relevant doc — do not read all by default.
-
-| File | Read when... |
-|------|-------------|
-| `docs/entrypoints.md` | Looking up what any Python file in `python/oasis-rag/` does, or finding which file to edit for a given task |
-| `docs/architecture.md` | Modifying RAG stages, Context Injection signals, Flask API, KB document format, or LLM prompt |
-| `docs/testing.md` | Writing/debugging tests; looking up test IDs; authoring SAFE checks |
-| `docs/roadmap.md` | Investigating known bugs (BUG-001 lightning), planning Phase 2–6, choosing LLM upgrade |
-| `docs/decisions.md` | Before changing embedding model, vector DB, chunking strategy, or LLM |
 
 ---
 
 ## Coding Conventions
 
-- **All code comments and commit messages must be in English.**
 - TypeScript: `camelCase` for variables/functions, `PascalCase` for classes and types.
-- Python: `snake_case`; follow existing module structure in `python/oasis-rag/`.
+- Python: `snake_case`; follow existing module structure in the relevant subfolder.
 - Commit format: `type: short description` (e.g., `feat:`, `fix:`, `refactor:`, `docs:`).
-- New ASR/LLM/TTS providers go in `src/cloud-api/local/` or a named subfolder — never in `server.ts` directly.
+
+---
+
+## Reference Docs
+
+| File | Read when... |
+|------|-------------|
+| `docs/architecture.md` | Modifying RAG stages, context injection signals, Flask API, or KB document format |
+| `docs/testing.md` | Writing or debugging tests; looking up test IDs |
+| `docs/roadmap.md` | Investigating known bugs, planning phases, or choosing an LLM upgrade |
+| `docs/decisions.md` | Before changing embedding model, vector DB, chunking strategy, or LLM |
+| `docs/entrypoints.md` | Looking up what any file in `python/oasis-rag/` does |
