@@ -25,11 +25,14 @@ import { cameraDir, recordingsDir } from "../utils/dir";
 import { getLatestDisplayImg, setLatestCapturedImg } from "../utils/image";
 import dotEnv from "dotenv";
 import { getSystemPromptWithKnowledge } from "./Knowledge";
-import { getSystemPromptFromOasis, sanitizeOasisChunk, logOasisResponse } from "./OasisAdapter";
+import { getSystemPromptFromOasis, sanitizeOasisChunk, logOasisResponse, dispatchQuery } from "./OasisAdapter";
 import { enableRAG } from "../cloud-api/knowledge";
 
-// Use OASIS instead of generic RAG if enabled
+// Use OASIS classify dispatch instead of generic RAG if enabled
 const useOasis = process.env.ENABLE_OASIS_MATCHER === "true" || true; // Default to true for now as per request
+
+// Triage hint TTL — must match TRIAGE_HINT_TTL_SEC in python/oasis-classify/config.py
+const TRIAGE_HINT_TTL_MS = 60_000;  // 60 seconds, matches Python TRIAGE_HINT_TTL_SEC
 
 
 dotEnv.config();
@@ -45,6 +48,7 @@ class ChatFlow {
   answerId: number = 0;
   enableCamera: boolean = false;
   knowledgePrompts: string[] = [];
+  private triageHint: { category: string; expiresAt: number } | null = null;
 
   constructor(options: { enableCamera?: boolean } = {}) {
     console.log(`[${getCurrentTimeTag()}] ChatBot started.`);
@@ -104,6 +108,15 @@ class ChatFlow {
     }
     this.partialThinking = remaining;
   };
+
+  private getActiveTriageHint(): string | null {
+    if (!this.triageHint) return null;
+    if (Date.now() > this.triageHint.expiresAt) {
+      this.triageHint = null;
+      return null;
+    }
+    return this.triageHint.category;
+  }
 
   setCurrentFlow = (flowName: string): void => {
     console.log(`[${getCurrentTimeTag()}] switch to:`, flowName);
@@ -223,81 +236,168 @@ class ChatFlow {
         this.partialThinking = "";
         this.thinkingSentences = [];
 
-        let systemPromptPromise = Promise.resolve("");
         if (useOasis) {
-           systemPromptPromise = getSystemPromptFromOasis(this.asrText);
-        } else if (enableRAG) {
-           systemPromptPromise = getSystemPromptWithKnowledge(this.asrText);
-        }
+          // ── OASIS classify dispatch path ───────────────────────────────────
+          const capturedQuery = this.asrText;
 
-        systemPromptPromise
-          .then((res: string) => {
-            let knowledgePrompt = res;
-            if (res) {
-              console.log("Retrieved knowledge for RAG:\n", res);
-            }
-            if (this.knowledgePrompts.includes(res)) {
-              console.log(
-                "[RAG] Knowledge prompt already used in this session, skipping to avoid repetition.",
-              );
-              knowledgePrompt = "";
-            }
-            if (knowledgePrompt) {
-              this.knowledgePrompts.push(knowledgePrompt);
-            }
-            const prompt: {
-              role: "system" | "user";
-              content: string;
-            }[] = compact([
-              knowledgePrompt
-                ? {
-                    role: "system",
-                    content: knowledgePrompt,
-                  }
-                : null,
-              {
-                role: "user",
-                content: this.asrText,
-              },
-            ]);
+          dispatchQuery(capturedQuery, this.getActiveTriageHint())
+            .then((dispatch) => {
+              if (currentAnswerId !== this.answerId) return;
 
-            // Accumulate full response for OASIS logging and format validation
-            const oasisBuffer: string[] = [];
-            const capturedQuery = this.asrText;
-
-            chatWithLLMStream(
-              prompt,
-              (text) => {
-                if (currentAnswerId !== this.answerId) return;
-                const clean = useOasis ? sanitizeOasisChunk(text) : text;
-                if (useOasis) oasisBuffer.push(clean);
-                partial(clean);
-              },
-              () => {
-                if (currentAnswerId !== this.answerId) return;
-                if (useOasis && oasisBuffer.length > 0) {
-                  const fullResponse = oasisBuffer.join("");
-                  logOasisResponse(capturedQuery, fullResponse);
-                  console.log("[OASIS] Full response:\n", fullResponse);
-                }
+              if (dispatch.mode === "direct_response" || dispatch.mode === "ood_response") {
+                // Pre-baked response — speak directly, no LLM call
+                this.triageHint = null;
+                logOasisResponse(capturedQuery, dispatch.responseText);
+                partial(dispatch.responseText);
                 endPartial();
-              },
-              (partialThinking) =>
-                currentAnswerId === this.answerId &&
-                this.partialThinkingCallback(partialThinking),
-              (functionName: string, result?: string) => {
-                if (result) {
-                  display({
-                    text: `[${functionName}]${result}`,
-                  });
-                } else {
-                  display({
-                    text: `Invoking [${functionName}]...`,
-                  });
+
+              } else if (dispatch.mode === "llm_prompt") {
+                // Classifier hit — compact prompt → LLM
+                this.triageHint = null;
+                const prompt: { role: "system" | "user"; content: string }[] = [
+                  { role: "system", content: dispatch.systemPrompt },
+                  { role: "user",   content: capturedQuery },
+                ];
+
+                const oasisBuffer: string[] = [];
+
+                chatWithLLMStream(
+                  prompt,
+                  (text) => {
+                    if (currentAnswerId !== this.answerId) return;
+                    const clean = sanitizeOasisChunk(text);
+                    oasisBuffer.push(clean);
+                    partial(clean);
+                  },
+                  () => {
+                    if (currentAnswerId !== this.answerId) return;
+                    const fullResponse = oasisBuffer.join("");
+                    logOasisResponse(capturedQuery, fullResponse);
+                    console.log("[OASIS] Full response:\n", fullResponse);
+                    endPartial();
+                  },
+                  (partialThinking) =>
+                    currentAnswerId === this.answerId &&
+                    this.partialThinkingCallback(partialThinking),
+                  (functionName: string, result?: string) => {
+                    if (result) {
+                      display({ text: `[${functionName}]${result}` });
+                    } else {
+                      display({ text: `Invoking [${functionName}]...` });
+                    }
+                  },
+                );
+
+              } else {
+                // triage_prompt — LLM asks clarifying question; store hint with TTL
+                this.triageHint = {
+                  category:  dispatch.triageHint,
+                  expiresAt: Date.now() + TRIAGE_HINT_TTL_MS,
+                };
+                if (dispatch.raw.hint_changed_result) {
+                  console.log(`[Classify] hint changed result for category=${dispatch.raw.category}`);
                 }
-              },
-            );
-          });
+                const prompt: { role: "system" | "user"; content: string }[] = [
+                  { role: "system", content: dispatch.systemPrompt },
+                  { role: "user",   content: capturedQuery },
+                ];
+
+                const oasisBuffer: string[] = [];
+
+                chatWithLLMStream(
+                  prompt,
+                  (text) => {
+                    if (currentAnswerId !== this.answerId) return;
+                    const clean = sanitizeOasisChunk(text);
+                    oasisBuffer.push(clean);
+                    partial(clean);
+                  },
+                  () => {
+                    if (currentAnswerId !== this.answerId) return;
+                    const fullResponse = oasisBuffer.join("");
+                    logOasisResponse(capturedQuery, fullResponse);
+                    console.log("[OASIS] Full response:\n", fullResponse);
+                    endPartial();
+                  },
+                  (partialThinking) =>
+                    currentAnswerId === this.answerId &&
+                    this.partialThinkingCallback(partialThinking),
+                  (functionName: string, result?: string) => {
+                    if (result) {
+                      display({ text: `[${functionName}]${result}` });
+                    } else {
+                      display({ text: `Invoking [${functionName}]...` });
+                    }
+                  },
+                );
+              }
+            });
+
+        } else {
+          // ── Legacy RAG / knowledge path ────────────────────────────────────
+          let systemPromptPromise = Promise.resolve("");
+          if (enableRAG) {
+            systemPromptPromise = getSystemPromptWithKnowledge(this.asrText);
+          }
+
+          systemPromptPromise
+            .then((res: string) => {
+              let knowledgePrompt = res;
+              if (res) {
+                console.log("Retrieved knowledge for RAG:\n", res);
+              }
+              if (this.knowledgePrompts.includes(res)) {
+                console.log(
+                  "[RAG] Knowledge prompt already used in this session, skipping to avoid repetition.",
+                );
+                knowledgePrompt = "";
+              }
+              if (knowledgePrompt) {
+                this.knowledgePrompts.push(knowledgePrompt);
+              }
+              const prompt: {
+                role: "system" | "user";
+                content: string;
+              }[] = compact([
+                knowledgePrompt
+                  ? {
+                      role: "system" as const,
+                      content: knowledgePrompt,
+                    }
+                  : null,
+                {
+                  role: "user" as const,
+                  content: this.asrText,
+                },
+              ]);
+
+              chatWithLLMStream(
+                prompt,
+                (text) => {
+                  if (currentAnswerId !== this.answerId) return;
+                  partial(text);
+                },
+                () => {
+                  if (currentAnswerId !== this.answerId) return;
+                  endPartial();
+                },
+                (partialThinking) =>
+                  currentAnswerId === this.answerId &&
+                  this.partialThinkingCallback(partialThinking),
+                (functionName: string, result?: string) => {
+                  if (result) {
+                    display({
+                      text: `[${functionName}]${result}`,
+                    });
+                  } else {
+                    display({
+                      text: `Invoking [${functionName}]...`,
+                    });
+                  }
+                },
+              );
+            });
+        }
         getPlayEndPromise().then(() => {
           if (this.currentFlowName === "answer") {
             const img = getLatestDisplayImg();
