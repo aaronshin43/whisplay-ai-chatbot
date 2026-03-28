@@ -1,6 +1,5 @@
 # TODO
 
 - [ ] clean up unnecessary files?
-- [ ] help -> 저장된 답변 바로 출력
-- [ ] app ui
 - [ ] build full pipeline (mic -> stt -> RAG -> llm -> tts -> speaker)
+- [ ] 전체 가이드라인 -> KV caching, 유저 인풋만 처리?
