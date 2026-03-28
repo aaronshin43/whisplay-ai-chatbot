@@ -10,11 +10,11 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma3:1b")
 
 # OASIS-mode generation constraints (matches ollama-llm.ts)
 _OASIS_OPTIONS = {
-    "num_predict": 300,
-    "temperature": 0.05,
+    "num_predict": 200,
+    "temperature": 0.1,
     "repeat_penalty": 1.3,
 }
-_OASIS_STOP = ["**", "Okay", "Let's", "Here's", "Note:", "Note "]
+_OASIS_STOP = ["**", "Okay", "Let's", "Here's"]
 
 
 def prewarm():
