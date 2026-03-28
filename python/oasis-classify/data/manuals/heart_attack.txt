@@ -1,7 +1,7 @@
 Category: Heart Attack
 
 STEPS:
-1. Call emergency services (911) immediately.
+1. Call 911 immediately.
 2. Help the person sit in a comfortable position — typically sitting upright or semi-reclined reduces heart strain.
 3. Loosen any tight clothing around the neck and chest.
 4. If the person is not allergic and is conscious, give 300 mg aspirin to chew slowly (not swallow whole).
@@ -14,4 +14,4 @@ NEVER DO:
 - Do NOT leave the person alone.
 - Do NOT let the person walk around or exert themselves.
 - Do NOT give aspirin if the person is allergic or has been told not to take it.
-- Do NOT delay calling emergency services hoping symptoms will pass.
+- Do NOT delay calling 911 hoping symptoms will pass.
