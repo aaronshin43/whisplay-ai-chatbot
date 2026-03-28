@@ -56,41 +56,30 @@ TASK: Write numbered first aid steps for this emergency: {query}
 RESPONSE:`
 """
 
-SAFE_FALLBACK_PROMPT = """\
-You are OASIS, an offline first-aid assistant.
-The medical knowledge base is currently unavailable.
-Tell the user clearly and calmly:
-1. Call emergency services immediately (local emergency number).
-2. Stay on the line with the dispatcher — they will guide you.
-3. Do not leave the person alone.
-Do not provide any specific medical instructions without the knowledge base.\
-"""
+SAFE_FALLBACK_PROMPT = """`You are a first-aid assistant.
+You do not have any specific first-aid information for the user's current query.
 
-LOW_CONFIDENCE_PROMPT = """\
-You are OASIS, an offline first-aid assistant.
-No specific first-aid information was found for this query in the knowledge base.
-Tell the user clearly and calmly:
-1. Call emergency services immediately (local emergency number).
-2. Describe the situation clearly to the dispatcher — they will guide you step by step.
-3. Do not leave the person alone.
-Do not attempt to provide specific medical instructions without a reliable reference.\
-"""
+GUIDELINES for your response:
+1. If the user is just saying hello, testing the system (e.g. math), or asking everyday questions: 
+   - Respond naturally and politely.
+   - Gently guide them to ask about medical emergencies or first-aid procedures.
+2. If the user is reporting a serious emergency but you lack data:
+   - Tell them clearly to call emergency services immediately.
+   - Tell them to stay on the line with the dispatcher.
 
+Write a brief, natural response following these guidelines. Do NOT invent medical instructions.`
+"""
 
 # ── Builder ───────────────────────────────────────────────────────────────────
 
-def build_system_prompt(context: str, query: str, low_confidence: bool = False) -> str:
+def build_system_prompt(context: str, query: str) -> str:
     """
     Format the system prompt with RAG context and user query.
     Applies markdown stripping to the context before insertion.
     Returns SAFE_FALLBACK_PROMPT if context is empty (infra/KB failure).
-    Returns LOW_CONFIDENCE_PROMPT if chunks exist but best score is below CONFIDENCE_THRESHOLD.
     """
     if not context or not context.strip():
         return SAFE_FALLBACK_PROMPT
-
-    if low_confidence:
-        return LOW_CONFIDENCE_PROMPT
 
     clean_context = strip_markdown(context)
     return SYSTEM_PROMPT_TEMPLATE.format(context=clean_context, query=query)

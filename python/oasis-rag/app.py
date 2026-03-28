@@ -18,10 +18,16 @@ Error responses always carry JSON { "error": "message" }.
 from __future__ import annotations
 
 import logging
+import os
 import sys
 import threading
 import time
 from pathlib import Path
+
+# Mac 스레드 충돌 방지 설정 (Segmentation Fault 방지)
+if sys.platform == "darwin":
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
+    os.environ["OMP_NUM_THREADS"] = "1"
 
 from flask import Flask, jsonify, request
 
@@ -191,15 +197,13 @@ def retrieve():
         return jsonify({"error": str(e)}), 500
 
     best_score = result.chunks[0].hybrid_score if result.chunks else 0.0
-    low_confidence = bool(result.chunks) and best_score < config.CONFIDENCE_THRESHOLD
 
     enriched_context = inject_context(result.context, query)
-    system_prompt = build_system_prompt(enriched_context, query, low_confidence=low_confidence)
+    system_prompt = build_system_prompt(enriched_context, query)
 
     return jsonify({
         "context":        enriched_context,
         "system_prompt":  system_prompt,
-        "low_confidence": low_confidence,
         "best_score":     round(best_score, 4),
         "chunks": [
             {

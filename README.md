@@ -153,6 +153,7 @@ Voice Input (Whisper ASR)
 
 ```bash
 # 1. Build the knowledge index (first time or after adding documents)
+# NOTE for MacOS Users: If you get a 'segmentation fault', use: bash reindex.sh
 bash index_knowledge.sh
 
 # 2. Start services in order
@@ -163,6 +164,10 @@ bash run_chatbot.sh                    # Node.js chatbot
 # 3. Run validation tests
 cd python/oasis-rag && python validation/run_all.py
 ```
+
+> [!TIP]
+> **MacOS Setup Note**:
+> If you are on an Apple Silicon Mac, always use the provided `python/oasis-rag/reindex.sh` script to update your index. This script sets `TOKENIZERS_PARALLELISM=false` to prevent crashes during model loading.
 
 ### RAG Fallback
 
