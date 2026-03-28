@@ -1,4 +1,6 @@
 import sys
+import os
+import random
 import platform
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt, QTimer, QThread, QObject, QEvent, pyqtSignal
@@ -23,17 +25,39 @@ from gui.main_window import MainWindow
 from gui.chat_widget import ROLE_USER
 from core.state_machine import StateMachine, State, STATE_UI
 from core.pipeline_worker import PipelineWorker
-from clients import llm_client
+from clients import llm_client, classify_client
 
 
-DEMO_QUERY = "How do I treat a burn?"
+_QUERIES_FILE = os.path.join(
+    os.path.dirname(__file__), "../../src/test/classify-queries.txt"
+)
+
+def _load_demo_queries() -> list[str]:
+    try:
+        with open(_QUERIES_FILE, encoding="utf-8") as f:
+            return [
+                line.strip()
+                for line in f
+                if line.strip() and not line.startswith("#")
+            ]
+    except OSError:
+        return ["How do I treat a burn?"]
+
+_DEMO_QUERIES = _load_demo_queries()
+
+
+def _random_demo_query() -> str:
+    return random.choice(_DEMO_QUERIES)
 
 
 class PrewarmThread(QThread):
     done = pyqtSignal()
 
     def run(self):
+        # Prewarm LLM (loads model into Ollama memory)
         llm_client.prewarm()
+        # Prewarm classify service (loads gte-small embedding model on first call)
+        classify_client.dispatch("help", None)
         self.done.emit()
 
 
@@ -116,10 +140,11 @@ class OasisApp:
     def _simulate_asr_done(self):
         if self.sm.state != State.PROCESSING:
             return
-        self.window.chat.add_message(ROLE_USER, DEMO_QUERY)
+        demo_query = _random_demo_query()
+        self.window.chat.add_message(ROLE_USER, demo_query)
         self.sm.on_pipeline_started()
         self.window.chat.begin_oasis_response()
-        self.worker.start_query(user_text=DEMO_QUERY)
+        self.worker.start_query(user_text=demo_query)
 
     def _on_stream_done(self):
         self.window.chat.end_oasis_response()
