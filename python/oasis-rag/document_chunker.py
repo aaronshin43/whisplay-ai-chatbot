@@ -205,11 +205,22 @@ class DocumentChunker:
 
 MIN_SECTION_TOKENS = 80   # sections smaller than this are merged with next
 
-# Pattern matching H2 (##) headings — used for parent tracking only
+# Pattern matching H1 (#) headings — used for parent tracking when splitting at H2
+_H1_RE = re.compile(r"^#{1}(?!#)\s+(.+)$", re.MULTILINE)
+# Pattern matching H2 (##) headings — used for parent tracking when splitting at H3
 _H2_RE = re.compile(r"^#{2}(?!#)\s+(.+)$", re.MULTILINE)
-# Matches H3 (###) headings — the section split boundary
-# We only split at H3, so H1/H2 headings stay as part of section text.
-_SPLIT_RE = re.compile(r"^#{3}(?!#)\s+(.+)$", re.MULTILINE)
+# Splits at H2 (##) OR H3 (###) boundaries.
+# H2-only files (e.g. burns.md) previously produced a single section spanning the
+# entire document; splitting at H2 as well gives one chunk per major section.
+_SPLIT_RE = re.compile(r"^#{2,3}(?!#)\s+(.+)$", re.MULTILINE)
+
+
+def _h1_parent(pos: int, text: str) -> str:
+    """Return the most recent H1 heading title before *pos* in *text*."""
+    parent = ""
+    for m in _H1_RE.finditer(text, 0, pos):
+        parent = m.group(1).strip()
+    return parent
 
 
 def _h2_parent(pos: int, text: str) -> str:
@@ -305,11 +316,28 @@ class SectionAwareChunker:
             body    = text[s_start:s_end].strip()
             if not body:
                 continue
-            # Determine heading of this section (H3 only)
+            # Determine heading and parent for this section.
+            # H3 sections use the enclosing H2 as parent.
+            # H2 sections use the enclosing H1 as parent.
             first_line = body.split("\n", 1)[0].strip()
-            m = re.match(r"^#{3}(?!#)\s+(.+)$", first_line)
-            heading = m.group(1).strip() if m else source
-            h2p = _h2_parent(s_start, text)
+            m3 = re.match(r"^#{3}(?!#)\s+(.+)$", first_line)
+            m2 = re.match(r"^#{2}(?!#)\s+(.+)$", first_line)
+            if m3:
+                heading = m3.group(1).strip()
+                h2p = _h2_parent(s_start, text)
+            elif m2:
+                heading = m2.group(1).strip()
+                h2p = _h1_parent(s_start, text)
+            else:
+                heading = source
+                h2p = _h1_parent(s_start, text)
+            # Skip heading-only sections: an H2 that is immediately followed by
+            # H3 sub-sections produces a body consisting of just the heading line.
+            # These orphan sections are unembeddable noise; H3 chunks below will
+            # carry the semantic content.
+            body_content = body[len(first_line):].strip()
+            if not body_content:
+                continue
             raw.append(_Section(heading=heading, h2_parent=h2p, text=body))
 
         if not raw:
@@ -320,11 +348,19 @@ class SectionAwareChunker:
         i = 0
         while i < len(raw):
             sec = raw[i]
-            # Accumulate forward while tiny and same H2 parent
+            # Accumulate forward while tiny AND:
+            #   (a) sibling: next section shares the same H2 parent, OR
+            #   (b) child:   next section is an H3 directly under this H2
+            #                (its h2_parent equals our heading)
+            # Case (b) handles H2 intro paragraphs that are immediately followed
+            # by H3 sub-sections — they can't merge sideways but should merge down.
             while (
                 sec.tokens < MIN_SECTION_TOKENS
                 and i + 1 < len(raw)
-                and raw[i + 1].h2_parent == sec.h2_parent
+                and (
+                    raw[i + 1].h2_parent == sec.h2_parent   # (a) sibling
+                    or raw[i + 1].h2_parent == sec.heading  # (b) child
+                )
             ):
                 i += 1
                 next_sec = raw[i]

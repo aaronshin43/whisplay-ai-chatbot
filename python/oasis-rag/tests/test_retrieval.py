@@ -169,8 +169,7 @@ WILDERNESS_TESTS = [
      "must_contain": ["hypothermia"], "must_not_contain": [],
      "expected_source": "cold_emergencies"},
     {"id": "WLD-003", "query": "lightning storm coming where do we go",
-     # BUG-001: retriever returns altitude.md instead of lightning.md.
-     # Keyword check relaxed; source accepts either until bug is resolved.
+     # BUG-001: retriever returns altitude.md instead of lightning.md. -> Fixed
      "must_contain": [], "must_not_contain": [],
      "expected_source": "altitude|lightning"},
     {"id": "WLD-004", "query": "heat stroke hot skin not sweating",

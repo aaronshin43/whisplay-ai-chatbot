@@ -147,6 +147,9 @@ _TAXONOMY: dict[str, list[str]] = {
         "skull fracture", "crepitus", "neurovascular status",
         "bone sticking out", "deformed limb", "angulated",
         "sprain", "strain", "joint injury", "sling", "swathe",
+        # ── Trauma mechanism / colloquial triggers ────────────────────────
+        "fell from height", "fell from", "fall from height", "fell off",
+        "hit head", "head trauma",          # biases toward trauma.md head injury section
     ],
 
     # ── 7. Neurological / Head Trauma ─────────────────────────────────────
@@ -227,11 +230,20 @@ _TAXONOMY: dict[str, list[str]] = {
         "acclimatization", "acclimatize", "descend", "descent",
         "high elevation", "mountain sickness", "thin air",
         "headache nausea altitude", "altitude headache",
-        "lightning strike", "lightning storm", "thunder",
-        "lightning",                                    # standalone: "lightning coming no shelter"
-        "struck by lightning", "lightning hit",        # injury scenarios
         "avalanche", "buried in snow", "snow burial",
         "drowning", "submersion", "near-drowning", "water rescue",
+    ],
+
+    # ── 10-D. Lightning / Electrical Injuries ─────────────────────────────
+    "lightning_electrical": [
+        "lightning", "lightning strike", "lightning storm", "thunder",
+        "struck by lightning", "lightning hit", "lightning victim",
+        "electric shock", "electrocution", "electrocuted",
+        "live wire", "power line", "electrical injury", "electrical burn",
+        "touched wire", "shocked by electricity",
+        "circuit breaker", "fuse box", "voltage", "high voltage",
+        "entry wound exit wound",   # electrical burn pattern
+        "reverse triage",           # lightning-specific triage rule
     ],
 
     # ── 11. Obstetric / Pediatric ─────────────────────────────────────────
@@ -313,8 +325,11 @@ _COLLOQUIAL_TERMS: frozenset[str] = frozenset({
     "paralysis", "paralyzed", "paralysed",
     "numb legs", "numb feet", "numbness below",
     "dont move", "do not move", "keep still",
-    # altitude_wilderness colloquial
-    "lightning", "struck by lightning", "lightning hit",
+    # lightning_electrical colloquial
+    "lightning hit", "struck by lightning",
+    # fractures_ortho mechanism triggers (not in medical doc text)
+    "fell from height", "fell from", "fall from height", "fell off",
+    "hit head", "head trauma",
     # poisoning_tox colloquial
     "snake bit", "bit by snake", "bitten by snake", "bitten",
     # respiratory / penetrating trauma colloquial
