@@ -39,12 +39,16 @@ class PipelineWorker(QThread):
         return None
 
     def run(self):
+        t_start = time.time()
+
         # ── Step 1: Dispatch ────────────────────────────────────────────────
         self.state_changed.emit("Classifying...")
         result = classify_client.dispatch(
             query=self._user_text,
             prev_triage_hint=self._get_active_hint(),
         )
+        t_classify = time.time()
+        print(f"[Pipeline] classify round-trip: {(t_classify - t_start)*1000:.1f}ms  (service-side: {result.latency_ms:.1f}ms)")
 
         if self._abort_flag[0]:
             self.finished.emit()
@@ -55,8 +59,6 @@ class PipelineWorker(QThread):
             # Pre-baked response — no LLM call.
             self._triage_hint = None
             text = result.response_text or classify_client.SAFE_FALLBACK_TEXT
-            # Emit as a single token so ChatWidget and TTS handle it identically
-            # to streamed responses. No structural changes needed downstream.
             clean = sanitize_chunk(text)
             if clean:
                 self._response_buffer.append(clean)
@@ -69,7 +71,6 @@ class PipelineWorker(QThread):
         if result.mode == "llm_prompt":
             self._triage_hint = None
         else:  # triage_prompt
-            # category is always set by Python for triage_prompt
             self._triage_hint = result.category
             self._triage_hint_expires = time.time() + TRIAGE_HINT_TTL_SEC
             if result.hint_changed_result:
@@ -86,7 +87,13 @@ class PipelineWorker(QThread):
         # ── Step 4: Stream LLM tokens ────────────────────────────────────────
         self.state_changed.emit("Generating response...")
 
+        t_llm_start = time.time()
+        _ttft_printed = [False]
+
         def on_token(token: str):
+            if not _ttft_printed[0]:
+                _ttft_printed[0] = True
+                print(f"[Pipeline] LLM TTFT: {(time.time() - t_llm_start)*1000:.1f}ms  (total from query: {(time.time() - t_start)*1000:.1f}ms)")
             clean = sanitize_chunk(token)
             if clean:
                 self._response_buffer.append(clean)
@@ -97,6 +104,7 @@ class PipelineWorker(QThread):
                 log_response(self._user_text, "".join(self._response_buffer))
             self.finished.emit()
 
+        print(f"[Pipeline] calling LLM (system_prompt tokens ~{len(system_prompt.split())} words)")
         llm_client.stream(
             messages=messages,
             on_token=on_token,
