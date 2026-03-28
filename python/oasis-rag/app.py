@@ -18,10 +18,16 @@ Error responses always carry JSON { "error": "message" }.
 from __future__ import annotations
 
 import logging
+import os
 import sys
 import threading
 import time
 from pathlib import Path
+
+# Mac 스레드 충돌 방지 설정 (Segmentation Fault 방지)
+if sys.platform == "darwin":
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
+    os.environ["OMP_NUM_THREADS"] = "1"
 
 from flask import Flask, jsonify, request
 
