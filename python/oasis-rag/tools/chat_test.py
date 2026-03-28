@@ -5,6 +5,7 @@ Usage:
     python tools/chat_test.py                      # default: gemma3:1b
     python tools/chat_test.py --model qwen3.5:0.8b
     python tools/chat_test.py --model gemma3:4b
+    grep -v "^#" tools/test_queries.txt | python tools/chat_test.py -o ./tools/results.txt
 
 Requires:
     - RAG service running on localhost:5001  (python service.py)
@@ -123,46 +124,73 @@ def main() -> None:
         default=DEFAULT_MODEL,
         help=f"Ollama model to use (default: {DEFAULT_MODEL})",
     )
+    parser.add_argument(
+        "--output", "-o",
+        default=None,
+        metavar="FILE",
+        help="Save all output to FILE (in addition to stdout)",
+    )
     args = parser.parse_args()
     model = args.model
 
-    print()
-    print("  O.A.S.I.S. Interactive Test CLI")
-    print("  ─────────────────────────────────────────────")
+    log_file = None
+    if args.output:
+        log_file = open(args.output, "w", encoding="utf-8")
+
+    def emit(*objects, sep=" ", end="\n"):
+        """Print to stdout and optionally mirror to log file."""
+        text = sep.join(str(o) for o in objects) + end
+        sys.stdout.write(text)
+        sys.stdout.flush()
+        if log_file:
+            log_file.write(text)
+            log_file.flush()
+
+    emit()
+    emit("  O.A.S.I.S. Interactive Test CLI")
+    emit("  ─────────────────────────────────────────────")
 
     rag_ok, ollama_ok = check_services()
 
     if not rag_ok:
-        print("  [WARN] RAG service not ready — responses will use safe fallback only")
+        emit("  [WARN] RAG service not ready — responses will use safe fallback only")
     else:
-        print("  [OK] RAG service  →  localhost:5001")
+        emit("  [OK] RAG service  →  localhost:5001")
 
     if not ollama_ok:
-        print("  [ERROR] Ollama not reachable — start with: ollama serve")
-        print("  Exiting.")
+        emit("  [ERROR] Ollama not reachable — start with: ollama serve")
+        emit("  Exiting.")
+        if log_file:
+            log_file.close()
         sys.exit(1)
     else:
-        print(f"  [OK] Ollama       →  localhost:11434  ({model})")
+        emit(f"  [OK] Ollama       →  localhost:11434  ({model})")
+    if args.output:
+        emit(f"  [LOG] Saving output to: {args.output}")
 
-    print()
-    print('  Type your query below. Enter "quit" or Ctrl-C to exit.')
-    print()
+    emit()
+    emit('  Type your query below. Enter "quit" or Ctrl-C to exit.')
+    emit()
 
     while True:
         # ── Prompt ────────────────────────────────────────────────────────────
         try:
             query = input("OASIS> ").strip()
         except (KeyboardInterrupt, EOFError):
-            print("\n  Goodbye.")
+            emit("\n  Goodbye.")
             break
 
-        if not query:
+        if not query or query.startswith("#"):
             continue
         if query.lower() in {"quit", "exit", "q"}:
-            print("  Goodbye.")
+            emit("  Goodbye.")
             break
 
-        print()
+        if log_file:
+            log_file.write(f"OASIS> {query}\n")
+            log_file.flush()
+
+        emit()
 
         # ── Stage 1: RAG retrieval ────────────────────────────────────────────
         system_prompt, context, chunks, rag_ms = retrieve(query)
@@ -171,7 +199,7 @@ def main() -> None:
             top       = chunks[0] if chunks else {}
             top_src   = top.get("source", "?")
             top_score = top.get("hybrid_score", 0.0)
-            print(
+            emit(
                 f"  [RAG] {len(chunks)} chunk(s) found ({rag_ms:.0f}ms)"
                 f" | top: {top_src} ({top_score:.2f})"
             )
@@ -180,27 +208,32 @@ def main() -> None:
                     f"{c.get('source','?')} ({c.get('hybrid_score',0):.2f})"
                     for c in chunks[1:]
                 )
-                print(f"        also: {others}")
+                emit(f"        also: {others}")
 
             system = system_prompt
         else:
-            print("  [RAG] unavailable — using safe fallback")
+            emit("  [RAG] unavailable — using safe fallback")
             system = SAFE_FALLBACK_PROMPT
+
+        emit(f"  [REF] {context}")
 
         # ── Stage 2: LLM ──────────────────────────────────────────────────────
         try:
             response, elapsed = call_llm(system, query, model=model)
         except requests.exceptions.ConnectionError:
-            print("  [ERROR] Ollama not reachable.\n")
+            emit("  [ERROR] Ollama not reachable.\n")
             continue
         except Exception as e:
-            print(f"  [ERROR] LLM call failed: {e}\n")
+            emit(f"  [ERROR] LLM call failed: {e}\n")
             continue
 
-        print(f"  [LLM] {model} ({elapsed:.1f}s)")
-        print()
-        print(response)
-        print()
+        emit(f"  [LLM] {model} ({elapsed:.1f}s)")
+        emit()
+        emit(response)
+        emit()
+
+    if log_file:
+        log_file.close()
 
 
 if __name__ == "__main__":
