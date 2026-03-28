@@ -1,0 +1,79 @@
+# --- Edge Cases (EDG) ---
+HELP THERE IS SO MUCH BLOOD OH GOD PLEASE HELP
+HE IS DYING WHAT DO I DO HE IS NOT MOVING
+oh no oh no oh no shes not breathing help
+what is the weather today
+tell me a joke
+bleeding
+help
+hes bledding from the nek real bad
+she done fell and her arm look broke
+car accident bleeding from head and leg looks broken
+so we were hiking in the mountains and my friend slipped on a rock and fell about ten feet down and now he is lying on the ground and his leg is bent at a weird angle and there is blood coming from a cut on his head and he says he cant feel his toes and I dont know what to do please help me
+
+# --- Bleeding (BLD) ---
+there is blood everywhere from his arm
+she cut her hand deeply and bleeding wont stop
+blood is soaking through the cloth what do i do
+when should I use a tourniquet
+arterial bleeding bright red spurting
+
+# --- CPR / Cardiac (CPR) ---
+she collapsed and is not breathing
+how do I do chest compressions
+what is the compression to breath ratio for CPR
+he has no pulse what should I do
+how to use AED defibrillator
+
+# --- Choking (CHK) ---
+something stuck in his throat he cant breathe
+adult choking on food turning blue
+heimlich maneuver how to do it
+person is coughing but cannot get air
+
+# --- Anaphylaxis (ANA) ---
+throat is swelling after bee sting
+allergic reaction face is swelling cant breathe
+how to use an epipen
+she ate peanuts and now she cant breathe her lips are blue
+
+# --- Shock (SHK) ---
+person is pale cold and sweaty after injury
+how to treat someone in shock
+rapid pulse weak and confused after blood loss
+
+# --- Trauma (TRM) ---
+broken arm bone sticking out
+how to splint a broken leg
+head injury fell from height unconscious
+chest wound sucking sound when breathing
+object impaled in his leg should I pull it out
+
+# --- Burns (BRN) ---
+spilled boiling water on my arm
+chemical burn on skin
+second degree burn with blisters
+
+# --- Breathing (BRT) ---
+asthma attack she cant breathe wheezing
+person having difficulty breathing after smoke inhalation
+baby is not breathing what do I do
+
+# --- Altered Mental Status (AMS) ---
+person is confused and disoriented after fall
+diabetic person acting weird sweating confused
+suspected stroke face drooping slurred speech
+seizure convulsions on the ground
+person overdosed on drugs unconscious
+
+# --- Wilderness (WLD) ---
+snake bit him on the ankle
+hypothermia stopped shivering very cold
+lightning storm coming where do we go
+heat stroke hot skin not sweating
+altitude sickness headache nausea at high elevation
+frostbite fingers are white and numb
+pulled him from water not breathing drowning
+tick embedded in skin how to remove
+bee sting remove stinger swelling
+poison ivy rash on arms and legs
