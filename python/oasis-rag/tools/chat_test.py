@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import io
+import json
 import re
 import sys
 import time
@@ -70,8 +71,8 @@ def _strip_think(text: str) -> str:
 
 
 # ── LLM call ──────────────────────────────────────────────────────────────────
-def call_llm(system: str, query: str, model: str = DEFAULT_MODEL) -> tuple[str, float]:
-    """Returns (response_text, elapsed_seconds)."""
+def call_llm(system: str, query: str, model: str = DEFAULT_MODEL, *, write_fn=None) -> tuple[str, float]:
+    """Returns (response_text, elapsed_seconds). If write_fn is given, streams tokens to it in real time."""
     # Qwen3 / reasoning models consume their entire token budget on internal
     # thinking and return an empty content field. Disable thinking mode with
     # the Ollama `think: false` top-level payload key.
@@ -79,7 +80,7 @@ def call_llm(system: str, query: str, model: str = DEFAULT_MODEL) -> tuple[str, 
 
     payload = {
         "model":   model,
-        "stream":  False,
+        "stream":  True,
         "options": {
             "num_predict": 200,
             "temperature": 0.1,
@@ -94,10 +95,19 @@ def call_llm(system: str, query: str, model: str = DEFAULT_MODEL) -> tuple[str, 
     if is_thinking_model:
         payload["think"] = False
     t0   = time.perf_counter()
-    resp = requests.post(OLLAMA_URL, json=payload, timeout=120)
+    resp = requests.post(OLLAMA_URL, json=payload, timeout=120, stream=True)
     resp.raise_for_status()
+    raw = ""
+    for line in resp.iter_lines():
+        if line:
+            chunk = json.loads(line)
+            token = chunk.get("message", {}).get("content", "")
+            raw += token
+            if write_fn and token:
+                write_fn(token)
+            if chunk.get("done"):
+                break
     elapsed = time.perf_counter() - t0
-    raw = resp.json()["message"]["content"]
     return _strip_think(raw), elapsed
 
 
@@ -219,8 +229,17 @@ def main() -> None:
         emit(f"  [REF] {context}")
 
         # ── Stage 2: LLM ──────────────────────────────────────────────────────
+        def write_token(token: str) -> None:
+            sys.stdout.write(token)
+            sys.stdout.flush()
+            if log_file:
+                log_file.write(token)
+                log_file.flush()
+
+        emit(f"  [LLM] {model} — streaming...")
+        emit()
         try:
-            response, elapsed = call_llm(system, query, model=model)
+            _, elapsed = call_llm(system, query, model=model, write_fn=write_token)
         except requests.exceptions.ConnectionError:
             emit("  [ERROR] Ollama not reachable.\n")
             continue
@@ -228,9 +247,8 @@ def main() -> None:
             emit(f"  [ERROR] LLM call failed: {e}\n")
             continue
 
-        emit(f"  [LLM] {model} ({elapsed:.1f}s)")
         emit()
-        emit(response)
+        emit(f"  ({elapsed:.1f}s)")
         emit()
 
     if log_file:
