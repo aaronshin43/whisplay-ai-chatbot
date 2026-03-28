@@ -13,6 +13,12 @@ from pathlib import Path
 # Override via environment variables when needed.
 # ─────────────────────────────────────────────────────────────
 import os
+import sys
+
+# Mac 스레드 충돌 방지 설정 (Segmentation Fault 방지) - 전역 적용
+if sys.platform == "darwin":
+    os.environ["TOKENIZERS_PARALLELISM"] = "false"
+    os.environ["OMP_NUM_THREADS"] = "1"
 
 _HERE = Path(__file__).parent                          # python/oasis-rag/
 _ROOT = _HERE.parent.parent                            # project root
