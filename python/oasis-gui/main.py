@@ -1,7 +1,7 @@
 import sys
 import platform
 from PyQt5.QtWidgets import QApplication
-from PyQt5.QtCore import Qt, QThread, QObject, QEvent, pyqtSignal
+from PyQt5.QtCore import Qt, QTimer, QThread, QObject, QEvent, pyqtSignal
 import gui.theme as theme
 
 IS_PI = platform.machine().startswith("aarch")
@@ -20,10 +20,13 @@ if IS_PI:
 theme.EFFECTIVE_PORTRAIT_WIDTH = min(SCREEN_SIZE)
 
 from gui.main_window import MainWindow
-
+from gui.chat_widget import ROLE_USER
 from core.state_machine import StateMachine, State, STATE_UI
 from core.pipeline_worker import PipelineWorker
 from clients import llm_client
+
+
+DEMO_QUERY = "How do I treat a burn?"
 
 
 class PrewarmThread(QThread):
@@ -102,10 +105,21 @@ class OasisApp:
     def _on_state_changed(self, state: State):
         self._apply_state(state)
 
-        if state == State.LISTENING:
+        if state == State.PROCESSING:
+            QTimer.singleShot(500, self._simulate_asr_done)
+
+        elif state == State.LISTENING:
             # Interrupt: abort any running stream
             self.worker.abort()
             self.window.chat.end_oasis_response()
+
+    def _simulate_asr_done(self):
+        if self.sm.state != State.PROCESSING:
+            return
+        self.window.chat.add_message(ROLE_USER, DEMO_QUERY)
+        self.sm.on_pipeline_started()
+        self.window.chat.begin_oasis_response()
+        self.worker.start_query(user_text=DEMO_QUERY)
 
     def _on_stream_done(self):
         self.window.chat.end_oasis_response()
