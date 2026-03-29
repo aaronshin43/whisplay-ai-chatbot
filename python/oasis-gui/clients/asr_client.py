@@ -20,7 +20,9 @@ def recognize(wav_path: str) -> str:
             f"{WHISPER_URL}/recognize",
             json={"filePath": wav_path, "language": WHISPER_LANG},
         )
-        resp.raise_for_status()
+        if not resp.is_success:
+            print(f"[ASR] Server error {resp.status_code}: {resp.text}")
+            return ""
         data = resp.json()
         text = data.get("recognition", "").strip()
         cost = data.get("time_cost", 0)
