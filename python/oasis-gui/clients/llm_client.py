@@ -17,6 +17,8 @@ _OASIS_OPTIONS = {
     "num_predict": 200,
     "temperature": 0.1,
     "repeat_penalty": 1.3,
+    "num_ctx": 512,
+    "num_thread": 4,
 }
 _OASIS_STOP = ["**", "Okay", "Let's", "Here's"]
 
