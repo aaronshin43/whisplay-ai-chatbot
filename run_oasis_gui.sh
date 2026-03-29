@@ -72,6 +72,8 @@ EXIT_CODE=$?
 
 # Cleanup background services
 echo "Shutting down services..."
+pkill -f "faster-whisper-host" 2>/dev/null || true
+pkill sox 2>/dev/null || true
 kill "$CLASSIFY_PID" "$ASR_PID" 2>/dev/null || true
 if [ -n "$OLLAMA_PID" ]; then kill "$OLLAMA_PID" 2>/dev/null || true; fi
 

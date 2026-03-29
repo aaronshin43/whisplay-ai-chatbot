@@ -8,7 +8,7 @@ WHISPER_HOST = os.getenv("FASTER_WHISPER_HOST", "localhost")
 WHISPER_PORT = os.getenv("FASTER_WHISPER_PORT", "8803")
 WHISPER_LANG = os.getenv("FASTER_WHISPER_LANGUAGE", "en")
 WHISPER_URL = f"http://{WHISPER_HOST}:{WHISPER_PORT}"
-TIMEOUT = 10.0
+TIMEOUT = 30.0
 
 _client = httpx.Client(timeout=TIMEOUT)
 

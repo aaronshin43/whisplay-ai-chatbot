@@ -56,6 +56,11 @@ class Recorder:
             # Too short — likely accidental tap, skip ASR
             return "", duration
 
+        # Verify sox actually wrote a valid WAV file
+        if not os.path.exists(self._output_path) or os.path.getsize(self._output_path) <= 44:
+            print(f"[Recorder] WAV file missing or empty: {self._output_path}")
+            return "", duration
+
         return self._output_path, duration
 
     @property
