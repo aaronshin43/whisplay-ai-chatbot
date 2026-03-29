@@ -1,17 +1,11 @@
 Category: Opioid Overdose
 
 STEPS:
-1. Call 911 immediately.
-2. Check for signs: unresponsive, slow or stopped breathing, blue lips, pinpoint pupils.
-3. If naloxone (Narcan) is available, administer one dose — nasal spray or injection per label instructions.
-4. Perform rescue breathing while waiting for naloxone to take effect — 1 breath every 5 seconds.
-5. If no response after 2-3 minutes, administer a second dose of naloxone.
-6. Place in recovery position if breathing returns.
-7. If breathing stops completely, begin full CPR.
-8. Stay with the person — naloxone wears off in 30-90 minutes and overdose can return.
+1. Call 911. Signs: unresponsive, slow/stopped breathing, blue lips, pinpoint pupils.
+2. Give naloxone (Narcan) -- nasal spray or injection; repeat if no response in 2-3 min.
+3. Rescue breathing: 1 breath every 5 sec until naloxone takes effect.
+4. When breathing returns, place in recovery position; wait for EMS.
 
 NEVER DO:
-- Do NOT leave the person alone after administering naloxone.
-- Do NOT put the person in a cold shower or give coffee — these do not reverse overdose.
-- Do NOT assume one dose is enough — fentanyl overdoses may need multiple doses.
-- Do NOT give naloxone to a conscious person without overdose signs.
+- Do NOT leave the person alone -- overdose can return when naloxone wears off.
+- Do NOT use cold shower or coffee -- these do not reverse overdose.

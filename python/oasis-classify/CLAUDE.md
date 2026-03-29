@@ -62,7 +62,7 @@ User Query
 | `data/short_queries.json` | Tier 0A — `{ normalized_query: category_id_or_response }` for word count ≤ 3. |
 | `data/sentence_matches.json` | Tier 0B — `{ normalized_sentence: category_id_or_response }` for word count > 3. |
 | `data/also_check_summaries.json` | Per-category curated one-liners for multi-label "ALSO CHECK" block. Human-written; never generated at runtime. |
-| `data/manuals/*.txt` | 32 manual files, one per category. STEPS + NEVER DO format. 150-250 tokens each. |
+| `data/manuals/*.txt` | 32 manual files, one per category. STEPS + NEVER DO format. 80-140 tokens each. |
 
 ### Tests
 
@@ -157,7 +157,7 @@ NEVER DO:
 ```
 
 - Plain text only — no markdown. The 1b LLM copies markdown formatting if it sees it.
-- 150-250 tokens per manual.
+- 80-140 tokens per manual.
 - STEPS and NEVER DO sections are both required in every manual.
 - Content must be distilled from `data/knowledge/` source documents — not invented.
 

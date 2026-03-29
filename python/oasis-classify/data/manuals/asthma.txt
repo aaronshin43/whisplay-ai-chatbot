@@ -1,17 +1,12 @@
 Category: Asthma Attack
 
 STEPS:
-1. Keep the person calm and help them sit upright — leaning slightly forward with hands on knees opens the airways.
-2. If a rescue inhaler (blue, short-acting) is available, help them use it: shake, place in mouth, breathe in as they press.
-3. Use a spacer with the inhaler if available for better delivery.
-4. Give 1 puff every minute up to 10 puffs while waiting for help.
-5. Call 911 if no improvement after 10 puffs, no inhaler available, or breathing worsens.
-6. Do not lay the person flat — this makes breathing harder.
-7. If unconscious, lay them down and check for breathing.
-8. Begin CPR if not breathing.
+1. Sit person upright, leaning slightly forward with hands on knees.
+2. Help use rescue inhaler (blue, short-acting): shake, place in mouth, press.
+3. Give 1 puff every minute up to 10 puffs while waiting for help.
+4. Call 911 if no improvement after 10 puffs or breathing worsens.
+5. Begin CPR if person becomes unresponsive and stops breathing.
 
 NEVER DO:
 - Do NOT lay the person flat during an asthma attack.
-- Do NOT substitute a long-acting brown or purple inhaler for the rescue blue inhaler.
-- Do NOT leave the person alone during an attack.
-- Do NOT allow the person to continue exerting themselves.
+- Do NOT substitute a long-acting brown or purple inhaler for the rescue inhaler.

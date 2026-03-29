@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "../../.env"))
 
 CLASSIFY_URL = os.getenv("OASIS_CLASSIFY_SERVICE_URL", "http://127.0.0.1:5002")
-TIMEOUT = float(os.getenv("OASIS_CLASSIFY_TIMEOUT_MS", "3000")) / 1000.0
+TIMEOUT = float(os.getenv("OASIS_CLASSIFY_TIMEOUT_MS", "5000")) / 1000.0
 
 # Persistent client — reuses TCP connection across calls.
 # Avoids per-call DNS resolution and TCP handshake overhead (~2s on Windows localhost).

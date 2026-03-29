@@ -54,14 +54,10 @@ _ALSO_CHECK: dict[str, str] = _load_also_check()
 # ---------------------------------------------------------------------------
 
 _PROMPT_TEMPLATE = """\
-You are OASIS, a first-aid assistant.
-Rules: Only use information on MANUAL. Numbered list only. One sentence per step. No extra text.
+You are an emergency first-aid assistant. Using the steps in the MANUAL below, give numbered guidance that directly addresses the situation. Select only the steps that apply — skip irrelevant ones. Use direct second-person language. Begin immediately with "1." — no introductory sentence.
 
 MANUAL:
-{manual}
-
-QUESTION: {query}
-RESPONSE:"""
+{manual}"""
 
 _ALSO_CHECK_TEMPLATE = "ALSO CHECK: {category} — {summary}"
 
@@ -138,7 +134,7 @@ def build_prompt(
     manual = get_manual(primary_category) or ""
 
     # Build primary-only prompt first
-    primary_prompt = _PROMPT_TEMPLATE.format(manual=manual, query=query)
+    primary_prompt = _PROMPT_TEMPLATE.format(manual=manual)
 
     if secondary_category and secondary_category != primary_category:
         also_check_summary = _ALSO_CHECK.get(secondary_category, "")
@@ -147,10 +143,10 @@ def build_prompt(
                 category=secondary_category.replace("_", " ").title(),
                 summary=also_check_summary,
             )
-            # Insert also-check block after the manual, before QUESTION
+            # Insert also-check block after the manual
             manual_with_also = manual + "\n\n" + also_check_block
             combined_prompt = _PROMPT_TEMPLATE.format(
-                manual=manual_with_also, query=query
+                manual=manual_with_also
             )
             if count_tokens(combined_prompt) <= MAX_PROMPT_TOKENS:
                 return combined_prompt

@@ -41,8 +41,8 @@ const isOasisMode = process.env.ENABLE_OASIS_MATCHER === "true" || true;
 const oasisOptions = isOasisMode
   ? {
       num_predict: 300,
-      temperature: 0.05,
-      stop: ["**", "Okay", "Let's", "Here's", "Note:", "Note "],
+      temperature: 0.25,
+      stop: ["**"],
     }
   : undefined;
 

@@ -2,16 +2,11 @@ Category: Anaphylaxis / Severe Allergic Reaction
 
 STEPS:
 1. Call 911 immediately — anaphylaxis is life-threatening.
-2. If an epinephrine auto-injector (EpiPen) is available, administer it into the outer thigh without delay.
-3. Lay the person flat and elevate their legs unless they have difficulty breathing.
-4. If breathing is difficult, allow them to sit upright in a position of comfort.
-5. A second dose of epinephrine can be given 5-15 minutes after the first if symptoms persist.
-6. Do not let the person stand or walk — keep them still.
-7. If the person becomes unresponsive and stops breathing, begin CPR.
-8. Even if symptoms improve, transport to hospital — biphasic reactions can occur hours later.
+2. Administer epinephrine auto-injector into the outer thigh without delay.
+3. Lay person flat and elevate legs unless breathing is difficult.
+4. If breathing is difficult, allow person to sit upright for comfort.
+5. Give second epinephrine dose after 5-15 minutes if symptoms persist.
 
 NEVER DO:
-- Do NOT delay epinephrine waiting to see if symptoms improve — use it immediately.
-- Do NOT give antihistamines as a substitute for epinephrine — they do not treat anaphylaxis.
-- Do NOT leave the person alone.
-- Do NOT allow them to stand if dizzy or blood pressure is low.
+- Do NOT delay epinephrine to see if symptoms improve on their own.
+- Do NOT use antihistamines as a substitute for epinephrine.

@@ -1,17 +1,12 @@
 Category: Stroke
 
 STEPS:
-1. Use the FAST test: Face drooping, Arm weakness, Speech difficulty, Time to call 911.
-2. Call 911 immediately — stroke treatment is time-critical.
-3. Note the exact time symptoms started — hospital treatment depends on this.
-4. Keep the person calm, still, and comfortable while waiting for help.
-5. If unconscious and breathing, place in the recovery position on their side.
-6. If not breathing, begin CPR.
-7. Loosen any tight clothing around the neck.
-8. Do not give the person food, drink, or medication — swallowing is often impaired.
+1. Use FAST: Face drooping, Arm weakness, Speech slurred, Time to call 911.
+2. Call 911 immediately; note exact time symptoms started — treatment depends on it.
+3. Keep person calm, still, and comfortable.
+4. If unconscious and breathing, place in recovery position on their side.
+5. If not breathing, begin CPR.
 
 NEVER DO:
-- Do NOT give aspirin unless explicitly instructed by emergency services — stroke may be hemorrhagic.
-- Do NOT let the person drive themselves to the hospital.
-- Do NOT wait to see if symptoms pass on their own — call immediately.
-- Do NOT give food or water — the person may not be able to swallow safely.
+- Do NOT give aspirin unless emergency services instruct it — stroke may be hemorrhagic.
+- Do NOT give food or water — swallowing is often impaired after stroke.

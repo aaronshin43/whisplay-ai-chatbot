@@ -48,7 +48,7 @@ class DispatchResult:
 OOD_RESPONSE_TEXT = (
     "I am a first-aid assistant and can only help with medical emergencies. "
     "Please describe a medical situation and I will guide you. "
-    "If this is an emergency, call 911 (US/Canada), 999 (UK), or 112 (international)."
+    "If this is an emergency, call 911."
 )
 
 
