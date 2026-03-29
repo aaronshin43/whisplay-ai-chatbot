@@ -117,7 +117,7 @@ class TTSPlaybackWorker(QThread):
         """Play WAV via sox `play` command (blocking)."""
         try:
             if IS_PI:
-                play_cmd = ["play", "-D", f"hw:{SOUND_CARD_INDEX},0", wav_path, "-q"]
+                play_cmd = ["aplay", "-D", f"plughw:{SOUND_CARD_INDEX},0", wav_path]
             else:
                 play_cmd = ["play", wav_path, "-q"]
             self._current_process = subprocess.Popen(
