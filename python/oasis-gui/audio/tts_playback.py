@@ -7,7 +7,7 @@ from queue import Queue, Empty
 from PyQt5.QtCore import QThread, pyqtSignal
 
 IS_PI = platform.machine().startswith("aarch")
-PIPER_BINARY = os.getenv("PIPER_BINARY_PATH", "/home/pi/piper/piper")
+PIPER_BINARY = os.getenv("PIPER_BINARY_PATH", "/home/pi/piper/piper/piper")
 PIPER_MODEL = os.getenv("PIPER_MODEL_PATH", "/home/pi/piper/voices/en_US-amy-medium.onnx")
 SOUND_CARD_INDEX = os.getenv("SOUND_CARD_INDEX", "1")
 
