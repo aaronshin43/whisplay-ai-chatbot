@@ -4,7 +4,7 @@ tests/test_manuals.py — Manual format validation.
 For each .txt file in data/manuals/:
   - Verify "STEPS:" is present
   - Verify "NEVER DO:" is present
-  - Verify token count is between 150 and 250 (tiktoken cl100k_base)
+  - Verify token count is between 80 and 140 (tiktoken cl100k_base)
 """
 
 import os
@@ -64,12 +64,12 @@ def test_manual_has_never_do_section(category_id: str, filepath: str):
 
 @pytest.mark.parametrize("category_id,filepath", _MANUAL_FILES)
 def test_manual_token_count_in_range(category_id: str, filepath: str):
-    """Manual token count must be between 150 and 250 (tiktoken cl100k_base)."""
+    """Manual token count must be between 80 and 140 (tiktoken cl100k_base)."""
     with open(filepath, encoding="utf-8") as fh:
         content = fh.read()
     token_count = len(_ENCODING.encode(content))
-    assert 150 <= token_count <= 250, (
-        f"Manual '{category_id}' has {token_count} tokens — must be 150-250. "
+    assert 80 <= token_count <= 140, (
+        f"Manual '{category_id}' has {token_count} tokens — must be 80-140. "
         f"File: {filepath}"
     )
 
