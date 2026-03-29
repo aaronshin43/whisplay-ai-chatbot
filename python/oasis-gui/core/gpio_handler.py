@@ -11,14 +11,14 @@ class GPIOHandler(QObject):
         import RPi.GPIO as GPIO
         self._GPIO = GPIO
         GPIO.setmode(GPIO.BOARD)
-        GPIO.setup(self.BUTTON_PIN, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+        GPIO.setup(self.BUTTON_PIN, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
         GPIO.add_event_detect(
             self.BUTTON_PIN, GPIO.BOTH,
             callback=self._on_edge, bouncetime=50,
         )
 
     def _on_edge(self, channel):
-        if self._GPIO.input(channel) == self._GPIO.LOW:
+        if self._GPIO.input(channel) == self._GPIO.HIGH:
             self.button_pressed.emit()
         else:
             self.button_released.emit()
