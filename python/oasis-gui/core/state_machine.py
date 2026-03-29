@@ -42,6 +42,8 @@ class StateMachine(QObject):
             self.transition(State.LISTENING)
         elif self._state == State.STREAMING:
             self.transition(State.LISTENING)   # interrupt → new query
+        elif self._state == State.PROCESSING:
+            self.transition(State.LISTENING)   # cancel ASR, start new recording
 
     def on_button_release(self):
         if self._state == State.LISTENING:

@@ -1,9 +1,9 @@
 import sys
 import os
-import random
+import time
 import platform
 from PyQt5.QtWidgets import QApplication
-from PyQt5.QtCore import Qt, QTimer, QThread, QObject, QEvent, pyqtSignal
+from PyQt5.QtCore import Qt, QThread, QObject, QEvent, pyqtSignal
 import gui.theme as theme
 
 IS_PI = platform.machine().startswith("aarch")
@@ -25,29 +25,11 @@ from gui.main_window import MainWindow
 from gui.chat_widget import ROLE_USER
 from core.state_machine import StateMachine, State, STATE_UI
 from core.pipeline_worker import PipelineWorker
+from audio.recorder import Recorder
+from audio.tts_playback import TTSPlaybackWorker, _TTS_AVAILABLE
 from clients import llm_client, classify_client
 
-
-_QUERIES_FILE = os.path.join(
-    os.path.dirname(__file__), "../../src/test/classify-queries.txt"
-)
-
-def _load_demo_queries() -> list[str]:
-    try:
-        with open(_QUERIES_FILE, encoding="utf-8") as f:
-            return [
-                line.strip()
-                for line in f
-                if line.strip() and not line.startswith("#")
-            ]
-    except OSError:
-        return ["How do I treat a burn?"]
-
-_DEMO_QUERIES = _load_demo_queries()
-
-
-def _random_demo_query() -> str:
-    return random.choice(_DEMO_QUERIES)
+_DATA_DIR = os.path.join(os.path.dirname(__file__), "../../data")
 
 
 class PrewarmThread(QThread):
@@ -63,7 +45,7 @@ class PrewarmThread(QThread):
 
 class KeyFilter(QObject):
     """App-level event filter: catches key events regardless of which widget has focus."""
-    key_pressed = pyqtSignal(int)
+    key_pressed  = pyqtSignal(int)
     key_released = pyqtSignal(int)
 
     def eventFilter(self, _obj, event):
@@ -79,10 +61,26 @@ class OasisApp:
         self.app = QApplication.instance() or QApplication(sys.argv)
         self.window = MainWindow(screen_size=SCREEN_SIZE)
         self.sm = StateMachine()
-        self.worker = PipelineWorker()
-        self._prewarm_thread = PrewarmThread()
 
-        # App-level key filter — works regardless of which widget has focus
+        # TTS worker — persistent thread, started once at app launch
+        self.tts_worker = TTSPlaybackWorker()
+        self.tts_worker.start()
+
+        # Recorder — managed from main thread (button events)
+        self.recorder = Recorder()
+
+        # Pipeline worker — receives tts_worker for sentence dispatch
+        self.worker = PipelineWorker(tts_worker=self.tts_worker)
+
+        # GPIO on Pi, keyboard on PC
+        if IS_PI:
+            from core.gpio_handler import GPIOHandler
+            self.gpio = GPIOHandler()
+            self.gpio.button_pressed.connect(self._on_button_press)
+            self.gpio.button_released.connect(self._on_button_release)
+            self.gpio.start()
+
+        # App-level key filter (PC simulation)
         self._key_filter = KeyFilter()
         self.app.installEventFilter(self._key_filter)
         self._key_filter.key_pressed.connect(self._on_key_press)
@@ -94,10 +92,15 @@ class OasisApp:
 
         # Wire worker signals → UI + state machine
         self.worker.token_received.connect(self.window.chat.append_token)
+        self.worker.user_text_ready.connect(self._on_asr_done)
         self.worker.finished.connect(self._on_stream_done)
         self.worker.error_occurred.connect(self._on_error)
 
+        # TTS playback finished → transition to IDLE
+        self.tts_worker.playback_finished.connect(self._on_playback_done)
+
         # Pre-warm in background thread — GUI stays responsive
+        self._prewarm_thread = PrewarmThread()
         self._prewarm_thread.done.connect(self._on_prewarm_done)
 
         # Initial UI
@@ -113,13 +116,14 @@ class OasisApp:
             self.window.show()
 
         self._prewarm_thread.start()
+        self.app.aboutToQuit.connect(self._shutdown)
 
-    # ── Pre-warm ────────────────────────────────────────────────────────────
+    # ── Pre-warm ─────────────────────────────────────────────────────────────
 
     def _on_prewarm_done(self):
         self._apply_state(State.IDLE)
 
-    # ── State machine ───────────────────────────────────────────────────────
+    # ── State machine ─────────────────────────────────────────────────────────
 
     def _apply_state(self, state: State):
         header_text, footer_text = STATE_UI[state]
@@ -129,44 +133,73 @@ class OasisApp:
     def _on_state_changed(self, state: State):
         self._apply_state(state)
 
-        if state == State.PROCESSING:
-            QTimer.singleShot(500, self._simulate_asr_done)
-
-        elif state == State.LISTENING:
-            # Interrupt: abort any running stream
+        if state == State.LISTENING:
+            # Interrupt any running pipeline + TTS
             self.worker.abort()
+            self.tts_worker.cancel()
             self.window.chat.end_oasis_response()
+            # Prepare for new query
+            self.tts_worker.reset()
+            asr_dir = os.path.join(_DATA_DIR, "asr")
+            os.makedirs(asr_dir, exist_ok=True)
+            wav_path = os.path.join(asr_dir, f"recording_{int(time.time()*1000)}.wav")
+            self.recorder.start(wav_path)
 
-    def _simulate_asr_done(self):
-        if self.sm.state != State.PROCESSING:
-            return
-        demo_query = _random_demo_query()
-        self.window.chat.add_message(ROLE_USER, demo_query)
-        self.sm.on_pipeline_started()
+        elif state == State.PROCESSING:
+            wav_path, duration = self.recorder.stop()
+            if not wav_path:
+                # Too short or no audio — return to idle
+                self.sm.transition(State.IDLE)
+                return
+            self.worker.start_from_wav(wav_path)
+
+    def _on_asr_done(self, text: str):
+        """ASR text recognized — show in chat, update state to STREAMING."""
+        self.window.chat.add_message(ROLE_USER, text)
         self.window.chat.begin_oasis_response()
-        self.worker.start_query(user_text=demo_query)
+        self.sm.on_pipeline_started()  # PROCESSING → STREAMING
 
     def _on_stream_done(self):
+        """LLM stream complete — wait for TTS to finish playing."""
         self.window.chat.end_oasis_response()
+        # If TTS not available, go directly to IDLE
+        if not _TTS_AVAILABLE:
+            self.sm.on_pipeline_done()
+
+    def _on_playback_done(self):
+        """All TTS audio played — transition to IDLE."""
         self.sm.on_pipeline_done()
 
     def _on_error(self, msg: str):
         self.window.set_status(f"Error: {msg}")
         self.sm.transition(State.IDLE)
 
-    # ── Keyboard simulation (Space = button press/release) ──────────────────
+    # ── Button handlers (GPIO) ────────────────────────────────────────────────
+
+    def _on_button_press(self):
+        self.sm.on_button_press()
+
+    def _on_button_release(self):
+        self.sm.on_button_release()
+
+    # ── Keyboard simulation (Space = button, Escape = quit) ───────────────────
 
     def _on_key_press(self, key: int):
         if key == Qt.Key_Space and not self._space_held:
             self._space_held = True
             self.sm.on_button_press()
         elif key == Qt.Key_Escape:
-            self.app.quit()
+            self.app.quit()  # aboutToQuit handles _shutdown()
 
     def _on_key_release(self, key: int):
         if key == Qt.Key_Space:
             self._space_held = False
             self.sm.on_button_release()
+
+    def _shutdown(self):
+        self.tts_worker.shutdown()
+        if IS_PI and hasattr(self, "gpio"):
+            self.gpio.cleanup()
 
     def run(self):
         sys.exit(self.app.exec_())
