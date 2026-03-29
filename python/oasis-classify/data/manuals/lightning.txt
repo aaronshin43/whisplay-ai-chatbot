@@ -1,17 +1,12 @@
 Category: Lightning Strike
 
 STEPS:
-1. Confirm the area is safe before approaching — lightning can strike the same location again.
-2. Call 911 immediately.
-3. It is safe to touch a lightning strike victim — they carry no residual electrical charge.
-4. Check for responsiveness and breathing.
-5. If not breathing and has no pulse, begin CPR immediately — lightning can cause cardiac arrest.
-6. Cover any burns with clean dry dressings.
-7. If multiple victims, prioritize the unresponsive who appear dead — lightning victims have a high survival rate with immediate CPR.
-8. Keep the victim warm and still until help arrives.
+1. Confirm area is safe — lightning can strike the same location again.
+2. Call 911 immediately. It is safe to touch the victim — no residual charge.
+3. Check for responsiveness and breathing.
+4. If no pulse and not breathing, begin CPR immediately.
+5. Cover burns with clean dry dressings; keep victim warm and still.
 
 NEVER DO:
 - Do NOT delay CPR — rapid resuscitation greatly improves survival.
-- Do NOT move the victim unnecessarily if spinal injury is possible.
-- Do NOT leave the victim alone.
-- Do NOT assume a person struck by lightning cannot survive — begin resuscitation immediately.
+- Do NOT move victim unnecessarily if spinal injury is possible.

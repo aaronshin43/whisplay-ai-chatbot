@@ -1,17 +1,12 @@
 Category: Dental Injury
 
 STEPS:
-1. Find the knocked-out tooth and handle it by the crown only — do not touch the root.
-2. If dirty, rinse gently with milk or saline — do not scrub or use plain water.
-3. Try to reinsert the tooth into the socket immediately if the person is conscious — push gently, bite down on cloth.
-4. If unable to reinsert, store in milk, inside the person's cheek, or in saline.
-5. See a dentist or emergency room within 30-60 minutes — survival drops rapidly after 1 hour.
-6. For mouth bleeding: apply direct pressure with gauze or cloth — have them bite down.
-7. For jaw injury: do not force the mouth open or closed — immobilize gently and seek emergency care.
-8. Do not attempt to remove teeth or bone fragments from wounds.
+1. Handle knocked-out tooth by crown only — do not touch the root.
+2. Rinse gently with milk or saline if dirty — do not scrub.
+3. Reinsert tooth into socket immediately if person is conscious; bite down on cloth.
+4. If unable to reinsert, store in milk or inside person's cheek.
+5. See dentist or emergency room within 30-60 minutes — survival drops after 1 hour.
 
 NEVER DO:
 - Do NOT scrub the tooth root or let it dry out.
-- Do NOT store the tooth in plain tap water for extended periods — it damages root cells.
-- Do NOT apply aspirin directly on a toothache — it can burn gum tissue.
-- Do NOT force the jaw closed if fracture is suspected.
+- Do NOT store the tooth in plain tap water — it damages root cells.

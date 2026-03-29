@@ -1,17 +1,12 @@
 Category: Electric Shock / Electrocution
 
 STEPS:
-1. Do NOT touch the person until the power source is confirmed off — you will also be electrocuted.
-2. Call 911 immediately.
-3. Turn off the power at the main switch or circuit breaker before approaching.
-4. If you cannot cut power, use a dry non-conductive object (wooden board, rubber mat) to push the source away.
-5. Once the person is safe to approach, check for responsiveness and breathing.
-6. If not breathing, begin CPR immediately — cardiac arrest is common after electric shock.
-7. Cover any burns with a clean dry dressing — do not apply creams or ice.
-8. Keep the person still and warm until emergency services arrive.
+1. Do NOT touch until power source is confirmed off — you will also be electrocuted.
+2. Call 911 immediately; turn off power at main switch or circuit breaker.
+3. If power cannot be cut, use dry non-conductive object to push source away.
+4. Once safe to approach, check for responsiveness and breathing.
+5. If not breathing, begin CPR — cardiac arrest is common after electric shock.
 
 NEVER DO:
-- Do NOT touch the person while they are still in contact with the electrical source.
+- Do NOT touch the person until the power source is off.
 - Do NOT use wet or metal objects to move a live electrical source.
-- Do NOT assume low voltage is safe — household current can cause cardiac arrest.
-- Do NOT apply ice or ointments to electrical burns.

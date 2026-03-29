@@ -1,17 +1,12 @@
 Category: Fracture / Broken Bone
 
 STEPS:
-1. Call 911 if the fracture is open, involves the spine, pelvis, or femur, or if shock is present.
-2. Do not attempt to straighten or realign the bone.
-3. Immobilize the limb as found: use an improvised splint (rigid item padded with cloth) on both sides of the fracture.
-4. Secure the splint above and below the fracture site with bandages or strips of cloth.
-5. Check circulation beyond the splint: pulse, sensation, and color at fingers or toes.
-6. If the fracture is open, cover loosely with a clean dressing — do not push bone back in.
-7. Apply ice wrapped in cloth to reduce swelling — do not apply directly to skin.
-8. Elevate the limb gently if no spinal injury is suspected.
+1. Call 911 for open fractures, spine/pelvis/femur breaks, or signs of shock.
+2. Immobilize the limb as found using a padded rigid splint on both sides.
+3. Secure splint above and below the fracture; check pulse/sensation beyond it.
+4. Cover open fractures loosely with a clean dressing.
+5. Apply ice wrapped in cloth to reduce swelling.
 
 NEVER DO:
-- Do NOT attempt to push a protruding bone back into the skin.
-- Do NOT straighten or reposition the limb.
-- Do NOT apply a splint too tightly — recheck circulation every 10 minutes.
-- Do NOT give food or drink if surgery may be needed.
+- Do NOT attempt to straighten or push bone back into the wound.
+- Do NOT apply splint so tightly it cuts off circulation.
