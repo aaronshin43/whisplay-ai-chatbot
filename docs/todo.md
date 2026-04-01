@@ -1,5 +1,12 @@
 # TODO
 
 - [ ] clean up unnecessary files?
-- [ ] build full pipeline (mic -> stt -> RAG -> llm -> tts -> speaker)
-- [ ] 전체 가이드라인 -> KV caching, 유저 인풋만 처리?
+- [ ] AED 포함 문장 추가
+- [ ] 911 tts
+- [ ] tts 속도 up
+- [ ] centriod training w/ new data
+- [ ] gui 닫기 버튼
+- [ ] pi 바탕화면에 gui app 추가 
+- [ ] 데모용 스크립트 선별
+
+- [ ] autoresearch로 최적화 시도??
