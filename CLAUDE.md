@@ -52,14 +52,6 @@ bash index_knowledge.sh # Rebuild FAISS index after knowledge base changes
 
 ---
 
-## Coding Conventions
-
-- TypeScript: `camelCase` for variables/functions, `PascalCase` for classes and types.
-- Python: `snake_case`; follow existing module structure in the relevant subfolder.
-- Commit format: `type: short description` (e.g., `feat:`, `fix:`, `refactor:`, `docs:`).
-
----
-
 ## Reference Docs
 
 | File | Read when... |
